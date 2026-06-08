@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PubMed Digest 2026-06-08</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f0f4f8;color:#1a202c;line-height:1.6}
+
+.hdr{background:linear-gradient(135deg,#1e3a5f,#2d6a9f);color:#fff;padding:28px 40px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.2)}
+.hdr h1{font-size:22px;font-weight:700;letter-spacing:-.3px}
+.hdr .sub{opacity:.75;font-size:13px;margin-top:3px}
+.stats{display:flex;gap:28px;margin-top:14px}
+.stat .n{font-size:26px;font-weight:700}
+.stat .l{font-size:11px;opacity:.65;text-transform:uppercase;letter-spacing:.5px}
+
+.save-bar{background:#1e3a5f;color:#fff;padding:14px 40px;display:none;align-items:center;gap:14px;border-bottom:2px solid #2d6a9f;flex-wrap:wrap}
+.save-bar.on{display:flex}
+.save-bar strong{font-size:13px;white-space:nowrap}
+.save-bar .status{font-size:13px;flex:1;opacity:.85}
+.sv-btn{background:#16a34a;color:#fff;border:none;padding:7px 14px;border-radius:5px;cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap}
+.sv-btn:hover{background:#15803d}
+.sv-btn:disabled{background:#6b7280;cursor:default}
+.cl-btn{background:#dc2626;color:#fff;border:none;padding:7px 14px;border-radius:5px;cursor:pointer;font-size:12px;font-weight:600}
+
+.wrap{max-width:880px;margin:0 auto;padding:28px 20px}
+
+.section{margin-bottom:36px}
+.section.empty{opacity:.45}
+.section h2{font-size:18px;font-weight:700;color:#1e3a5f;padding-bottom:7px;border-bottom:2px solid #2d6a9f;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.cnt{background:#2d6a9f;color:#fff;font-size:11px;padding:2px 9px;border-radius:20px;font-weight:600}
+.none{color:#6b7280;font-style:italic;font-size:13px}
+
+.card{background:#fff;border-radius:10px;padding:18px 22px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.07);border-left:4px solid #2d6a9f;transition:box-shadow .2s}
+.card:hover{box-shadow:0 4px 16px rgba(0,0,0,.11)}
+
+.card-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.rank{width:26px;height:26px;background:#e8f0fe;color:#1e3a5f;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
+.meta{display:flex;align-items:center;gap:7px;flex:1;flex-wrap:wrap}
+.journal{font-weight:600;color:#374151;font-size:13px}
+.stars{color:#f59e0b;font-size:11px}
+.yr{color:#6b7280;font-size:12px}
+.design{background:#eff6ff;color:#1d4ed8;padding:2px 7px;border-radius:4px;font-size:11px;font-weight:500}
+.badge{color:#fff;padding:3px 10px;border-radius:20px;font-size:12px;font-weight:700;white-space:nowrap}
+
+.card h3{font-size:15px;font-weight:600;margin-bottom:5px;line-height:1.4}
+.card h3 a{color:#1e3a5f;text-decoration:none}
+.card h3 a:hover{text-decoration:underline;color:#2d6a9f}
+.authors{color:#6b7280;font-size:12px;margin-bottom:8px}
+.abstract{font-size:13px;color:#374151;margin-bottom:12px}
+
+.card-bot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.breakdown{display:flex;gap:10px;font-size:12px;color:#6b7280}
+.breakdown span{cursor:help}
+.btns{display:flex;gap:7px}
+
+.btn{padding:5px 12px;border-radius:5px;font-size:12px;font-weight:500;cursor:pointer;border:none;text-decoration:none;display:inline-flex;align-items:center;gap:3px}
+.btn-pm{background:#eff6ff;color:#1d4ed8}
+.btn-pm:hover{background:#dbeafe}
+.btn-doi{background:#f0fdf4;color:#166534}
+.btn-doi:hover{background:#dcfce7}
+.btn-save{background:#fefce8;color:#92400e}
+.btn-save:hover{background:#fef9c3}
+.btn-save.saved{background:#d1fae5;color:#065f46}
+.btn-save.saving{background:#e0e7ff;color:#3730a3;cursor:default}
+.btn-save.error{background:#fee2e2;color:#991b1b}
+
+footer{text-align:center;padding:28px;color:#9ca3af;font-size:12px}
+footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <h1>🫀 PubMed Morning Digest</h1>
+  <div class="sub">Monday, June 08, 2026  10:12 PM &nbsp;·&nbsp; Scored by study design · journal tier · clinical applicability · sample size</div>
+  <div class="stats">
+    <div class="stat"><div class="n">3</div><div class="l">New Papers</div></div>
+    <div class="stat"><div class="n">1/10</div><div class="l">Active Topics</div></div>
+    <div class="stat"><div class="n">~5 min</div><div class="l">Read Time</div></div>
+  </div>
+</div>
+
+<div class="save-bar" id="bar">
+  <strong>📚 Save queue:</strong>
+  <span class="status" id="status">Ready to save</span>
+  <button class="sv-btn" id="sv-btn" onclick="doSave()">Save to Knowledge Base</button>
+  <button class="cl-btn" onclick="clr()">Clear</button>
+</div>
+
+<div class="wrap">
+  
+<div class="section">
+  <h2>AI in Medicine <span class="cnt">3 new</span></h2>
+  
+<div class="card" id="p42251301">
+  <div class="card-top">
+    <div class="rank">#1</div>
+    <div class="meta">
+      <span class="journal">BMC emergency medicine</span>
+      <span class="stars" title="Journal tier">★☆☆</span>
+      <span class="yr">2026</span>
+      <span class="design">Review</span>
+    </div>
+    <span class="badge" style="background:#ea580c">50%</span>
+  </div>
+  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42251301/" target="_blank">Artificial intelligence in prehospital assessment of acute coronary syndrome: a scoping review.</a></h3>
+  <div class="authors">Khonakdar Kimia, Faghani Reyhaneh Sadat, Keyhanian Fatemeh et al.</div>
+  <div class="abstract">BACKGROUND: Acute coronary syndrome (ACS) remains a leading cause of morbidity and mortality worldwide, where timely diagnosis is critical. Prehospital assessment is challenging due to limited diagnostic resources and high clinical uncertainty. Artificial intelligence (AI) has emerged as a potential tool to support early diagnosis, risk stratification, and triage. This scoping review aimed to map the current evidence...</div>
+  <div class="card-bot">
+    <div class="breakdown">
+      <span title="Journal tier (max 3)">📰 1/3</span>
+      <span title="Study design (max 4)">🔬 1/4</span>
+      <span title="Clinical applicability (max 3)">🏥 2/3</span>
+      <span title="Sample size (max 2)">👥 2/2</span>
+    </div>
+    <div class="btns">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42251301/" target="_blank" class="btn btn-pm">PubMed</a>
+      <a href="https://doi.org/10.1186/s12873-026-01636-2" target="_blank" class="btn btn-doi">Full Text</a>
+      <button class="btn btn-save" onclick="toggleSave('42251301',this)">⭐ Save</button>
+    </div>
+  </div>
+</div>
+<div class="card" id="p42256489">
+  <div class="card-top">
+    <div class="rank">#2</div>
+    <div class="meta">
+      <span class="journal">European journal of radiology open</span>
+      <span class="stars" title="Journal tier">★☆☆</span>
+      <span class="yr">2026</span>
+      <span class="design">Systematic Review</span>
+    </div>
+    <span class="badge" style="background:#dc2626">42%</span>
+  </div>
+  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42256489/" target="_blank">Airway segmentation on CT - A systematic review of machine learning tools.</a></h3>
+  <div class="authors">Lsloum Nada, Maiter Ahmed, Alnasser Turki et al.</div>
+  <div class="abstract">BACKGROUND: Airway assessment on computed tomography (CT) can yield clinically useful information for diagnosis, treatment planning and monitoring in respiratory diseases. Manual airway segmentation is time-consuming, prone to error and poorly reproducible. This systematic review aimed to appraise machine learning (ML) methods for fully automated airway segmentation in chest CT imaging. METHODS: EMBASE, MEDLINE and C...</div>
+  <div class="card-bot">
+    <div class="breakdown">
+      <span title="Journal tier (max 3)">📰 1/3</span>
+      <span title="Study design (max 4)">🔬 3/4</span>
+      <span title="Clinical applicability (max 3)">🏥 0/3</span>
+      <span title="Sample size (max 2)">👥 1/2</span>
+    </div>
+    <div class="btns">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42256489/" target="_blank" class="btn btn-pm">PubMed</a>
+      <a href="https://doi.org/10.1016/j.ejro.2026.100764" target="_blank" class="btn btn-doi">Full Text</a>
+      <button class="btn btn-save" onclick="toggleSave('42256489',this)">⭐ Save</button>
+    </div>
+  </div>
+</div>
+<div class="card" id="p42255286">
+  <div class="card-top">
+    <div class="rank">#3</div>
+    <div class="meta">
+      <span class="journal">Frontiers in digital health</span>
+      <span class="stars" title="Journal tier">★☆☆</span>
+      <span class="yr">2026</span>
+      <span class="design">Observational/Other</span>
+    </div>
+    <span class="badge" style="background:#dc2626">33%</span>
+  </div>
+  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42255286/" target="_blank">Using GPT-4 to annotate the severity of all phenotypic abnormalities within the human phenotype ontology.</a></h3>
+  <div class="authors">Murphy Kitty B, Schilder Brian M, Skene Nathan G</div>
+  <div class="abstract">INTRODUCTION: The Human Phenotype Ontology (HPO) provides a unified framework cataloguing over 17,500 phenotypic abnormalities across more than 8,600 rare diseases, defining hierarchical relationships between them. For example, classifying missing arms and missing legs as both abnormalities of the limb. This structure enables phenome-wide analyses, including the prioritisation of phenotypes as candidates for gene the...</div>
+  <div class="card-bot">
+    <div class="breakdown">
+      <span title="Journal tier (max 3)">📰 1/3</span>
+      <span title="Study design (max 4)">🔬 1/4</span>
+      <span title="Clinical applicability (max 3)">🏥 1/3</span>
+      <span title="Sample size (max 2)">👥 1/2</span>
+    </div>
+    <div class="btns">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42255286/" target="_blank" class="btn btn-pm">PubMed</a>
+      <a href="https://doi.org/10.3389/fdgth.2026.1794934" target="_blank" class="btn btn-doi">Full Text</a>
+      <button class="btn btn-save" onclick="toggleSave('42255286',this)">⭐ Save</button>
+    </div>
+  </div>
+</div>
+</div><div class="section empty"><h2>Preventive Cardiology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Quality & Value in Cardiology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Private Equity in Medicine</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>EHR Improvements</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>AI & LLMs for Cardiology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Heart Failure in Adults</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Lipidology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Hypertension</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Atrial Fibrillation</h2><p class="none">No new papers today.</p></div>
+</div>
+
+<footer>
+  Generated Monday, June 08, 2026  10:12 PM &nbsp;·&nbsp; PubMedAgent &nbsp;·&nbsp; Click ⭐ Save on any card, then "Save to Knowledge Base"
+</footer>
+
+<script>
+const SAVE_URL = 'http://127.0.0.1:8765/save';
+const q = new Set();
+const btnMap = {};  // pmid -> button element
+
+function toggleSave(id, btn) {
+  if (q.has(id)) {
+    q.delete(id);
+    btn.textContent = '⭐ Save';
+    btn.classList.remove('saved', 'saving', 'error');
+  } else {
+    q.add(id);
+    btn.textContent = '✅ Queued';
+    btn.classList.add('saved');
+  }
+  btnMap[id] = btn;
+  render();
+}
+
+function render() {
+  const bar = document.getElementById('bar');
+  const status = document.getElementById('status');
+  if (q.size > 0) {
+    bar.classList.add('on');
+    status.textContent = q.size === 1 ? '1 paper queued' : q.size + ' papers queued';
+  } else {
+    bar.classList.remove('on');
+  }
+}
+
+async function doSave() {
+  if (q.size === 0) return;
+  const btn = document.getElementById('sv-btn');
+  const status = document.getElementById('status');
+  const pmids = [...q];
+
+  btn.disabled = true;
+  btn.textContent = 'Saving...';
+  status.textContent = 'Contacting save server...';
+
+  try {
+    const res = await fetch(SAVE_URL, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({pmids})
+    });
+    if (!res.ok) throw new Error('Server returned ' + res.status);
+    const data = await res.json();
+    let saved = 0, skipped = 0, errors = 0;
+    for (const r of data.results) {
+      const b = btnMap[r.pmid];
+      if (r.status === 'saved') {
+        saved++;
+        if (b) { b.textContent = '✅ Saved'; b.classList.add('saved'); b.classList.remove('saving','error'); }
+      } else if (r.status === 'already_saved') {
+        skipped++;
+        if (b) { b.textContent = '📚 Already saved'; b.classList.add('saved'); }
+      } else {
+        errors++;
+        if (b) { b.textContent = '❌ Error'; b.classList.add('error'); b.classList.remove('saved','saving'); }
+      }
+    }
+    const parts = [];
+    if (saved) parts.push(saved + ' saved');
+    if (skipped) parts.push(skipped + ' already in KB');
+    if (errors) parts.push(errors + ' failed');
+    status.textContent = '✅ ' + parts.join(' · ') + ' — KB now has ' + data.total + ' papers';
+    q.clear();
+    btn.textContent = 'Save to Knowledge Base';
+    btn.disabled = false;
+    setTimeout(() => document.getElementById('bar').classList.remove('on'), 4000);
+  } catch (err) {
+    status.textContent = '❌ Save server not running. Start it: python3 ~/Desktop/PubMedAgent/server.py';
+    btn.textContent = 'Save to Knowledge Base';
+    btn.disabled = false;
+  }
+}
+
+function clr() {
+  q.clear();
+  document.querySelectorAll('.btn-save').forEach(b => {
+    b.textContent = '⭐ Save';
+    b.classList.remove('saved', 'saving', 'error');
+  });
+  render();
+}
+</script>
+</body>
+</html>
