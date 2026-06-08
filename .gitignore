@@ -1,0 +1,8 @@
+# never commit secrets or local-only artifacts
+.env.local
+.env
+*.log
+__pycache__/
+.DS_Store
+knowledge_base.json
+_site/
