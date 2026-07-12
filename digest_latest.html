@@ -15,15 +15,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .stat .n{font-size:26px;font-weight:700}
 .stat .l{font-size:11px;opacity:.65;text-transform:uppercase;letter-spacing:.5px}
 
-.save-bar{background:#1e3a5f;color:#fff;padding:14px 40px;display:none;align-items:center;gap:14px;border-bottom:2px solid #2d6a9f;flex-wrap:wrap}
-.save-bar.on{display:flex}
-.save-bar strong{font-size:13px;white-space:nowrap}
-.save-bar .status{font-size:13px;flex:1;opacity:.85}
-.sv-btn{background:#16a34a;color:#fff;border:none;padding:7px 14px;border-radius:5px;cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap}
-.sv-btn:hover{background:#15803d}
-.sv-btn:disabled{background:#6b7280;cursor:default}
-.cl-btn{background:#dc2626;color:#fff;border:none;padding:7px 14px;border-radius:5px;cursor:pointer;font-size:12px;font-weight:600}
-
 .wrap{max-width:880px;margin:0 auto;padding:28px 20px}
 
 .section{margin-bottom:36px}
@@ -62,9 +53,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .btn-doi:hover{background:#dcfce7}
 .btn-save{background:#fefce8;color:#92400e}
 .btn-save:hover{background:#fef9c3}
-.btn-save.saved{background:#d1fae5;color:#065f46}
-.btn-save.saving{background:#e0e7ff;color:#3730a3;cursor:default}
-.btn-save.error{background:#fee2e2;color:#991b1b}
+.btn-down{background:#fef2f2;color:#991b1b}
+.btn-down:hover{background:#fee2e2}
+.fit-pos{color:#15803d;font-weight:600}
+.fit-neg{color:#b91c1c;font-weight:600}
 
 footer{text-align:center;padding:28px;color:#9ca3af;font-size:12px}
 footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
@@ -74,19 +66,12 @@ footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
 
 <div class="hdr">
   <h1>🫀 PubMed Morning Digest</h1>
-  <div class="sub">Sunday, July 12, 2026  10:49 AM &nbsp;·&nbsp; Scored by study design · journal tier · clinical applicability · sample size</div>
+  <div class="sub">Sunday, July 12, 2026  05:06 PM &nbsp;·&nbsp; Scored by study design · journal tier · clinical applicability · sample size</div>
   <div class="stats">
-    <div class="stat"><div class="n">22</div><div class="l">New Papers</div></div>
-    <div class="stat"><div class="n">9/10</div><div class="l">Active Topics</div></div>
+    <div class="stat"><div class="n">3</div><div class="l">New Papers</div></div>
+    <div class="stat"><div class="n">1/10</div><div class="l">Active Topics</div></div>
     <div class="stat"><div class="n">~5 min</div><div class="l">Read Time</div></div>
   </div>
-</div>
-
-<div class="save-bar" id="bar">
-  <strong>📚 Save queue:</strong>
-  <span class="status" id="status">Ready to save</span>
-  <button class="sv-btn" id="sv-btn" onclick="doSave()">Save to Knowledge Base</button>
-  <button class="cl-btn" onclick="clr()">Clear</button>
 </div>
 
 <div class="wrap">
@@ -94,747 +79,102 @@ footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
 <div class="section">
   <h2>AI in Medicine <span class="cnt">3 new</span></h2>
   
-<div class="card" id="p42430720">
+<div class="card" id="p42428047">
   <div class="card-top">
     <div class="rank">#1</div>
     <div class="meta">
-      <span class="journal">Journal of medical Internet research</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Meta-analysis</span>
-    </div>
-    <span class="badge" style="background:#d97706">75%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42430720/" target="_blank">Artificial Intelligence for Evidence Synthesis of Emerging Biologics to Improve Skeletal Health in Osteogenesis Imperfecta: Systematic Review and Meta-Analysis.</a></h3>
-  <div class="authors">Li Chengfei, Dai Zonglin, Tang Wing Chung et al.</div>
-  <div class="abstract">BACKGROUND: Osteogenesis imperfecta (OI) is a rare genetic disorder characterized by bone fragility and recurrent fractures. Emerging biologics demonstrate promise by targeting bone-remodeling pathways, yet evidence for their efficacy and safety remains fragmented and heterogeneous, and no prior systematic review in OI has incorporated artificial intelligence (AI) to synthesize it. OBJECTIVE: This study aims to syste...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 4/4</span>
-      <span title="Clinical applicability (max 3)">🏥 3/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42430720/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.2196/85840" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42430720',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42432037">
-  <div class="card-top">
-    <div class="rank">#2</div>
-    <div class="meta">
-      <span class="journal">NPJ digital medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Systematic Review</span>
-    </div>
-    <span class="badge" style="background:#d97706">75%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432037/" target="_blank">Applications of traditional machine learning and deep learning algorithms in obesity prediction or classification: a systematic review of comparative performance.</a></h3>
-  <div class="authors">Jamali Mehrdad, Zarezadeh Meysam, Bideshki Mohammad Vesal et al.</div>
-  <div class="abstract">This systematic review evaluated traditional machine learning (TML) and deep learning (DL) approaches for obesity prediction in longitudinal studies and obesity classification in cross-sectional studies. PubMed, Scopus, and Web of Science were searched from inception to June 15, 2025. Studies applying these algorithms and reporting performance metrics were included. Seventeen studies (three longitudinal and fourteen ...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 3/4</span>
-      <span title="Clinical applicability (max 3)">🏥 2/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432037/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1038/s41746-026-02986-8" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432037',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42436515">
-  <div class="card-top">
-    <div class="rank">#3</div>
-    <div class="meta">
-      <span class="journal">BMC oral health</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Systematic Review</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42436515/" target="_blank">Artificial intelligence for assessment of the relationship between the mandibular canal and third molars using CBCT and panoramic radiography: a systematic review.</a></h3>
-  <div class="authors">Araujo Melissa Gimenes, Miranda-Viana Murilo, Salzedas Leda Maria Pescinini et al.</div>
-  <div class="abstract">BACKGROUND: Accurate assessment of the relationship between mandibular third molars and the mandibular canal is essential to reduce the risk of inferior alveolar nerve injury. Artificial intelligence (AI), including deep learning and convolutional neural network-based models, has been increasingly investigated using panoramic radiography and cone-beam computed tomography (CBCT) for automated diagnostic support in thi...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 3/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42436515/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1186/s12903-026-08872-9" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42436515',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="section">
-  <h2>Preventive Cardiology <span class="cnt">3 new</span></h2>
-  
-<div class="card" id="p42430672">
-  <div class="card-top">
-    <div class="rank">#1</div>
-    <div class="meta">
-      <span class="journal">Neurology. Clinical practice</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Registry Study</span>
-    </div>
-    <span class="badge" style="background:#ea580c">58%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42430672/" target="_blank">Real-World Practice in Secondary Stroke Prevention Following Embolic Stroke of Undetermined Source: Secondary Analysis of the CASPR Registry.</a></h3>
-  <div class="authors">Aboul-Nour Hassan, Siegler James Ernest, Thompson Sean L et al.</div>
-  <div class="abstract">BACKGROUND AND OBJECTIVES: Multiple clinical trials have failed to show benefit of anticoagulation over antiplatelets in preventing recurrent stroke among patients with embolic stroke of undetermined source (ESUS). However, there are limited data on antithrombotic prescribing patterns and clinical outcomes in a real-world setting. METHODS: This is a subgroup analysis of a multicenter retrospective observational cohor...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 3/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42430672/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1212/CPJ.0000000000200631" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42430672',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42435998">
-  <div class="card-top">
-    <div class="rank">#2</div>
-    <div class="meta">
-      <span class="journal">American heart journal</span>
-      <span class="stars" title="Journal tier">★★☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Observational/Other</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42435998/" target="_blank">Interpreting apparent differences among the major colchicine trials for cardiovascular prevention: a descriptive compatibility analysis.</a></h3>
-  <div class="authors">Scheier Thomas C, Gerstein Hertzel C, Mosterd Arend et al.</div>
-  <div class="abstract">BACKGROUND: Recent analyses and commentaries on the major colchicine trials have treated COLCOT and LoDoCo2 as defining the expected benefit of colchicine for cardiovascular prevention, with CLEAR SYNERGY viewed as the discordant or outlying study because of its neutral result. We performed a descriptive analysis to examine how the trial that is least readily reconciled with an assumed true treatment effect changes d...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 2/3</span>
-      <span title="Study design (max 4)">🔬 1/4</span>
-      <span title="Clinical applicability (max 3)">🏥 2/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42435998/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1016/j.ahj.2026.107539" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42435998',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42432966">
-  <div class="card-top">
-    <div class="rank">#3</div>
-    <div class="meta">
-      <span class="journal">Medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Retrospective Cohort</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432966/" target="_blank">Efficacy and safety of apixaban versus warfarin in new-onset atrial fibrillation post coronary artery bypass grafting: A retrospective cohort study.</a></h3>
-  <div class="authors">Bukhari Rawan A, Almutairi Majed, Alraddadi Sultan et al.</div>
-  <div class="abstract">New-onset postoperative atrial fibrillation (POAF) is a common complication following cardiac surgery, especially coronary artery bypass grafting (CABG), affecting up to 40% of patients, and is associated with increased risks of thromboembolic events and prolonged hospital stays. Traditionally, warfarin has been the standard anticoagulant for stroke prevention in atrial fibrillation. However, it requires regular inte...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 0/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432966/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MD.0000000000049695" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432966',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="section">
-  <h2>Quality & Value in Cardiology <span class="cnt">1 new</span></h2>
-  
-<div class="card" id="p42433958">
-  <div class="card-top">
-    <div class="rank">#1</div>
-    <div class="meta">
-      <span class="journal">Translational pediatrics</span>
+      <span class="journal">Cognitive neurodynamics</span>
       <span class="stars" title="Journal tier">★☆☆</span>
       <span class="yr">2026</span>
       <span class="design">Review</span>
     </div>
-    <span class="badge" style="background:#dc2626">42%</span>
+    <span class="badge" style="background:#dc2626">27%</span>
   </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42433958/" target="_blank">Artificial intelligence in congenital heart surgery: a scoping review and primer for surgeons.</a></h3>
-  <div class="authors">Francis Jeevan, Singhania Asmita, Dawson Sarah et al.</div>
-  <div class="abstract">BACKGROUND: Congenital heart surgery (CHS) encompasses a wide spectrum of complex cardiac defects, many of which demand specialised perioperative management and tailored surgical planning. Artificial intelligence (AI), including machine learning (ML), is gaining prominence as a tool to optimise clinical decision-making and achieve better outcomes. This scoping review aims to map and summarise the existing application...</div>
+  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42428047/" target="_blank">Linguistics and human brain: a perspective of computational neuroscience.</a></h3>
+  <div class="authors">Zhang Fudong, Chai Bo, Wu Yujie et al.</div>
+  <div class="abstract">Elucidating the language-brain relationship requires bridging the methodological gap between linguistics' abstract theoretical frameworks and neuroscience's empirical neural data. As an interdisciplinary cornerstone, computational neuroscience formalizes language's hierarchical and dynamic structures into testable neural representation models through modeling, simulation, and data analysis, enabling computational dia...</div>
   <div class="card-bot">
     <div class="breakdown">
       <span title="Journal tier (max 3)">📰 1/3</span>
       <span title="Study design (max 4)">🔬 1/4</span>
-      <span title="Clinical applicability (max 3)">🏥 2/3</span>
+      <span title="Clinical applicability (max 3)">🏥 1/3</span>
       <span title="Sample size (max 2)">👥 1/2</span>
+      
     </div>
     <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42433958/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.21037/tp-2026-0345" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42433958',this)">⭐ Save</button>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42428047/" target="_blank" class="btn btn-pm">PubMed</a>
+      <a href="https://doi.org/10.1007/s11571-026-10496-2" target="_blank" class="btn btn-doi">Full Text</a>
+      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42428047&body=%3E+Linguistics+and+human+brain%3A+a+perspective+of+computational+neuroscience.%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&labels=star" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
+      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42428047&body=%3E+Linguistics+and+human+brain%3A+a+perspective+of+computational+neuroscience.%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&labels=reject" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
     </div>
   </div>
 </div>
-</div><div class="section empty"><h2>Private Equity in Medicine</h2><p class="none">No new papers today.</p></div>
-<div class="section">
-  <h2>EHR Improvements <span class="cnt">3 new</span></h2>
-  
-<div class="card" id="p42435500">
+<div class="card" id="p42430068">
   <div class="card-top">
-    <div class="rank">#1</div>
+    <div class="rank">#2</div>
     <div class="meta">
-      <span class="journal">The American journal of emergency medicine</span>
+      <span class="journal">The international journal of cardiovascular imaging</span>
       <span class="stars" title="Journal tier">★☆☆</span>
       <span class="yr">2026</span>
       <span class="design">Observational/Other</span>
     </div>
-    <span class="badge" style="background:#ea580c">50%</span>
+    <span class="badge" style="background:#dc2626">20%</span>
   </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42435500/" target="_blank">A multimodal intervention reduces computed tomography use in blunt head injury.</a></h3>
-  <div class="authors">Berlyand Yosef, Smith Shain Rachel, Savarino Jeffrey R et al.</div>
-  <div class="abstract">BACKGROUND: Computed tomography (CT) is frequently used in emergency departments (EDs) for the evaluation of blunt head injury. Unnecessary CT utilization leads to excessive cost, radiation exposure, and operational inefficiencies. Despite validated clinical decision rules, head CT utilization continues to rise, and the need remains for effective implementation strategies. METHODS: We performed a retrospective pre-po...</div>
+  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42430068/" target="_blank">Deep-learning denoising for ultrahigh-resolution photon-counting detector CT: phantom and in vivo evaluation of non-calcified coronary plaques.</a></h3>
+  <div class="authors">Hyska Sardi, Hagar Muhammad Taha, Osoria-Velasquez José et al.</div>
+  <div class="abstract">To assess the value of convolutional neural network (CNN)-based denoising for the evaluation of non-calcified coronary plaques on ultrahigh-resolution (UHR) photon-counting detector (PCD) coronary CT angiography (CCTA). A dynamic phantom containing lipid-rich and fibrotic plaques with 50%-diameter stenosis (PDS) was scanned on PCD-CT under varying conditions. For in-vivo imaging, consecutive patients with non-calcifi...</div>
   <div class="card-bot">
     <div class="breakdown">
       <span title="Journal tier (max 3)">📰 1/3</span>
       <span title="Study design (max 4)">🔬 1/4</span>
-      <span title="Clinical applicability (max 3)">🏥 3/3</span>
+      <span title="Clinical applicability (max 3)">🏥 0/3</span>
       <span title="Sample size (max 2)">👥 1/2</span>
+      
     </div>
     <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42435500/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1016/j.ajem.2026.07.005" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42435500',this)">⭐ Save</button>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42430068/" target="_blank" class="btn btn-pm">PubMed</a>
+      <a href="https://doi.org/10.1007/s10554-026-03774-x" target="_blank" class="btn btn-doi">Full Text</a>
+      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42430068&body=%3E+Deep-learning+denoising+for+ultrahigh-resolution+photon-counting+detector+CT%3A+phantom+and+%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&labels=star" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
+      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42430068&body=%3E+Deep-learning+denoising+for+ultrahigh-resolution+photon-counting+detector+CT%3A+phantom+and+%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&labels=reject" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
     </div>
   </div>
 </div>
-<div class="card" id="p42430713">
-  <div class="card-top">
-    <div class="rank">#2</div>
-    <div class="meta">
-      <span class="journal">JMIR medical informatics</span>
-      <span class="stars" title="Journal tier">★★☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Observational/Other</span>
-    </div>
-    <span class="badge" style="background:#dc2626">42%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42430713/" target="_blank">Evaluation of an AI Medical Scribe After 236,153 Notes Generated Across Care Levels in a European Health System: Mixed Methods Retrospective Observational Study.</a></h3>
-  <div class="authors">Sanmark Enni, Vartiainen Ville, Sanmark Johan et al.</div>
-  <div class="abstract">BACKGROUND: Clinicians spend a substantial share of their working hours on documentation, contributing to workflow inefficiencies, reduced patient-facing time, and increased burnout. Artificial intelligence (AI) medical scribes have emerged as a promising solution to reduce this burden, yet real-world evidence remains limited and heterogeneous, and data from European health systems are especially scarce. This evaluat...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 2/3</span>
-      <span title="Study design (max 4)">🔬 1/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42430713/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.2196/90052" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42430713',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42435077">
+<div class="card" id="p42431794">
   <div class="card-top">
     <div class="rank">#3</div>
     <div class="meta">
-      <span class="journal">Current microbiology</span>
+      <span class="journal">Academic radiology</span>
       <span class="stars" title="Journal tier">★☆☆</span>
       <span class="yr">2026</span>
       <span class="design">Retrospective Cohort</span>
     </div>
-    <span class="badge" style="background:#dc2626">42%</span>
+    <span class="badge" style="background:#dc2626">20%</span>
   </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42435077/" target="_blank">Epidemic Pattern Changes in Influenza A and B and Mycoplasma pneumoniae Pediatric Respiratory Infections During and After the COVID-19 Pandemic Restrictions in Northwest China.</a></h3>
-  <div class="authors">Tang Jianyong, He Wei, Li Bei et al.</div>
-  <div class="abstract">The COVID-19 pandemic significantly changed respiratory pathogen patterns in children. In this study, we aimed to provide evidence that may help guide prevention and control of pediatric respiratory diseases in the post-pandemic era. Thus, we conducted a retrospective study of children with respiratory symptoms who visited our hospital from January 2020 to December 2024. A total of 169,757 were tested for influenza A...</div>
+  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42431794/" target="_blank">CT-based Deep Learning Model for Automatic Segmentation and Early Predicting of Pyogenic Liver Abscess Caused by Extended-Spectrum β-lactamase-Producing Enterobacteriaceae: A Multicenter Retrospective Study (CLASS2401).</a></h3>
+  <div class="authors">Gong Zibo, Wang Hairui, Guo Yawen et al.</div>
+  <div class="abstract">RATIONALE AND OBJECTIVE: Pyogenic liver abscess (PLA) caused by extended-spectrum β-lactamase-producing Enterobacteriaceae (ESBL-PLA) presents major antimicrobial treatment challenges and delayed pathogen identification. This study developed and validated deep learning-based models integrating clinical and CT imaging features for early prediction of ESBL-PLA prior to microbiological confirmation. MATERIALS AND METHOD...</div>
   <div class="card-bot">
     <div class="breakdown">
       <span title="Journal tier (max 3)">📰 1/3</span>
       <span title="Study design (max 4)">🔬 2/4</span>
       <span title="Clinical applicability (max 3)">🏥 0/3</span>
-      <span title="Sample size (max 2)">👥 2/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42435077/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1007/s00284-026-05061-3" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42435077',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="section">
-  <h2>AI & LLMs for Cardiology <span class="cnt">1 new</span></h2>
-  
-<div class="card" id="p42436387">
-  <div class="card-top">
-    <div class="rank">#1</div>
-    <div class="meta">
-      <span class="journal">International journal of emergency medicine</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Case Series/Report</span>
-    </div>
-    <span class="badge" style="background:#dc2626">33%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42436387/" target="_blank">Extensive coronary thrombosis following cannabis use in a young adult: a case report.</a></h3>
-  <div class="authors">Saha Rupendra Nath, Duggal Bhanu, Chawla Raghuraj et al.</div>
-  <div class="abstract">BACKGROUND: Cannabis use has been increasingly associated with acute coronary syndromes in young adults without conventional cardiovascular risk factors. The psychoactive compound Δ⁹-tetrahydrocannabinol (THC) exerts sympathomimetic, endothelial, and prothrombotic effects that may precipitate myocardial infarction through platelet activation and vasospasm. CASE PRESENTATION: A 34-year-old man, a chronic cannabis user...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 1/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42436387/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1186/s12245-026-01275-1" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42436387',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="section">
-  <h2>Heart Failure in Adults <span class="cnt">3 new</span></h2>
-  
-<div class="card" id="p42432937">
-  <div class="card-top">
-    <div class="rank">#1</div>
-    <div class="meta">
-      <span class="journal">Medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Retrospective Cohort</span>
-    </div>
-    <span class="badge" style="background:#d97706">75%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432937/" target="_blank">Mortality trends and disparities for coexisting heart failure and thyroid disease: A retrospective analysis of deaths in the United States from 1999 to 2023.</a></h3>
-  <div class="authors">Wang Rui, Ma Xiaoxiao, Yan Meng</div>
-  <div class="abstract">Heart failure (HF) and thyroid disease (TD) are 2 common and interacting chronic diseases, and the combined impact of comorbidity on mortality has not been fully studied. This study aims to analyze mortality trends related to HF and TD in the US population from 1999 to 2023 and explore their differences in sex, age groups, race, census region, and urbanization. Based on the CDC WONDER database of the Centers for Dise...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 2/3</span>
-      <span title="Sample size (max 2)">👥 2/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432937/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MD.0000000000049576" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432937',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42432936">
-  <div class="card-top">
-    <div class="rank">#2</div>
-    <div class="meta">
-      <span class="journal">Medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Retrospective Cohort</span>
-    </div>
-    <span class="badge" style="background:#ea580c">58%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432936/" target="_blank">Trends in heart failure mortality among patients with rheumatoid arthritis in the United States (1999-2020): A nationwide cross-sectional analysis of the CDC WONDER database.</a></h3>
-  <div class="authors">Uzair Syed Muhammad, Sangrasi Mahreen, Munir Tooba et al.</div>
-  <div class="abstract">Rheumatoid Arthritis (RA) is a known risk factor for heart failure (HF) due to its chronic autoimmune-mediated inflammation. However, data on trends of Rheumatoid arthritis associated HF mortality in the United States (U.S.) remain limited. This study comprehensively explores the trends in rheumatoid arthritis associated mortality attributable to HF patients in the United States. A retrospective analysis was performe...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432936/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MD.0000000000049661" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432936',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42431659">
-  <div class="card-top">
-    <div class="rank">#3</div>
-    <div class="meta">
-      <span class="journal">BMJ open</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Prospective Cohort</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42431659/" target="_blank">Heart recipient outcomes following transplantation of donor hearts with impaired versus normal function: a study protocol for IMPROVED Heart, a prospective multicentre observational study.</a></h3>
-  <div class="authors">Doueh Rana, Dellgren Göran, Ternström Lisa et al.</div>
-  <div class="abstract">BACKGROUND: Cardiac transplantation remains the most effective treatment for patients with end-stage heart failure, but its use is limited by donor organ shortage. Expanding donor acceptance criteria may increase the availability of transplantable hearts. Left ventricular dysfunction due to neurogenic stunned myocardium is common among organ donors and is characterised by rapid functional and structural recovery. The...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 0/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42431659/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1136/bmjopen-2025-111146" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42431659',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="section">
-  <h2>Lipidology <span class="cnt">3 new</span></h2>
-  
-<div class="card" id="p42433756">
-  <div class="card-top">
-    <div class="rank">#1</div>
-    <div class="meta">
-      <span class="journal">Annals of medicine and surgery (2012)</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Meta-analysis</span>
-    </div>
-    <span class="badge" style="background:#ea580c">67%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42433756/" target="_blank">Efficacy and safety of obicetrapib in patients at high cardiovascular risk: a systematic review, meta-analysis, and meta-regression.</a></h3>
-  <div class="authors">Kumar Sumet, Sana Saeed Shireen, Aftab Siddiqui Tayyaba et al.</div>
-  <div class="abstract">BACKGROUND: Dyslipidemia, particularly elevated low-density lipoprotein cholesterol (LDL-C), is a major risk factor for atherosclerotic cardiovascular disease (ASCVD). Despite statin therapy, many patients fail to achieve target lipid levels or experience intolerance. Obicetrapib, a next-generation cholesteryl ester transfer protein inhibitor, has demonstrated potent lipid-modifying effects and favorable pharmacokine...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 4/4</span>
-      <span title="Clinical applicability (max 3)">🏥 2/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42433756/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MS9.0000000000005091" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42433756',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42432943">
-  <div class="card-top">
-    <div class="rank">#2</div>
-    <div class="meta">
-      <span class="journal">Medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Cross-sectional</span>
-    </div>
-    <span class="badge" style="background:#ea580c">58%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432943/" target="_blank">Machine learning-based evaluation of lipid biomarkers for cardiovascular risk prediction in chronic kidney disease: A cross-sectional study.</a></h3>
-  <div class="authors">Wen Guixian, Zhao Shixia, Zhang Feifei et al.</div>
-  <div class="abstract">Chronic kidney disease (CKD) is an important public health issue globally, greatly increasing the prevalence and mortality of cardiovascular disease (CVD). Dyslipidemia is a prevalent metabolic disease in people with CKD that is linked to atherosclerosis and cardiovascular events. Nevertheless, the association between various lipid markers and CVD is still uncertain. This study aimed to analyze the associations betwe...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432943/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MD.0000000000049730" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432943',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42432884">
-  <div class="card-top">
-    <div class="rank">#3</div>
-    <div class="meta">
-      <span class="journal">Medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Prospective Cohort</span>
-    </div>
-    <span class="badge" style="background:#ea580c">58%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432884/" target="_blank">Predictive value of uric acid-to-high-density lipoprotein cholesterol ratio for cardiometabolic multimorbidity in middle-aged and older adults: A nationwide prospective cohort study.</a></h3>
-  <div class="authors">Jiang Shijing, Wang Shuliang, Miao Zhiwei</div>
-  <div class="abstract">Cardiometabolic multimorbidity (CMM) is an escalating public health challenge. The uric acid (UA)-to-high-density lipoprotein cholesterol (HDL-C) ratio (UHR) is a composite biomarker reflecting metabolic disturbance, but prospective evidence regarding the association between UHR and CMM remains limited. This prospective cohort study included 7435 adults aged ≥ 45 years from China Health and Retirement Longitudinal St...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432884/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MD.0000000000049740" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432884',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="section">
-  <h2>Hypertension <span class="cnt">3 new</span></h2>
-  
-<div class="card" id="p42436484">
-  <div class="card-top">
-    <div class="rank">#1</div>
-    <div class="meta">
-      <span class="journal">BMC medical informatics and decision making</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Systematic Review</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42436484/" target="_blank">A systematic review of patient decision aids for hypertension.</a></h3>
-  <div class="authors">Berghold Jan, Fischer Lena, Pachanov Alexander et al.</div>
-  <div class="abstract">BACKGROUND: Hypertension is a major cause of premature death and a modifiable risk factor for cardiovascular disease. Effective management includes both pharmacological treatment strategies, including antihypertensive medications, and non-pharmacological treatment strategies, such as lifestyle changes. Shared decision making (SDM) between patients and healthcare professionals is essential to determine the most approp...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 3/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42436484/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1186/s12911-026-03700-0" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42436484',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42436627">
-  <div class="card-top">
-    <div class="rank">#2</div>
-    <div class="meta">
-      <span class="journal">Pakistan journal of pharmaceutical sciences</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">RCT</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42436627/" target="_blank">Bioactive phytochemicals of jasmine oil and their role in managing hypertension: A combined clinical and </a></h3>
-  <div class="authors">Ahmad Khan Imran, Ahmed Nadeem, Yasin Mudassar et al.</div>
-  <div class="abstract">BACKGROUND: Jasmine oil massage has a thousand years of traditional history of curing and treating various ailments like hypertension, diabetes and muscle cramps without any sound pharmacological evidence. Traffic wardens have to stand throughout their duty hours, which can lead to muscle fatigue and compression and those suffering from stage 2 hypertension have to face worsened cardiovascular issues. OBJECTIVES: To ...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 4/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
       <span title="Sample size (max 2)">👥 0/2</span>
+      
     </div>
     <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42436627/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.36721/PJPS.2026.39.9.253.1" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42436627',this)">⭐ Save</button>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42431794/" target="_blank" class="btn btn-pm">PubMed</a>
+      <a href="https://doi.org/10.1016/j.acra.2026.06.028" target="_blank" class="btn btn-doi">Full Text</a>
+      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42431794&body=%3E+CT-based+Deep+Learning+Model+for+Automatic+Segmentation+and+Early+Predicting+of+Pyogenic+L%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&labels=star" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
+      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42431794&body=%3E+CT-based+Deep+Learning+Model+for+Automatic+Segmentation+and+Early+Predicting+of+Pyogenic+L%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&labels=reject" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
     </div>
   </div>
 </div>
-<div class="card" id="p42432948">
-  <div class="card-top">
-    <div class="rank">#3</div>
-    <div class="meta">
-      <span class="journal">Medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Cross-sectional</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432948/" target="_blank">Bidirectional associations of hypertension and chronic kidney disease risks under metal exposure: A mixture exposure and exploratory decomposition analysis.</a></h3>
-  <div class="authors">Li Jiancheng, Du Huidi, Wu Xinyue et al.</div>
-  <div class="abstract">Exposure to metals is associated with an increased risk of various diseases, including hypertension and chronic kidney disease (CKD). However, the joint effects of co-exposure to multiple metals on these diseases remain poorly understood. We conducted a cross-sectional study involving 4776 adults from the National Health and Nutrition Examination Survey 2011 to 2018 to examine the effects. Five statistical methods we...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 0/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432948/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MD.0000000000049306" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432948',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="section">
-  <h2>Atrial Fibrillation <span class="cnt">2 new</span></h2>
-  
-<div class="card" id="p42426602">
-  <div class="card-top">
-    <div class="rank">#1</div>
-    <div class="meta">
-      <span class="journal">BMC cardiovascular disorders</span>
-      <span class="stars" title="Journal tier">★☆☆</span>
-      <span class="yr">2026</span>
-      <span class="design">Meta-analysis</span>
-    </div>
-    <span class="badge" style="background:#ea580c">67%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42426602/" target="_blank">Effectiveness and safety of left atrial appendage electrical isolation in managing persistent atrial fibrillation: an updated meta-analysis of 3425 patients.</a></h3>
-  <div class="authors">Elshahat Ahmed, Diaa Ahmed, Diab Rehab Adel et al.</div>
-  <div class="abstract">BACKGROUND AND AIM: Atrial fibrillation (AF) is a substantial public health disorder associated with heightened morbidity and mortality. Pulmonary vein isolation (PVI) has limited efficacy in persistent AF (PAF), indicating additional strategies such as left atrial appendage electrical isolation (LAAEI). This study evaluates the efficacy and safety of LAAEI in managing PAF. METHODS: An extensive search of the literat...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 1/3</span>
-      <span title="Study design (max 4)">🔬 4/4</span>
-      <span title="Clinical applicability (max 3)">🏥 2/3</span>
-      <span title="Sample size (max 2)">👥 1/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42426602/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1186/s12872-026-05607-0" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42426602',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-<div class="card" id="p42432966">
-  <div class="card-top">
-    <div class="rank">#2</div>
-    <div class="meta">
-      <span class="journal">Medicine</span>
-      <span class="stars" title="Journal tier">★★★</span>
-      <span class="yr">2026</span>
-      <span class="design">Retrospective Cohort</span>
-    </div>
-    <span class="badge" style="background:#ea580c">50%</span>
-  </div>
-  <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42432966/" target="_blank">Efficacy and safety of apixaban versus warfarin in new-onset atrial fibrillation post coronary artery bypass grafting: A retrospective cohort study.</a></h3>
-  <div class="authors">Bukhari Rawan A, Almutairi Majed, Alraddadi Sultan et al.</div>
-  <div class="abstract">New-onset postoperative atrial fibrillation (POAF) is a common complication following cardiac surgery, especially coronary artery bypass grafting (CABG), affecting up to 40% of patients, and is associated with increased risks of thromboembolic events and prolonged hospital stays. Traditionally, warfarin has been the standard anticoagulant for stroke prevention in atrial fibrillation. However, it requires regular inte...</div>
-  <div class="card-bot">
-    <div class="breakdown">
-      <span title="Journal tier (max 3)">📰 3/3</span>
-      <span title="Study design (max 4)">🔬 2/4</span>
-      <span title="Clinical applicability (max 3)">🏥 1/3</span>
-      <span title="Sample size (max 2)">👥 0/2</span>
-    </div>
-    <div class="btns">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/42432966/" target="_blank" class="btn btn-pm">PubMed</a>
-      <a href="https://doi.org/10.1097/MD.0000000000049695" target="_blank" class="btn btn-doi">Full Text</a>
-      <button class="btn btn-save" onclick="toggleSave('42432966',this)">⭐ Save</button>
-    </div>
-  </div>
-</div>
-</div>
+</div><div class="section empty"><h2>Preventive Cardiology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Quality & Value in Cardiology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Private Equity in Medicine</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>EHR Improvements</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>AI & LLMs for Cardiology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Heart Failure in Adults</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Lipidology</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Hypertension</h2><p class="none">No new papers today.</p></div><div class="section empty"><h2>Atrial Fibrillation</h2><p class="none">No new papers today.</p></div>
 </div>
 
 <footer>
-  Generated Sunday, July 12, 2026  10:49 AM &nbsp;·&nbsp; PubMedAgent &nbsp;·&nbsp; Click ⭐ Save on any card, then "Save to Knowledge Base"
+  Generated Sunday, July 12, 2026  05:06 PM &nbsp;·&nbsp; PubMedAgent &nbsp;·&nbsp; Tap ⭐ Star or 👎 Not relevant on any card — the graph learns from both
 </footer>
 
-<script>
-const SAVE_URL = 'http://127.0.0.1:8765/save';
-const q = new Set();
-const btnMap = {};  // pmid -> button element
-
-function toggleSave(id, btn) {
-  if (q.has(id)) {
-    q.delete(id);
-    btn.textContent = '⭐ Save';
-    btn.classList.remove('saved', 'saving', 'error');
-  } else {
-    q.add(id);
-    btn.textContent = '✅ Queued';
-    btn.classList.add('saved');
-  }
-  btnMap[id] = btn;
-  render();
-}
-
-function render() {
-  const bar = document.getElementById('bar');
-  const status = document.getElementById('status');
-  if (q.size > 0) {
-    bar.classList.add('on');
-    status.textContent = q.size === 1 ? '1 paper queued' : q.size + ' papers queued';
-  } else {
-    bar.classList.remove('on');
-  }
-}
-
-async function doSave() {
-  if (q.size === 0) return;
-  const btn = document.getElementById('sv-btn');
-  const status = document.getElementById('status');
-  const pmids = [...q];
-
-  btn.disabled = true;
-  btn.textContent = 'Saving...';
-  status.textContent = 'Contacting save server...';
-
-  try {
-    const res = await fetch(SAVE_URL, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({pmids})
-    });
-    if (!res.ok) throw new Error('Server returned ' + res.status);
-    const data = await res.json();
-    let saved = 0, skipped = 0, errors = 0;
-    for (const r of data.results) {
-      const b = btnMap[r.pmid];
-      if (r.status === 'saved') {
-        saved++;
-        if (b) { b.textContent = '✅ Saved'; b.classList.add('saved'); b.classList.remove('saving','error'); }
-      } else if (r.status === 'already_saved') {
-        skipped++;
-        if (b) { b.textContent = '📚 Already saved'; b.classList.add('saved'); }
-      } else {
-        errors++;
-        if (b) { b.textContent = '❌ Error'; b.classList.add('error'); b.classList.remove('saved','saving'); }
-      }
-    }
-    const parts = [];
-    if (saved) parts.push(saved + ' saved');
-    if (skipped) parts.push(skipped + ' already in KB');
-    if (errors) parts.push(errors + ' failed');
-    status.textContent = '✅ ' + parts.join(' · ') + ' — KB now has ' + data.total + ' papers';
-    q.clear();
-    btn.textContent = 'Save to Knowledge Base';
-    btn.disabled = false;
-    setTimeout(() => document.getElementById('bar').classList.remove('on'), 4000);
-  } catch (err) {
-    status.textContent = '❌ Save server not running. Start it: python3 ~/Desktop/PubMedAgent/server.py';
-    btn.textContent = 'Save to Knowledge Base';
-    btn.disabled = false;
-  }
-}
-
-function clr() {
-  q.clear();
-  document.querySelectorAll('.btn-save').forEach(b => {
-    b.textContent = '⭐ Save';
-    b.classList.remove('saved', 'saving', 'error');
-  });
-  render();
-}
-</script>
 </body>
 </html>
