@@ -1,0 +1,2110 @@
+{
+  "nodes": [
+    {
+      "id": "pmid:42098926",
+      "type": "Paper",
+      "label": "GenAI-Supported Virtual Patients in Health Care Education: Systematic Review.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Humans",
+      "type": "MeshTerm",
+      "label": "Humans",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Artificial Intelligence",
+      "type": "MeshTerm",
+      "label": "Artificial Intelligence",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Patient Simulation",
+      "type": "MeshTerm",
+      "label": "Patient Simulation",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Virtual Reality",
+      "type": "MeshTerm",
+      "label": "Virtual Reality",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Health Education",
+      "type": "MeshTerm",
+      "label": "Health Education",
+      "status": "active"
+    },
+    {
+      "id": "journal:Journal of medical Internet research",
+      "type": "Journal",
+      "label": "Journal of medical Internet research",
+      "status": "active"
+    },
+    {
+      "id": "author:Jiang Juming",
+      "type": "Author",
+      "label": "Jiang Juming",
+      "status": "active"
+    },
+    {
+      "id": "author:Ye Megan Zichen",
+      "type": "Author",
+      "label": "Ye Megan Zichen",
+      "status": "active"
+    },
+    {
+      "id": "author:Kwok Tyrone Tai-On",
+      "type": "Author",
+      "label": "Kwok Tyrone Tai-On",
+      "status": "active"
+    },
+    {
+      "id": "author:Wong Janet Yuen Ha",
+      "type": "Author",
+      "label": "Wong Janet Yuen Ha",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42099475",
+      "type": "Paper",
+      "label": "PCSK9 inhibitors conquer primary prevention: the VESALIUS-CV study.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:European heart journal supplements : journal of the European Society of Cardiology",
+      "type": "Journal",
+      "label": "European heart journal supplements : journal of the European Society of Cardiology",
+      "status": "active"
+    },
+    {
+      "id": "author:Gatto Laura",
+      "type": "Author",
+      "label": "Gatto Laura",
+      "status": "active"
+    },
+    {
+      "id": "author:Di Bitonto Maria Pia",
+      "type": "Author",
+      "label": "Di Bitonto Maria Pia",
+      "status": "active"
+    },
+    {
+      "id": "author:Scalia Lorenzo",
+      "type": "Author",
+      "label": "Scalia Lorenzo",
+      "status": "active"
+    },
+    {
+      "id": "author:Biccirè Flavio Giuseppe",
+      "type": "Author",
+      "label": "Biccirè Flavio Giuseppe",
+      "status": "active"
+    },
+    {
+      "id": "author:Prati Francesco",
+      "type": "Author",
+      "label": "Prati Francesco",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42106776",
+      "type": "Paper",
+      "label": "Adherence to the Mediterranean diet and its association with atherogenic indices and lipid profile in individuals seeking a weight-loss dietary program: what role for body fat?",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:Lipids in health and disease",
+      "type": "Journal",
+      "label": "Lipids in health and disease",
+      "status": "active"
+    },
+    {
+      "id": "author:Menichetti Francesca",
+      "type": "Author",
+      "label": "Menichetti Francesca",
+      "status": "active"
+    },
+    {
+      "id": "author:Gallosti Silvia",
+      "type": "Author",
+      "label": "Gallosti Silvia",
+      "status": "active"
+    },
+    {
+      "id": "author:De Amicis Ramona",
+      "type": "Author",
+      "label": "De Amicis Ramona",
+      "status": "active"
+    },
+    {
+      "id": "author:Sileo Federica",
+      "type": "Author",
+      "label": "Sileo Federica",
+      "status": "active"
+    },
+    {
+      "id": "author:Foppiani Andrea",
+      "type": "Author",
+      "label": "Foppiani Andrea",
+      "status": "active"
+    },
+    {
+      "id": "author:Pozzi Giorgia",
+      "type": "Author",
+      "label": "Pozzi Giorgia",
+      "status": "active"
+    },
+    {
+      "id": "author:Bertoli Simona",
+      "type": "Author",
+      "label": "Bertoli Simona",
+      "status": "active"
+    },
+    {
+      "id": "author:Battezzati Alberto",
+      "type": "Author",
+      "label": "Battezzati Alberto",
+      "status": "active"
+    },
+    {
+      "id": "author:Leone Alessandro",
+      "type": "Author",
+      "label": "Leone Alessandro",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42101865",
+      "type": "Paper",
+      "label": "Management updates in heart failure with mildly reduced or preserved ejection fraction.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Heart Failure",
+      "type": "MeshTerm",
+      "label": "Heart Failure",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Stroke Volume",
+      "type": "MeshTerm",
+      "label": "Stroke Volume",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Mineralocorticoid Receptor Antagonists",
+      "type": "MeshTerm",
+      "label": "Mineralocorticoid Receptor Antagonists",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Sodium-Glucose Transporter 2 Inhibitors",
+      "type": "MeshTerm",
+      "label": "Sodium-Glucose Transporter 2 Inhibitors",
+      "status": "active"
+    },
+    {
+      "id": "mesh:United States",
+      "type": "MeshTerm",
+      "label": "United States",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Practice Guidelines as Topic",
+      "type": "MeshTerm",
+      "label": "Practice Guidelines as Topic",
+      "status": "active"
+    },
+    {
+      "id": "journal:The American journal of managed care",
+      "type": "Journal",
+      "label": "The American journal of managed care",
+      "status": "active"
+    },
+    {
+      "id": "author:Grossman Jamie",
+      "type": "Author",
+      "label": "Grossman Jamie",
+      "status": "active"
+    },
+    {
+      "id": "author:Kalayeh Bashir",
+      "type": "Author",
+      "label": "Kalayeh Bashir",
+      "status": "active"
+    },
+    {
+      "id": "author:Hocum Brian",
+      "type": "Author",
+      "label": "Hocum Brian",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42101866",
+      "type": "Paper",
+      "label": "A systematic literature search and narrative synthesis of economic drivers in hospitalizations for heart failure with preserved or mildly reduced ejection fraction in the United States.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Hospitalization",
+      "type": "MeshTerm",
+      "label": "Hospitalization",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Patient Readmission",
+      "type": "MeshTerm",
+      "label": "Patient Readmission",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Length of Stay",
+      "type": "MeshTerm",
+      "label": "Length of Stay",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Cost of Illness",
+      "type": "MeshTerm",
+      "label": "Cost of Illness",
+      "status": "active"
+    },
+    {
+      "id": "author:Stewart Fiona",
+      "type": "Author",
+      "label": "Stewart Fiona",
+      "status": "active"
+    },
+    {
+      "id": "author:Gill Malia",
+      "type": "Author",
+      "label": "Gill Malia",
+      "status": "active"
+    },
+    {
+      "id": "author:Kistler Kristin",
+      "type": "Author",
+      "label": "Kistler Kristin",
+      "status": "active"
+    },
+    {
+      "id": "author:Katta Arvind",
+      "type": "Author",
+      "label": "Katta Arvind",
+      "status": "active"
+    },
+    {
+      "id": "author:Oliveira Andrew B",
+      "type": "Author",
+      "label": "Oliveira Andrew B",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42098992",
+      "type": "Paper",
+      "label": "Discontinuation of Oral Anticoagulation After Successful Atrial Fibrillation Ablation - Are We Ready to Change Clinical Practice in 2026?",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Atrial Fibrillation",
+      "type": "MeshTerm",
+      "label": "Atrial Fibrillation",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Anticoagulants",
+      "type": "MeshTerm",
+      "label": "Anticoagulants",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Catheter Ablation",
+      "type": "MeshTerm",
+      "label": "Catheter Ablation",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Administration, Oral",
+      "type": "MeshTerm",
+      "label": "Administration, Oral",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Thromboembolism",
+      "type": "MeshTerm",
+      "label": "Thromboembolism",
+      "status": "active"
+    },
+    {
+      "id": "journal:Medical science monitor : international medical journal of experimental and clinical research",
+      "type": "Journal",
+      "label": "Medical science monitor : international medical journal of experimental and clinical research",
+      "status": "active"
+    },
+    {
+      "id": "author:Momot Karol",
+      "type": "Author",
+      "label": "Momot Karol",
+      "status": "active"
+    },
+    {
+      "id": "author:Surma Stanisław",
+      "type": "Author",
+      "label": "Surma Stanisław",
+      "status": "active"
+    },
+    {
+      "id": "author:Krauz Kamil",
+      "type": "Author",
+      "label": "Krauz Kamil",
+      "status": "active"
+    },
+    {
+      "id": "author:Pruc Michał",
+      "type": "Author",
+      "label": "Pruc Michał",
+      "status": "active"
+    },
+    {
+      "id": "author:Szarpak Łukasz",
+      "type": "Author",
+      "label": "Szarpak Łukasz",
+      "status": "active"
+    },
+    {
+      "id": "author:Rodkiewicz Dariusz",
+      "type": "Author",
+      "label": "Rodkiewicz Dariusz",
+      "status": "active"
+    },
+    {
+      "id": "author:Buksińska-Lisik Małgorzata",
+      "type": "Author",
+      "label": "Buksińska-Lisik Małgorzata",
+      "status": "active"
+    },
+    {
+      "id": "author:Mamcarz Artur",
+      "type": "Author",
+      "label": "Mamcarz Artur",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42103653",
+      "type": "Paper",
+      "label": "[Effectiveness of early proactive telephone follow-up on perioperative medication adherence in patients with atrial fibrillation].",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Male",
+      "type": "MeshTerm",
+      "label": "Male",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Female",
+      "type": "MeshTerm",
+      "label": "Female",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Middle Aged",
+      "type": "MeshTerm",
+      "label": "Middle Aged",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Prospective Studies",
+      "type": "MeshTerm",
+      "label": "Prospective Studies",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Aged",
+      "type": "MeshTerm",
+      "label": "Aged",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Telephone",
+      "type": "MeshTerm",
+      "label": "Telephone",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Follow-Up Studies",
+      "type": "MeshTerm",
+      "label": "Follow-Up Studies",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Medication Adherence",
+      "type": "MeshTerm",
+      "label": "Medication Adherence",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Treatment Outcome",
+      "type": "MeshTerm",
+      "label": "Treatment Outcome",
+      "status": "active"
+    },
+    {
+      "id": "journal:Zhonghua nei ke za zhi",
+      "type": "Journal",
+      "label": "Zhonghua nei ke za zhi",
+      "status": "active"
+    },
+    {
+      "id": "author:Liu C",
+      "type": "Author",
+      "label": "Liu C",
+      "status": "active"
+    },
+    {
+      "id": "author:Ma A",
+      "type": "Author",
+      "label": "Ma A",
+      "status": "active"
+    },
+    {
+      "id": "author:Shi J H",
+      "type": "Author",
+      "label": "Shi J H",
+      "status": "active"
+    },
+    {
+      "id": "author:Zhao Y Z",
+      "type": "Author",
+      "label": "Zhao Y Z",
+      "status": "active"
+    },
+    {
+      "id": "author:Wang W Y",
+      "type": "Author",
+      "label": "Wang W Y",
+      "status": "active"
+    },
+    {
+      "id": "author:He L",
+      "type": "Author",
+      "label": "He L",
+      "status": "active"
+    },
+    {
+      "id": "author:Zhao X P",
+      "type": "Author",
+      "label": "Zhao X P",
+      "status": "active"
+    },
+    {
+      "id": "author:Ma C S",
+      "type": "Author",
+      "label": "Ma C S",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42098878",
+      "type": "Paper",
+      "label": "Evaluation of large language models in cardiovascular surgery: a comparative study of board-level clinical question answering and generation.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:Journal of cardiothoracic surgery",
+      "type": "Journal",
+      "label": "Journal of cardiothoracic surgery",
+      "status": "active"
+    },
+    {
+      "id": "author:Yesilkaya Mehmet Inanc",
+      "type": "Author",
+      "label": "Yesilkaya Mehmet Inanc",
+      "status": "active"
+    },
+    {
+      "id": "author:Yilmaz Uzeyir",
+      "type": "Author",
+      "label": "Yilmaz Uzeyir",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42203295",
+      "type": "Paper",
+      "label": "Pragmatic trial assessing polygenic risk driven statin therapy for cardiovascular disease prevention: study protocol for the EE-PRS trial.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "type": "MeshTerm",
+      "label": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Genetic Risk Score",
+      "type": "MeshTerm",
+      "label": "Genetic Risk Score",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Cardiovascular Diseases",
+      "type": "MeshTerm",
+      "label": "Cardiovascular Diseases",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Pragmatic Clinical Trials as Topic",
+      "type": "MeshTerm",
+      "label": "Pragmatic Clinical Trials as Topic",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Multicenter Studies as Topic",
+      "type": "MeshTerm",
+      "label": "Multicenter Studies as Topic",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Rosuvastatin Calcium",
+      "type": "MeshTerm",
+      "label": "Rosuvastatin Calcium",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Aged, 80 and over",
+      "type": "MeshTerm",
+      "label": "Aged, 80 and over",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Randomized Controlled Trials as Topic",
+      "type": "MeshTerm",
+      "label": "Randomized Controlled Trials as Topic",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Coronary Artery Disease",
+      "type": "MeshTerm",
+      "label": "Coronary Artery Disease",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Risk Assessment",
+      "type": "MeshTerm",
+      "label": "Risk Assessment",
+      "status": "active"
+    },
+    {
+      "id": "journal:BMJ open",
+      "type": "Journal",
+      "label": "BMJ open",
+      "status": "active"
+    },
+    {
+      "id": "author:Voit Ave",
+      "type": "Author",
+      "label": "Voit Ave",
+      "status": "active"
+    },
+    {
+      "id": "author:Elken Aet",
+      "type": "Author",
+      "label": "Elken Aet",
+      "status": "active"
+    },
+    {
+      "id": "author:Viigimaa Margus",
+      "type": "Author",
+      "label": "Viigimaa Margus",
+      "status": "active"
+    },
+    {
+      "id": "author:Kalda Ruth",
+      "type": "Author",
+      "label": "Kalda Ruth",
+      "status": "active"
+    },
+    {
+      "id": "author:Fischer Krista",
+      "type": "Author",
+      "label": "Fischer Krista",
+      "status": "active"
+    },
+    {
+      "id": "author:Toompere Karolin",
+      "type": "Author",
+      "label": "Toompere Karolin",
+      "status": "active"
+    },
+    {
+      "id": "author:Irs Alar",
+      "type": "Author",
+      "label": "Irs Alar",
+      "status": "active"
+    },
+    {
+      "id": "author:Milani Lili",
+      "type": "Author",
+      "label": "Milani Lili",
+      "status": "active"
+    },
+    {
+      "id": "author:Alavere Helene",
+      "type": "Author",
+      "label": "Alavere Helene",
+      "status": "active"
+    },
+    {
+      "id": "author:Pajusalu Sander",
+      "type": "Author",
+      "label": "Pajusalu Sander",
+      "status": "active"
+    },
+    {
+      "id": "author:Org Elin",
+      "type": "Author",
+      "label": "Org Elin",
+      "status": "active"
+    },
+    {
+      "id": "author:Alloja Janika",
+      "type": "Author",
+      "label": "Alloja Janika",
+      "status": "active"
+    },
+    {
+      "id": "author:Kaarna Katrin",
+      "type": "Author",
+      "label": "Kaarna Katrin",
+      "status": "active"
+    },
+    {
+      "id": "author:Jürisson Mikk",
+      "type": "Author",
+      "label": "Jürisson Mikk",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42203447",
+      "type": "Paper",
+      "label": "Current and Future Perspectives of LDL-C Lowering Therapies 2026.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:Journal of atherosclerosis and thrombosis",
+      "type": "Journal",
+      "label": "Journal of atherosclerosis and thrombosis",
+      "status": "active"
+    },
+    {
+      "id": "author:Tada Hayato",
+      "type": "Author",
+      "label": "Tada Hayato",
+      "status": "active"
+    },
+    {
+      "id": "author:Sakata Kenji",
+      "type": "Author",
+      "label": "Sakata Kenji",
+      "status": "active"
+    },
+    {
+      "id": "author:Usui Soichiro",
+      "type": "Author",
+      "label": "Usui Soichiro",
+      "status": "active"
+    },
+    {
+      "id": "author:Takamura Masayuki",
+      "type": "Author",
+      "label": "Takamura Masayuki",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42201734",
+      "type": "Paper",
+      "label": "Clinical Decision Support System, Antihypertensive Treatment Intensification, and Blood Pressure Control: A Post Hoc Secondary Analysis of a Cluster Randomized Trial.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Antihypertensive Agents",
+      "type": "MeshTerm",
+      "label": "Antihypertensive Agents",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Hypertension",
+      "type": "MeshTerm",
+      "label": "Hypertension",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Decision Support Systems, Clinical",
+      "type": "MeshTerm",
+      "label": "Decision Support Systems, Clinical",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Blood Pressure",
+      "type": "MeshTerm",
+      "label": "Blood Pressure",
+      "status": "active"
+    },
+    {
+      "id": "mesh:China",
+      "type": "MeshTerm",
+      "label": "China",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Primary Health Care",
+      "type": "MeshTerm",
+      "label": "Primary Health Care",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Cluster Analysis",
+      "type": "MeshTerm",
+      "label": "Cluster Analysis",
+      "status": "active"
+    },
+    {
+      "id": "journal:JAMA network open",
+      "type": "Journal",
+      "label": "JAMA network open",
+      "status": "active"
+    },
+    {
+      "id": "author:Song Jiali",
+      "type": "Author",
+      "label": "Song Jiali",
+      "status": "active"
+    },
+    {
+      "id": "author:Liu Yanchen",
+      "type": "Author",
+      "label": "Liu Yanchen",
+      "status": "active"
+    },
+    {
+      "id": "author:Shang Qinggang",
+      "type": "Author",
+      "label": "Shang Qinggang",
+      "status": "active"
+    },
+    {
+      "id": "author:Liu Jiamin",
+      "type": "Author",
+      "label": "Liu Jiamin",
+      "status": "active"
+    },
+    {
+      "id": "author:Zhang Haibo",
+      "type": "Author",
+      "label": "Zhang Haibo",
+      "status": "active"
+    },
+    {
+      "id": "author:Zhou Zeming",
+      "type": "Author",
+      "label": "Zhou Zeming",
+      "status": "active"
+    },
+    {
+      "id": "author:Wang Wei",
+      "type": "Author",
+      "label": "Wang Wei",
+      "status": "active"
+    },
+    {
+      "id": "author:Lu Jiapeng",
+      "type": "Author",
+      "label": "Lu Jiapeng",
+      "status": "active"
+    },
+    {
+      "id": "author:Zheng Xin",
+      "type": "Author",
+      "label": "Zheng Xin",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42191278",
+      "type": "Paper",
+      "label": "Interventional Management of Atrial Fibrillation in the Chronic Heart Failure Population.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Chronic Disease",
+      "type": "MeshTerm",
+      "label": "Chronic Disease",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Cardiac Resynchronization Therapy",
+      "type": "MeshTerm",
+      "label": "Cardiac Resynchronization Therapy",
+      "status": "active"
+    },
+    {
+      "id": "journal:Cardiac electrophysiology clinics",
+      "type": "Journal",
+      "label": "Cardiac electrophysiology clinics",
+      "status": "active"
+    },
+    {
+      "id": "author:Patel Parin J",
+      "type": "Author",
+      "label": "Patel Parin J",
+      "status": "active"
+    },
+    {
+      "id": "author:Ahmed Asim S",
+      "type": "Author",
+      "label": "Ahmed Asim S",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42210343",
+      "type": "Paper",
+      "label": "Sustainability of an electronic technology-based intervention in general practice targeting improved detection and monitoring of the interrelated chronic vascular diseases.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:BMC medical informatics and decision making",
+      "type": "Journal",
+      "label": "BMC medical informatics and decision making",
+      "status": "active"
+    },
+    {
+      "id": "author:Jones Julia L",
+      "type": "Author",
+      "label": "Jones Julia L",
+      "status": "active"
+    },
+    {
+      "id": "author:Simons Koen",
+      "type": "Author",
+      "label": "Simons Koen",
+      "status": "active"
+    },
+    {
+      "id": "author:Manski-Nankervis Jo-Anne",
+      "type": "Author",
+      "label": "Manski-Nankervis Jo-Anne",
+      "status": "active"
+    },
+    {
+      "id": "author:Hamblin Peter Shane",
+      "type": "Author",
+      "label": "Hamblin Peter Shane",
+      "status": "active"
+    },
+    {
+      "id": "author:Lumsden Natalie G",
+      "type": "Author",
+      "label": "Lumsden Natalie G",
+      "status": "active"
+    },
+    {
+      "id": "author:De Courten Maximilian P",
+      "type": "Author",
+      "label": "De Courten Maximilian P",
+      "status": "active"
+    },
+    {
+      "id": "author:Janus Edward D",
+      "type": "Author",
+      "label": "Janus Edward D",
+      "status": "active"
+    },
+    {
+      "id": "author:Nelson Craig L",
+      "type": "Author",
+      "label": "Nelson Craig L",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42216129",
+      "type": "Paper",
+      "label": "A real-world preventive primary care model for cardiorenal metabolic disease: clinical impact of a personalised care approach in Harrow, North West London.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:BMC nephrology",
+      "type": "Journal",
+      "label": "BMC nephrology",
+      "status": "active"
+    },
+    {
+      "id": "author:Dattani R",
+      "type": "Author",
+      "label": "Dattani R",
+      "status": "active"
+    },
+    {
+      "id": "author:Rahman R",
+      "type": "Author",
+      "label": "Rahman R",
+      "status": "active"
+    },
+    {
+      "id": "author:Siddik S",
+      "type": "Author",
+      "label": "Siddik S",
+      "status": "active"
+    },
+    {
+      "id": "author:Brookman V",
+      "type": "Author",
+      "label": "Brookman V",
+      "status": "active"
+    },
+    {
+      "id": "author:Kelshiker A",
+      "type": "Author",
+      "label": "Kelshiker A",
+      "status": "active"
+    },
+    {
+      "id": "author:Shah J",
+      "type": "Author",
+      "label": "Shah J",
+      "status": "active"
+    },
+    {
+      "id": "author:Frankel A H",
+      "type": "Author",
+      "label": "Frankel A H",
+      "status": "active"
+    },
+    {
+      "id": "author:Joshi M",
+      "type": "Author",
+      "label": "Joshi M",
+      "status": "active"
+    },
+    {
+      "id": "author:Johal K",
+      "type": "Author",
+      "label": "Johal K",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42252160",
+      "type": "Paper",
+      "label": "From the Editors: Lipoprotein(a), inflammation, and residual ASCVD risk plus further evidence of greater benefits of LDL-C reduction in primary prevention.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:Journal of clinical lipidology",
+      "type": "Journal",
+      "label": "Journal of clinical lipidology",
+      "status": "active"
+    },
+    {
+      "id": "author:Maki Kevin C",
+      "type": "Author",
+      "label": "Maki Kevin C",
+      "status": "active"
+    },
+    {
+      "id": "author:Barton Duell P",
+      "type": "Author",
+      "label": "Barton Duell P",
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "src": "pmid:42098926",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "has_mesh",
+      "dst": "mesh:Artificial Intelligence",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "has_mesh",
+      "dst": "mesh:Patient Simulation",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "has_mesh",
+      "dst": "mesh:Virtual Reality",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "has_mesh",
+      "dst": "mesh:Health Education",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "published_in",
+      "dst": "journal:Journal of medical Internet research",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "authored_by",
+      "dst": "author:Jiang Juming",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "authored_by",
+      "dst": "author:Ye Megan Zichen",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "authored_by",
+      "dst": "author:Kwok Tyrone Tai-On",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098926",
+      "rel": "authored_by",
+      "dst": "author:Wong Janet Yuen Ha",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42099475",
+      "rel": "published_in",
+      "dst": "journal:European heart journal supplements : journal of the European Society of Cardiology",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42099475",
+      "rel": "authored_by",
+      "dst": "author:Gatto Laura",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42099475",
+      "rel": "authored_by",
+      "dst": "author:Di Bitonto Maria Pia",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42099475",
+      "rel": "authored_by",
+      "dst": "author:Scalia Lorenzo",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42099475",
+      "rel": "authored_by",
+      "dst": "author:Biccirè Flavio Giuseppe",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42099475",
+      "rel": "authored_by",
+      "dst": "author:Prati Francesco",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "published_in",
+      "dst": "journal:Lipids in health and disease",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Menichetti Francesca",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Gallosti Silvia",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:De Amicis Ramona",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Sileo Federica",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Foppiani Andrea",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Pozzi Giorgia",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Bertoli Simona",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Battezzati Alberto",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42106776",
+      "rel": "authored_by",
+      "dst": "author:Leone Alessandro",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "has_mesh",
+      "dst": "mesh:Heart Failure",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "has_mesh",
+      "dst": "mesh:Stroke Volume",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "has_mesh",
+      "dst": "mesh:Mineralocorticoid Receptor Antagonists",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "has_mesh",
+      "dst": "mesh:Sodium-Glucose Transporter 2 Inhibitors",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "has_mesh",
+      "dst": "mesh:United States",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "has_mesh",
+      "dst": "mesh:Practice Guidelines as Topic",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "published_in",
+      "dst": "journal:The American journal of managed care",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "authored_by",
+      "dst": "author:Grossman Jamie",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "authored_by",
+      "dst": "author:Kalayeh Bashir",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101865",
+      "rel": "authored_by",
+      "dst": "author:Hocum Brian",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:Heart Failure",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:United States",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:Hospitalization",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:Stroke Volume",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:Patient Readmission",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:Length of Stay",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "has_mesh",
+      "dst": "mesh:Cost of Illness",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "published_in",
+      "dst": "journal:The American journal of managed care",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "authored_by",
+      "dst": "author:Stewart Fiona",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "authored_by",
+      "dst": "author:Gill Malia",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "authored_by",
+      "dst": "author:Kistler Kristin",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "authored_by",
+      "dst": "author:Hocum Brian",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "authored_by",
+      "dst": "author:Katta Arvind",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42101866",
+      "rel": "authored_by",
+      "dst": "author:Oliveira Andrew B",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "has_mesh",
+      "dst": "mesh:Atrial Fibrillation",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "has_mesh",
+      "dst": "mesh:Anticoagulants",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "has_mesh",
+      "dst": "mesh:Catheter Ablation",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "has_mesh",
+      "dst": "mesh:Administration, Oral",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "has_mesh",
+      "dst": "mesh:Thromboembolism",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "published_in",
+      "dst": "journal:Medical science monitor : international medical journal of experimental and clinical research",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Momot Karol",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Surma Stanisław",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Krauz Kamil",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Pruc Michał",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Szarpak Łukasz",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Rodkiewicz Dariusz",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Buksińska-Lisik Małgorzata",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098992",
+      "rel": "authored_by",
+      "dst": "author:Mamcarz Artur",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Atrial Fibrillation",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Prospective Studies",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Telephone",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Follow-Up Studies",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Catheter Ablation",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Medication Adherence",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "has_mesh",
+      "dst": "mesh:Treatment Outcome",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "published_in",
+      "dst": "journal:Zhonghua nei ke za zhi",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:Liu C",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:Ma A",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:Shi J H",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:Zhao Y Z",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:Wang W Y",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:He L",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:Zhao X P",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42103653",
+      "rel": "authored_by",
+      "dst": "author:Ma C S",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098878",
+      "rel": "published_in",
+      "dst": "journal:Journal of cardiothoracic surgery",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098878",
+      "rel": "authored_by",
+      "dst": "author:Yesilkaya Mehmet Inanc",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42098878",
+      "rel": "authored_by",
+      "dst": "author:Yilmaz Uzeyir",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Genetic Risk Score",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Cardiovascular Diseases",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Pragmatic Clinical Trials as Topic",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Multicenter Studies as Topic",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Rosuvastatin Calcium",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged, 80 and over",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Randomized Controlled Trials as Topic",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Coronary Artery Disease",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "has_mesh",
+      "dst": "mesh:Risk Assessment",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "published_in",
+      "dst": "journal:BMJ open",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Voit Ave",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Elken Aet",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Viigimaa Margus",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Kalda Ruth",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Fischer Krista",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Toompere Karolin",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Irs Alar",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Milani Lili",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Alavere Helene",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Pajusalu Sander",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Org Elin",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Alloja Janika",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Kaarna Katrin",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203295",
+      "rel": "authored_by",
+      "dst": "author:Jürisson Mikk",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203447",
+      "rel": "published_in",
+      "dst": "journal:Journal of atherosclerosis and thrombosis",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203447",
+      "rel": "authored_by",
+      "dst": "author:Tada Hayato",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203447",
+      "rel": "authored_by",
+      "dst": "author:Sakata Kenji",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203447",
+      "rel": "authored_by",
+      "dst": "author:Usui Soichiro",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42203447",
+      "rel": "authored_by",
+      "dst": "author:Takamura Masayuki",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Antihypertensive Agents",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Hypertension",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Decision Support Systems, Clinical",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Blood Pressure",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:China",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Primary Health Care",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "has_mesh",
+      "dst": "mesh:Cluster Analysis",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "published_in",
+      "dst": "journal:JAMA network open",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Song Jiali",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Liu Yanchen",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Shang Qinggang",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Liu Jiamin",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Zhang Haibo",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Zhou Zeming",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Wang Wei",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Lu Jiapeng",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42201734",
+      "rel": "authored_by",
+      "dst": "author:Zheng Xin",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "has_mesh",
+      "dst": "mesh:Atrial Fibrillation",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "has_mesh",
+      "dst": "mesh:Heart Failure",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "has_mesh",
+      "dst": "mesh:Catheter Ablation",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "has_mesh",
+      "dst": "mesh:Chronic Disease",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "has_mesh",
+      "dst": "mesh:Cardiac Resynchronization Therapy",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "published_in",
+      "dst": "journal:Cardiac electrophysiology clinics",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "authored_by",
+      "dst": "author:Patel Parin J",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42191278",
+      "rel": "authored_by",
+      "dst": "author:Ahmed Asim S",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "published_in",
+      "dst": "journal:BMC medical informatics and decision making",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:Jones Julia L",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:Simons Koen",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:Manski-Nankervis Jo-Anne",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:Hamblin Peter Shane",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:Lumsden Natalie G",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:De Courten Maximilian P",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:Janus Edward D",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42210343",
+      "rel": "authored_by",
+      "dst": "author:Nelson Craig L",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "published_in",
+      "dst": "journal:BMC nephrology",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Dattani R",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Rahman R",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Siddik S",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Brookman V",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Kelshiker A",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Shah J",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Frankel A H",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Joshi M",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42216129",
+      "rel": "authored_by",
+      "dst": "author:Johal K",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42252160",
+      "rel": "published_in",
+      "dst": "journal:Journal of clinical lipidology",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42252160",
+      "rel": "authored_by",
+      "dst": "author:Maki Kevin C",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42252160",
+      "rel": "authored_by",
+      "dst": "author:Barton Duell P",
+      "status": "active"
+    }
+  ],
+  "last_updated": "2026-07-12T13:03:29"
+}

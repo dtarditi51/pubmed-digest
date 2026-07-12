@@ -15,3 +15,32 @@ Actions tab → *PubMed Daily Digest* → **Run workflow**.
 
 ## Change the time
 Edit the `cron` line in `.github/workflows/digest.yml` (the value is in UTC).
+
+## Feedback loop
+
+The digest learns from two signals, and both are captured straight from the page —
+on a Mac or an iPhone, with nothing running locally:
+
+| Button | What it does |
+|---|---|
+| ⭐ **Star** | Opens a prefilled GitHub Issue. The `Digest Feedback` workflow adds the paper to `knowledge_base.json`, ingests it into the knowledge graph as endorsed knowledge, commits, and closes the issue. |
+| 👎 **Not relevant** | Same, but the paper is blocklisted (never surfaced again) and its node and edges are marked `rejected` in the graph. Anything you type in the issue body is recorded as the reason. |
+
+**How it hones the digest.** `knowledge_graph.json` projects every judged paper into
+nodes (Paper, MeshTerm, Journal, Author) and edges. Each concept gets a weight:
+
+    w(concept) = fraction of starred papers touching it − fraction of rejected papers touching it
+
+Concepts your stars cluster on rise, concepts your rejects cluster on fall, and
+anything both sides touch cancels out. A candidate article is scored `quality + fit`:
+quality is the original 12-point rubric, and `fit` is −3..+3 read off that graph, plus
+the same signal over title/abstract text (fresh PubMed records often carry no MeSH
+terms yet). The more you star and reject, the sharper it gets.
+
+Rejections are kept in the graph rather than deleted — a rejection is knowledge, and
+it is what gives the scorer its negative side.
+
+    python3 feedback.py --reject <PMID|DOI> --reason "..."   # thumbs-down from the CLI
+    python3 feedback.py --report          # what's been thumbs-downed, and why
+    python3 knowledge_graph.py --stats    # what the graph steers toward / away from
+    python3 test_feedback.py              # 33 tests, no network

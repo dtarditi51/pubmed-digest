@@ -1,0 +1,472 @@
+{
+  "papers": [
+    {
+      "pmid": "42098926",
+      "title": "GenAI-Supported Virtual Patients in Health Care Education: Systematic Review.",
+      "authors": [
+        "Jiang Juming",
+        "Ye Megan Zichen",
+        "Kwok Tyrone Tai-On",
+        "Wong Janet Yuen Ha"
+      ],
+      "journal": "Journal of medical Internet research",
+      "year": "2026",
+      "abstract": "BACKGROUND: Generative artificial intelligence (GenAI) is enhancing virtual patient simulations in health care education by enabling dynamic, adaptive interactions, reshaping how clinical skills are taught. A synthesis of the current evidence is needed to guide implementation and future research, given the pace of technological advancement. OBJECTIVE: This systematic review aims to synthesize empirical research on the design, implementation, and educational impact of GenAI-supported virtual patients in health care education. METHODS: A systematic search was conducted across 5 databases (CINAHL, Medline, Embase, Scopus, and Web of Science) from their inception to March 19, 2026. Reference lists of included studies and relevant systematic reviews were also screened. Peer-reviewed studies in English that evaluated GenAI-supported virtual patients using quantitative or mixed methods were included. Two reviewers independently screened studies and extracted data. Study quality and risk of bias were assessed critically using JBI (Joanna Briggs Institute) checklists, with disagreements resolved by consensus. RESULTS: A total of 15 studies met the inclusion criteria (total participants N=645), spanning health care disciplines, including nursing, medicine, pharmacy, radiography, and medical first-responder training. The virtual patients varied in design; input modalities included text (9 studies), voice (5 studies), or hybrid (1 study); output was text (9 studies), speech (5 studies), or both (1 study); 6 studies used 3D-embodied avatars, while 9 used nonembodied interfaces. A total of 13 studies used OpenAI GPT models (eg, ChatGPT), 1 used a fine-tuned model from a different provider, and 1 evaluated multiple model families (Claude, GPT, and open-source). Further, 6 studies used controlled experimental designs, including 3 randomized controlled trials (RCTs); the remainder were cross-sectional or prepost evaluations. Primary outcomes included user perceptions (14 studies), communication skills (4 studies), clinical reasoning (3 studies), and performance (7 studies). In controlled comparisons, GenAI-supported virtual patients consistently improved outcomes relative to control conditions: for example, enhanced clinical decision-making (RCT, n=21), ophthalmology history-taking skills (RCT, n=26), and medical history-taking performance (crossover RCT, n=20). The evidence base is characterized by brief intervention durations, a predominant reliance on single-session interactions, and a general lack of underpinning educational theory. No meta-analysis was performed due to the limited number of studies and significant heterogeneity in designs, interventions, and outcome measures. CONCLUSIONS: The evidence supports the feasibility and acceptability of GenAI-supported virtual patients, with positive learner perceptions and promising outcomes for skills development. However, critical limitations remain in emotional-behavioral complexity, simulation adaptability, and research design rigor (eg, limited use of control groups and validated instruments). The review offers educators, instructional designers, and policymakers actionable insights for integrating dynamic, artificial intelligence-driven simulations while identifying crucial gaps-such as the need for theoretical grounding, longitudinal studies, and standardized design protocols-that must be addressed for safe and effective implementation.",
+      "doi": "10.2196/82756",
+      "doi_url": "https://doi.org/10.2196/82756",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42098926/",
+      "mesh_terms": [
+        "Humans",
+        "Artificial Intelligence",
+        "Patient Simulation",
+        "Virtual Reality",
+        "Health Education"
+      ],
+      "pub_types": [
+        "Systematic Review",
+        "Journal Article",
+        "Review"
+      ],
+      "saved_date": "2026-05-10",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42099475",
+      "title": "PCSK9 inhibitors conquer primary prevention: the VESALIUS-CV study.",
+      "authors": [
+        "Gatto Laura",
+        "Di Bitonto Maria Pia",
+        "Scalia Lorenzo",
+        "Biccir\u00e8 Flavio Giuseppe",
+        "Prati Francesco"
+      ],
+      "journal": "European heart journal supplements : journal of the European Society of Cardiology",
+      "year": "2026",
+      "abstract": "Elevated low-density lipoprotein cholesterol (LDL-C) represents a key causal factor in atherosclerotic cardiovascular disease. Robust evidence demonstrates that early, marked, and sustained reduction of LDL-C is associated with a significant decrease in the risk of major adverse cardiovascular events. However, a substantial proportion of high-risk patients fail to achieve guideline-recommended LDL-C targets with statin therapy alone, thus requiring additional lipid-lowering treatments. Proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors, particularly the monoclonal antibodies evolocumab and alirocumab, have been shown to reduce LDL-C levels by \u223c60% and to provide clear cardiovascular outcome benefits in secondary prevention. More recently, the VESALIUS-CV trial extended these findings to the setting of primary prevention in high cardiovascular risk patients without prior major cardiovascular events. In this trial, evolocumab achieved a significant and sustained reduction in LDL-C levels and significantly reduced the risk of a first cardiovascular event, including myocardial infarction and ischaemia-driven revascularization, while maintaining a safety profile comparable to placebo. Overall, the available evidence supports the role of evolocumab as an effective and safe strategy for cardiovascular risk reduction across the entire risk continuum, from secondary to primary prevention, underscoring the importance of a personalized therapeutic approach based on the patient's global cardiovascular risk profile.",
+      "doi": "10.1093/eurheartjsupp/suag032",
+      "doi_url": "https://doi.org/10.1093/eurheartjsupp/suag032",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42099475/",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "saved_date": "2026-05-10",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42106776",
+      "title": "Adherence to the Mediterranean diet and its association with atherogenic indices and lipid profile in individuals seeking a weight-loss dietary program: what role for body fat?",
+      "authors": [
+        "Menichetti Francesca",
+        "Gallosti Silvia",
+        "De Amicis Ramona",
+        "Sileo Federica",
+        "Foppiani Andrea",
+        "Pozzi Giorgia",
+        "Bertoli Simona",
+        "Battezzati Alberto",
+        "Leone Alessandro"
+      ],
+      "journal": "Lipids in health and disease",
+      "year": "2026",
+      "abstract": "BACKGROUND: The Mediterranean diet is widely recognized for its cardiovascular benefits, but its specific effects on atherogenic indices remain unclear, particularly in individuals seeking a weight-loss dietary program, where excess fat mass may mitigate the diet's protective effects. METHODS: To explore this relationship, a cross-sectional study was conducted involving 10,286 participants enrolled in a weight-loss dietary program. Anthropometric and biochemical data were collected, and adherence to the Mediterranean diet was assessed using the 14-item Mediterranean Diet Adherence Screener questionnaire. Lipid profiles, including total cholesterol, LDL-C, HDL-C, and triglycerides, were analyzed to calculate the following atherogenic indices: atherogenic index of plasma, Castelli risk indices I and II, lipoprotein combine index, atherogenic coefficient, and atherogenic combined index. RESULTS: Multivariate linear regression models, adjusted for sex, age, body mass index, smoking, physical activity, sociodemographic factors, and use of lipid-lowering medications, showed that each one-point increase in the Mediterranean diet adherence score was significantly associated with reductions in the atherogenic index of plasma (-\u20090.003, 95%CI: 0.006,\u2009-\u20090.000), the atherogenic coefficient (-\u20090.013, 95%CI:\u2009-\u20090.024,\u2009-\u20090.001), Castelli risk index I (-\u20090.013, 95%CI:\u2009-\u20090.024,\u2009-\u20090.001), and the atherogenic combined index (-\u20090.004, 95%CI:\u2009-\u20090.007,\u2009-\u20090.000), with a marginal association observed for Castelli risk index II (-\u20090.009, 95%CI:\u2009-\u20090.019, 0.000). Significant associations were also observed for total cholesterol (-\u20093.453\u00a0mg/dl, 95%CI: -5.911, -0.995), LDL (-\u20093.225\u00a0mg/dl, 95%CI: -5.402, -1.048), and HDL-C concentrations (+\u20090.255\u00a0mg/dl, 95%CI: 0.098, 0.412). However, except for HDL, these associations lost statistical significance after adjusting for body fat percentage. Significant interactions between Mediterranean diet adherence score and body fat percentage were observed for several atherogenic indices, including the atherogenic coefficient, Castelli risk index I, Castelli risk index II, and the atherogenic combined index as well as for total cholesterol and LDL, suggesting that the protective effects of the Mediterranean diet diminish as fat mass increases. CONCLUSIONS: Although adherence to the Mediterranean diet is associated with more favorable lipid profiles and atherogenic indices, these benefits are modulated by body composition, particularly fat mass. These findings highlight the importance of integrated dietary strategies that combine nutritional quality with body fat reduction to support cardiovascular prevention.",
+      "doi": "10.1186/s12944-026-02960-z",
+      "doi_url": "https://doi.org/10.1186/s12944-026-02960-z",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42106776/",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "saved_date": "2026-05-10",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42101865",
+      "title": "Management updates in heart failure with mildly reduced or preserved ejection fraction.",
+      "authors": [
+        "Grossman Jamie",
+        "Kalayeh Bashir",
+        "Hocum Brian"
+      ],
+      "journal": "The American journal of managed care",
+      "year": "2026",
+      "abstract": "Heart failure (HF) is a clinical syndrome characterized by structural or functional impairments in ventricular filling or the ejection of blood from the heart. In the United States, HF represents a growing public health concern, affecting an estimated 6.7 million adults 20 years or older, with prevalence expected to continue rising. Despite advances in guideline-directed medical therapy (GDMT), rates of hospitalization and mortality remain high. Therapeutic options are particularly limited for the most prevalent HF phenotypes-HF with preserved ejection fraction (HFpEF) and HF with mildly reduced ejection fraction (HFmrEF)-resulting in substantial unmet clinical need. This supplement reviews the pathophysiology, epidemiology, and staging of HF with an emphasis on HFmrEF and HFpEF, and summarizes current GDMT recommendations, including the evolving roles of SGLT2 inhibitors and mineralocorticoid receptor antagonists (MRAs). A main focus is on the safety and efficacy of finerenone, a nonsteroidal MRA, as an adjunct to standard therapy in patients with HFmrEF or HFpEF. Persistent barriers to optimal care-including challenges related to diagnostic nomenclature, coding, and access-contribute to a disproportionate economic burden associated with these HF phenotypes. Together, these considerations highlight the need for managed care strategies that facilitate appropriate initiation of therapy and access to emerging treatments to improve outcomes while addressing health care resource utilization.",
+      "doi": "10.37765/ajmc.2026.89948",
+      "doi_url": "https://doi.org/10.37765/ajmc.2026.89948",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42101865/",
+      "mesh_terms": [
+        "Humans",
+        "Heart Failure",
+        "Stroke Volume",
+        "Mineralocorticoid Receptor Antagonists",
+        "Sodium-Glucose Transporter 2 Inhibitors",
+        "United States",
+        "Practice Guidelines as Topic"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "saved_date": "2026-05-10",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42101866",
+      "title": "A systematic literature search and narrative synthesis of economic drivers in hospitalizations for heart failure with preserved or mildly reduced ejection fraction in the United States.",
+      "authors": [
+        "Stewart Fiona",
+        "Gill Malia",
+        "Kistler Kristin",
+        "Hocum Brian",
+        "Katta Arvind",
+        "Oliveira Andrew B"
+      ],
+      "journal": "The American journal of managed care",
+      "year": "2026",
+      "abstract": "BACKGROUND: Heart failure (HF) with mildly reduced ejection fraction (HFmrEF) or preserved EF (HFpEF) constitutes 74% of all HF cases in the US and is associated with significant clinical and economic burdens. Hospitalizations for HFmrEF/HFpEF are a leading contributor to the rising economic burden of HF. This literature review aims to identify key drivers of hospitalization costs for patients with HFmrEF/HFpEF in the US and to inform targeted interventions to reduce health care expenditures. METHODS: A comprehensive search of MEDLINE and Embase was conducted to identify observational studies published between January 2022 and May 2025 that reported on hospitalization-related costs for US adults with HFmrEF/HFpEF (defined as left ventricular ejection fraction \u2265 40%). Eligible studies were those reporting direct costs of hospitalization, readmission rates, time to readmission, length of stay, and number of hospitalizations per person. Data were synthesized narratively, and costs were adjusted to 2025 US$. RESULTS: Of 2624 records identified by the literature searches, 37 studies met inclusion criteria. Total annual costs for HFmrEF/HFpEF were $36,921 to $49,081 per person per year (PPPY), with inpatient hospitalizations accounting for nearly half ($18,844-$20,095 PPPY). Readmissions were a major cost driver, with median all-cause readmission costs ($21,371-$28,615) consistently higher than index admission costs ($13,763-$14,944). Approximately 20% of patients were readmitted within 30 days, with HF-specific readmissions accounting for one-third of 30-day readmissions. Comorbidities such as type 2 diabetes (T2D) and chronic kidney disease (CKD) significantly increased costs, with patients having multiple morbidities incurring nearly double the costs of individuals without comorbidities. Prolonged hospital stay was also linked to higher costs. CONCLUSIONS: HFmrEF/HFpEF hospitalizations represent a significant economic burden that is driven by high inpatient costs, frequent readmissions, and coexisting conditions (eg, T2D, CKD). These findings highlight the need for improved adherence to guideline-directed medical therapy and better management of comorbidities. Policymakers and health care providers should prioritize strategies to reduce HF-related hospitalizations and readmissions to mitigate the growing economic impact of HF.",
+      "doi": "10.37765/ajmc.2026.89949",
+      "doi_url": "https://doi.org/10.37765/ajmc.2026.89949",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42101866/",
+      "mesh_terms": [
+        "Humans",
+        "Heart Failure",
+        "United States",
+        "Hospitalization",
+        "Stroke Volume",
+        "Patient Readmission",
+        "Length of Stay",
+        "Cost of Illness"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "saved_date": "2026-05-10",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42098992",
+      "title": "Discontinuation of Oral Anticoagulation After Successful Atrial Fibrillation Ablation - Are We Ready to Change Clinical Practice in 2026?",
+      "authors": [
+        "Momot Karol",
+        "Surma Stanis\u0142aw",
+        "Krauz Kamil",
+        "Pruc Micha\u0142",
+        "Szarpak \u0141ukasz",
+        "Rodkiewicz Dariusz",
+        "Buksi\u0144ska-Lisik Ma\u0142gorzata",
+        "Mamcarz Artur"
+      ],
+      "journal": "Medical science monitor : international medical journal of experimental and clinical research",
+      "year": "2026",
+      "abstract": "Atrial fibrillation (AF) is a complex cardiac arrhythmia that substantially compromises survival and quality of life. Patients with AF are predisposed to a substantially elevated risk of systemic embolism, including ischemic stroke. Clinical risk-stratification tools guide the initiation of oral anticoagulation (OAC) to mitigate these thromboembolic complications. However, chronic OAC is inherently associated with bleeding complications, some of which may be life-threatening. Historically, maintenance of OAC has remained the clinical standard even after successful catheter ablation and subsequent restoration of sinus rhythm. Given that the procedural efficacy of ablation has improved in recent years, the need for lifelong anticoagulation in patients without documented recurrences is increasingly questioned. Findings from recent randomized controlled trials - OCEAN and ALONE-AF - provide a new perspective on this clinical paradigm. Here, we integrated available data concerning this topic, with the goal of providing input into the ongoing debate. This review compares data from these landmark trials in the context of previous literature. Although current evidence supports discontinuation of OAC after successful catheter ablation, such data should be interpreted with caution due to the presence of high-risk cohorts and the persistent influence of the underlying atrial substrate. This review also analyzes clinical and imaging factors that identify high-risk patients who may be unsuitable for OAC discontinuation. We discuss the utility of left atrium functional assessment via speckle-tracking echocardiography. Furthermore, we examine strategies for high-fidelity rhythm surveillance and methods for managing subclinical recurrences. Finally, we summarize current evidence and propose directions for future research in personalized antithrombotic therapy.",
+      "doi": "10.12659/MSM.952757",
+      "doi_url": "https://doi.org/10.12659/MSM.952757",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42098992/",
+      "mesh_terms": [
+        "Humans",
+        "Atrial Fibrillation",
+        "Anticoagulants",
+        "Catheter Ablation",
+        "Administration, Oral",
+        "Thromboembolism"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "saved_date": "2026-05-10",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42103653",
+      "title": "[Effectiveness of early proactive telephone follow-up on perioperative medication adherence in patients with atrial fibrillation].",
+      "authors": [
+        "Liu C",
+        "Ma A",
+        "Shi J H",
+        "Zhao Y Z",
+        "Wang W Y",
+        "He L",
+        "Zhao X P",
+        "Ma C S"
+      ],
+      "journal": "Zhonghua nei ke za zhi",
+      "year": "2026",
+      "abstract": "",
+      "doi": "10.3760/cma.j.cn112138-20251230-00802",
+      "doi_url": "https://doi.org/10.3760/cma.j.cn112138-20251230-00802",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42103653/",
+      "mesh_terms": [
+        "Humans",
+        "Atrial Fibrillation",
+        "Male",
+        "Female",
+        "Middle Aged",
+        "Prospective Studies",
+        "Aged",
+        "Telephone",
+        "Follow-Up Studies",
+        "Catheter Ablation",
+        "Medication Adherence",
+        "Treatment Outcome"
+      ],
+      "pub_types": [
+        "English Abstract",
+        "Journal Article"
+      ],
+      "saved_date": "2026-05-10",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42098878",
+      "title": "Evaluation of large language models in cardiovascular surgery: a comparative study of board-level clinical question answering and generation.",
+      "authors": [
+        "Yesilkaya Mehmet Inanc",
+        "Yilmaz Uzeyir"
+      ],
+      "journal": "Journal of cardiothoracic surgery",
+      "year": "2026",
+      "abstract": "BACKGROUND: Large language models (LLMs) are increasingly being explored in surgical training and clinical knowledge assessment. Although these models have demonstrated promising performance in standardized examinations, their performance in highly specialized fields such as cardiovascular surgery remains insufficiently investigated. This study aimed to evaluate the performance of current large language models in answering and generating board-level cardiovascular surgery questions reflecting guideline-based clinical reasoning. METHODS: In this cross-sectional evaluation study, three large language models (ChatGPT-5.1, Gemini 3, and DeepSeek v3.2) were evaluated in two stages. In the first stage, the models answered 150 multiple-choice questions developed and validated by five cardiovascular surgery specialists using a Delphi process, designed to reflect the content scope and difficulty level of the American Board of Thoracic Surgery certification examination. Accuracy rates and pairwise comparisons were analyzed using the McNemar test. In the second stage, model-generated questions were evaluated by expert cardiovascular surgeons in terms of medical accuracy, clinical relevance, exam-level appropriateness, error type, and difficulty level. Statistical analyses included Spearman correlation, Wilcoxon signed-rank test, and chi-square analysis. RESULTS: The models demonstrated comparable accuracy rates (ChatGPT 80.7%; Gemini 78.7%; DeepSeek 82.0%), with no statistically significant differences between them. Question difficulty level was not associated with model accuracy. Error distribution differed significantly between models (\u03c7\u00b2 = 8.1; p\u2009=\u20090.02), with Gemini demonstrating the highest rate of valid question generation and DeepSeek showing a higher rate of major errors. A significant positive correlation was observed between model- and expert-assigned difficulty levels. CONCLUSIONS: Current large language models demonstrate strong performance in board-level cardiovascular surgery knowledge assessment. However, the presence of major errors and variability in difficulty calibration, together with known limitations in clinical reasoning, indicate that these systems should be used cautiously as supportive tools in surgical training and knowledge assessment rather than as substitutes for clinical decision-making.",
+      "doi": "10.1186/s13019-026-04251-1",
+      "doi_url": "https://doi.org/10.1186/s13019-026-04251-1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42098878/",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "saved_date": "2026-05-11",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42203295",
+      "title": "Pragmatic trial assessing polygenic risk driven statin therapy for cardiovascular disease prevention: study protocol for the EE-PRS trial.",
+      "authors": [
+        "Voit Ave",
+        "Elken Aet",
+        "Viigimaa Margus",
+        "Kalda Ruth",
+        "Fischer Krista",
+        "Toompere Karolin",
+        "Irs Alar",
+        "Milani Lili",
+        "Alavere Helene",
+        "Pajusalu Sander",
+        "Org Elin",
+        "Alloja Janika",
+        "Kaarna Katrin",
+        "J\u00fcrisson Mikk"
+      ],
+      "journal": "BMJ open",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Atherosclerotic cardiovascular disease (ASCVD) continues to be a leading cause of preventable death globally. Polygenic risk scores (PRS) offer a way to detect individuals at higher relative risk of developing ASCVD, but they have not yet been incorporated into routine clinical practice. Pragmatic trials offer a way to evaluate the integration of PRS into cardiovascular disease prevention in primary care, allowing for a more accurate assessment of their effectiveness in everyday clinical practice. METHODS AND ANALYSIS: This trial evaluates the effectiveness of preventive statin treatment on reducing the incidence of cardiovascular events and death over 5 years in women (aged 55-80)\u2009and men (aged 45-80) with a high coronary artery disease PRS. This is a pragmatic, multicentre, open-label, parallel group, randomised clinical trial with a 1:1 allocation ratio to intervention (n=1350), receiving preventive rosuvastatin 20\u2009mg treatment or control (n=1350), receiving current standard of care. Following the intention-to-treat principle, all randomised participants are analysed according to their allocated group, with the primary outcome defined as time to first major adverse cardiovascular event, comprising ischaemic heart disease, stroke or transient ischaemia, peripheral vascular occlusion and stenosis, revascularisation or cardiovascular death. ETHICS AND DISSEMINATION: This trial has received ethical approval from the Estonian Committee on Bioethics and Human Research (13.06.2024 nr 1.1-12/1531) and the Estonian Ethics Committee for Medicinal Products (19.12.2024 nr RKU-4/92). TRIAL REGISTRATION NUMBER: NCT06820086.",
+      "doi": "10.1136/bmjopen-2026-120048",
+      "doi_url": "https://doi.org/10.1136/bmjopen-2026-120048",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42203295/",
+      "mesh_terms": [
+        "Humans",
+        "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+        "Genetic Risk Score",
+        "Female",
+        "Aged",
+        "Male",
+        "Cardiovascular Diseases",
+        "Pragmatic Clinical Trials as Topic",
+        "Middle Aged",
+        "Multicenter Studies as Topic",
+        "Rosuvastatin Calcium",
+        "Aged, 80 and over",
+        "Randomized Controlled Trials as Topic",
+        "Coronary Artery Disease",
+        "Risk Assessment"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Clinical Trial Protocol"
+      ],
+      "saved_date": "2026-05-29",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42203447",
+      "title": "Current and Future Perspectives of LDL-C Lowering Therapies 2026.",
+      "authors": [
+        "Tada Hayato",
+        "Sakata Kenji",
+        "Usui Soichiro",
+        "Takamura Masayuki"
+      ],
+      "journal": "Journal of atherosclerosis and thrombosis",
+      "year": "2026",
+      "abstract": "LDL cholesterol (LDL-C) is the central causal factor for atherosclerotic cardiovascular disease (ASCVD), and its reduction is a cornerstone of both primary and secondary prevention. Since the introduction of statins more than three decades ago, LDL-C-lowering therapy has expanded substantially, now encompassing ezetimibe, proprotein convertase subtilisin/kexin type 9 (PCSK9)-targeting agents, bempedoic acid, and other emerging modalities. This expanding therapeutic landscape has improved the feasibility of achieving guideline-recommended LDL-C targets, but it has also increased the complexity of clinical decision making. This review provides a contemporary and practical overview of the LDL-C-lowering strategies, beginning with the initial evaluation of patients with elevated LDL-C, including differentiation between primary and secondary causes and the identification of familial hypercholesterolemia (FH). We summarize the current treatment targets for primary and secondary prevention, highlight the optimal selection and use of statins, and discuss the assessment and management of statin intolerance, including the role of the nocebo effect. Non-statin therapies, including ezetimibe, bile acid sequestrants, PCSK9 inhibitors, inclisiran, and bempedoic acid, are reviewed with an emphasis on their mechanisms, efficacy, and clinical positioning. Advanced therapies for severe dyslipidemia, such as lipoprotein apheresis, lomitapide, and evinacumab, are also discussed in this review. Finally, we outline the future directions, including oral PCSK9 inhibitors, next-generation cholesteryl ester transfer protein (CETP) inhibitors, lipoprotein(a)-lowering agents, and genome-editing approaches. Collectively, these developments offer new opportunities to address unmet clinical needs, particularly in patients with FH, statin intolerance, and residual cardiovascular risk. A comprehensive understanding of these therapies is essential for further reducing the burden of ASCVD in the coming decades.",
+      "doi": "10.5551/jat.RV22052",
+      "doi_url": "https://doi.org/10.5551/jat.RV22052",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42203447/",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "saved_date": "2026-05-29",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42201734",
+      "title": "Clinical Decision Support System, Antihypertensive Treatment Intensification, and Blood Pressure Control: A Post Hoc Secondary Analysis of a Cluster Randomized Trial.",
+      "authors": [
+        "Song Jiali",
+        "Liu Yanchen",
+        "Shang Qinggang",
+        "Liu Jiamin",
+        "Zhang Haibo",
+        "Zhou Zeming",
+        "Wang Wei",
+        "Lu Jiapeng",
+        "Zheng Xin"
+      ],
+      "journal": "JAMA network open",
+      "year": "2026",
+      "abstract": "IMPORTANCE: Clinical decision support systems (CDSSs) are increasingly used to improve guideline-based hypertension care; however, their association with antihypertensive treatment intensification and blood pressure (BP) control in primary care practices remains unclear. OBJECTIVES: To evaluate whether CDSS implementation was associated with improvement in antihypertensive treatment intensification and BP control in primary care practices and to examine the association between treatment intensification and BP change. DESIGN, SETTING, AND PARTICIPANTS: This post hoc secondary analysis used the data from a pragmatic cluster randomized clinical trial conducted from August 1, 2019, to July 31, 2022, in urban primary care practices in China among 4612 adult patients with hypertension and uncontrolled BP at baseline. Data analysis was conducted from August 1, 2024, to September 1, 2025. INTERVENTIONS: Practices randomized to the intervention group used a real-time, guideline-based CDSS for guiding antihypertensive treatment, while control practices delivered usual care. MAIN OUTCOMES AND MEASURES: Treatment intensification rate, defined as the percentage of clinic visits with uncontrolled BP during which there was an increase in the class or dose of antihypertensive medication. Among patients with uncontrolled BP at baseline, treatment intensification was assessed at visits with uncontrolled BP, and BP control was evaluated at the last follow-up visit. Treatment intensity was summarized using a treatment intensification score reflecting the frequency of medication intensification relative to guideline expectations. RESULTS: Among 4612 patients with uncontrolled BP at baseline (median age, 63 years [IQR, 52-74 years]; 2648 men [57.4%]; 2134 [46.3%] in CDSS group and 2478 [53.7%] in control group) from 93 practices, treatment intensification rates were higher in the CDSS group than in the usual care group (47.3% [95% CI, 40.1%-54.6%] vs 11.6% [95% CI, 8.9%-14.9%]; adjusted odds ratio [OR], 6.87 [95% CI, 4.90-9.64]; P\u2009<\u2009.001). The median treatment intensification score was higher in the CDSS group than in the usual care group (-0.25 [IQR, -0.50 to 0] vs -0.50 [IQR, -0.75 to -0.30]; mean difference, 0.22 [95% CI, 0.17-0.28]). Each 0.22-point increase in the treatment intensification score was associated with a mean systolic BP change of -3.8 mm Hg (95% CI, -4.1 to -3.5 mm Hg). BP control rates were similar between groups. CONCLUSIONS AND RELEVANCE: In this post hoc analysis of a cluster randomized clinical trial, CDSS implementation was associated with increased treatment intensification but was not associated with improvements in overall BP control. These findings suggest that stronger implementation strategies may be needed to translate treatment intensification into improved BP outcomes. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT03636334.",
+      "doi": "10.1001/jamanetworkopen.2026.14858",
+      "doi_url": "https://doi.org/10.1001/jamanetworkopen.2026.14858",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42201734/",
+      "mesh_terms": [
+        "Humans",
+        "Antihypertensive Agents",
+        "Hypertension",
+        "Male",
+        "Middle Aged",
+        "Decision Support Systems, Clinical",
+        "Female",
+        "Blood Pressure",
+        "Aged",
+        "China",
+        "Primary Health Care",
+        "Cluster Analysis"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Pragmatic Clinical Trial"
+      ],
+      "saved_date": "2026-05-29",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42191278",
+      "title": "Interventional Management of Atrial Fibrillation in the Chronic Heart Failure Population.",
+      "authors": [
+        "Patel Parin J",
+        "Ahmed Asim S"
+      ],
+      "journal": "Cardiac electrophysiology clinics",
+      "year": "2026",
+      "abstract": "Atrial fibrillation (AF) and heart failure (HF) synergistically interact to exacerbate each other. However, treatment of one entity can greatly improve management of the other. Although historically, permissive medical therapy was the mainstay of AF management in the HF population, recent data strongly favor early, often invasive, intervention for AF to reduce hard HF outcomes. It seems that intervening earlier in the time course of AF, though still not excluding persistent AF from treatment, may have more pronounced effects.",
+      "doi": "10.1016/j.ccep.2026.03.001",
+      "doi_url": "https://doi.org/10.1016/j.ccep.2026.03.001",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42191278/",
+      "mesh_terms": [
+        "Humans",
+        "Atrial Fibrillation",
+        "Heart Failure",
+        "Catheter Ablation",
+        "Chronic Disease",
+        "Cardiac Resynchronization Therapy"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "saved_date": "2026-05-29",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42210343",
+      "title": "Sustainability of an electronic technology-based intervention in general practice targeting improved detection and monitoring of the interrelated chronic vascular diseases.",
+      "authors": [
+        "Jones Julia L",
+        "Simons Koen",
+        "Manski-Nankervis Jo-Anne",
+        "Hamblin Peter Shane",
+        "Lumsden Natalie G",
+        "De Courten Maximilian P",
+        "Janus Edward D",
+        "Nelson Craig L"
+      ],
+      "journal": "BMC medical informatics and decision making",
+      "year": "2026",
+      "abstract": "BACKGROUND: Chronic kidney disease (CKD), type 2 diabetes (T2D) and cardiovascular disease cause substantial morbidity and mortality. Our earlier randomised stepped-wedge trial targeted these conditions using an electronic technology audit tool combined with benchmarking, education, monitoring and support to general practices. This study aimed to determine if changes seen in the original trial persisted 12\u2009months later. METHODS: The study commenced at completion of the original 80-week trial. Practices received: final training session, resource folder, ongoing electronic technology tool access; other intervention components were withdrawn. Active patients (\u22653 visits within last 24\u2009months) aged\u2009\u2265\u200918\u2009years within eight practices were included. Pre-defined variables from the original trial for which the credible interval (CI) did not include one, as well as two additional variables were re-assessed 12\u2009months later. De-identified data were analysed using R version 3.5.1 with Bayesian generalised linear mixed model with practice specific random intercept and linear slope for time. Net effect odds ratio (OR) reflects the combined outcome of the original trial and subsequent follow-up period. RESULTS: 37,813 patients were included at study end. Net OR and 95% CI showed: increased CKD diagnostic testing in those at risk (OR 1.4, CI 1.2-1.6), increased coded CKD diagnosis (OR 1.9, CI 1.6-2.2) and increased uACR testing in patients with T2D (OR 1.9, CI 1.4-2.5). When considering the proportion of patients with CKD on recommended management among all active patients aged\u2009\u2265\u200918\u2009years, there were also increased patients with CKD prescribed ACEI/ARBs (OR 1.8, CI 1.5-2.3) and prescribed statins (OR 1.8, CI 1.4-2.2). There was no sustained increase in T2D diagnostic testing in those at risk. CONCLUSIONS: Improvements strengthened in five areas including three out of four pre-defined variables that improved in the original trial and two additional variables that also showed improvement in the original trial, suggesting lasting benefits with ongoing electronic technology tool access. Further investigation incorporating control practices and qualitative research investigating which components best promote long-term changes would be beneficial. REGISTRATION NUMBER: ACTRN12617000335392. Date registered: 3 March 2017.",
+      "doi": "10.1186/s12911-026-03572-4",
+      "doi_url": "https://doi.org/10.1186/s12911-026-03572-4",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42210343/",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "saved_date": "2026-05-30",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42216129",
+      "title": "A real-world preventive primary care model for cardiorenal metabolic disease: clinical impact of a personalised care approach in Harrow, North West London.",
+      "authors": [
+        "Dattani R",
+        "Rahman R",
+        "Siddik S",
+        "Brookman V",
+        "Kelshiker A",
+        "Shah J",
+        "Frankel A H",
+        "Joshi M",
+        "Johal K"
+      ],
+      "journal": "BMC nephrology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Cardiorenal metabolic (CRM) disease, is identified by the co-location of multiple disorders including obesity, diabetes, hypertension, cardiovascular disease and chronic kidney disease (CKD). Early intervention is essential to slow CKD progression, reduce cardiovascular risk, and improve quality of life. The Harrow CRM Hub project established a personalised, multidisciplinary pathway to identify high-risk patients, optimise clinical management, and provide access to lifestyle and psychosocial support. This paper reports on the clinical outcomes achieved within the first year of implementation. METHODS: A comprehensive logic model was co-developed to guide the design, delivery, and evaluation of the Harrow CRM programme. Two EHR-identified cohorts were invited: (1) adults aged 20-80 years with BMI >27.5-30 kg/m\u00b2 (ethnicity-dependent) and non-diabetic hyperglycaemia \u00b1 hypertension (CRM Stage 2); and (2) adults with diabetes \u00b1 CKD or CVD (CRM Stage 4). Pre visit health questionnaire - using digital tools enabled detailed pre visit updates and tests. Protected consultations (lasting 30 to 45 minutes) followed a structured EHR template incorporating guideline-based optimisation of pharmacotherapy, risk calculators, and co-created lifestyle care plans. Data were extracted for paired analysis of systolic BP, HbA1c, and weight. A qualitative evaluation was undertaken to explore patient and staff experiences of the CRM pathway. RESULTS: Thus far, between November 2024 and September 2025, 2,641 patients were reviewed, with 2,300 included in paired analysis. Across the full cohort, mean changes were -3.65 mmHg in systolic BP (median -2.0 mmHg), -1.03 mmol/mol in HbA1c (median 0.0 mmol/mol), and -0.46 kg in weight (median 0.0 kg) (all p<0.001). For those with an improvement only - an average improvement of -14.12 mmHg (n=1,279) and an average deterioration of +10.61 mmHg among those whose readings worsened (n=895). HbA1c values showed a mean cohort wide reduction of -1.03 mmol/mol (median 0.0 mmol/mol), with mean changes of -8.08 mmol/mol among improvers (n=785) and +5.22 mmol/mol among those with deterioration (n=762). Weight trends showed a mean overall reduction of -0.46 kg (median 0.0 kg), comprising an average improvement of -3.63 kg among improvers (n=1,124) and deterioration of +3.93 kg among those with deterioration (n=761). Among those with paired readings, 33.4% achieved \u22655% BP reduction and 19.7% achieved \u226510%; 19.8% achieved \u22655% HbA1c improvement and 12.7% \u226510%; and 9.6% achieved \u22655% weight loss and 2.7% \u226510%. Overall, 73.9% improved in \u22651 parameter, while 10.4% improved across BP, HbA1c, and weight simultaneously. This real world review identified patients with improvements and deterioration in their health parameters. Qualitative findings showed patients valued extended consultations and holistic discussions, with vast majority of patients reporting greater understanding of their health and feeling more confident to manage it. A staff survey (n=14) provided supportive but preliminary quantitative evidence of having greater confidence in delivering CRM clinics and increased ability to access multidisciplinary expertise. CONCLUSION: A personalised, multidisciplinary CRM model embedded within primary care was associated with statistically and clinically significant improvements in blood pressure, glycaemic control, and weight in a large, ethnically diverse population. Patients and clinicians both reported greater engagement, confidence, and satisfaction. The approach combining structured identification, extended consultations, co-produced care plans, and workforce education demonstrates a scalable, sustainable pathway to slow CKD progression, reduce CVD risk, and enhance patient wellbeing across diverse communities.",
+      "doi": "10.1186/s12882-026-05040-7",
+      "doi_url": "https://doi.org/10.1186/s12882-026-05040-7",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42216129/",
+      "mesh_terms": [],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "saved_date": "2026-05-30",
+      "notes": "",
+      "tags": []
+    },
+    {
+      "pmid": "42252160",
+      "title": "From the Editors: Lipoprotein(a), inflammation, and residual ASCVD risk plus further evidence of greater benefits of LDL-C reduction in primary prevention.",
+      "authors": [
+        "Maki Kevin C",
+        "Barton Duell P"
+      ],
+      "journal": "Journal of clinical lipidology",
+      "year": "2026",
+      "abstract": "",
+      "doi": "10.1016/j.jacl.2026.05.232",
+      "doi_url": "https://doi.org/10.1016/j.jacl.2026.05.232",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42252160/",
+      "mesh_terms": [],
+      "pub_types": [
+        "Editorial"
+      ],
+      "saved_date": "2026-06-08",
+      "notes": "",
+      "tags": []
+    }
+  ],
+  "last_updated": "2026-06-08"
+}

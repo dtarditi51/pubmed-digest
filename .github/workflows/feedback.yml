@@ -1,0 +1,55 @@
+name: Digest Feedback
+
+# The ⭐ Star / 👎 Not relevant buttons in the digest open a prefilled issue.
+# This ingests it, updates the knowledge base / feedback store / graph, commits,
+# and closes the issue. Works from any device — nothing runs on the Mac.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: feedback           # serialise, so two taps can't race on the same files
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    # Only the repo owner's feedback counts — the repo is public and anyone can
+    # open an issue, but only Daniel's taps are allowed to train the graph.
+    if: github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply feedback
+        id: apply
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          python apply_feedback.py --title "$TITLE" --body "$BODY" > result.md
+          cat result.md
+
+      - name: Commit updated state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feedback.json knowledge_base.json knowledge_graph.json
+          git commit -m "feedback: ${{ github.event.issue.title }}" || echo "no changes"
+          git push || echo "nothing to push"
+
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body-file result.md
+          gh issue close   ${{ github.event.issue.number }}

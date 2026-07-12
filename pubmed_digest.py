@@ -20,6 +20,10 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, date
 from pathlib import Path
 
+import feedback
+import knowledge_graph
+import relevance
+
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent
 ENV_FILE  = BASE_DIR / ".env.local"
@@ -132,6 +136,11 @@ TOPICS = [
         ),
     },
 ]
+
+# Feedback is captured as GitHub Issues so the ⭐/👎 buttons work from any device
+# (a Pages digest on your phone cannot reach a server on your Mac). A workflow
+# ingests the issue, updates the graph, and closes it.
+GH_REPO = "dtarditi51/pubmed-digest"
 
 MAX_PER_TOPIC   = 3
 LOOKBACK_DAYS   = 2   # fetch last 2 days to catch overnight indexing lag
@@ -263,7 +272,14 @@ def size_score(abstract: str) -> int:
     return 1  # unknown — give benefit of the doubt
 
 # ── Composite scorer ───────────────────────────────────────────────────────────
-def score_paper(paper: dict) -> dict:
+def score_paper(paper: dict, profile: dict = None) -> dict:
+    """
+    Quality rubric (12 pts) plus a learned fit (-3..+3).
+
+    Quality says how good a paper is. Fit says how much it looks like the papers
+    you star versus the ones you thumbs-down — it is read off the knowledge
+    graph, so it sharpens every time you do either.
+    """
     title    = paper.get("title", "")
     abstract = paper.get("abstract", "")
     journal  = paper.get("journal", "")
@@ -274,16 +290,21 @@ def score_paper(paper: dict) -> dict:
     appl        = applicability_score(title, abstract)
     sz          = size_score(abstract)
 
-    total = jt + ds + appl + sz   # max = 3+4+3+2 = 12
+    quality = jt + ds + appl + sz   # max = 3+4+3+2 = 12
+    fit     = relevance.fit_score(paper, profile or {})
+    total   = max(quality + fit, 0)
+
     return {
         "total":              total,
-        "max":                12,
-        "pct":                round(total / 12 * 100),
+        "max":                15,
+        "pct":                round(total / 15 * 100),
         "journal_tier":       jt,
         "study_design":       dl,
         "study_design_score": ds,
         "applicability":      appl,
         "sample_size_score":  sz,
+        "quality":            quality,
+        "fit":                fit,
     }
 
 # ── PubMed API helpers ─────────────────────────────────────────────────────────
@@ -377,9 +398,12 @@ def _parse(article) -> dict:
 
     pub_types = [pt.text for pt in article.findall(".//PublicationType") if pt.text]
 
+    mesh = [m.findtext("DescriptorName", "") for m in article.findall(".//MeshHeading")]
+
     return dict(pmid=pmid, title=title, abstract=abstract,
                 authors=authors, journal=journal, year=year,
-                doi=doi, pub_types=pub_types)
+                doi=doi, pub_types=pub_types,
+                mesh_terms=[m for m in mesh if m])
 
 # ── Seen-PMIDs store ───────────────────────────────────────────────────────────
 def load_seen() -> dict:
@@ -395,12 +419,42 @@ def save_seen(seen: dict):
     pruned = {pid: d for pid, d in seen.items() if d >= cutoff}
     SEEN_FILE.write_text(json.dumps(pruned, indent=2))
 
+def filter_candidates(pmids: list, seen, blocked) -> list:
+    """
+    Drop already-seen and thumbs-downed PMIDs, preserving relevance order.
+
+    `seen` is pruned on a 60-day window, so it can't carry the blocklist: a
+    rejected PMID would silently become eligible again two months later.
+    `blocked` is never pruned.
+    """
+    return [p for p in pmids if p not in seen and p not in blocked]
+
 # ── HTML generation ────────────────────────────────────────────────────────────
 def _badge_color(pct: int) -> str:
     if pct < 50: return "#dc2626"
     if pct < 70: return "#ea580c"
     if pct < 85: return "#d97706"
     return "#16a34a"
+
+def _issue_url(kind: str, paper: dict) -> str:
+    """
+    Prefilled GitHub Issue link. Tapping it opens the issue form already filled
+    in — one more tap submits, and the feedback workflow does the rest. Works
+    the same on a Mac and on an iPhone, with nothing running locally.
+    """
+    pmid  = paper.get("pmid", "")
+    title = (paper.get("title", "") or "")[:90]
+    if kind == "star":
+        subject = f"⭐ star {pmid}"
+        body    = f"> {title}\n\nStarred from the digest. Add notes below (optional).\n"
+        label   = "star"
+    else:
+        subject = f"👎 reject {pmid}"
+        body    = (f"> {title}\n\nReason (optional, one line — it shows up in "
+                   f"`feedback.py --report`):\n")
+        label   = "reject"
+    q = urllib.parse.urlencode({"title": subject, "body": body, "labels": label})
+    return f"https://github.com/{GH_REPO}/issues/new?{q}"
 
 def _paper_card(paper: dict, rank: int) -> str:
     sc    = paper["_score"]
@@ -419,6 +473,18 @@ def _paper_card(paper: dict, rank: int) -> str:
 
     doi_btn = (f'<a href="{doi_url}" target="_blank" class="btn btn-doi">Full Text</a>'
                if doi_url else "")
+
+    star_url = _issue_url("star", paper)
+    down_url = _issue_url("reject", paper)
+
+    fit = sc.get("fit", 0)
+    fit_chip = ""
+    if fit > 0:
+        fit_chip = (f'<span class="fit-pos" title="Looks like papers you star '
+                    f'(learned from the knowledge graph)">⭐ +{fit}</span>')
+    elif fit < 0:
+        fit_chip = (f'<span class="fit-neg" title="Looks like papers you thumbs-down '
+                    f'(learned from the knowledge graph)">👎 {fit}</span>')
 
     return f"""
 <div class="card" id="p{paper['pmid']}">
@@ -441,11 +507,13 @@ def _paper_card(paper: dict, rank: int) -> str:
       <span title="Study design (max 4)">🔬 {sc['study_design_score']}/4</span>
       <span title="Clinical applicability (max 3)">🏥 {sc['applicability']}/3</span>
       <span title="Sample size (max 2)">👥 {sc['sample_size_score']}/2</span>
+      {fit_chip}
     </div>
     <div class="btns">
       <a href="{pm_url}" target="_blank" class="btn btn-pm">PubMed</a>
       {doi_btn}
-      <button class="btn btn-save" onclick="toggleSave('{paper['pmid']}',this)">⭐ Save</button>
+      <a href="{star_url}" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
+      <a href="{down_url}" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
     </div>
   </div>
 </div>"""
@@ -482,15 +550,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgro
 .stats{{display:flex;gap:28px;margin-top:14px}}
 .stat .n{{font-size:26px;font-weight:700}}
 .stat .l{{font-size:11px;opacity:.65;text-transform:uppercase;letter-spacing:.5px}}
-
-.save-bar{{background:#1e3a5f;color:#fff;padding:14px 40px;display:none;align-items:center;gap:14px;border-bottom:2px solid #2d6a9f;flex-wrap:wrap}}
-.save-bar.on{{display:flex}}
-.save-bar strong{{font-size:13px;white-space:nowrap}}
-.save-bar .status{{font-size:13px;flex:1;opacity:.85}}
-.sv-btn{{background:#16a34a;color:#fff;border:none;padding:7px 14px;border-radius:5px;cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap}}
-.sv-btn:hover{{background:#15803d}}
-.sv-btn:disabled{{background:#6b7280;cursor:default}}
-.cl-btn{{background:#dc2626;color:#fff;border:none;padding:7px 14px;border-radius:5px;cursor:pointer;font-size:12px;font-weight:600}}
 
 .wrap{{max-width:880px;margin:0 auto;padding:28px 20px}}
 
@@ -530,9 +589,10 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgro
 .btn-doi:hover{{background:#dcfce7}}
 .btn-save{{background:#fefce8;color:#92400e}}
 .btn-save:hover{{background:#fef9c3}}
-.btn-save.saved{{background:#d1fae5;color:#065f46}}
-.btn-save.saving{{background:#e0e7ff;color:#3730a3;cursor:default}}
-.btn-save.error{{background:#fee2e2;color:#991b1b}}
+.btn-down{{background:#fef2f2;color:#991b1b}}
+.btn-down:hover{{background:#fee2e2}}
+.fit-pos{{color:#15803d;font-weight:600}}
+.fit-neg{{color:#b91c1c;font-weight:600}}
 
 footer{{text-align:center;padding:28px;color:#9ca3af;font-size:12px}}
 footer code{{background:#f3f4f6;padding:2px 6px;border-radius:3px}}
@@ -550,108 +610,14 @@ footer code{{background:#f3f4f6;padding:2px 6px;border-radius:3px}}
   </div>
 </div>
 
-<div class="save-bar" id="bar">
-  <strong>📚 Save queue:</strong>
-  <span class="status" id="status">Ready to save</span>
-  <button class="sv-btn" id="sv-btn" onclick="doSave()">Save to Knowledge Base</button>
-  <button class="cl-btn" onclick="clr()">Clear</button>
-</div>
-
 <div class="wrap">
   {sections}
 </div>
 
 <footer>
-  Generated {run_dt} &nbsp;·&nbsp; PubMedAgent &nbsp;·&nbsp; Click ⭐ Save on any card, then "Save to Knowledge Base"
+  Generated {run_dt} &nbsp;·&nbsp; PubMedAgent &nbsp;·&nbsp; Tap ⭐ Star or 👎 Not relevant on any card — the graph learns from both
 </footer>
 
-<script>
-const SAVE_URL = 'http://127.0.0.1:8765/save';
-const q = new Set();
-const btnMap = {{}};  // pmid -> button element
-
-function toggleSave(id, btn) {{
-  if (q.has(id)) {{
-    q.delete(id);
-    btn.textContent = '⭐ Save';
-    btn.classList.remove('saved', 'saving', 'error');
-  }} else {{
-    q.add(id);
-    btn.textContent = '✅ Queued';
-    btn.classList.add('saved');
-  }}
-  btnMap[id] = btn;
-  render();
-}}
-
-function render() {{
-  const bar = document.getElementById('bar');
-  const status = document.getElementById('status');
-  if (q.size > 0) {{
-    bar.classList.add('on');
-    status.textContent = q.size === 1 ? '1 paper queued' : q.size + ' papers queued';
-  }} else {{
-    bar.classList.remove('on');
-  }}
-}}
-
-async function doSave() {{
-  if (q.size === 0) return;
-  const btn = document.getElementById('sv-btn');
-  const status = document.getElementById('status');
-  const pmids = [...q];
-
-  btn.disabled = true;
-  btn.textContent = 'Saving...';
-  status.textContent = 'Contacting save server...';
-
-  try {{
-    const res = await fetch(SAVE_URL, {{
-      method: 'POST',
-      headers: {{'Content-Type': 'application/json'}},
-      body: JSON.stringify({{pmids}})
-    }});
-    if (!res.ok) throw new Error('Server returned ' + res.status);
-    const data = await res.json();
-    let saved = 0, skipped = 0, errors = 0;
-    for (const r of data.results) {{
-      const b = btnMap[r.pmid];
-      if (r.status === 'saved') {{
-        saved++;
-        if (b) {{ b.textContent = '✅ Saved'; b.classList.add('saved'); b.classList.remove('saving','error'); }}
-      }} else if (r.status === 'already_saved') {{
-        skipped++;
-        if (b) {{ b.textContent = '📚 Already saved'; b.classList.add('saved'); }}
-      }} else {{
-        errors++;
-        if (b) {{ b.textContent = '❌ Error'; b.classList.add('error'); b.classList.remove('saved','saving'); }}
-      }}
-    }}
-    const parts = [];
-    if (saved) parts.push(saved + ' saved');
-    if (skipped) parts.push(skipped + ' already in KB');
-    if (errors) parts.push(errors + ' failed');
-    status.textContent = '✅ ' + parts.join(' · ') + ' — KB now has ' + data.total + ' papers';
-    q.clear();
-    btn.textContent = 'Save to Knowledge Base';
-    btn.disabled = false;
-    setTimeout(() => document.getElementById('bar').classList.remove('on'), 4000);
-  }} catch (err) {{
-    status.textContent = '❌ Save server not running. Start it: python3 ~/Desktop/PubMedAgent/server.py';
-    btn.textContent = 'Save to Knowledge Base';
-    btn.disabled = false;
-  }}
-}}
-
-function clr() {{
-  q.clear();
-  document.querySelectorAll('.btn-save').forEach(b => {{
-    b.textContent = '⭐ Save';
-    b.classList.remove('saved', 'saving', 'error');
-  }});
-  render();
-}}
-</script>
 </body>
 </html>"""
 
@@ -668,15 +634,25 @@ def main():
             except ValueError:
                 pass
 
+    # Both feedback loops. Blocklisted PMIDs never resurface; the profile learned
+    # from ⭐ stars and 👎 rejects re-ranks everything else.
+    knowledge_graph.build()          # refresh the graph from the latest feedback
+    blocked = feedback.blocklist()
+    profile = relevance.build_profile()
+
     print(f"\n🫀  PubMed Morning Digest — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"    API key: {'✓ present' if NCBI_API_KEY else '✗ missing (rate limited to 3 req/s)'}")
-    print(f"    Lookback: {lookback} day(s)  |  Max per topic: {MAX_PER_TOPIC}\n")
+    print(f"    Lookback: {lookback} day(s)  |  Max per topic: {MAX_PER_TOPIC}")
+    print(f"    Learned from: ⭐ {profile['n_starred']} starred  |  "
+          f"👎 {profile['n_rejected']} rejected  "
+          f"({len(profile['concepts'])} graph concepts, {len(blocked)} blocklisted)\n")
 
     DIGESTS_DIR.mkdir(parents=True, exist_ok=True)
 
     seen    = load_seen()
     results = {}
     all_new = []
+    blocked_hits = 0
 
     for topic in TOPICS:
         name  = topic["name"]
@@ -685,8 +661,12 @@ def main():
 
         try:
             pmids = search_pmids(query, lookback)
-            novel = [p for p in pmids if p not in seen]
+            hits  = sum(1 for p in pmids if p in blocked)
+            blocked_hits += hits
+            novel = filter_candidates(pmids, seen, blocked)
             print(f"{len(pmids):>3} found  {len(novel):>3} new", end="  ", flush=True)
+            if hits:
+                print(f"({hits} blocked)", end="  ", flush=True)
 
             if not novel:
                 results[name] = []
@@ -695,7 +675,7 @@ def main():
 
             papers = fetch_papers(novel[:25])
             for p in papers:
-                p["_score"] = score_paper(p)
+                p["_score"] = score_paper(p, profile)
             papers.sort(key=lambda p: p["_score"]["total"], reverse=True)
 
             top = papers[:MAX_PER_TOPIC]
@@ -724,6 +704,8 @@ def main():
 
     total = sum(len(v) for v in results.values())
     print(f"\n  ✅ {total} papers across {sum(1 for v in results.values() if v)} topics")
+    if blocked_hits:
+        print(f"  👎 {blocked_hits} blocklisted hit(s) filtered out")
     print(f"  📄 Digest: {latest}\n")
 
 
