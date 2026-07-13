@@ -1,6 +1,50 @@
 {
   "nodes": [
     {
+      "id": "pmid:42438599",
+      "type": "Paper",
+      "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-13T23:16:26"
+    },
+    {
+      "id": "journal:Journal of bone oncology",
+      "type": "Journal",
+      "label": "Journal of bone oncology",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Hou Chunhua",
+      "type": "Author",
+      "label": "Hou Chunhua",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Wang Anqi",
+      "type": "Author",
+      "label": "Wang Anqi",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Xiao Jianru",
+      "type": "Author",
+      "label": "Xiao Jianru",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Wang Xiang",
+      "type": "Author",
+      "label": "Wang Xiang",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Xu Wei",
+      "type": "Author",
+      "label": "Xu Wei",
+      "status": "rejected"
+    },
+    {
       "id": "pmid:42098926",
       "type": "Paper",
       "label": "GenAI-Supported Virtual Patients in Health Care Education: Systematic Review.",
@@ -1031,6 +1075,42 @@
     }
   ],
   "edges": [
+    {
+      "src": "pmid:42438599",
+      "rel": "published_in",
+      "dst": "journal:Journal of bone oncology",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438599",
+      "rel": "authored_by",
+      "dst": "author:Hou Chunhua",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438599",
+      "rel": "authored_by",
+      "dst": "author:Wang Anqi",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438599",
+      "rel": "authored_by",
+      "dst": "author:Xiao Jianru",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438599",
+      "rel": "authored_by",
+      "dst": "author:Wang Xiang",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438599",
+      "rel": "authored_by",
+      "dst": "author:Xu Wei",
+      "status": "rejected"
+    },
     {
       "src": "pmid:42098926",
       "rel": "has_mesh",
@@ -2106,5 +2186,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-13T12:18:36"
+  "last_updated": "2026-07-13T23:16:26"
 }

@@ -1,3 +1,22 @@
 {
-  "rejections": []
+  "rejections": [
+    {
+      "pmid": "42438599",
+      "title": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
+      "reason": "",
+      "timestamp": "2026-07-13T23:16:26",
+      "journal": "Journal of bone oncology",
+      "year": "2026",
+      "abstract": "OBJECTIVE: This review systematically evaluates the current research landscape, methodological characteristics, and translational challenges of artificial intelligence (AI) integrated with magnetic resonance imaging (MRI) across the diagnostic and therapeutic pathway of spinal metastases, with the aim of informing clinical practice and future research. METHODS: Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, we conducted a systematic search of PubMed, Web of Science, and the Cochrane Library. Original studies investigating AI models, including machine learning, deep learning, and large language models, developed from MRI data for spinal metastases were included. Two reviewers independently screened studies and extracted data. Sixty-one studies were included in the qualitative synthesis. RESULTS: The included studies focused on four core clinical tasks: diagnosis and pathological classification (23 studies), clinical prognosis and risk stratification (17 studies), lesion detection and segmentation (16 studies), and automated clinical scoring and report analysis (5 studies). AI models showed promising performance across these tasks, with the highest area under the curve (AUC) for benign-malignant differentiation reaching 0.98 and the highest Dice similarity coefficient (DSC) for automatic lesion segmentation exceeding 0.85. Nevertheless, important limitations remain. Most studies were single-center retrospective investigations (73%), and the majority addressed isolated tasks rather than integrated clinical workflows. Important gaps also persist in multicenter generalizability, long-term survival prediction, and multimodal data integration. CONCLUSION: MRI-based AI has substantial potential to improve the diagnosis and management of spinal metastases. Future studies should emphasize large-scale, multi-center prospective validation and integrated intelligent systems supporting screening, decision-making, treatment response assessment, and long-term follow-up.",
+      "authors": [
+        "Hou Chunhua",
+        "Wang Anqi",
+        "Xiao Jianru",
+        "Wang Xiang",
+        "Xu Wei"
+      ],
+      "mesh_terms": []
+    }
+  ],
+  "last_updated": "2026-07-13T23:16:26"
 }
