@@ -5,3 +5,4 @@
 __pycache__/
 .DS_Store
 _site/
+digest_email.html

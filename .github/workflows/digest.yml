@@ -73,3 +73,10 @@ jobs:
       - id: deploy
         if: steps.guard.outputs.skip != 'true'
         uses: actions/deploy-pages@v4
+
+      # Last, so an email hiccup can never block the digest itself.
+      - name: Email the digest
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python send_digest_email.py

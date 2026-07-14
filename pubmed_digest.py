@@ -535,6 +535,68 @@ def _topic_section(name: str, papers: list) -> str:
   {cards}
 </div>"""
 
+DIGEST_URL = "https://dtarditi51.github.io/pubmed-digest/"
+
+# ── Email rendering ────────────────────────────────────────────────────────────
+# A compact, email-safe version of the digest (inline styles, no JS — email
+# clients strip scripts, so the one-click ⭐/👎 buttons can't live here).
+# Each card links to PubMed and deep-links to its card on the digest page,
+# where the one-click buttons are. Sent by send_digest_email.py.
+
+def _email_card(paper: dict, rank: int) -> str:
+    sc     = paper["_score"]
+    color  = _badge_color(sc["pct"])
+    pm_url = f"https://pubmed.ncbi.nlm.nih.gov/{paper['pmid']}/"
+    rate   = f"{DIGEST_URL}#p{paper['pmid']}"
+    title  = html.escape(paper.get("title", "") or "")
+    meta   = html.escape(" · ".join(x for x in (paper.get("journal", ""), str(paper.get("year", "")), sc["study_design"]) if x))
+    fit    = sc.get("fit", 0)
+    if fit:
+        meta += f' &nbsp;<span style="color:{"#15803d" if fit > 0 else "#b91c1c"};font-weight:600">{"⭐ +" if fit > 0 else "👎 "}{fit}</span>'
+    abstract = paper.get("abstract", "") or ""
+    abstract = html.escape(abstract[:240] + ("…" if len(abstract) > 240 else ""))
+    return f"""
+  <div style="background:#ffffff;border-radius:8px;border-left:4px solid #2d6a9f;padding:14px 16px;margin:0 0 10px">
+    <div style="font-size:12px;color:#6b7280;margin-bottom:4px">#{rank} &nbsp;
+      <span style="background:{color};color:#fff;padding:1px 8px;border-radius:12px;font-size:11px;font-weight:700">{sc['pct']}%</span>
+      &nbsp;{meta}</div>
+    <div style="font-size:15px;font-weight:600;line-height:1.35;margin-bottom:5px">
+      <a href="{pm_url}" style="color:#1e3a5f;text-decoration:none">{title}</a></div>
+    <div style="font-size:13px;color:#374151;margin-bottom:8px">{abstract}</div>
+    <a href="{rate}" style="font-size:12px;color:#2d6a9f;font-weight:600;text-decoration:none">Rate&nbsp;⭐&nbsp;/&nbsp;👎&nbsp;on&nbsp;the&nbsp;digest&nbsp;→</a>
+  </div>"""
+
+
+def build_email_html(results: dict) -> str:
+    total  = sum(len(v) for v in results.values())
+    run_dt = datetime.now().strftime("%A, %B %d, %Y")
+    sections = []
+    for name, papers in results.items():
+        if not papers:
+            continue
+        cards = "".join(_email_card(p, i + 1) for i, p in enumerate(papers))
+        sections.append(
+            f'<div style="font-size:16px;font-weight:700;color:#1e3a5f;'
+            f'border-bottom:2px solid #2d6a9f;padding:16px 0 5px;margin-bottom:10px">'
+            f'{html.escape(name)} <span style="font-size:12px;color:#6b7280">· {len(papers)} new</span></div>{cards}'
+        )
+    body = "".join(sections) or '<p style="color:#6b7280">No new papers today.</p>'
+    return f"""<!-- papers:{total} -->
+<!DOCTYPE html>
+<html><body style="margin:0;padding:0;background:#f0f4f8;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+<div style="max-width:620px;margin:0 auto;padding:18px 12px">
+  <div style="background:#1e3a5f;color:#ffffff;border-radius:8px;padding:18px 20px;margin-bottom:14px">
+    <div style="font-size:19px;font-weight:700">🫀 PubMed Morning Digest</div>
+    <div style="font-size:13px;opacity:.8;margin-top:2px">{run_dt} · {total} new papers</div>
+    <a href="{DIGEST_URL}" style="display:inline-block;margin-top:10px;background:#ffffff;color:#1e3a5f;font-size:13px;font-weight:600;padding:7px 14px;border-radius:6px;text-decoration:none">Open the full digest →</a>
+  </div>
+  {body}
+  <div style="text-align:center;color:#9ca3af;font-size:12px;padding:16px 0">
+    PubMedAgent · tap "Rate" on any paper to teach the digest what you like
+  </div>
+</div>
+</body></html>"""
+
 # Plain string (not an f-string) so the JS braces don't need doubling; the
 # endpoint URL is substituted below. One tap POSTs the feedback, flips the
 # button to a confirmed state, and remembers it in localStorage so it survives
@@ -762,6 +824,9 @@ def main():
 
     out_path.write_text(html, encoding="utf-8")
     latest.write_text(html, encoding="utf-8")
+
+    # Email-safe rendering, picked up by send_digest_email.py (not committed).
+    (BASE_DIR / "digest_email.html").write_text(build_email_html(results), encoding="utf-8")
 
     total = sum(len(v) for v in results.values())
     print(f"\n  ✅ {total} papers across {sum(1 for v in results.values() if v)} topics")
