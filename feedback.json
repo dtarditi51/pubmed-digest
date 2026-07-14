@@ -137,7 +137,43 @@
         "Batsis John A"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42437683",
+      "title": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
+      "reason": "",
+      "timestamp": "2026-07-14T23:42:28",
+      "journal": "Australian journal of primary health",
+      "year": "2026",
+      "abstract": "BACKGROUND: To examine Australian general practitioners' (GPs) perspectives on initiating oral anticoagulation for stroke prevention in patients with atrial fibrillation, and their approaches to monitoring medication adherence and persistence. METHODS: This qualitative study used semi-structured interviews with Australian GPs recruited from a large survey of anticoagulation practices. Interviews were conducted online, audio-recorded, transcribed verbatim and analysed using thematic analysis with inductive coding. Analysis was undertaken independently by multiple researchers, with consensus reached through team discussion. Interviews continued until thematic saturation was achieved. RESULTS: Fourteen GPs were interviewed. Initial management of atrial fibrillation and oral anticoagulation initiation varied, with limited access to echocardiography and cardiology services identified as key barriers, along with patient bleeding risk. Assessing and monitoring long-term adherence and persistence remained challenging, particularly among patients with low health literacy, cognitive impairment, polypharmacy and financial constraints. GPs used a range of strategies to monitor and improve adherence and persistence, such as patient education, supplemented by recall systems, multidisciplinary input and pharmacist involvement. CONCLUSIONS: Australian GPs report multiple challenges in initiating and monitoring anticoagulation for atrial fibrillation. Enabling GPs to confidently start oral anticoagulants without delaying for diagnostic testing/cardiology review, improving access to echocardiography services, and supporting GPs to monitor adherence and persistence may help reduce stroke incidence.",
+      "authors": [
+        "Wright S",
+        "Hamed O",
+        "Lowres N",
+        "Giskes K",
+        "Orchard J",
+        "Freedman B",
+        "Hespe C"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Atrial Fibrillation",
+        "Stroke",
+        "Anticoagulants",
+        "Australia",
+        "General Practitioners",
+        "Male",
+        "Qualitative Research",
+        "Female",
+        "Administration, Oral",
+        "Middle Aged",
+        "Interviews as Topic",
+        "Medication Adherence",
+        "Aged",
+        "Practice Patterns, Physicians'",
+        "Attitude of Health Personnel"
+      ]
     }
   ],
-  "last_updated": "2026-07-14T23:42:04"
+  "last_updated": "2026-07-14T23:42:28"
 }

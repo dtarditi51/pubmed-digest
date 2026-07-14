@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:04"
+      "rejected_at": "2026-07-14T23:42:28"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:04"
+      "rejected_at": "2026-07-14T23:42:28"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:04"
+      "rejected_at": "2026-07-14T23:42:28"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:04"
+      "rejected_at": "2026-07-14T23:42:28"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:04"
+      "rejected_at": "2026-07-14T23:42:28"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:04"
+      "rejected_at": "2026-07-14T23:42:28"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:04"
+      "rejected_at": "2026-07-14T23:42:28"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -390,6 +390,128 @@
       "id": "author:Batsis John A",
       "type": "Author",
       "label": "Batsis John A",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42437683",
+      "type": "Paper",
+      "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-14T23:42:28"
+    },
+    {
+      "id": "mesh:Atrial Fibrillation",
+      "type": "MeshTerm",
+      "label": "Atrial Fibrillation",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Stroke",
+      "type": "MeshTerm",
+      "label": "Stroke",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Anticoagulants",
+      "type": "MeshTerm",
+      "label": "Anticoagulants",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Australia",
+      "type": "MeshTerm",
+      "label": "Australia",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:General Practitioners",
+      "type": "MeshTerm",
+      "label": "General Practitioners",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Qualitative Research",
+      "type": "MeshTerm",
+      "label": "Qualitative Research",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Administration, Oral",
+      "type": "MeshTerm",
+      "label": "Administration, Oral",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Interviews as Topic",
+      "type": "MeshTerm",
+      "label": "Interviews as Topic",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Medication Adherence",
+      "type": "MeshTerm",
+      "label": "Medication Adherence",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Practice Patterns, Physicians'",
+      "type": "MeshTerm",
+      "label": "Practice Patterns, Physicians'",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Attitude of Health Personnel",
+      "type": "MeshTerm",
+      "label": "Attitude of Health Personnel",
+      "status": "rejected"
+    },
+    {
+      "id": "journal:Australian journal of primary health",
+      "type": "Journal",
+      "label": "Australian journal of primary health",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Wright S",
+      "type": "Author",
+      "label": "Wright S",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Hamed O",
+      "type": "Author",
+      "label": "Hamed O",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Lowres N",
+      "type": "Author",
+      "label": "Lowres N",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Giskes K",
+      "type": "Author",
+      "label": "Giskes K",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Orchard J",
+      "type": "Author",
+      "label": "Orchard J",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Freedman B",
+      "type": "Author",
+      "label": "Freedman B",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Hespe C",
+      "type": "Author",
+      "label": "Hespe C",
       "status": "rejected"
     },
     {
@@ -693,27 +815,9 @@
       "year": "2026"
     },
     {
-      "id": "mesh:Atrial Fibrillation",
-      "type": "MeshTerm",
-      "label": "Atrial Fibrillation",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Anticoagulants",
-      "type": "MeshTerm",
-      "label": "Anticoagulants",
-      "status": "active"
-    },
-    {
       "id": "mesh:Catheter Ablation",
       "type": "MeshTerm",
       "label": "Catheter Ablation",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Administration, Oral",
-      "type": "MeshTerm",
-      "label": "Administration, Oral",
       "status": "active"
     },
     {
@@ -793,12 +897,6 @@
       "id": "mesh:Follow-Up Studies",
       "type": "MeshTerm",
       "label": "Follow-Up Studies",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Medication Adherence",
-      "type": "MeshTerm",
-      "label": "Medication Adherence",
       "status": "active"
     },
     {
@@ -1970,6 +2068,150 @@
       "src": "pmid:42438123",
       "rel": "authored_by",
       "dst": "author:Batsis John A",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Atrial Fibrillation",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Stroke",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Anticoagulants",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Australia",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:General Practitioners",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Qualitative Research",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Administration, Oral",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Interviews as Topic",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Medication Adherence",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Practice Patterns, Physicians'",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "has_mesh",
+      "dst": "mesh:Attitude of Health Personnel",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "published_in",
+      "dst": "journal:Australian journal of primary health",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "authored_by",
+      "dst": "author:Wright S",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "authored_by",
+      "dst": "author:Hamed O",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "authored_by",
+      "dst": "author:Lowres N",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "authored_by",
+      "dst": "author:Giskes K",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "authored_by",
+      "dst": "author:Orchard J",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "authored_by",
+      "dst": "author:Freedman B",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42437683",
+      "rel": "authored_by",
+      "dst": "author:Hespe C",
       "status": "rejected"
     },
     {
@@ -3323,5 +3565,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T23:42:04"
+  "last_updated": "2026-07-14T23:42:28"
 }
