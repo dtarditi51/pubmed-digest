@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:58:36"
+      "rejected_at": "2026-07-14T10:59:03"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:58:36"
+      "rejected_at": "2026-07-14T10:59:03"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:58:36"
+      "rejected_at": "2026-07-14T10:59:03"
     },
     {
       "id": "journal:Thyroid research",
@@ -124,6 +124,56 @@
       "id": "author:Cao ZheXu",
       "type": "Author",
       "label": "Cao ZheXu",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42442042",
+      "type": "Paper",
+      "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-14T10:59:03"
+    },
+    {
+      "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
+      "type": "Journal",
+      "label": "Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Frick Sandra Wohlin",
+      "type": "Author",
+      "label": "Frick Sandra Wohlin",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Partoft Ruth",
+      "type": "Author",
+      "label": "Partoft Ruth",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Mattsson Kristina",
+      "type": "Author",
+      "label": "Mattsson Kristina",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Bogren Malin",
+      "type": "Author",
+      "label": "Bogren Malin",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Hansson Stefan R",
+      "type": "Author",
+      "label": "Hansson Stefan R",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Elden Helen",
+      "type": "Author",
+      "label": "Elden Helen",
       "status": "rejected"
     },
     {
@@ -1424,6 +1474,48 @@
       "status": "rejected"
     },
     {
+      "src": "pmid:42442042",
+      "rel": "published_in",
+      "dst": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42442042",
+      "rel": "authored_by",
+      "dst": "author:Frick Sandra Wohlin",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42442042",
+      "rel": "authored_by",
+      "dst": "author:Partoft Ruth",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42442042",
+      "rel": "authored_by",
+      "dst": "author:Mattsson Kristina",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42442042",
+      "rel": "authored_by",
+      "dst": "author:Bogren Malin",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42442042",
+      "rel": "authored_by",
+      "dst": "author:Hansson Stefan R",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42442042",
+      "rel": "authored_by",
+      "dst": "author:Elden Helen",
+      "status": "rejected"
+    },
+    {
       "src": "pmid:42098926",
       "rel": "has_mesh",
       "dst": "mesh:Humans",
@@ -2660,5 +2752,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T10:58:36"
+  "last_updated": "2026-07-14T10:59:03"
 }
