@@ -521,6 +521,40 @@
       "saved_date": "2026-07-14",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42432919",
+      "title": "Association of fat-related metabolic indices with MASLD and liver fibrosis: a cross-sectional analysis of NHANES 2017-2020.",
+      "abstract": "The metabolic dysfunction-associated steatotic liver disease (MASLD) framework emphasizes the central role of metabolic disturbances in fatty liver disease. Fat-related metabolic indices integrate information on insulin resistance and adiposity; however, their associations with MASLD and hepatic fibrosis at the population level have not been fully elucidated. Thus, this study aimed to examine the associations of 6 fat-related metabolic indices with MASLD and liver fibrosis in a nationally representative U.S. population. We analyzed data from the National Health and Nutrition Examination Survey 2017-2020. Six fat-related metabolic indices: metabolic score for insulin resistance, metabolic score for visceral fat, cardiometabolic index, triglyceride-glucose index, waist triglyceride index, and lipid accumulation product, were calculated and categorized into quartiles. Hepatic steatosis and fibrosis were assessed using vibration-controlled transient elastography based on controlled attenuation parameter and liver stiffness measurement. Multivariable regression analyses were performed with progressive adjustment for potential confounders. All 6 indices exhibited significant dose-response associations with controlled attenuation parameter and MASLD prevalence. Higher quartiles were consistently associated with increased odds of MASLD after full adjustment. Positive associations with liver stiffness measurement and liver fibrosis were also observed, although the magnitude of associations was attenuated after comprehensive covariate adjustment. Among the indices, metabolic indices: metabolic score for insulin resistance, metabolic score for visceral fat, cardiometabolic index and lipid accumulation product demonstrated the strongest discriminative ability for liver fibrosis. Fat-related metabolic indices reflecting insulin resistance and adiposity are closely associated with MASLD and liver fibrosis in the general population, highlighting their relevance to metabolic liver disease phenotypes.",
+      "authors": [
+        "Shen Neng",
+        "Wei Qinghua",
+        "Zhao Jiangang",
+        "Cai Jiacheng"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Liver Cirrhosis",
+        "Cross-Sectional Studies",
+        "Nutrition Surveys",
+        "Female",
+        "Male",
+        "Insulin Resistance",
+        "Middle Aged",
+        "Adult",
+        "Fatty Liver",
+        "United States",
+        "Triglycerides",
+        "Adiposity",
+        "Intra-Abdominal Fat"
+      ],
+      "journal": "Medicine",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42432919/",
+      "saved_date": "2026-07-14",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-14"

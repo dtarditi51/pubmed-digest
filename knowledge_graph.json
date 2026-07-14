@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:39:33"
+      "rejected_at": "2026-07-14T23:40:06"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:39:33"
+      "rejected_at": "2026-07-14T23:40:06"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:39:33"
+      "rejected_at": "2026-07-14T23:40:06"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:39:33"
+      "rejected_at": "2026-07-14T23:40:06"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:39:33"
+      "rejected_at": "2026-07-14T23:40:06"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -242,7 +242,7 @@
       "id": "mesh:Adult",
       "type": "MeshTerm",
       "label": "Adult",
-      "status": "rejected"
+      "status": "active"
     },
     {
       "id": "mesh:Aged",
@@ -1417,6 +1417,91 @@
       "id": "author:Dendale Paul",
       "type": "Author",
       "label": "Dendale Paul",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42432919",
+      "type": "Paper",
+      "label": "Association of fat-related metabolic indices with MASLD and liver fibrosis: a cross-sectional analysis of NHANES 2017-2020.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Liver Cirrhosis",
+      "type": "MeshTerm",
+      "label": "Liver Cirrhosis",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Cross-Sectional Studies",
+      "type": "MeshTerm",
+      "label": "Cross-Sectional Studies",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Nutrition Surveys",
+      "type": "MeshTerm",
+      "label": "Nutrition Surveys",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Insulin Resistance",
+      "type": "MeshTerm",
+      "label": "Insulin Resistance",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Fatty Liver",
+      "type": "MeshTerm",
+      "label": "Fatty Liver",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Triglycerides",
+      "type": "MeshTerm",
+      "label": "Triglycerides",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Adiposity",
+      "type": "MeshTerm",
+      "label": "Adiposity",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Intra-Abdominal Fat",
+      "type": "MeshTerm",
+      "label": "Intra-Abdominal Fat",
+      "status": "active"
+    },
+    {
+      "id": "journal:Medicine",
+      "type": "Journal",
+      "label": "Medicine",
+      "status": "active"
+    },
+    {
+      "id": "author:Shen Neng",
+      "type": "Author",
+      "label": "Shen Neng",
+      "status": "active"
+    },
+    {
+      "id": "author:Wei Qinghua",
+      "type": "Author",
+      "label": "Wei Qinghua",
+      "status": "active"
+    },
+    {
+      "id": "author:Zhao Jiangang",
+      "type": "Author",
+      "label": "Zhao Jiangang",
+      "status": "active"
+    },
+    {
+      "id": "author:Cai Jiacheng",
+      "type": "Author",
+      "label": "Cai Jiacheng",
       "status": "active"
     }
   ],
@@ -2890,7 +2975,121 @@
       "rel": "authored_by",
       "dst": "author:Dendale Paul",
       "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Liver Cirrhosis",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Cross-Sectional Studies",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Nutrition Surveys",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Insulin Resistance",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Adult",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Fatty Liver",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:United States",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Triglycerides",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Adiposity",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "has_mesh",
+      "dst": "mesh:Intra-Abdominal Fat",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "published_in",
+      "dst": "journal:Medicine",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "authored_by",
+      "dst": "author:Shen Neng",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "authored_by",
+      "dst": "author:Wei Qinghua",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "authored_by",
+      "dst": "author:Zhao Jiangang",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42432919",
+      "rel": "authored_by",
+      "dst": "author:Cai Jiacheng",
+      "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T23:39:33"
+  "last_updated": "2026-07-14T23:40:06"
 }
