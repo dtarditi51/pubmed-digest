@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:58:15"
+      "rejected_at": "2026-07-14T10:58:36"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:58:15"
+      "rejected_at": "2026-07-14T10:58:36"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:58:15"
+      "rejected_at": "2026-07-14T10:58:36"
     },
     {
       "id": "journal:Thyroid research",
@@ -1286,6 +1286,37 @@
       "id": "author:Smith Sidney C",
       "type": "Author",
       "label": "Smith Sidney C",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42442764",
+      "type": "Paper",
+      "label": "From wearables to digital twins: the digital transformation of cardiovascular prevention: ESC Digital & AI Summit 2025.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:European journal of preventive cardiology",
+      "type": "Journal",
+      "label": "European journal of preventive cardiology",
+      "status": "active"
+    },
+    {
+      "id": "author:Bruining Nico",
+      "type": "Author",
+      "label": "Bruining Nico",
+      "status": "active"
+    },
+    {
+      "id": "author:Kizilkilic Sevda Ece",
+      "type": "Author",
+      "label": "Kizilkilic Sevda Ece",
+      "status": "active"
+    },
+    {
+      "id": "author:Dendale Paul",
+      "type": "Author",
+      "label": "Dendale Paul",
       "status": "active"
     }
   ],
@@ -2603,7 +2634,31 @@
       "rel": "authored_by",
       "dst": "author:Smith Sidney C",
       "status": "active"
+    },
+    {
+      "src": "pmid:42442764",
+      "rel": "published_in",
+      "dst": "journal:European journal of preventive cardiology",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42442764",
+      "rel": "authored_by",
+      "dst": "author:Bruining Nico",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42442764",
+      "rel": "authored_by",
+      "dst": "author:Kizilkilic Sevda Ece",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42442764",
+      "rel": "authored_by",
+      "dst": "author:Dendale Paul",
+      "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T10:58:15"
+  "last_updated": "2026-07-14T10:58:36"
 }
