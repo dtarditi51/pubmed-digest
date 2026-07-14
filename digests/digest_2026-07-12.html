@@ -60,6 +60,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 footer{text-align:center;padding:28px;color:#9ca3af;font-size:12px}
 footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
+
+.btn:disabled{opacity:.55;cursor:default}
+.btn.done{opacity:1;font-weight:700}
+.btn-save.done{background:#fde68a;color:#78350f}
+.btn-down.done{background:#fecaca;color:#7f1d1d}
 </style>
 </head>
 <body>
@@ -104,8 +109,8 @@ footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
     <div class="btns">
       <a href="https://pubmed.ncbi.nlm.nih.gov/42428047/" target="_blank" class="btn btn-pm">PubMed</a>
       <a href="https://doi.org/10.1007/s11571-026-10496-2" target="_blank" class="btn btn-doi">Full Text</a>
-      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42428047&body=%3E+Linguistics+and+human+brain%3A+a+perspective+of+computational+neuroscience.%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&labels=star" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
-      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42428047&body=%3E+Linguistics+and+human+brain%3A+a+perspective+of+computational+neuroscience.%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&labels=reject" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
+      <button type="button" class="btn btn-save" data-kind="star" data-pmid="42428047" data-title="Linguistics and human brain: a perspective of computational neuroscience." data-fallback="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42428047&amp;body=%3E+Linguistics+and+human+brain%3A+a+perspective+of+computational+neuroscience.%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&amp;labels=star">⭐ Star</button>
+      <button type="button" class="btn btn-down" data-kind="reject" data-pmid="42428047" data-title="Linguistics and human brain: a perspective of computational neuroscience." data-fallback="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42428047&amp;body=%3E+Linguistics+and+human+brain%3A+a+perspective+of+computational+neuroscience.%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&amp;labels=reject">👎 Not relevant</button>
     </div>
   </div>
 </div>
@@ -134,8 +139,8 @@ footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
     <div class="btns">
       <a href="https://pubmed.ncbi.nlm.nih.gov/42430068/" target="_blank" class="btn btn-pm">PubMed</a>
       <a href="https://doi.org/10.1007/s10554-026-03774-x" target="_blank" class="btn btn-doi">Full Text</a>
-      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42430068&body=%3E+Deep-learning+denoising+for+ultrahigh-resolution+photon-counting+detector+CT%3A+phantom+and+%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&labels=star" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
-      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42430068&body=%3E+Deep-learning+denoising+for+ultrahigh-resolution+photon-counting+detector+CT%3A+phantom+and+%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&labels=reject" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
+      <button type="button" class="btn btn-save" data-kind="star" data-pmid="42430068" data-title="Deep-learning denoising for ultrahigh-resolution photon-counting detector CT: phantom and " data-fallback="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42430068&amp;body=%3E+Deep-learning+denoising+for+ultrahigh-resolution+photon-counting+detector+CT%3A+phantom+and+%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&amp;labels=star">⭐ Star</button>
+      <button type="button" class="btn btn-down" data-kind="reject" data-pmid="42430068" data-title="Deep-learning denoising for ultrahigh-resolution photon-counting detector CT: phantom and " data-fallback="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42430068&amp;body=%3E+Deep-learning+denoising+for+ultrahigh-resolution+photon-counting+detector+CT%3A+phantom+and+%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&amp;labels=reject">👎 Not relevant</button>
     </div>
   </div>
 </div>
@@ -164,8 +169,8 @@ footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
     <div class="btns">
       <a href="https://pubmed.ncbi.nlm.nih.gov/42431794/" target="_blank" class="btn btn-pm">PubMed</a>
       <a href="https://doi.org/10.1016/j.acra.2026.06.028" target="_blank" class="btn btn-doi">Full Text</a>
-      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42431794&body=%3E+CT-based+Deep+Learning+Model+for+Automatic+Segmentation+and+Early+Predicting+of+Pyogenic+L%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&labels=star" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
-      <a href="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42431794&body=%3E+CT-based+Deep+Learning+Model+for+Automatic+Segmentation+and+Early+Predicting+of+Pyogenic+L%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&labels=reject" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
+      <button type="button" class="btn btn-save" data-kind="star" data-pmid="42431794" data-title="CT-based Deep Learning Model for Automatic Segmentation and Early Predicting of Pyogenic L" data-fallback="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%E2%AD%90+star+42431794&amp;body=%3E+CT-based+Deep+Learning+Model+for+Automatic+Segmentation+and+Early+Predicting+of+Pyogenic+L%0A%0AStarred+from+the+digest.+Add+notes+below+%28optional%29.%0A&amp;labels=star">⭐ Star</button>
+      <button type="button" class="btn btn-down" data-kind="reject" data-pmid="42431794" data-title="CT-based Deep Learning Model for Automatic Segmentation and Early Predicting of Pyogenic L" data-fallback="https://github.com/dtarditi51/pubmed-digest/issues/new?title=%F0%9F%91%8E+reject+42431794&amp;body=%3E+CT-based+Deep+Learning+Model+for+Automatic+Segmentation+and+Early+Predicting+of+Pyogenic+L%0A%0AReason+%28optional%2C+one+line+%E2%80%94+it+shows+up+in+%60feedback.py+--report%60%29%3A%0A&amp;labels=reject">👎 Not relevant</button>
     </div>
   </div>
 </div>
@@ -176,5 +181,48 @@ footer code{background:#f3f4f6;padding:2px 6px;border-radius:3px}
   Generated Sunday, July 12, 2026  05:06 PM &nbsp;·&nbsp; PubMedAgent &nbsp;·&nbsp; Tap ⭐ Star or 👎 Not relevant on any card — the graph learns from both
 </footer>
 
+
+<script>
+(function () {
+  var API = "https://pubmed-feedback.vercel.app/api/feedback";
+  var KEY = "pubmed-feedback";
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+
+  function finish(btn, kind) {
+    btn.textContent = kind === "star" ? "⭐ Starred" : "👎 Noted";
+    btn.classList.add("done");
+    btn.closest(".btns").querySelectorAll("button[data-kind]").forEach(function (b) {
+      b.disabled = true;
+    });
+  }
+
+  document.querySelectorAll("button[data-kind]").forEach(function (b) {
+    if (saved[b.dataset.pmid] === b.dataset.kind) finish(b, b.dataset.kind);
+  });
+
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest("button[data-kind]");
+    if (!btn || btn.disabled) return;
+    var kind = btn.dataset.kind, pmid = btn.dataset.pmid, orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = kind === "star" ? "⭐ …" : "👎 …";
+    fetch(API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ kind: kind, pmid: pmid, title: btn.dataset.title })
+    }).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      saved[pmid] = kind;
+      try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+      finish(btn, kind);
+    }).catch(function () {
+      btn.disabled = false;
+      btn.textContent = orig;
+      window.open(btn.dataset.fallback, "_blank");
+    });
+  });
+})();
+</script>
 </body>
 </html>

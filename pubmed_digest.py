@@ -8,6 +8,7 @@ Usage: python3 pubmed_digest.py [--lookback N]
   --lookback N   fetch articles from last N days (default: 2)
 """
 
+import html
 import json
 import os
 import re
@@ -141,6 +142,11 @@ TOPICS = [
 # (a Pages digest on your phone cannot reach a server on your Mac). A workflow
 # ingests the issue, updates the graph, and closes it.
 GH_REPO = "dtarditi51/pubmed-digest"
+
+# One-click feedback: the buttons POST here and a Vercel function opens the
+# issue server-side (feedback-api/). If the endpoint errors — token missing,
+# Vercel down — the page falls back to opening the prefilled issue form.
+FEEDBACK_API = "https://pubmed-feedback.vercel.app/api/feedback"
 
 MAX_PER_TOPIC   = 3
 LOOKBACK_DAYS   = 2   # fetch last 2 days to catch overnight indexing lag
@@ -474,8 +480,9 @@ def _paper_card(paper: dict, rank: int) -> str:
     doi_btn = (f'<a href="{doi_url}" target="_blank" class="btn btn-doi">Full Text</a>'
                if doi_url else "")
 
-    star_url = _issue_url("star", paper)
-    down_url = _issue_url("reject", paper)
+    star_url = html.escape(_issue_url("star", paper), quote=True)
+    down_url = html.escape(_issue_url("reject", paper), quote=True)
+    data_title = html.escape((paper.get("title", "") or "")[:90], quote=True)
 
     fit = sc.get("fit", 0)
     fit_chip = ""
@@ -512,8 +519,8 @@ def _paper_card(paper: dict, rank: int) -> str:
     <div class="btns">
       <a href="{pm_url}" target="_blank" class="btn btn-pm">PubMed</a>
       {doi_btn}
-      <a href="{star_url}" target="_blank" rel="noopener" class="btn btn-save">⭐ Star</a>
-      <a href="{down_url}" target="_blank" rel="noopener" class="btn btn-down">👎 Not relevant</a>
+      <button type="button" class="btn btn-save" data-kind="star" data-pmid="{paper['pmid']}" data-title="{data_title}" data-fallback="{star_url}">⭐ Star</button>
+      <button type="button" class="btn btn-down" data-kind="reject" data-pmid="{paper['pmid']}" data-title="{data_title}" data-fallback="{down_url}">👎 Not relevant</button>
     </div>
   </div>
 </div>"""
@@ -527,6 +534,54 @@ def _topic_section(name: str, papers: list) -> str:
   <h2>{name} <span class="cnt">{len(papers)} new</span></h2>
   {cards}
 </div>"""
+
+# Plain string (not an f-string) so the JS braces don't need doubling; the
+# endpoint URL is substituted below. One tap POSTs the feedback, flips the
+# button to a confirmed state, and remembers it in localStorage so it survives
+# reloads. Any failure falls back to the old prefilled-issue-form flow.
+FEEDBACK_JS = """
+<script>
+(function () {
+  var API = "__API__";
+  var KEY = "pubmed-feedback";
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+
+  function finish(btn, kind) {
+    btn.textContent = kind === "star" ? "⭐ Starred" : "👎 Noted";
+    btn.classList.add("done");
+    btn.closest(".btns").querySelectorAll("button[data-kind]").forEach(function (b) {
+      b.disabled = true;
+    });
+  }
+
+  document.querySelectorAll("button[data-kind]").forEach(function (b) {
+    if (saved[b.dataset.pmid] === b.dataset.kind) finish(b, b.dataset.kind);
+  });
+
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest("button[data-kind]");
+    if (!btn || btn.disabled) return;
+    var kind = btn.dataset.kind, pmid = btn.dataset.pmid, orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = kind === "star" ? "⭐ …" : "👎 …";
+    fetch(API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ kind: kind, pmid: pmid, title: btn.dataset.title })
+    }).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      saved[pmid] = kind;
+      try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+      finish(btn, kind);
+    }).catch(function () {
+      btn.disabled = false;
+      btn.textContent = orig;
+      window.open(btn.dataset.fallback, "_blank");
+    });
+  });
+})();
+</script>""".replace("__API__", FEEDBACK_API)
 
 def build_html(results: dict) -> str:
     total   = sum(len(v) for v in results.values())
@@ -594,6 +649,11 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgro
 .fit-pos{{color:#15803d;font-weight:600}}
 .fit-neg{{color:#b91c1c;font-weight:600}}
 
+.btn:disabled{{opacity:.55;cursor:default}}
+.btn.done{{opacity:1;font-weight:700}}
+.btn-save.done{{background:#fde68a;color:#78350f}}
+.btn-down.done{{background:#fecaca;color:#7f1d1d}}
+
 footer{{text-align:center;padding:28px;color:#9ca3af;font-size:12px}}
 footer code{{background:#f3f4f6;padding:2px 6px;border-radius:3px}}
 </style>
@@ -618,6 +678,7 @@ footer code{{background:#f3f4f6;padding:2px 6px;border-radius:3px}}
   Generated {run_dt} &nbsp;·&nbsp; PubMedAgent &nbsp;·&nbsp; Tap ⭐ Star or 👎 Not relevant on any card — the graph learns from both
 </footer>
 
+{FEEDBACK_JS}
 </body>
 </html>"""
 

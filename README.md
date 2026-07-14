@@ -23,8 +23,13 @@ on a Mac or an iPhone, with nothing running locally:
 
 | Button | What it does |
 |---|---|
-| ⭐ **Star** | Opens a prefilled GitHub Issue. The `Digest Feedback` workflow adds the paper to `knowledge_base.json`, ingests it into the knowledge graph as endorsed knowledge, commits, and closes the issue. |
-| 👎 **Not relevant** | Same, but the paper is blocklisted (never surfaced again) and its node and edges are marked `rejected` in the graph. Anything you type in the issue body is recorded as the reason. |
+| ⭐ **Star** | One tap. The page POSTs to a small Vercel function (`feedback-api/`) that opens the GitHub Issue for you; the `Digest Feedback` workflow then adds the paper to `knowledge_base.json`, ingests it into the knowledge graph as endorsed knowledge, commits, and closes the issue. |
+| 👎 **Not relevant** | Same, but the paper is blocklisted (never surfaced again) and its node and edges are marked `rejected` in the graph. |
+
+If the endpoint is unreachable (or its `FEEDBACK_GITHUB_TOKEN` env var is unset),
+the buttons fall back to opening the prefilled issue form — the original two-tap
+flow. The endpoint's token is a fine-grained PAT scoped to this repo with
+*Issues: Read and write* only.
 
 **How it hones the digest.** `knowledge_graph.json` projects every judged paper into
 nodes (Paper, MeshTerm, Journal, Author) and edges. Each concept gets a weight:
