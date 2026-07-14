@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:47:41"
+      "rejected_at": "2026-07-14T10:55:00"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:47:41"
+      "rejected_at": "2026-07-14T10:55:00"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -2266,5 +2266,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T10:47:41"
+  "last_updated": "2026-07-14T10:55:00"
 }
