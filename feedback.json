@@ -35,7 +35,22 @@
         "Urology",
         "Humans"
       ]
+    },
+    {
+      "pmid": "42443968",
+      "title": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
+      "reason": "",
+      "timestamp": "2026-07-14T10:57:40",
+      "journal": "Thyroid research",
+      "year": "2026",
+      "abstract": "BACKGROUND: Hashimoto's thyroiditis (HT) is the most common autoimmune thyroid disorder, often diagnosed using ultrasound. However, conventional gray-scale ultrasound is subject to high subjectivity and operator dependence. Artificial intelligence (AI)-assisted ultrasound has the potential to enhance diagnostic accuracy, but its clinical value remains unclear due to heterogeneous study designs and reference standards. OBJECTIVE: To systematically review and conduct a diagnostic test accuracy meta-analysis of AI-based gray-scale ultrasound models for diagnosing HT. METHODS: We searched PubMed, Embase, Cochrane Library, Scopus, and Web of Science databases up to February 2026. Studies were included if they used AI models including machine learning (ML) and deep learning (DL) for diagnosing HT via gray-scale ultrasound. Pooled sensitivity, specificity, and area under the receiver operating characteristic curve (AUC) were calculated. Subgroup analyses were performed based on modeling strategy, reference standard and population. RESULTS: Sixteen studies were included, comprising research from China, Poland, Korea, and Romania. The pooled sensitivity and specificity for AI-based gray-scale ultrasound diagnosis of HT were 0.84 (95% CI: 0.77-0.90) and 0.90 (95% CI: 0.84-0.95), respectively, with a summary AUC of 0.94 (95% CI: 0.91-0.95). DL models showed superior performance, with higher sensitivity (0.87) and specificity (0.92) compared to ML models (sensitivity: 0.81, specificity: 0.88). Non-histopathological reference standards showed better diagnostic accuracy (AUC: 0.96) compared to histopathology (AUC: 0.84). Studies in European populations had higher diagnostic performance (AUC: 0.97) than those in Asian populations (AUC: 0.87). CONCLUSIONS: AI-based gray-scale ultrasound offers promising diagnostic performance for HT, with significant variability across studies.",
+      "authors": [
+        "Huang JiangSheng",
+        "Long Xia",
+        "Cao ZheXu"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-14T10:47:41"
+  "last_updated": "2026-07-14T10:57:40"
 }
