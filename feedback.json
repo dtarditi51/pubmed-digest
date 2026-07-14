@@ -95,7 +95,33 @@
         "Aged",
         "Magnesium Compounds"
       ]
+    },
+    {
+      "pmid": "42433395",
+      "title": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
+      "reason": "",
+      "timestamp": "2026-07-14T23:40:58",
+      "journal": "Frontiers in public health",
+      "year": "2026",
+      "abstract": "INTRODUCTION: High heterogeneity characterizes the efficacy of omega-3 polyunsaturated fatty acid (PUFA) supplementation for attention-deficit/hyperactivity disorder (ADHD). This study aimed to examine whether baseline omega-3 nutritional status may partly explain variability in supplementation response. METHODS: We conducted a PRISMA-compliant systematic review and meta-analysis registered in PROSPERO (CRD420251218861). PubMed, Embase, PsycINFO, and CENTRAL were searched from inception to December 2025. Eligible studies were randomized controlled trials (RCTs) of omega-3 supplementation in children and adolescents with ADHD that reported baseline nutritional biomarkers, such as erythrocyte EPA/DHA, and efficacy outcomes stratified or otherwise separable according to baseline biomarker status. Data were synthesized using random-effects meta-analysis of standardized mean differences (SMDs), with a prespecified categorical subgroup analysis comparing low-baseline versus normal/high or unstratified baseline estimates. RESULTS: Seven RCTs, contributing 10 analytical estimates, were included. The overall pooled analysis showed a small statistically significant effect of omega-3 supplementation (SMD = 0.21, 95% CI: 0.04-0.38;  DISCUSSION: Omega-3 supplementation response in pediatric ADHD may vary according to baseline nutritional status. However, the evidence base remains limited to seven RCTs, and definitions of low baseline status differed across trials according to biomarker matrix and study-specific thresholds. These findings should therefore be interpreted as preliminary and hypothesis-generating. Larger, prospectively stratified RCTs using harmonized biomarker assessments and standardized baseline cut-offs are needed before biomarker-guided omega-3 supplementation can be recommended for clinical nutritional guidance. SYSTEMATIC REVIEW REGISTRATION: PROSPERO https://www.crd.york.ac.uk/PROSPERO/view/CRD420251218861, identifier CRD420251218861.",
+      "authors": [
+        "Fu Xiao",
+        "Feng Ling",
+        "Jiang Mingyan",
+        "Li Jinrong"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Attention Deficit Disorder with Hyperactivity",
+        "Dietary Supplements",
+        "Fatty Acids, Omega-3",
+        "Biomarkers",
+        "Nutritional Status",
+        "Child",
+        "Randomized Controlled Trials as Topic",
+        "Adolescent"
+      ]
     }
   ],
-  "last_updated": "2026-07-14T23:39:33"
+  "last_updated": "2026-07-14T23:40:58"
 }

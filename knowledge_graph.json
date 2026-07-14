@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:06"
+      "rejected_at": "2026-07-14T23:40:58"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:06"
+      "rejected_at": "2026-07-14T23:40:58"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:06"
+      "rejected_at": "2026-07-14T23:40:58"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:06"
+      "rejected_at": "2026-07-14T23:40:58"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:06"
+      "rejected_at": "2026-07-14T23:40:58"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -266,6 +266,92 @@
       "id": "author:Dereli Seçkin",
       "type": "Author",
       "label": "Dereli Seçkin",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42433395",
+      "type": "Paper",
+      "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-14T23:40:58"
+    },
+    {
+      "id": "mesh:Attention Deficit Disorder with Hyperactivity",
+      "type": "MeshTerm",
+      "label": "Attention Deficit Disorder with Hyperactivity",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Dietary Supplements",
+      "type": "MeshTerm",
+      "label": "Dietary Supplements",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Fatty Acids, Omega-3",
+      "type": "MeshTerm",
+      "label": "Fatty Acids, Omega-3",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Biomarkers",
+      "type": "MeshTerm",
+      "label": "Biomarkers",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Nutritional Status",
+      "type": "MeshTerm",
+      "label": "Nutritional Status",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Child",
+      "type": "MeshTerm",
+      "label": "Child",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Randomized Controlled Trials as Topic",
+      "type": "MeshTerm",
+      "label": "Randomized Controlled Trials as Topic",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Adolescent",
+      "type": "MeshTerm",
+      "label": "Adolescent",
+      "status": "rejected"
+    },
+    {
+      "id": "journal:Frontiers in public health",
+      "type": "Journal",
+      "label": "Frontiers in public health",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Fu Xiao",
+      "type": "Author",
+      "label": "Fu Xiao",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Feng Ling",
+      "type": "Author",
+      "label": "Feng Ling",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Jiang Mingyan",
+      "type": "Author",
+      "label": "Jiang Mingyan",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Li Jinrong",
+      "type": "Author",
+      "label": "Li Jinrong",
       "status": "rejected"
     },
     {
@@ -809,12 +895,6 @@
       "id": "mesh:Aged, 80 and over",
       "type": "MeshTerm",
       "label": "Aged, 80 and over",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Randomized Controlled Trials as Topic",
-      "type": "MeshTerm",
-      "label": "Randomized Controlled Trials as Topic",
       "status": "active"
     },
     {
@@ -1738,6 +1818,90 @@
       "src": "pmid:42439043",
       "rel": "authored_by",
       "dst": "author:Dereli Seçkin",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Attention Deficit Disorder with Hyperactivity",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Dietary Supplements",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Fatty Acids, Omega-3",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Biomarkers",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Nutritional Status",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Child",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Randomized Controlled Trials as Topic",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "has_mesh",
+      "dst": "mesh:Adolescent",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "published_in",
+      "dst": "journal:Frontiers in public health",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "authored_by",
+      "dst": "author:Fu Xiao",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "authored_by",
+      "dst": "author:Feng Ling",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "authored_by",
+      "dst": "author:Jiang Mingyan",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42433395",
+      "rel": "authored_by",
+      "dst": "author:Li Jinrong",
       "status": "rejected"
     },
     {
@@ -3091,5 +3255,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T23:40:06"
+  "last_updated": "2026-07-14T23:40:58"
 }
