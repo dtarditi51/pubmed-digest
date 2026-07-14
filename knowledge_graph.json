@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-13T23:16:26"
+      "rejected_at": "2026-07-14T10:47:41"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -45,11 +45,30 @@
       "status": "rejected"
     },
     {
-      "id": "pmid:42098926",
+      "id": "pmid:42438866",
       "type": "Paper",
-      "label": "GenAI-Supported Virtual Patients in Health Care Education: Systematic Review.",
-      "status": "active",
-      "year": "2026"
+      "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-14T10:47:41"
+    },
+    {
+      "id": "mesh:Artificial Intelligence",
+      "type": "MeshTerm",
+      "label": "Artificial Intelligence",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Spain",
+      "type": "MeshTerm",
+      "label": "Spain",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Urology",
+      "type": "MeshTerm",
+      "label": "Urology",
+      "status": "rejected"
     },
     {
       "id": "mesh:Humans",
@@ -58,10 +77,29 @@
       "status": "active"
     },
     {
-      "id": "mesh:Artificial Intelligence",
-      "type": "MeshTerm",
-      "label": "Artificial Intelligence",
-      "status": "active"
+      "id": "journal:Archivos espanoles de urologia",
+      "type": "Journal",
+      "label": "Archivos espanoles de urologia",
+      "status": "rejected"
+    },
+    {
+      "id": "author:de la Pinta Carolina",
+      "type": "Author",
+      "label": "de la Pinta Carolina",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Medina Alberto Artiles",
+      "type": "Author",
+      "label": "Medina Alberto Artiles",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42098926",
+      "type": "Paper",
+      "label": "GenAI-Supported Virtual Patients in Health Care Education: Systematic Review.",
+      "status": "active",
+      "year": "2026"
     },
     {
       "id": "mesh:Patient Simulation",
@@ -1109,6 +1147,48 @@
       "src": "pmid:42438599",
       "rel": "authored_by",
       "dst": "author:Xu Wei",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438866",
+      "rel": "has_mesh",
+      "dst": "mesh:Artificial Intelligence",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438866",
+      "rel": "has_mesh",
+      "dst": "mesh:Spain",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438866",
+      "rel": "has_mesh",
+      "dst": "mesh:Urology",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438866",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438866",
+      "rel": "published_in",
+      "dst": "journal:Archivos espanoles de urologia",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438866",
+      "rel": "authored_by",
+      "dst": "author:de la Pinta Carolina",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438866",
+      "rel": "authored_by",
+      "dst": "author:Medina Alberto Artiles",
       "status": "rejected"
     },
     {
@@ -2186,5 +2266,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-13T23:16:26"
+  "last_updated": "2026-07-14T10:47:41"
 }

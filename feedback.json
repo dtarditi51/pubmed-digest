@@ -16,7 +16,26 @@
         "Xu Wei"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42438866",
+      "title": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
+      "reason": "",
+      "timestamp": "2026-07-14T10:47:41",
+      "journal": "Archivos espanoles de urologia",
+      "year": "2026",
+      "abstract": "Artificial intelligence (AI) is redefining modern medicine and urology. Its applications range from natural language processing (NLP) systems that streamline clinical documentation and reduce administrative burden to generative AI models capable of producing actionable data to support clinical decision-making and enable precision treatment selection. In Spain, the healthcare system has undergone an accelerated digital transformation, during which AI has evolved from an experimental concept to an operational component of routine clinical practice. This review provides an overview of the current implementation of AI in urology in Spain, highlighting actively deployed AI-based systems across different centers. The review is based on a structured search of publicly available information from news databases, institutional repositories, and independent monitoring initiatives focused on AI adoption in the Spanish healthcare system. These tools demonstrate substantial clinical benefits in areas such as diagnostic imaging, automated coding, digital pathology, radiotherapy planning, and patient follow-up. Their integration has improved diagnostic accuracy, optimized workflow efficiency, reduced reporting times, and facilitated more personalized treatment approaches. At the international level, the steadily growing number of Food and Drug Administration (FDA)- and CE-approved AI tools further illustrates the expanding clinical adoption of AI in urology. Overall, these advances indicate that AI has become a cornerstone of precision medicine, rather than a distant future prospect.",
+      "authors": [
+        "de la Pinta Carolina",
+        "Medina Alberto Artiles"
+      ],
+      "mesh_terms": [
+        "Artificial Intelligence",
+        "Spain",
+        "Urology",
+        "Humans"
+      ]
     }
   ],
-  "last_updated": "2026-07-13T23:16:26"
+  "last_updated": "2026-07-14T10:47:41"
 }
