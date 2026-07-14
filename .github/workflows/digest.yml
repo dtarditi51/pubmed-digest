@@ -2,9 +2,11 @@ name: PubMed Daily Digest
 
 on:
   schedule:
-    # 09:30 UTC ≈ 5:30 AM US Eastern (EDT). In EST (winter) this is 4:30 AM.
-    # GitHub may delay scheduled runs by a few minutes under load — fine for a morning digest.
-    - cron: '30 9 * * *'
+    # 07:17 UTC ≈ 3:17 AM US Eastern (EDT) / 2:17 AM EST. Deliberately early and
+    # on an odd minute: GitHub delays scheduled runs by up to ~3 hours under
+    # load (observed 10:49 and 12:18 for a 09:30 cron), so aiming pre-dawn is
+    # what actually lands the digest before breakfast.
+    - cron: '17 7 * * *'
   workflow_dispatch:        # lets you trigger a run manually from the Actions tab
 
 permissions:
@@ -25,16 +27,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # A delayed cron can fire hours after a manual run already produced
+      # today's digest; regenerating would overwrite it with a near-empty one
+      # (everything is in seen_pmids by then). Manual dispatch always runs.
+      - name: Skip if today's digest already exists
+        id: guard
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "digests/digest_$(date -u +%F).html" ]; then
+            echo "Today's digest already committed — delayed cron double-fire, skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.12'
 
       - name: Generate digest
+        if: steps.guard.outputs.skip != 'true'
         env:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: python pubmed_digest.py
 
       - name: Commit updated state
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,14 +59,17 @@ jobs:
           git push || echo "nothing to push"
 
       - name: Assemble Pages site
+        if: steps.guard.outputs.skip != 'true'
         run: |
           mkdir -p _site
           cp digest_latest.html _site/index.html
           cp -r digests _site/ 2>/dev/null || true
 
       - uses: actions/upload-pages-artifact@v3
+        if: steps.guard.outputs.skip != 'true'
         with:
           path: _site
 
       - id: deploy
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/deploy-pages@v4
