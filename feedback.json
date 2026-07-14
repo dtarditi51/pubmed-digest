@@ -121,7 +121,23 @@
         "Randomized Controlled Trials as Topic",
         "Adolescent"
       ]
+    },
+    {
+      "pmid": "42438123",
+      "title": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
+      "reason": "",
+      "timestamp": "2026-07-14T23:42:04",
+      "journal": "Obesity (Silver Spring, Md.)",
+      "year": "2026",
+      "abstract": "Incretin mimetics are increasingly prescribed for the treatment of overweight and obesity, resulting not only in significant weight reduction but also co-occurring improvements in cardiovascular health and quality of life. Incretin mimetic use among older adults is expected to increase as the population ages into obesity. However, older adults experience accelerated losses in skeletal muscle mass and bone mineral density, and it remains unclear how incretin mimetics affect these processes. This review outlines the age-associated changes in muscle and bone and explores current evidence reporting the effects/associations of incretin mimetics on these tissues, as well as on physical function and fragility fracture risk. We identified several incretin mimetic weight reduction trials that demonstrated significant losses in lean soft tissue (n = 6 studies) and/or indices of bone (n = 3); however, the clinical significance of these decrements on physical function and/or fragility fracture remains unclear. Considering a rising trend in the prescription of incretin mimetics to treat obesity in older adulthood, a more robust characterization of the impact of these medications on lean soft tissue, physical function, and fragility fracture is needed to support future clinical decision-making in older adults with overweight/obesity.",
+      "authors": [
+        "Saavedra Joseph M",
+        "Chen Alissa S",
+        "Porter Starr Kathryn N",
+        "Batsis John A"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-14T23:40:58"
+  "last_updated": "2026-07-14T23:42:04"
 }

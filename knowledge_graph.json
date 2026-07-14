@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:58"
+      "rejected_at": "2026-07-14T23:42:04"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:58"
+      "rejected_at": "2026-07-14T23:42:04"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:58"
+      "rejected_at": "2026-07-14T23:42:04"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:58"
+      "rejected_at": "2026-07-14T23:42:04"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:58"
+      "rejected_at": "2026-07-14T23:42:04"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:40:58"
+      "rejected_at": "2026-07-14T23:42:04"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -352,6 +352,44 @@
       "id": "author:Li Jinrong",
       "type": "Author",
       "label": "Li Jinrong",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42438123",
+      "type": "Paper",
+      "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-14T23:42:04"
+    },
+    {
+      "id": "journal:Obesity (Silver Spring, Md.)",
+      "type": "Journal",
+      "label": "Obesity (Silver Spring, Md.)",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Saavedra Joseph M",
+      "type": "Author",
+      "label": "Saavedra Joseph M",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Chen Alissa S",
+      "type": "Author",
+      "label": "Chen Alissa S",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Porter Starr Kathryn N",
+      "type": "Author",
+      "label": "Porter Starr Kathryn N",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Batsis John A",
+      "type": "Author",
+      "label": "Batsis John A",
       "status": "rejected"
     },
     {
@@ -1905,6 +1943,36 @@
       "status": "rejected"
     },
     {
+      "src": "pmid:42438123",
+      "rel": "published_in",
+      "dst": "journal:Obesity (Silver Spring, Md.)",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438123",
+      "rel": "authored_by",
+      "dst": "author:Saavedra Joseph M",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438123",
+      "rel": "authored_by",
+      "dst": "author:Chen Alissa S",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438123",
+      "rel": "authored_by",
+      "dst": "author:Porter Starr Kathryn N",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42438123",
+      "rel": "authored_by",
+      "dst": "author:Batsis John A",
+      "status": "rejected"
+    },
+    {
       "src": "pmid:42098926",
       "rel": "has_mesh",
       "dst": "mesh:Humans",
@@ -3255,5 +3323,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T23:40:58"
+  "last_updated": "2026-07-14T23:42:04"
 }
