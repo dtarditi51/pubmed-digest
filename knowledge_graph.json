@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -80,7 +80,7 @@
       "id": "journal:Archivos espanoles de urologia",
       "type": "Journal",
       "label": "Archivos espanoles de urologia",
-      "status": "rejected"
+      "status": "active"
     },
     {
       "id": "author:de la Pinta Carolina",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:42:28"
+      "rejected_at": "2026-07-14T23:42:56"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -1718,6 +1718,97 @@
       "id": "author:Cai Jiacheng",
       "type": "Author",
       "label": "Cai Jiacheng",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42438869",
+      "type": "Paper",
+      "label": "Androgen Deprivation Therapy and Cardiovascular Health: Challenges and Opportunities in Prostate Cancer Care.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Prostatic Neoplasms",
+      "type": "MeshTerm",
+      "label": "Prostatic Neoplasms",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Androgen Antagonists",
+      "type": "MeshTerm",
+      "label": "Androgen Antagonists",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Androgen Receptor Antagonists",
+      "type": "MeshTerm",
+      "label": "Androgen Receptor Antagonists",
+      "status": "active"
+    },
+    {
+      "id": "author:Fernández Alonso Sandra",
+      "type": "Author",
+      "label": "Fernández Alonso Sandra",
+      "status": "active"
+    },
+    {
+      "id": "author:López Campos Fernando",
+      "type": "Author",
+      "label": "López Campos Fernando",
+      "status": "active"
+    },
+    {
+      "id": "author:Büchser David",
+      "type": "Author",
+      "label": "Büchser David",
+      "status": "active"
+    },
+    {
+      "id": "author:Guardado Sandra",
+      "type": "Author",
+      "label": "Guardado Sandra",
+      "status": "active"
+    },
+    {
+      "id": "author:Andreescu Jon",
+      "type": "Author",
+      "label": "Andreescu Jon",
+      "status": "active"
+    },
+    {
+      "id": "author:Vásquez Walter",
+      "type": "Author",
+      "label": "Vásquez Walter",
+      "status": "active"
+    },
+    {
+      "id": "author:Castaño Ana",
+      "type": "Author",
+      "label": "Castaño Ana",
+      "status": "active"
+    },
+    {
+      "id": "author:Gil Moradillo Javier",
+      "type": "Author",
+      "label": "Gil Moradillo Javier",
+      "status": "active"
+    },
+    {
+      "id": "author:García González Lucía",
+      "type": "Author",
+      "label": "García González Lucía",
+      "status": "active"
+    },
+    {
+      "id": "author:Loblaw Andrew",
+      "type": "Author",
+      "label": "Loblaw Andrew",
+      "status": "active"
+    },
+    {
+      "id": "author:Couñago Felipe",
+      "type": "Author",
+      "label": "Couñago Felipe",
       "status": "active"
     }
   ],
@@ -3563,7 +3654,115 @@
       "rel": "authored_by",
       "dst": "author:Cai Jiacheng",
       "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "has_mesh",
+      "dst": "mesh:Prostatic Neoplasms",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "has_mesh",
+      "dst": "mesh:Androgen Antagonists",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "has_mesh",
+      "dst": "mesh:Cardiovascular Diseases",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "has_mesh",
+      "dst": "mesh:Androgen Receptor Antagonists",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "published_in",
+      "dst": "journal:Archivos espanoles de urologia",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Fernández Alonso Sandra",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:López Campos Fernando",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Büchser David",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Guardado Sandra",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Andreescu Jon",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Vásquez Walter",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Castaño Ana",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Gil Moradillo Javier",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:García González Lucía",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Loblaw Andrew",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42438869",
+      "rel": "authored_by",
+      "dst": "author:Couñago Felipe",
+      "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T23:42:28"
+  "last_updated": "2026-07-14T23:42:56"
 }

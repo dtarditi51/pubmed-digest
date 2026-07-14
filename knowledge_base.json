@@ -555,6 +555,39 @@
       "saved_date": "2026-07-14",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42438869",
+      "title": "Androgen Deprivation Therapy and Cardiovascular Health: Challenges and Opportunities in Prostate Cancer Care.",
+      "abstract": "BACKGROUND: Androgen deprivation therapy (ADT) and androgen receptor pathway inhibitors (ARPIs) improve advanced prostate cancer (PCa) outcomes but increase cardiovascular (CV) toxicity, making cardiovascular disease (CVD) a major competing cause of morbidity, and mortality. To review the current evidence on CV toxicity related to ADT and ARPIs in PCa focusing on the magnitude of CV risk, strategies for CV risk assessment and prevention in clinical practice. METHODS: A narrative review of the English-language literature was conducted using PubMed, Scopus, the Cochrane Library, and ScienceDirect. The search included studies through December 2025 on ADT- and ARPI-associated cardiovascular toxicity. Search terms combined keywords and Medical Subject Headings (MeSH) terms such as \"prostate cancer\", \"androgen deprivation therapy\", \"androgen receptor pathway inhibitors\", \"cardiovascular toxicity\", and \"cardio-oncology\". Eligible studies included prospective clinical trials, systematic reviews, meta-analyses, and clinically relevant retrospective or real-world studies. Reference snowballing was not performed. RESULTS: ADT induces metabolic, vascular, inflammatory, and endocrine alterations that promote a proatherogenic and prothrombotic state. CV risk appears to vary across hormonal therapies. Gonadotropin-releasing hormone (GnRH) antagonists appear to be associated with lower early rates of major adverse cardiovascular events (MACE)-as defined in each included study-than GnRH agonists, particularly in patients with pre-existing CVD, although evidence from meta-analyses and realworld studies remains heterogeneous. ARPIs show distinct CV safety profiles, with higher rates of hypertension and CV events reported with abiraterone and apalutamide, whereas darolutamide appears to have a more favorable profile. CONCLUSIONS: Systematic CV risk assessment, preventive management of modifiable risk factors, and individualized treatment strategies within a multidisciplinary cardio-oncology framework are essential to optimize long-term outcomes in patients with PCa receiving ADT and ARPIs.",
+      "authors": [
+        "Fernández Alonso Sandra",
+        "López Campos Fernando",
+        "Büchser David",
+        "Guardado Sandra",
+        "Andreescu Jon",
+        "Vásquez Walter",
+        "Castaño Ana",
+        "Gil Moradillo Javier",
+        "García González Lucía",
+        "Loblaw Andrew",
+        "Couñago Felipe"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Male",
+        "Prostatic Neoplasms",
+        "Androgen Antagonists",
+        "Cardiovascular Diseases",
+        "Androgen Receptor Antagonists"
+      ],
+      "journal": "Archivos espanoles de urologia",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42438869/",
+      "saved_date": "2026-07-14",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-14"
