@@ -68,7 +68,34 @@
         "Elden Helen"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42439043",
+      "title": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
+      "reason": "",
+      "timestamp": "2026-07-14T23:39:33",
+      "journal": "Magnesium research",
+      "year": "2026",
+      "abstract": "Elevated blood pressure (BP) is a key modifiable cardiovascular risk factor. In low-risk individuals, guidelines recommend lifestyle interventions before pharmacotherapy. Evidence for magnesium taurate-potassium citrate supplementation in this setting is lacking. This prospective, single-arm observational study enrolled 121 adults with elevated BP or stage 1 hypertension and low cardiovascular risk (SCORE2/SCORE2-OP), per 2024 ESC guidelines, who declined antihypertensive drugs. All received lifestyle counselling plus magnesium taurate-potassium citrate (121 mg elemental magnesium, 180 mg elemental potassium daily) for three months. The per-protocol cohort included 110 patients. Primary outcomes were BP changes at work, at home (HBPM), and ambulatory BP (ABPM). Secondary outcomes were pulse-wave velocity (PWV), augmentation index (AIx), renal function, and serum electrolytes. At three months, BP at work fell by -12/-9 mmHg, HBPM by -11/-8 mmHg, and ABPM by -11/-8 mmHg (all p<0.001). PWV and AIx improved by -0.9 m/s and -4.0% (p<0.001). Serum magnesium rose by +0.1 mg/dL (p=0.003) without changes in sodium, potassium, or renal function. No serious adverse events occurred. In low-risk adults with elevated BP, magnesium taurate-potassium citrate plus lifestyle advice significantly reduced BP and arterial stiffness over three months, supporting magnesium taurate-potassium citrate as a safe non-pharmacological option. As this was a single-arm observational study with routine lifestyle counselling, causal inference was limited, underscoring the need for randomized trials.",
+      "authors": [
+        "Dereli Seçkin"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Blood Pressure",
+        "Female",
+        "Potassium Citrate",
+        "Hypertension",
+        "Middle Aged",
+        "Vascular Stiffness",
+        "Male",
+        "Prospective Studies",
+        "Magnesium",
+        "Adult",
+        "Aged",
+        "Magnesium Compounds"
+      ]
     }
   ],
-  "last_updated": "2026-07-14T10:59:03"
+  "last_updated": "2026-07-14T23:39:33"
 }

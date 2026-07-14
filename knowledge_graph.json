@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:59:03"
+      "rejected_at": "2026-07-14T23:39:33"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:59:03"
+      "rejected_at": "2026-07-14T23:39:33"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:59:03"
+      "rejected_at": "2026-07-14T23:39:33"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T10:59:03"
+      "rejected_at": "2026-07-14T23:39:33"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -174,6 +174,98 @@
       "id": "author:Elden Helen",
       "type": "Author",
       "label": "Elden Helen",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42439043",
+      "type": "Paper",
+      "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-14T23:39:33"
+    },
+    {
+      "id": "mesh:Blood Pressure",
+      "type": "MeshTerm",
+      "label": "Blood Pressure",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Female",
+      "type": "MeshTerm",
+      "label": "Female",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Potassium Citrate",
+      "type": "MeshTerm",
+      "label": "Potassium Citrate",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Hypertension",
+      "type": "MeshTerm",
+      "label": "Hypertension",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Middle Aged",
+      "type": "MeshTerm",
+      "label": "Middle Aged",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Vascular Stiffness",
+      "type": "MeshTerm",
+      "label": "Vascular Stiffness",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Male",
+      "type": "MeshTerm",
+      "label": "Male",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Prospective Studies",
+      "type": "MeshTerm",
+      "label": "Prospective Studies",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Magnesium",
+      "type": "MeshTerm",
+      "label": "Magnesium",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Adult",
+      "type": "MeshTerm",
+      "label": "Adult",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Aged",
+      "type": "MeshTerm",
+      "label": "Aged",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Magnesium Compounds",
+      "type": "MeshTerm",
+      "label": "Magnesium Compounds",
+      "status": "rejected"
+    },
+    {
+      "id": "journal:Magnesium research",
+      "type": "Journal",
+      "label": "Magnesium research",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Dereli Seçkin",
+      "type": "Author",
+      "label": "Dereli Seçkin",
       "status": "rejected"
     },
     {
@@ -568,36 +660,6 @@
       "year": "2026"
     },
     {
-      "id": "mesh:Male",
-      "type": "MeshTerm",
-      "label": "Male",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Female",
-      "type": "MeshTerm",
-      "label": "Female",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Middle Aged",
-      "type": "MeshTerm",
-      "label": "Middle Aged",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Prospective Studies",
-      "type": "MeshTerm",
-      "label": "Prospective Studies",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Aged",
-      "type": "MeshTerm",
-      "label": "Aged",
-      "status": "active"
-    },
-    {
       "id": "mesh:Telephone",
       "type": "MeshTerm",
       "label": "Telephone",
@@ -908,21 +970,9 @@
       "status": "active"
     },
     {
-      "id": "mesh:Hypertension",
-      "type": "MeshTerm",
-      "label": "Hypertension",
-      "status": "active"
-    },
-    {
       "id": "mesh:Decision Support Systems, Clinical",
       "type": "MeshTerm",
       "label": "Decision Support Systems, Clinical",
-      "status": "active"
-    },
-    {
-      "id": "mesh:Blood Pressure",
-      "type": "MeshTerm",
-      "label": "Blood Pressure",
       "status": "active"
     },
     {
@@ -1513,6 +1563,96 @@
       "src": "pmid:42442042",
       "rel": "authored_by",
       "dst": "author:Elden Helen",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Blood Pressure",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Potassium Citrate",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Hypertension",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Vascular Stiffness",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Prospective Studies",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Magnesium",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Adult",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "has_mesh",
+      "dst": "mesh:Magnesium Compounds",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "published_in",
+      "dst": "journal:Magnesium research",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42439043",
+      "rel": "authored_by",
+      "dst": "author:Dereli Seçkin",
       "status": "rejected"
     },
     {
@@ -2752,5 +2892,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T10:59:03"
+  "last_updated": "2026-07-14T23:39:33"
 }
