@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-14T23:43:17"
+      "rejected_at": "2026-07-15T09:22:44"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -3764,5 +3764,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-14T23:43:17"
+  "last_updated": "2026-07-15T09:22:44"
 }
