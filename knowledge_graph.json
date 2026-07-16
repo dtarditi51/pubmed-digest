@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -520,7 +520,7 @@
       "label": "Artificial Intelligence in Inherited Epidermolysis Bullosa: Current Evidence, Challenges, and Future Directions.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Diagnostics (Basel, Switzerland)",
@@ -540,7 +540,7 @@
       "label": "Artificial Intelligence in the Detection of Papilledema: A Systematic Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Journal of clinical medicine",
@@ -572,7 +572,7 @@
       "label": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
@@ -670,7 +670,7 @@
       "label": "Pattern, Outcomes, and Factors Associated With Mortality Among Children Admitted to a Pediatric Intensive Care Unit at King Salman Armed Forces Hospital, Tabuk, Saudi Arabia: A Retrospective Cohort Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Cureus",
@@ -726,7 +726,7 @@
       "label": "Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray Foundation Models on MIMIC-CXR.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "author:Kim Yeonsu",
@@ -764,7 +764,7 @@
       "label": "Metabolomic Lipid Profile Changes in Patients with Heart Failure Undergoing Oral Nutritional Supplements Enriched with the Omega-3 (",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "mesh:Diet, Mediterranean",
@@ -844,7 +844,7 @@
       "label": "Major Cardiovascular Complications of Index Kidney Transplantation Hospitalizations: A National Inpatient Sample Analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:34"
+      "rejected_at": "2026-07-16T17:41:05"
     },
     {
       "id": "journal:Transplantation direct",
@@ -868,6 +868,86 @@
       "id": "author:Parekh Justin R",
       "type": "Author",
       "label": "Parekh Justin R",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42452921",
+      "type": "Paper",
+      "label": "[Predictive value of the anatomical structure of pulmonary vein antrum for the recurrence of paroxysmal atrial fibrillation after radiofrequency catheter ablation].",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-16T17:41:05"
+    },
+    {
+      "id": "mesh:Catheter Ablation",
+      "type": "MeshTerm",
+      "label": "Catheter Ablation",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Pulmonary Veins",
+      "type": "MeshTerm",
+      "label": "Pulmonary Veins",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Recurrence",
+      "type": "MeshTerm",
+      "label": "Recurrence",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Retrospective Studies",
+      "type": "MeshTerm",
+      "label": "Retrospective Studies",
+      "status": "active"
+    },
+    {
+      "id": "journal:Zhonghua xin xue guan bing za zhi",
+      "type": "Journal",
+      "label": "Zhonghua xin xue guan bing za zhi",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Liu Y K",
+      "type": "Author",
+      "label": "Liu Y K",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Li J J",
+      "type": "Author",
+      "label": "Li J J",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Chen J W",
+      "type": "Author",
+      "label": "Chen J W",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Yao X Y",
+      "type": "Author",
+      "label": "Yao X Y",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Wang Z",
+      "type": "Author",
+      "label": "Wang Z",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Chen Y W",
+      "type": "Author",
+      "label": "Chen Y W",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Dong J Z",
+      "type": "Author",
+      "label": "Dong J Z",
       "status": "rejected"
     },
     {
@@ -1163,12 +1243,6 @@
       "label": "Discontinuation of Oral Anticoagulation After Successful Atrial Fibrillation Ablation - Are We Ready to Change Clinical Practice in 2026?",
       "status": "active",
       "year": "2026"
-    },
-    {
-      "id": "mesh:Catheter Ablation",
-      "type": "MeshTerm",
-      "label": "Catheter Ablation",
-      "status": "active"
     },
     {
       "id": "mesh:Thromboembolism",
@@ -2393,12 +2467,6 @@
       "status": "active"
     },
     {
-      "id": "mesh:Retrospective Studies",
-      "type": "MeshTerm",
-      "label": "Retrospective Studies",
-      "status": "active"
-    },
-    {
       "id": "mesh:Electronic Health Records",
       "type": "MeshTerm",
       "label": "Electronic Health Records",
@@ -3413,6 +3481,108 @@
       "src": "pmid:42453568",
       "rel": "authored_by",
       "dst": "author:Parekh Justin R",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Atrial Fibrillation",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Catheter Ablation",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Pulmonary Veins",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Recurrence",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Retrospective Studies",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "published_in",
+      "dst": "journal:Zhonghua xin xue guan bing za zhi",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "authored_by",
+      "dst": "author:Liu Y K",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "authored_by",
+      "dst": "author:Li J J",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "authored_by",
+      "dst": "author:Chen J W",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "authored_by",
+      "dst": "author:Yao X Y",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "authored_by",
+      "dst": "author:Wang Z",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "authored_by",
+      "dst": "author:Chen Y W",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42452921",
+      "rel": "authored_by",
+      "dst": "author:Dong J Z",
       "status": "rejected"
     },
     {
@@ -5348,5 +5518,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-16T17:40:34"
+  "last_updated": "2026-07-16T17:41:05"
 }

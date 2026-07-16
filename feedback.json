@@ -311,7 +311,36 @@
         "Parekh Justin R"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42452921",
+      "title": "[Predictive value of the anatomical structure of pulmonary vein antrum for the recurrence of paroxysmal atrial fibrillation after radiofrequency catheter ablation].",
+      "reason": "",
+      "timestamp": "2026-07-16T17:41:05",
+      "journal": "Zhonghua xin xue guan bing za zhi",
+      "year": "2026",
+      "abstract": "",
+      "authors": [
+        "Liu Y K",
+        "Li J J",
+        "Chen J W",
+        "Yao X Y",
+        "Wang Z",
+        "Chen Y W",
+        "Dong J Z"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Atrial Fibrillation",
+        "Catheter Ablation",
+        "Pulmonary Veins",
+        "Recurrence",
+        "Retrospective Studies",
+        "Female",
+        "Male",
+        "Middle Aged"
+      ]
     }
   ],
-  "last_updated": "2026-07-16T17:40:10"
+  "last_updated": "2026-07-16T17:41:05"
 }
