@@ -296,7 +296,22 @@
         "Metabolomics",
         "Administration, Oral"
       ]
+    },
+    {
+      "pmid": "42453568",
+      "title": "Major Cardiovascular Complications of Index Kidney Transplantation Hospitalizations: A National Inpatient Sample Analysis.",
+      "reason": "",
+      "timestamp": "2026-07-16T17:40:10",
+      "journal": "Transplantation direct",
+      "year": "2026",
+      "abstract": "BACKGROUND: Understanding perioperative risks and long-term benefits of kidney transplantation is essential for patient counseling and optimization of posttransplant outcomes. Currently, there is a lack of generalizable data on cardiovascular complications of kidney transplantation. METHODS: We performed a retrospective, cross-sectional analysis of adult kidney transplantation hospitalizations in the National Inpatient Sample from 2016 to 2022. Cardiac events were defined as cardiac arrest, cardiogenic shock, acute myocardial infarction, ventricular tachycardia, or a related cardiac intervention (cardiopulmonary resuscitation, extracorporeal membrane oxygenation, percutaneous coronary intervention, left or right heart catheterization, intra-aortic balloon pump). Outcomes included cardiac event incidence, mortality, length of stay (LOS), and cost. RESULTS: Among 139 720 kidney transplantation hospitalizations, cardiac events occurred in 3165 (2.3%). Patients with cardiac events were older (59.2 versus 52.3 y;  CONCLUSIONS: Cardiac events complicate approximately 2% of index kidney transplantation hospitalizations and are associated with markedly increased mortality, LOS, and cost.",
+      "authors": [
+        "Goble Spencer R",
+        "Leventhal Thomas M",
+        "Parekh Justin R"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-16T17:39:59"
+  "last_updated": "2026-07-16T17:40:10"
 }
