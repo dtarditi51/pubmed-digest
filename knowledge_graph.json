@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -520,7 +520,7 @@
       "label": "Artificial Intelligence in Inherited Epidermolysis Bullosa: Current Evidence, Challenges, and Future Directions.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Diagnostics (Basel, Switzerland)",
@@ -540,7 +540,7 @@
       "label": "Artificial Intelligence in the Detection of Papilledema: A Systematic Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Journal of clinical medicine",
@@ -572,7 +572,7 @@
       "label": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
@@ -670,7 +670,7 @@
       "label": "Pattern, Outcomes, and Factors Associated With Mortality Among Children Admitted to a Pediatric Intensive Care Unit at King Salman Armed Forces Hospital, Tabuk, Saudi Arabia: A Retrospective Cohort Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Cureus",
@@ -726,7 +726,7 @@
       "label": "Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray Foundation Models on MIMIC-CXR.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "author:Kim Yeonsu",
@@ -764,7 +764,7 @@
       "label": "Metabolomic Lipid Profile Changes in Patients with Heart Failure Undergoing Oral Nutritional Supplements Enriched with the Omega-3 (",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "mesh:Diet, Mediterranean",
@@ -844,7 +844,7 @@
       "label": "Major Cardiovascular Complications of Index Kidney Transplantation Hospitalizations: A National Inpatient Sample Analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:40:10"
+      "rejected_at": "2026-07-16T17:40:34"
     },
     {
       "id": "journal:Transplantation direct",
@@ -2450,6 +2450,115 @@
       "id": "author:Koutsouras George W",
       "type": "Author",
       "label": "Koutsouras George W",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42455102",
+      "type": "Paper",
+      "label": "The Role of Coronary Artery Calcium in Statin Eligibility Based on the American Heart Association's PREVENT Calculator: Insights From MESA.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "journal:Journal of the American College of Cardiology",
+      "type": "Journal",
+      "label": "Journal of the American College of Cardiology",
+      "status": "active"
+    },
+    {
+      "id": "author:Rikhi Rishi",
+      "type": "Author",
+      "label": "Rikhi Rishi",
+      "status": "active"
+    },
+    {
+      "id": "author:Chen Haiying",
+      "type": "Author",
+      "label": "Chen Haiying",
+      "status": "active"
+    },
+    {
+      "id": "author:Mirzai Saeid",
+      "type": "Author",
+      "label": "Mirzai Saeid",
+      "status": "active"
+    },
+    {
+      "id": "author:Bhatia Harpreet S",
+      "type": "Author",
+      "label": "Bhatia Harpreet S",
+      "status": "active"
+    },
+    {
+      "id": "author:Ashburn Nicklaus P",
+      "type": "Author",
+      "label": "Ashburn Nicklaus P",
+      "status": "active"
+    },
+    {
+      "id": "author:O'Connor Shannon",
+      "type": "Author",
+      "label": "O'Connor Shannon",
+      "status": "active"
+    },
+    {
+      "id": "author:Chevli Parag Anilkumar",
+      "type": "Author",
+      "label": "Chevli Parag Anilkumar",
+      "status": "active"
+    },
+    {
+      "id": "author:Kazibwe Richard",
+      "type": "Author",
+      "label": "Kazibwe Richard",
+      "status": "active"
+    },
+    {
+      "id": "author:Khan Muhammad Shahzeb",
+      "type": "Author",
+      "label": "Khan Muhammad Shahzeb",
+      "status": "active"
+    },
+    {
+      "id": "author:Sharma Garima",
+      "type": "Author",
+      "label": "Sharma Garima",
+      "status": "active"
+    },
+    {
+      "id": "author:Slipczuk Leandro",
+      "type": "Author",
+      "label": "Slipczuk Leandro",
+      "status": "active"
+    },
+    {
+      "id": "author:Al-Kindi Sadeer",
+      "type": "Author",
+      "label": "Al-Kindi Sadeer",
+      "status": "active"
+    },
+    {
+      "id": "author:Nasir Khurram",
+      "type": "Author",
+      "label": "Nasir Khurram",
+      "status": "active"
+    },
+    {
+      "id": "author:Post Wendy S",
+      "type": "Author",
+      "label": "Post Wendy S",
+      "status": "active"
+    },
+    {
+      "id": "author:Blumenthal Roger S",
+      "type": "Author",
+      "label": "Blumenthal Roger S",
+      "status": "active"
+    },
+    {
+      "id": "author:Shapiro Michael D",
+      "type": "Author",
+      "label": "Shapiro Michael D",
       "status": "active"
     }
   ],
@@ -5135,7 +5244,109 @@
       "rel": "authored_by",
       "dst": "author:Koutsouras George W",
       "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "published_in",
+      "dst": "journal:Journal of the American College of Cardiology",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Rikhi Rishi",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Chen Haiying",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Mirzai Saeid",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Bhatia Harpreet S",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Ashburn Nicklaus P",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:O'Connor Shannon",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Chevli Parag Anilkumar",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Kazibwe Richard",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Khan Muhammad Shahzeb",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Sharma Garima",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Slipczuk Leandro",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Al-Kindi Sadeer",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Nasir Khurram",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Post Wendy S",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Blumenthal Roger S",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455102",
+      "rel": "authored_by",
+      "dst": "author:Shapiro Michael D",
+      "status": "active"
     }
   ],
-  "last_updated": "2026-07-16T17:40:10"
+  "last_updated": "2026-07-16T17:40:34"
 }

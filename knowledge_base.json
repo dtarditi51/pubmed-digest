@@ -695,6 +695,37 @@
       "saved_date": "2026-07-16",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42455102",
+      "title": "The Role of Coronary Artery Calcium in Statin Eligibility Based on the American Heart Association's PREVENT Calculator: Insights From MESA.",
+      "abstract": "BACKGROUND: The 2026 American College of Cardiology/American Heart Association/multisociety dyslipidemia guideline incorporates the PREVENT atherosclerotic cardiovascular disease (ASCVD) equations for estimation of 10-year ASCVD risk, replacing the Pooled Cohort Equations used in previous prevention guidelines. Coronary artery calcium (CAC) has historically been used to refine risk assessment when treatment decisions are uncertain. OBJECTIVES: In this study, the authors sought to evaluate cardiovascular event rates across CAC strata within statin eligibility groups and 10-year PREVENT risk categories. METHODS: Individuals from the MESA (Multi-Ethnic Study of Atherosclerosis) were included. Three groups were created based on statin eligibility: statin recommended, considered, and not recommended. In addition, participants with a low-density lipoprotein cholesterol 70 to 189 mg/dL without diabetes were grouped by 10-year PREVENT-ASCVD risk categories: <3% (low risk), 3% to <5% (borderline risk), 5% to <10% (intermediate risk), and ≥10% (high risk). Incidence rates per 1,000 person-years were calculated across CAC strata within statin eligibility groups and PREVENT-ASCVD risk categories. RESULTS: Among the 5,698 participants included in this analysis, the mean age was 61.5 ± 10.3 years and 52.8% were female. Statin therapy was not recommended in 1,924 participants (33.8%), considered in 897 participants (15.7%), and recommended in 2,877 participants (50.5%). The event rates per 1,000 person-years in those without CAC in the not recommended, considered, and recommended statin groups were 1.2, 2.7, and 5.8, respectively. In those with CAC >0, the event rates were 4.5, 5.2, and 16.6, respectively. The event rates per 1,000 person-years in participants with CAC 0 vs CAC >0 were, respectively, 1.1 and 3.0 for 10-year PREVENT-ASCVD risk <3%, 2.7 and 5.2 for 10-year PREVENT-ASCVD risk 3% to <5%, 5.9 and 11.3 for 10-year PREVENT-ASCVD risk 5% to <10%, and 6.2 and 20.9 for 10-year PREVENT-ASCVD risk ≥10%. CONCLUSIONS: In this large multiethnic cohort, CAC provided its greatest clinical value when statin treatment decisions were uncertain, particularly among individuals with borderline predicted risk. Among participants who already met guideline-based treatment thresholds, observed ASCVD event rates remained elevated even when CAC was absent, suggesting that CAC 0 should not generally be used to withhold statin therapy in these individuals. These findings support a guideline-centered role for CAC in the PREVENT era: refining risk near treatment thresholds, contextualizing absolute risk, and informing the intensity of preventive efforts.",
+      "authors": [
+        "Rikhi Rishi",
+        "Chen Haiying",
+        "Mirzai Saeid",
+        "Bhatia Harpreet S",
+        "Ashburn Nicklaus P",
+        "O'Connor Shannon",
+        "Chevli Parag Anilkumar",
+        "Kazibwe Richard",
+        "Khan Muhammad Shahzeb",
+        "Sharma Garima",
+        "Slipczuk Leandro",
+        "Al-Kindi Sadeer",
+        "Nasir Khurram",
+        "Post Wendy S",
+        "Blumenthal Roger S",
+        "Shapiro Michael D"
+      ],
+      "mesh_terms": [],
+      "journal": "Journal of the American College of Cardiology",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42455102/",
+      "saved_date": "2026-07-16",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-16"
