@@ -246,7 +246,24 @@
         "Karkar Ahmed M"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42449812",
+      "title": "Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray Foundation Models on MIMIC-CXR.",
+      "reason": "",
+      "timestamp": "2026-07-16T17:39:42",
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "year": "2026",
+      "abstract": "",
+      "authors": [
+        "Kim Yeonsu",
+        "Kim Yangwon",
+        "Nam Yoojin",
+        "Kim Namjoon",
+        "Hong Pa"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-16T17:38:44"
+  "last_updated": "2026-07-16T17:39:42"
 }
