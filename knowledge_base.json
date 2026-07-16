@@ -588,7 +588,43 @@
       "saved_date": "2026-07-14",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42447296",
+      "title": "Bidirectional Automated Texting for Cardiovascular Health Among People Living With HIV: Observational Cohort Analysis of a Stepped-Wedge Cluster Randomized Controlled Trial.",
+      "abstract": "BACKGROUND: Feasible and potentially scalable strategies are needed to address the growing cardiovascular disease (CVD) risk among people living with HIV. Bidirectional automated texting (BAT) programs that remind and encourage adherence to evidence-based CVD-reducing interventions represent a potentially scalable strategy, but data on their feasibility are lacking. OBJECTIVE: The goal of the study was to determine whether participant sociodemographic factors and technological constraints influenced engagement with a BAT CVD prevention program by people living with HIV. We conducted an observational cohort analysis embedded within a stepped-wedge cluster randomized trial. METHODS: The BAT program was designed to address the \"Million Hearts\" ABCS (aspirin therapy, blood pressure control, cholesterol management, and smoking cessation) of cardiovascular health. The parent study was a stepped-wedge randomized trial that rolled out in 3 wedges across 8 practice sites that provided care to people living with HIV. Participants received and could engage with the text messages weekly using their own phones during the study period. We used a zero-inflated negative binomial model to identify factors associated with participants sending text messages during the study. RESULTS: Of the 471 participants, 94% owned a smartphone capable of text messaging, and 70% reported monthly incomes less than US $1500. Overall, 60.3% (n=284) engaged with the BAT program at least once. Regarding texting behavior, participants aged ≥65 years were more likely to send a text than those aged <50 years (P=.047), although age did not influence the number of texts sent. White participants showed lower texting intensity than Black participants (incidence rate ratio 0.69; P=.04). CONCLUSIONS: Overall, 60.3% (n=284) of the participants in the study engaged with BAT at least once. The BAT intervention for ABCS appears to be a feasible intervention for people living with HIV. Only a few factors were associated with sending a text or with the number of text messages sent.",
+      "authors": [
+        "Sanders Mechelle",
+        "Harrington Donald",
+        "Sass Emma",
+        "Thomas Marie",
+        "Holder Tameir",
+        "Tian Yiqi",
+        "Johnson Brent",
+        "Cassells Andrea",
+        "Tobin Jonathan N",
+        "Fiscella Kevin"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Text Messaging",
+        "HIV Infections",
+        "Female",
+        "Cardiovascular Diseases",
+        "Male",
+        "Middle Aged",
+        "Cohort Studies",
+        "Adherence Interventions",
+        "Adult"
+      ],
+      "journal": "JMIR cardio",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42447296/",
+      "saved_date": "2026-07-16",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-07-14"
+  "last_updated": "2026-07-16"
 }
