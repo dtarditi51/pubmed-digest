@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -520,7 +520,7 @@
       "label": "Artificial Intelligence in Inherited Epidermolysis Bullosa: Current Evidence, Challenges, and Future Directions.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:Diagnostics (Basel, Switzerland)",
@@ -540,7 +540,7 @@
       "label": "Artificial Intelligence in the Detection of Papilledema: A Systematic Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:Journal of clinical medicine",
@@ -572,7 +572,7 @@
       "label": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
@@ -670,7 +670,7 @@
       "label": "Pattern, Outcomes, and Factors Associated With Mortality Among Children Admitted to a Pediatric Intensive Care Unit at King Salman Armed Forces Hospital, Tabuk, Saudi Arabia: A Retrospective Cohort Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "journal:Cureus",
@@ -726,7 +726,7 @@
       "label": "Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray Foundation Models on MIMIC-CXR.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:39:42"
+      "rejected_at": "2026-07-16T17:39:59"
     },
     {
       "id": "author:Kim Yeonsu",
@@ -756,6 +756,86 @@
       "id": "author:Hong Pa",
       "type": "Author",
       "label": "Hong Pa",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42451160",
+      "type": "Paper",
+      "label": "Metabolomic Lipid Profile Changes in Patients with Heart Failure Undergoing Oral Nutritional Supplements Enriched with the Omega-3 (",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-16T17:39:59"
+    },
+    {
+      "id": "mesh:Diet, Mediterranean",
+      "type": "MeshTerm",
+      "label": "Diet, Mediterranean",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Heart Failure",
+      "type": "MeshTerm",
+      "label": "Heart Failure",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Lipids",
+      "type": "MeshTerm",
+      "label": "Lipids",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Sarcopenia",
+      "type": "MeshTerm",
+      "label": "Sarcopenia",
+      "status": "rejected"
+    },
+    {
+      "id": "mesh:Metabolomics",
+      "type": "MeshTerm",
+      "label": "Metabolomics",
+      "status": "rejected"
+    },
+    {
+      "id": "journal:Nutrients",
+      "type": "Journal",
+      "label": "Nutrients",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Herrera-Martínez Aura D",
+      "type": "Author",
+      "label": "Herrera-Martínez Aura D",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Muñoz Jiménez Concepción",
+      "type": "Author",
+      "label": "Muñoz Jiménez Concepción",
+      "status": "rejected"
+    },
+    {
+      "id": "author:López Aguilera José",
+      "type": "Author",
+      "label": "López Aguilera José",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Crespin Manuel",
+      "type": "Author",
+      "label": "Crespin Manuel",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Gálvez Moreno María Ángeles",
+      "type": "Author",
+      "label": "Gálvez Moreno María Ángeles",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Molina Puerta María José",
+      "type": "Author",
+      "label": "Molina Puerta María José",
       "status": "rejected"
     },
     {
@@ -929,12 +1009,6 @@
       "label": "Management updates in heart failure with mildly reduced or preserved ejection fraction.",
       "status": "active",
       "year": "2026"
-    },
-    {
-      "id": "mesh:Heart Failure",
-      "type": "MeshTerm",
-      "label": "Heart Failure",
-      "status": "active"
     },
     {
       "id": "mesh:Stroke Volume",
@@ -3051,6 +3125,132 @@
       "status": "rejected"
     },
     {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Fatty Acids, Omega-3",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Diet, Mediterranean",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Dietary Supplements",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Heart Failure",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Prospective Studies",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Lipids",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Sarcopenia",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Metabolomics",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "has_mesh",
+      "dst": "mesh:Administration, Oral",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "published_in",
+      "dst": "journal:Nutrients",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "authored_by",
+      "dst": "author:Herrera-Martínez Aura D",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "authored_by",
+      "dst": "author:Muñoz Jiménez Concepción",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "authored_by",
+      "dst": "author:López Aguilera José",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "authored_by",
+      "dst": "author:Crespin Manuel",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "authored_by",
+      "dst": "author:Gálvez Moreno María Ángeles",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42451160",
+      "rel": "authored_by",
+      "dst": "author:Molina Puerta María José",
+      "status": "rejected"
+    },
+    {
       "src": "pmid:42098926",
       "rel": "has_mesh",
       "dst": "mesh:Humans",
@@ -4881,5 +5081,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-16T17:39:42"
+  "last_updated": "2026-07-16T17:39:59"
 }

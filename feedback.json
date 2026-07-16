@@ -263,7 +263,40 @@
         "Hong Pa"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42451160",
+      "title": "Metabolomic Lipid Profile Changes in Patients with Heart Failure Undergoing Oral Nutritional Supplements Enriched with the Omega-3 (",
+      "reason": "",
+      "timestamp": "2026-07-16T17:39:59",
+      "journal": "Nutrients",
+      "year": "2026",
+      "abstract": "UNLABELLED: Chronic inflammation and metabolic dysregulation of heart failure (HF) often result in sarcopenia. The combined effect of Mediterranean diet (MD) and omega-3 polyunsaturated fatty acids on the advanced lipidomic profile of HF patients remains poorly defined. OBJECTIVE: Our objective was to analyze the specific effects of a MD plus omega-3-enriched oral nutritional supplements (MD+ONS) versus MD alone on the metabolic lipid profile of patients with HF, stratified by sarcopenia status. METHODS: In this prospective, open-label, randomized controlled trial, 38 patients with HF were assigned to MD alone or MD+ONS (24 weeks). Advanced lipoprotein profiling (triglycerides, cholesterol, particle size, and concentration for VLDL, LDL, and HDL subclasses) was performed using 2D  RESULTS: At baseline, NT-proBNP levels correlated positively with ω6/ω7ω9 fatty acids and IDL-TG ( CONCLUSIONS: MD+ONS induces lipidomic shifts that are significantly modulated by baseline sarcopenia. The intervention appears to stabilize VLDL and IDL levels in patients with sarcopenia compared to diet alone, while promoting a more favorable VLDL reduction in individuals without sarcopenia, suggesting that early nutritional support for improving body composition is a critical determinant of the metabolic response to specific interventions in patients with HF.",
+      "authors": [
+        "Herrera-Martínez Aura D",
+        "Muñoz Jiménez Concepción",
+        "López Aguilera José",
+        "Crespin Manuel",
+        "Gálvez Moreno María Ángeles",
+        "Molina Puerta María José"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Fatty Acids, Omega-3",
+        "Diet, Mediterranean",
+        "Dietary Supplements",
+        "Female",
+        "Heart Failure",
+        "Male",
+        "Aged",
+        "Prospective Studies",
+        "Middle Aged",
+        "Lipids",
+        "Sarcopenia",
+        "Metabolomics",
+        "Administration, Oral"
+      ]
     }
   ],
-  "last_updated": "2026-07-16T17:39:42"
+  "last_updated": "2026-07-16T17:39:59"
 }
