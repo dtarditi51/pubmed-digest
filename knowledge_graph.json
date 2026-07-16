@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -520,7 +520,7 @@
       "label": "Artificial Intelligence in Inherited Epidermolysis Bullosa: Current Evidence, Challenges, and Future Directions.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "journal:Diagnostics (Basel, Switzerland)",
@@ -540,7 +540,7 @@
       "label": "Artificial Intelligence in the Detection of Papilledema: A Systematic Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:40"
+      "rejected_at": "2026-07-16T17:37:53"
     },
     {
       "id": "journal:Journal of clinical medicine",
@@ -564,6 +564,104 @@
       "id": "author:Samoilă Lăcrămioara",
       "type": "Author",
       "label": "Samoilă Lăcrămioara",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42455464",
+      "type": "Paper",
+      "label": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-16T17:37:53"
+    },
+    {
+      "id": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+      "type": "Journal",
+      "label": "High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Ferri Claudio",
+      "type": "Author",
+      "label": "Ferri Claudio",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Mazza Alberto",
+      "type": "Author",
+      "label": "Mazza Alberto",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Manfellotto Dario",
+      "type": "Author",
+      "label": "Manfellotto Dario",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Dentali Francesco",
+      "type": "Author",
+      "label": "Dentali Francesco",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Pignone Alberto Moggi",
+      "type": "Author",
+      "label": "Pignone Alberto Moggi",
+      "status": "rejected"
+    },
+    {
+      "id": "author:D'Avino Maria",
+      "type": "Author",
+      "label": "D'Avino Maria",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Buso Roberta",
+      "type": "Author",
+      "label": "Buso Roberta",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Valerio Antonella",
+      "type": "Author",
+      "label": "Valerio Antonella",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Muiesan Maria Lorenza",
+      "type": "Author",
+      "label": "Muiesan Maria Lorenza",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Desideri Giovanbattista",
+      "type": "Author",
+      "label": "Desideri Giovanbattista",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Pengo Martino",
+      "type": "Author",
+      "label": "Pengo Martino",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Bilo Grzegorz",
+      "type": "Author",
+      "label": "Bilo Grzegorz",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Parati Gianfranco",
+      "type": "Author",
+      "label": "Parati Gianfranco",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Fontanella Andrea",
+      "type": "Author",
+      "label": "Fontanella Andrea",
       "status": "rejected"
     },
     {
@@ -2491,6 +2589,96 @@
       "status": "rejected"
     },
     {
+      "src": "pmid:42455464",
+      "rel": "published_in",
+      "dst": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Ferri Claudio",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Mazza Alberto",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Manfellotto Dario",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Dentali Francesco",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Pignone Alberto Moggi",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:D'Avino Maria",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Buso Roberta",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Valerio Antonella",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Muiesan Maria Lorenza",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Desideri Giovanbattista",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Pengo Martino",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Bilo Grzegorz",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Parati Gianfranco",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42455464",
+      "rel": "authored_by",
+      "dst": "author:Fontanella Andrea",
+      "status": "rejected"
+    },
+    {
       "src": "pmid:42098926",
       "rel": "has_mesh",
       "dst": "mesh:Humans",
@@ -4075,5 +4263,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-16T17:37:40"
+  "last_updated": "2026-07-16T17:37:53"
 }

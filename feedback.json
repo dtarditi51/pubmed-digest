@@ -201,7 +201,33 @@
         "Samoilă Lăcrămioara"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42455464",
+      "title": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
+      "reason": "",
+      "timestamp": "2026-07-16T17:37:53",
+      "journal": "High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Orthostatic hypotension (OH) is defined as a decline in systolic blood pressure of at least 20 mmHg or a reduction in diastolic blood pressure of at least 10 mmHg, within the first 3 min of standing. AIM: To evaluate the prevalence of OH and to identify the characteristics of patients with OH in hypertensive patients hospitalized in medical inpatient departments. METHODS: A multicenter, observational, prospective study (FADOI-HYP-OP) included 1000 hypertensive inpatients from 29 Departments throughout Italy. Demographic, clinical data, blood pressure and the presence of comorbidities were recorded at baseline. Factors associated with OH were assessed in multiple logistic regression analysis. RESULTS: The prevalence of OH was 25.1%. Factors independently associated with OH included disturbances of consciousness (RR 1.56, 95%CI 1.10-2.20; p = 0.01), Parkinson's disease (RR 2.30, 95%CI 1.47-3.59; p = 0.0002), type-1 diabetes (RR 1.72, 95%CI 1.05-2.80; p = 0.03), respiratory comorbidities/diseases (RR 1.32, 95%CI 1.02-1.70; p = 0.04), ischemic heart disease (IHD) (RR 1.20, 95%CI 1.01-1.43; p = 0.04) and α1-adrenergic receptor blockers use (RR 1.32, 95%CI 1.03-1.69; p = 0.03). CONCLUSIONS: These real-world data indicate considerable prevalence of OH in hypertensive inpatients and confirm the association between OH and several common comorbidities as well as with use of α1-adrenergic receptor blockers. CLINICAL TRIAL REGISTRATION: NCT05247060.",
+      "authors": [
+        "Ferri Claudio",
+        "Mazza Alberto",
+        "Manfellotto Dario",
+        "Dentali Francesco",
+        "Pignone Alberto Moggi",
+        "D'Avino Maria",
+        "Buso Roberta",
+        "Valerio Antonella",
+        "Muiesan Maria Lorenza",
+        "Desideri Giovanbattista",
+        "Pengo Martino",
+        "Bilo Grzegorz",
+        "Parati Gianfranco",
+        "Fontanella Andrea"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-16T17:36:54"
+  "last_updated": "2026-07-16T17:37:53"
 }
