@@ -227,7 +227,26 @@
         "Fontanella Andrea"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42453836",
+      "title": "Pattern, Outcomes, and Factors Associated With Mortality Among Children Admitted to a Pediatric Intensive Care Unit at King Salman Armed Forces Hospital, Tabuk, Saudi Arabia: A Retrospective Cohort Study.",
+      "reason": "",
+      "timestamp": "2026-07-16T17:38:44",
+      "journal": "Cureus",
+      "year": "2026",
+      "abstract": "BACKGROUND: Pediatric intensive care units (PICUs) provide advanced care for critically ill children with heterogeneous medical and surgical conditions. Contemporary local data on PICU case mix, outcomes, and factors associated with mortality remain limited in northwestern Saudi Arabia and are essential for benchmarking performance and guiding quality-improvement initiatives. OBJECTIVE: To describe admission patterns, clinical outcomes, and factors associated with in-PICU mortality among children admitted to the PICU at King Salman Armed Forces Hospital (KSAFH), Tabuk, Saudi Arabia. METHODS: We conducted a retrospective cohort study of all children aged 1 day to 14 years admitted to the PICU at KSAFH between 1 January and 31 December 2024. Data on demographics, admission source, diagnoses, interventions, and outcomes were extracted from electronic medical records using a structured data-collection form. Continuous variables were summarized as median and interquartile range (IQR); categorical variables were summarized as frequencies and percentages. Bivariate comparisons used the chi-square or Fisher exact test for categorical variables and the Mann-Whitney U test for continuous variables. Odds ratios (ORs) with 95% confidence intervals (CIs) were calculated for clinically relevant exposures. Because only eight deaths occurred, multivariable logistic regression was not performed in order to avoid model overfitting. A two-sided p < 0.05 was considered statistically significant. RESULTS: Of 318 PICU admissions during the study period, 310 had complete outcome data and were analyzed. The cohort was nearly evenly distributed by sex (51.3% female, 48.7% male), with a median age of 3 years and a median weight of 13 kg (IQR 6-23). The most common admission source was the emergency department (62.6%), followed by inpatient wards (28.4%); transport and perioperative pathways together accounted for 9.0% of admissions. Respiratory and metabolic/other conditions were the leading admission categories (35.5% and 37.4%, respectively); the most frequent admission diagnoses were asthma exacerbation (16.5%), diabetic ketoacidosis (13.2%), acute bronchiolitis (9.7%), and pneumonia (4.5%). Thirty-two children (10.3%) required invasive mechanical ventilation (median duration 6.5 days; IQR 3-10). The overall in-PICU mortality rate was 2.6% (8/310), and the median PICU length of stay was three days (IQR 1-6). Mechanical ventilation was strongly associated with mortality (18.8% vs. 0.7%; OR 31.85, 95% CI 6.12-165.83; p < 0.001), as was admission via transport or perioperative pathways relative to admission from the emergency department or wards (10.7% vs. 1.8%; OR 6.65, 95% CI 1.50-29.46; p = 0.027). Age group, sex, and disease category were not significantly associated with mortality, although infants accounted for half of all deaths. CONCLUSIONS: In this contemporary cohort from northwestern Saudi Arabia, overall PICU mortality was low (2.6%). Deaths were concentrated among children requiring invasive mechanical ventilation and those admitted through transport or perioperative pathways. These findings support strengthening early risk recognition, optimizing pre-PICU stabilization and inter-facility transfer pathways, and integrating standardized severity-of-illness scoring into routine PICU practice.",
+      "authors": [
+        "Altunusi Amjad M",
+        "AlBishi Laila",
+        "Malki Abdulaziz",
+        "Altoonisi Mustafa M",
+        "Soliman Wessam",
+        "Kamal Mohammed",
+        "Karkar Ahmed M"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-16T17:37:53"
+  "last_updated": "2026-07-16T17:38:44"
 }

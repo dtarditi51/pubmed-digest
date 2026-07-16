@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -520,7 +520,7 @@
       "label": "Artificial Intelligence in Inherited Epidermolysis Bullosa: Current Evidence, Challenges, and Future Directions.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "journal:Diagnostics (Basel, Switzerland)",
@@ -540,7 +540,7 @@
       "label": "Artificial Intelligence in the Detection of Papilledema: A Systematic Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "journal:Journal of clinical medicine",
@@ -572,7 +572,7 @@
       "label": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:21"
+      "rejected_at": "2026-07-16T17:38:44"
     },
     {
       "id": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
@@ -662,6 +662,62 @@
       "id": "author:Fontanella Andrea",
       "type": "Author",
       "label": "Fontanella Andrea",
+      "status": "rejected"
+    },
+    {
+      "id": "pmid:42453836",
+      "type": "Paper",
+      "label": "Pattern, Outcomes, and Factors Associated With Mortality Among Children Admitted to a Pediatric Intensive Care Unit at King Salman Armed Forces Hospital, Tabuk, Saudi Arabia: A Retrospective Cohort Study.",
+      "status": "rejected",
+      "year": "2026",
+      "rejected_at": "2026-07-16T17:38:44"
+    },
+    {
+      "id": "journal:Cureus",
+      "type": "Journal",
+      "label": "Cureus",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Altunusi Amjad M",
+      "type": "Author",
+      "label": "Altunusi Amjad M",
+      "status": "rejected"
+    },
+    {
+      "id": "author:AlBishi Laila",
+      "type": "Author",
+      "label": "AlBishi Laila",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Malki Abdulaziz",
+      "type": "Author",
+      "label": "Malki Abdulaziz",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Altoonisi Mustafa M",
+      "type": "Author",
+      "label": "Altoonisi Mustafa M",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Soliman Wessam",
+      "type": "Author",
+      "label": "Soliman Wessam",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Kamal Mohammed",
+      "type": "Author",
+      "label": "Kamal Mohammed",
+      "status": "rejected"
+    },
+    {
+      "id": "author:Karkar Ahmed M",
+      "type": "Author",
+      "label": "Karkar Ahmed M",
       "status": "rejected"
     },
     {
@@ -2800,6 +2856,54 @@
       "status": "rejected"
     },
     {
+      "src": "pmid:42453836",
+      "rel": "published_in",
+      "dst": "journal:Cureus",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42453836",
+      "rel": "authored_by",
+      "dst": "author:Altunusi Amjad M",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42453836",
+      "rel": "authored_by",
+      "dst": "author:AlBishi Laila",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42453836",
+      "rel": "authored_by",
+      "dst": "author:Malki Abdulaziz",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42453836",
+      "rel": "authored_by",
+      "dst": "author:Altoonisi Mustafa M",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42453836",
+      "rel": "authored_by",
+      "dst": "author:Soliman Wessam",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42453836",
+      "rel": "authored_by",
+      "dst": "author:Kamal Mohammed",
+      "status": "rejected"
+    },
+    {
+      "src": "pmid:42453836",
+      "rel": "authored_by",
+      "dst": "author:Karkar Ahmed M",
+      "status": "rejected"
+    },
+    {
       "src": "pmid:42098926",
       "rel": "has_mesh",
       "dst": "mesh:Humans",
@@ -4510,5 +4614,5 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-07-16T17:38:21"
+  "last_updated": "2026-07-16T17:38:44"
 }
