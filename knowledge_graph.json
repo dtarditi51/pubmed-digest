@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -520,7 +520,7 @@
       "label": "Artificial Intelligence in Inherited Epidermolysis Bullosa: Current Evidence, Challenges, and Future Directions.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "journal:Diagnostics (Basel, Switzerland)",
@@ -540,7 +540,7 @@
       "label": "Artificial Intelligence in the Detection of Papilledema: A Systematic Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "journal:Journal of clinical medicine",
@@ -572,7 +572,7 @@
       "label": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:37:53"
+      "rejected_at": "2026-07-16T17:38:21"
     },
     {
       "id": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
@@ -2056,6 +2056,127 @@
       "id": "author:Fiscella Kevin",
       "type": "Author",
       "label": "Fiscella Kevin",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42457206",
+      "type": "Paper",
+      "label": "Creating change through short-term pilots and rapid cycle testing: a case of cardiovascular risk reduction.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Risk Reduction Behavior",
+      "type": "MeshTerm",
+      "label": "Risk Reduction Behavior",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Pilot Projects",
+      "type": "MeshTerm",
+      "label": "Pilot Projects",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Quality Improvement",
+      "type": "MeshTerm",
+      "label": "Quality Improvement",
+      "status": "active"
+    },
+    {
+      "id": "journal:BMJ open quality",
+      "type": "Journal",
+      "label": "BMJ open quality",
+      "status": "active"
+    },
+    {
+      "id": "author:Ashcraft Laura Ellen",
+      "type": "Author",
+      "label": "Ashcraft Laura Ellen",
+      "status": "active"
+    },
+    {
+      "id": "author:Mahraj Katy",
+      "type": "Author",
+      "label": "Mahraj Katy",
+      "status": "active"
+    },
+    {
+      "id": "author:Norton Laurie A",
+      "type": "Author",
+      "label": "Norton Laurie A",
+      "status": "active"
+    },
+    {
+      "id": "author:Balasta Marguerite",
+      "type": "Author",
+      "label": "Balasta Marguerite",
+      "status": "active"
+    },
+    {
+      "id": "author:Clark Kayla",
+      "type": "Author",
+      "label": "Clark Kayla",
+      "status": "active"
+    },
+    {
+      "id": "author:Glanz Karen",
+      "type": "Author",
+      "label": "Glanz Karen",
+      "status": "active"
+    },
+    {
+      "id": "author:Wood John",
+      "type": "Author",
+      "label": "Wood John",
+      "status": "active"
+    },
+    {
+      "id": "author:Kellum Wendell",
+      "type": "Author",
+      "label": "Kellum Wendell",
+      "status": "active"
+    },
+    {
+      "id": "author:Garzon Mrad Carolina",
+      "type": "Author",
+      "label": "Garzon Mrad Carolina",
+      "status": "active"
+    },
+    {
+      "id": "author:Sigler Jordan",
+      "type": "Author",
+      "label": "Sigler Jordan",
+      "status": "active"
+    },
+    {
+      "id": "author:Getachew Yaphet",
+      "type": "Author",
+      "label": "Getachew Yaphet",
+      "status": "active"
+    },
+    {
+      "id": "author:Fanaroff Alexander C",
+      "type": "Author",
+      "label": "Fanaroff Alexander C",
+      "status": "active"
+    },
+    {
+      "id": "author:Mehta Shivan J",
+      "type": "Author",
+      "label": "Mehta Shivan J",
+      "status": "active"
+    },
+    {
+      "id": "author:Asch David A",
+      "type": "Author",
+      "label": "Asch David A",
+      "status": "active"
+    },
+    {
+      "id": "author:Volpp Kevin G",
+      "type": "Author",
+      "label": "Volpp Kevin G",
       "status": "active"
     }
   ],
@@ -4261,7 +4382,133 @@
       "rel": "authored_by",
       "dst": "author:Fiscella Kevin",
       "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "has_mesh",
+      "dst": "mesh:Cardiovascular Diseases",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "has_mesh",
+      "dst": "mesh:Risk Reduction Behavior",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "has_mesh",
+      "dst": "mesh:Pilot Projects",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "has_mesh",
+      "dst": "mesh:Quality Improvement",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "published_in",
+      "dst": "journal:BMJ open quality",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Ashcraft Laura Ellen",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Mahraj Katy",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Norton Laurie A",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Balasta Marguerite",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Clark Kayla",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Glanz Karen",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Wood John",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Kellum Wendell",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Garzon Mrad Carolina",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Sigler Jordan",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Getachew Yaphet",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Fanaroff Alexander C",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Mehta Shivan J",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Asch David A",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42457206",
+      "rel": "authored_by",
+      "dst": "author:Volpp Kevin G",
+      "status": "active"
     }
   ],
-  "last_updated": "2026-07-16T17:37:53"
+  "last_updated": "2026-07-16T17:38:21"
 }

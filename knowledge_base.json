@@ -624,6 +624,42 @@
       "saved_date": "2026-07-16",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42457206",
+      "title": "Creating change through short-term pilots and rapid cycle testing: a case of cardiovascular risk reduction.",
+      "abstract": "Despite the availability of safe, effective and low-cost diagnosis and treatment options for atherosclerotic cardiovascular disease (ASCVD) and a significant decrease in death rates in the past several decades, ASCVD remains the leading cause of morbidity and mortality in the USA. Scalable, evidence-based strategies have not achieved a level of success that optimally lowers cardiovascular risk. In this case study, we describe the first three years of the ASCVD Risk Reduction Initiative at a large academic health system, an effort to develop, evaluate and scale a heart disease prevention programme for patients whose modifiable risk remains high despite having access to care. The Initiative models a learning health system, combining traditional randomised controlled trials with quality improvement projects, iterative rapid cycle testing, data analyses, incorporation of learnings from concurrent projects at other institutions and user research to test a variety of approaches to cardiovascular risk reduction. This approach could be generalised to other important population health improvement challenges. In this article, we detail our pilot study process, results to date and challenges experienced in this example of care delivery innovation in action.",
+      "authors": [
+        "Ashcraft Laura Ellen",
+        "Mahraj Katy",
+        "Norton Laurie A",
+        "Balasta Marguerite",
+        "Clark Kayla",
+        "Glanz Karen",
+        "Wood John",
+        "Kellum Wendell",
+        "Garzon Mrad Carolina",
+        "Sigler Jordan",
+        "Getachew Yaphet",
+        "Fanaroff Alexander C",
+        "Mehta Shivan J",
+        "Asch David A",
+        "Volpp Kevin G"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Cardiovascular Diseases",
+        "Risk Reduction Behavior",
+        "Pilot Projects",
+        "Quality Improvement"
+      ],
+      "journal": "BMJ open quality",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42457206/",
+      "saved_date": "2026-07-16",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-16"
