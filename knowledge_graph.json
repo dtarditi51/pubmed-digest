@@ -6,7 +6,7 @@
       "label": "Clinical applications of MRI-based artificial intelligence in spinal metastases: A systematic review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:Journal of bone oncology",
@@ -50,7 +50,7 @@
       "label": "Artificial Intelligence and Urology in Spain: From Technological Promise to Real Clinical Practice.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "mesh:Artificial Intelligence",
@@ -100,7 +100,7 @@
       "label": "Artificial intelligence-based ultrasound diagnosis of Hashimoto's thyroiditis: a systematic review and meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:Thyroid research",
@@ -132,7 +132,7 @@
       "label": "Spinning babies® techniques in two Swedish tertiary birth units: A retrospective cohort study of use and birth outcomes.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:Sexual & reproductive healthcare : official journal of the Swedish Association of Midwives",
@@ -182,7 +182,7 @@
       "label": "Effects of magnesium taurate-potassium citrate on blood pressure and vascular stiffness in low-risk adults with elevated blood pressure.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "mesh:Blood Pressure",
@@ -274,7 +274,7 @@
       "label": "Baseline omega-3 nutritional status and supplementation response in pediatric attention-deficit/hyperactivity disorder: a systematic review and biomarker-stratified meta-analysis.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "mesh:Attention Deficit Disorder with Hyperactivity",
@@ -360,7 +360,7 @@
       "label": "The Effects of Incretin Mimetic Therapies on Muscle and Bone Health in Older Adults: A Narrative Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:Obesity (Silver Spring, Md.)",
@@ -398,7 +398,7 @@
       "label": "Stroke prevention using oral anticoagulants among patients with atrial fibrillation: a qualitative study of Australian general practitioners.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "mesh:Atrial Fibrillation",
@@ -410,7 +410,7 @@
       "id": "mesh:Stroke",
       "type": "MeshTerm",
       "label": "Stroke",
-      "status": "rejected"
+      "status": "active"
     },
     {
       "id": "mesh:Anticoagulants",
@@ -520,7 +520,7 @@
       "label": "Artificial Intelligence in Inherited Epidermolysis Bullosa: Current Evidence, Challenges, and Future Directions.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:Diagnostics (Basel, Switzerland)",
@@ -540,7 +540,7 @@
       "label": "Artificial Intelligence in the Detection of Papilledema: A Systematic Review.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:Journal of clinical medicine",
@@ -572,7 +572,7 @@
       "label": "Orthostatic Hypotension in Hypertensive Patients Hospitalized in Italian Internal Medicine Departments: FADOI-HYP-OP Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:High blood pressure & cardiovascular prevention : the official journal of the Italian Society of Hypertension",
@@ -670,7 +670,7 @@
       "label": "Pattern, Outcomes, and Factors Associated With Mortality Among Children Admitted to a Pediatric Intensive Care Unit at King Salman Armed Forces Hospital, Tabuk, Saudi Arabia: A Retrospective Cohort Study.",
       "status": "rejected",
       "year": "2026",
-      "rejected_at": "2026-07-16T17:38:44"
+      "rejected_at": "2026-07-16T17:39:21"
     },
     {
       "id": "journal:Cureus",
@@ -2233,6 +2233,79 @@
       "id": "author:Volpp Kevin G",
       "type": "Author",
       "label": "Volpp Kevin G",
+      "status": "active"
+    },
+    {
+      "id": "pmid:42455845",
+      "type": "Paper",
+      "label": "An explainable artificial intelligence framework for clinical decision support in stroke discharge planning.",
+      "status": "active",
+      "year": "2026"
+    },
+    {
+      "id": "mesh:Patient Discharge",
+      "type": "MeshTerm",
+      "label": "Patient Discharge",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Retrospective Studies",
+      "type": "MeshTerm",
+      "label": "Retrospective Studies",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Electronic Health Records",
+      "type": "MeshTerm",
+      "label": "Electronic Health Records",
+      "status": "active"
+    },
+    {
+      "id": "mesh:Predictive Learning Models",
+      "type": "MeshTerm",
+      "label": "Predictive Learning Models",
+      "status": "active"
+    },
+    {
+      "id": "journal:PloS one",
+      "type": "Journal",
+      "label": "PloS one",
+      "status": "active"
+    },
+    {
+      "id": "author:Gholampour Seifollah",
+      "type": "Author",
+      "label": "Gholampour Seifollah",
+      "status": "active"
+    },
+    {
+      "id": "author:Dehghan Arshia",
+      "type": "Author",
+      "label": "Dehghan Arshia",
+      "status": "active"
+    },
+    {
+      "id": "author:Voura Evelyn B",
+      "type": "Author",
+      "label": "Voura Evelyn B",
+      "status": "active"
+    },
+    {
+      "id": "author:Huang Jesse",
+      "type": "Author",
+      "label": "Huang Jesse",
+      "status": "active"
+    },
+    {
+      "id": "author:Jamshidi Mohammad",
+      "type": "Author",
+      "label": "Jamshidi Mohammad",
+      "status": "active"
+    },
+    {
+      "id": "author:Koutsouras George W",
+      "type": "Author",
+      "label": "Koutsouras George W",
       "status": "active"
     }
   ],
@@ -4612,7 +4685,127 @@
       "rel": "authored_by",
       "dst": "author:Volpp Kevin G",
       "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Humans",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Artificial Intelligence",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Stroke",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Patient Discharge",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Retrospective Studies",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Female",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Male",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Decision Support Systems, Clinical",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Middle Aged",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Electronic Health Records",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Aged, 80 and over",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "has_mesh",
+      "dst": "mesh:Predictive Learning Models",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "published_in",
+      "dst": "journal:PloS one",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "authored_by",
+      "dst": "author:Gholampour Seifollah",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "authored_by",
+      "dst": "author:Dehghan Arshia",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "authored_by",
+      "dst": "author:Voura Evelyn B",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "authored_by",
+      "dst": "author:Huang Jesse",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "authored_by",
+      "dst": "author:Jamshidi Mohammad",
+      "status": "active"
+    },
+    {
+      "src": "pmid:42455845",
+      "rel": "authored_by",
+      "dst": "author:Koutsouras George W",
+      "status": "active"
     }
   ],
-  "last_updated": "2026-07-16T17:38:44"
+  "last_updated": "2026-07-16T17:39:21"
 }

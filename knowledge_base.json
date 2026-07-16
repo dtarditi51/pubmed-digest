@@ -660,6 +660,41 @@
       "saved_date": "2026-07-16",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42455845",
+      "title": "An explainable artificial intelligence framework for clinical decision support in stroke discharge planning.",
+      "abstract": "BACKGROUND: Stroke, a leading cause of global mortality and disability, requires accurate prediction of discharge outcomes to support early care planning. We developed an explainable artificial intelligence (AI) framework to predict four discharge categories (home, specialized care, home with help, expired) and identify key predictors. METHODS: This single-center retrospective study included 1,731 patients with ischemic stroke, hemorrhagic stroke, or transient ischemic attack (TIA). Twenty routinely available electronic health record variables were used. Ten classifiers were compared using stratified 5-fold cross-validation, and the final model was calibrated with training-set out-of-fold predictions and interpreted using SHapley Additive exPlanations (SHAP). RESULTS: The multilayer perceptron (MLP) achieved the highest mean cross-validated macro-F1 score and was selected as the best-performing model. On the independent hold-out test set, the MLP achieved an accuracy of 0.646, macro-specificity of 0.873, macro-precision of 0.559, macro-sensitivity of 0.557, and macro-F1 of 0.548. Class-wise area under the receiver operating characteristic curve (AUC) values were 0.901 for home, 0.874 for specialized care, 0.674 for home with help, and 0.889 for expired. SHAP analysis identified admission National Institutes of Health Stroke Scale (NIHSS), length of stay, age, and primary diagnosis as shared predictors across all discharge categories. The SHAP age-threshold analysis identified 72.0 years as a clinically relevant threshold associated with a lower likelihood of home discharge and higher likelihoods of specialized care, home with help, and expired discharge status. The model also highlighted clinically actionable or addressable domains, including blood glucose, depression, insurance type, last known well time, anticoagulant use, and treatment-related variables. CONCLUSION: This interpretable AI-based framework identified clinically relevant predictors of stroke discharge disposition within this single-center retrospective dataset. These findings may inform future decision-support development; however, clinical implementation, resource optimization, and health-system impact require prospective multicenter validation.",
+      "authors": [
+        "Gholampour Seifollah",
+        "Dehghan Arshia",
+        "Voura Evelyn B",
+        "Huang Jesse",
+        "Jamshidi Mohammad",
+        "Koutsouras George W"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Artificial Intelligence",
+        "Stroke",
+        "Patient Discharge",
+        "Retrospective Studies",
+        "Female",
+        "Male",
+        "Aged",
+        "Decision Support Systems, Clinical",
+        "Middle Aged",
+        "Electronic Health Records",
+        "Aged, 80 and over",
+        "Predictive Learning Models"
+      ],
+      "journal": "PloS one",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42455845/",
+      "saved_date": "2026-07-16",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-16"
