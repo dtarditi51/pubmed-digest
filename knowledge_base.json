@@ -726,7 +726,43 @@
       "saved_date": "2026-07-16",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42460730",
+      "title": "Comparative Efficacy and Safety of Clevidipine Versus Nicardipine in Hypertensive Emergencies: A Systematic Review and Meta-Analysis.",
+      "abstract": "BACKGROUND: Hypertensive emergencies require prompt blood pressure reduction to prevent acute target-organ damage. Clevidipine and nicardipine are commonly used intravenous dihydropyridine calcium channel blockers, but their comparative efficacy and safety remain uncertain. We performed a systematic review and meta-analysis comparing clinical outcomes associated with clevidipine versus nicardipine. METHODS: PubMed, the Cochrane Library, and ClinicalTrials.gov were searched from inception through July 3, 2026. Comparative studies evaluating intravenous clevidipine and nicardipine in adults requiring acute systolic blood pressure (SBP) control were included. Primary outcomes were time to target SBP and percentage of time within the target SBP range. Secondary outcomes included intensive care unit (ICU) and hospital length of stay, infusion drug volume, hypotension, tachycardia, acute kidney injury, rescue antihypertensive therapy, and in-hospital mortality. RESULTS: Nine studies involving 1378 patients (eight retrospective cohort studies and one randomized controlled trial) were included. No significant differences were observed between clevidipine and nicardipine in time to target SBP, percentage of time within the target SBP range, ICU or hospital length of stay, hypotension, tachycardia, acute kidney injury, rescue antihypertensive therapy, or in-hospital mortality. Subgroup analyses demonstrated significantly faster target SBP attainment with clevidipine in stroke/neurocritical care and general hypertensive crisis populations. Clevidipine was associated with significantly lower infusion drug volume. CONCLUSIONS: Clevidipine and nicardipine demonstrate comparable efficacy and safety for hypertensive emergencies. Although clevidipine achieved lower infusion volumes and faster target SBP attainment in subgroup analyses, no consistent overall clinical superiority was observed. Larger randomized trials are needed to confirm these findings.",
+      "authors": [
+        "Ullah Tahir",
+        "Khan Hamed",
+        "Khan Anfal",
+        "Agha Syed Asad Ullah",
+        "Malik Aleena Amir",
+        "Naeem Aieman",
+        "Nasir Hamza",
+        "Khan Abdul Qayum",
+        "Zaib Muhammad",
+        "Yousaf Kashif"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Nicardipine",
+        "Antihypertensive Agents",
+        "Hypertension",
+        "Calcium Channel Blockers",
+        "Hypertensive Crisis",
+        "Blood Pressure",
+        "Treatment Outcome",
+        "Pyridines",
+        "Emergencies"
+      ],
+      "journal": "Clinical cardiology",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42460730/",
+      "saved_date": "2026-07-17",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-07-16"
+  "last_updated": "2026-07-17"
 }
