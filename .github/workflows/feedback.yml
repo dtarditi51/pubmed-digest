@@ -47,9 +47,11 @@ jobs:
           git commit -m "feedback: ${{ github.event.issue.title }}" || echo "no changes"
           git push || echo "nothing to push"
 
-      - name: Reply and close
+      # No comment on the issue — a comment (and any thread activity) emails
+      # Daniel for every tap. The ingest result lands in the run summary instead.
+      - name: Close silently
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue comment ${{ github.event.issue.number }} --body-file result.md
-          gh issue close   ${{ github.event.issue.number }}
+          cat result.md >> "$GITHUB_STEP_SUMMARY"
+          gh issue close ${{ github.event.issue.number }}

@@ -51,5 +51,22 @@ module.exports = async (req, res) => {
     return res.status(502).json({ error: `github ${r.status}`, detail: detail.slice(0, 200) });
   }
   const data = await r.json();
+
+  // The issue is created with Daniel's PAT, so he's auto-subscribed and GitHub
+  // would email him when the workflow closes it. Mute the thread immediately —
+  // best-effort: a failure here just means one notification, not lost feedback.
+  await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+      "User-Agent": "pubmed-digest-feedback",
+    },
+    body: JSON.stringify({
+      query: `mutation($id: ID!) { updateSubscription(input: {subscribableId: $id, state: IGNORED}) { subscribable { viewerSubscription } } }`,
+      variables: { id: data.node_id },
+    }),
+  }).catch(() => {});
+
   return res.status(200).json({ ok: true, issue: data.number });
 };
