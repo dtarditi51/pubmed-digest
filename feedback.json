@@ -369,7 +369,33 @@
         "Ağırağaç Ramazan"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42460589",
+      "title": "Starting the Conversation: Implementation of Updated Initial Patient Assessment Documentation in the Electronic Medical Record.",
+      "reason": "",
+      "timestamp": "2026-07-17T14:18:59",
+      "journal": "Studies in health technology and informatics",
+      "year": "2026",
+      "abstract": "The Initial Patient Assessment (IPA) documentation within the selected healthcare organisation's electronic medical record (EMR) is a key component of nursing documentation and planning for patients' hospitalisations. Since its implementation in 2019, the EMR IPA documentation has not been re-assessed for usefulness or completeness. A project was developed to assess, re-design and implement an updated IPA using the Exploration, Preparation, Implementation, Sustainment (EPIS) framework. New IPA forms were co-designed with consumers and nurses to be more conversational and implemented across the organisation for neonatal admissions, paediatric admissions, adult admissions, and adult and paediatric day ward admissions. Improvement in completeness and usefulness was sustained, and this project filled a gap in the literature by providing a co-designed approach to nursing documentation within the EMR with end-users and consumers.",
+      "authors": [
+        "Jedwab Rebecca",
+        "Gogler Janette",
+        "Brook Rebecca",
+        "Foster Joanne",
+        "Garduce James-Norbert",
+        "Pham Anthony",
+        "Dobroff Naomi"
+      ],
+      "mesh_terms": [
+        "Electronic Health Records",
+        "Humans",
+        "Documentation",
+        "Nursing Records",
+        "Nursing Assessment",
+        "User-Computer Interface"
+      ]
     }
   ],
-  "last_updated": "2026-07-17T14:17:41"
+  "last_updated": "2026-07-17T14:18:59"
 }
