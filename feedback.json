@@ -395,7 +395,39 @@
         "Nursing Assessment",
         "User-Computer Interface"
       ]
+    },
+    {
+      "pmid": "42460896",
+      "title": "Factors associated with the implementation of advance care planning among nurses caring for patients with heart failure: A cross-sectional survey in Japan.",
+      "reason": "",
+      "timestamp": "2026-07-17T14:20:14",
+      "journal": "International journal of palliative nursing",
+      "year": "2026",
+      "abstract": "BACKGROUND: Multiple barriers and facilitators affect nurses' implementation of advance care planning for patients with heart failure. However, differences in nurses' perceptions according to their experience with advance care planning remain unclear. AIMS: This study examined factors associated with advance care planning implementation among Japanese nurses. METHODS: In this cross-sectional study, 1250 cardiology hospitals were selected using prefecture-based stratified sampling. Nurses were classified into three groups according to their experience with advance care planning, and factors associated with the implementation of advance care planning were analysed. FINDINGS: A total of 238 nurses responded. Participation in workshops and training sessions had the strongest influence on advance care planning implementation. With greater experience of advance care planning, items related to anxiety were more prevalent than those related to reduction. CONCLUSIONS: Establishing an educational framework that reflects the characteristics of Japanese nurses is essential for promoting its implementation. In addition, a multidisciplinary approach is recommended to address nurses' anxiety. IMPLICATIONS FOR PRACTICE: Providing structured education and training on advance care planning may enhance nurses' confidence and implementation of advance care planning in patients with heart failure. Multidisciplinary support should also be incorporated to address nurses' anxiety and facilitate the integration of advance care planning into routine clinical practice.",
+      "authors": [
+        "Tamaki Yuya",
+        "Nagata Haruno",
+        "Hirata Terumi",
+        "Ikemiya Shuichiro",
+        "Kusunose Kenya",
+        "Ohya Yusuke",
+        "Yonemoto Koji"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Advance Care Planning",
+        "Japan",
+        "Cross-Sectional Studies",
+        "Heart Failure",
+        "Female",
+        "Surveys and Questionnaires",
+        "Male",
+        "Adult",
+        "Middle Aged",
+        "Attitude of Health Personnel",
+        "Nursing Staff, Hospital"
+      ]
     }
   ],
-  "last_updated": "2026-07-17T14:18:59"
+  "last_updated": "2026-07-17T14:20:14"
 }
