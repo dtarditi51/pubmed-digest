@@ -340,7 +340,23 @@
         "Male",
         "Middle Aged"
       ]
+    },
+    {
+      "pmid": "42461107",
+      "title": "Diagnostic performance of deep-learning algorithms in radiographic grading of knee osteoarthritis: a systematic review and meta-analysis.",
+      "reason": "",
+      "timestamp": "2026-07-17T14:17:30",
+      "journal": "Acta radiologica (Stockholm, Sweden : 1987)",
+      "year": "2026",
+      "abstract": "BackgroundDeep learning (DL) has been increasingly applied to grade knee osteoarthritis (KOA) on radiographs, but reported diagnostic performance varies across Kellgren-Lawrence (K-L) grades.PurposeTo systematically evaluate the diagnostic performance of DL models for radiographic KOA grading.Material and MethodsPubMed, Embase, and Web of Science were searched through November 2024 for studies using DL algorithms to grade KOA on X-ray images. Sensitivity and precision were synthesized. Heterogeneity was assessed using the",
+      "authors": [
+        "Ren Xiaolu",
+        "Jin Xinyu",
+        "Wang ZhiJun",
+        "Li Ting"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-16T17:41:05"
+  "last_updated": "2026-07-17T14:17:30"
 }
