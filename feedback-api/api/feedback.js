@@ -52,20 +52,19 @@ module.exports = async (req, res) => {
   }
   const data = await r.json();
 
-  // The issue is created with Daniel's PAT, so he's auto-subscribed and GitHub
-  // would email him when the workflow closes it. Mute the thread immediately —
-  // best-effort: a failure here just means one notification, not lost feedback.
-  await fetch("https://api.github.com/graphql", {
-    method: "POST",
+  // Close the issue immediately, with the same PAT that created it. The
+  // workflow already ingested it via the `opened` event, and GitHub never
+  // notifies you about your own actions — so no email per tap. Best-effort:
+  // a failure just means the workflow's fallback close (and one email).
+  await fetch(`https://api.github.com/repos/${GH_REPO}/issues/${data.number}`, {
+    method: "PATCH",
     headers: {
       Authorization: `Bearer ${token}`,
+      Accept: "application/vnd.github+json",
       "Content-Type": "application/json",
       "User-Agent": "pubmed-digest-feedback",
     },
-    body: JSON.stringify({
-      query: `mutation($id: ID!) { updateSubscription(input: {subscribableId: $id, state: IGNORED}) { subscribable { viewerSubscription } } }`,
-      variables: { id: data.node_id },
-    }),
+    body: JSON.stringify({ state: "closed", state_reason: "completed" }),
   }).catch(() => {});
 
   return res.status(200).json({ ok: true, issue: data.number });

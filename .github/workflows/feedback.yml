@@ -47,11 +47,13 @@ jobs:
           git commit -m "feedback: ${{ github.event.issue.title }}" || echo "no changes"
           git push || echo "nothing to push"
 
-      # No comment on the issue — a comment (and any thread activity) emails
-      # Daniel for every tap. The ingest result lands in the run summary instead.
+      # No comment on the issue — any bot activity on Daniel's issue emails him.
+      # One-click issues arrive already closed (the Vercel function closes what
+      # it creates, and self-actions never notify); this close is only the
+      # fallback for issues opened by hand via the form.
       - name: Close silently
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           cat result.md >> "$GITHUB_STEP_SUMMARY"
-          gh issue close ${{ github.event.issue.number }}
+          gh issue close ${{ github.event.issue.number }} || true
