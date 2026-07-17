@@ -356,7 +356,20 @@
         "Li Ting"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42462969",
+      "title": "Diagnostic Performance of Deep Learning for Automated Mandibular Canal Segmentation on CBCT Images: A Systematic Review and Meta-Analysis.",
+      "reason": "",
+      "timestamp": "2026-07-17T14:17:41",
+      "journal": "Journal of stomatology, oral and maxillofacial surgery",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Accurate localization of the mandibular canal in Cone-Beam Computed Tomography (CBCT) images is critical for preventing iatrogenic nerve injury during maxillofacial surgery and dental implant procedures. This systematic review and meta-analysis aimed to evaluate the diagnostic performance, anatomical localization accuracy, and time efficiency of deep learning-based artificial intelligence (AI) systems in automated mandibular canal segmentation compared to traditional manual expert annotations. MATERIALS AND METHODS: A comprehensive literature search was conducted across PubMed, Scopus, Web of Science, IEEE Xplore, and Embase databases in accordance with PRISMA guidelines. Studies evaluating the performance of AI models for mandibular canal detection on CBCT scans using expert annotations as the reference standard were included. The primary outcome measure was the Dice Similarity Coefficient (DSC), while secondary outcomes included Average Symmetric Surface Distance (ASSD) and processing time. Statistical analyses were performed using a random-effects model. RESULTS: A total of 38 unique studies comprising over 8,420 CBCT volumes were included in the quantitative synthesis. The pooled DSC for AI-driven segmentation was calculated as 0.82 (95% CI: 0.79-0.85). Subgroup analyses revealed that transformer-based architectures (DSC: 0.89) demonstrated significantly superior performance compared to traditional convolutional neural networks (CNNs). The pooled ASSD exhibited a high anatomical accuracy of 0.42 mm (95% CI: 0.38-0.47), which is close to voxel dimensions. Furthermore, the autonomous segmentation process was completed in an average of 32 seconds, whereas manual expert annotation took 600 seconds (p < 0.001), confirming an 18.7-fold timesaving in the clinical workflow. DISCUSSION: Deep learning algorithms provide highly accurate, reproducible, and time-efficient results at a human-expert level in the automated segmentation of the mandibular canal on CBCT images. The integration of these AI systems into clinical protocols has the potential to enhance surgical safety and standardize preoperative planning processes in dental implantology.",
+      "authors": [
+        "Ağırağaç Ramazan"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-17T14:17:30"
+  "last_updated": "2026-07-17T14:17:41"
 }
