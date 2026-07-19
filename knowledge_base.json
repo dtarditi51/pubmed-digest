@@ -762,7 +762,56 @@
       "saved_date": "2026-07-17",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42471458",
+      "title": "Advancing FAIR data towards comparable, organized, predictive AI-ready data for community validation.",
+      "abstract": "The interrogation of data across biological and environmental systems has become increasingly complex. Fortunately, communities are adopting the FAIR (Findable, Accessible, Interoperable, Reusable) data principles for individual datasets, and continue to develop domain-specific, machine-actionable standards. However, integrating FAIR data for meta-analysis across data resources is still challenging. Understanding how disparate datasets are organized remains a manual, time-consuming process. Updating FAIR databases to reflect changes in knowledge is slow, allowing stale annotations and incorrect relationships to propagate, amplified by Artificial Intelligence (AI) systems that harvest data. Building on FAIR, we argue that data should be iteratively updated and improved. FAIR + COPE (Comparable, Organized, Predictive, Engaged) takes FAIR data and makes it Comparable, rapidly Organized (applying / updating standards) for Predictive models, which can be validated and improved by an Engaged community. We provide examples of FAIR + COPE resources and science use cases that highlight the importance of FAIR + COPE in scientific research.",
+      "authors": [
+        "Wood-Charlson Elisha M",
+        "Åkerström Wolmar N",
+        "Anderson Lindsey",
+        "Borton Mikayla A",
+        "Burley Stephen K",
+        "Byers Neil",
+        "Chandramouliswaran Ishwar",
+        "Costes Sylvain V",
+        "Dehal Paramvir S",
+        "Doktycz Mitchel",
+        "Eloe-Fadrosh Emiley",
+        "Henry Christopher",
+        "Fagnan Kjiersten",
+        "Fiehn Oliver",
+        "Halappanavar Mahantesh",
+        "Hurwitz Bonnie",
+        "Joachimiak Marcin P",
+        "Jungbluth Sean",
+        "Koblitz Julia",
+        "Mahmud Gazi",
+        "McCue Lee Ann",
+        "Metz Thomas O",
+        "Mouncey Nigel",
+        "Mungall Christopher J",
+        "Nelson Tiffanie M",
+        "Skye Valerie",
+        "Saravia-Butler Amanda M",
+        "Saripalli V Ratna",
+        "Tringe Susannah G",
+        "Van Den Bossche Tim",
+        "Arkin Adam P"
+      ],
+      "mesh_terms": [
+        "Artificial Intelligence",
+        "Databases, Factual"
+      ],
+      "journal": "Communications biology",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42471458/",
+      "saved_date": "2026-07-19",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-19"
 }
