@@ -530,7 +530,23 @@
         "Blood Pressure Monitoring, Ambulatory",
         "Risk Factors"
       ]
+    },
+    {
+      "pmid": "42474607",
+      "title": "Integrating PROMIS measures into an interventional spine workflow: a quality improvement study.",
+      "reason": "",
+      "timestamp": "2026-07-21T10:33:59",
+      "journal": "Journal of patient-reported outcomes",
+      "year": "2026",
+      "abstract": "OBJECTIVE: To evaluate and improve the integration of Patient-Reported Outcomes Measurement Information System (PROMIS) data collection within an interventional spine workflow, and to assess feasibility through completion rates before and after a structured workflow intervention. DESIGN: Retrospective quality improvement study with pre-post intervention analysis. SETTING: Academic community-based health system. SUBJECTS: Seventy-one unique patients (73 procedures) treated with BVNA between 2022 and 2025. METHODS: PROMIS Pain Interference, Pain Intensity, and Physical Function surveys were administered at baseline and at 3-, 6-, and 12-month follow-up using EHR-embedded automated workflows. In parallel, a structured quality improvement intervention was implemented to improve survey completion via emphasis on baseline survey completion. The intervention included a standardized nursing rooming checkpoint to verify PROMIS completion prior to the procedure, staff education with scripted patient engagement language, real-time EHR visual prompts using dot phrases to identify incomplete surveys, and monthly site-level performance dashboards reviewed with clinical staff and leadership. Completion rates were extracted from institutional dashboards and workflow bottlenecks were identified through process mapping and staff feedback. Fisher's exact test was used to compare pre- and post-intervention baseline PROMIS completion rates. Clinic visit duration was tracked as a balancing measure to evaluate potential workflow burden. RESULTS: Seventy-one patients underwent 73 BVNA procedures. Completion rates were 31.82% at baseline, 77.78% at 3 months, 40.00% at 6 months, and 100% at 12 months among patients reaching those timepoints. Longitudinal engagement was 56%, while longitudinal completeness was 33%. Baseline survey completion improved from 31.82% (21/66) before intervention to 100% (6/6) following implementation during the post-intervention three month observation period. Clinic workflow efficiency was not adversely affected, with 83% of visits remaining within the standard 30-minute time slot and no statistically significant increase in visit duration. CONCLUSIONS: PROMIS data collection during interventional spine care is feasible and can be reliably integrated into routine clinical workflows when supported by targeted quality improvement interventions. Improving baseline survey capture potentially expands the denominator of patients eligible for longitudinal outcome measurement without increasing clinical workload. Hybrid implementation strategies combining automated EHR deployment with structured clinical oversight may enable reliable PROMIS integration in procedural spine practice.",
+      "authors": [
+        "Cheney Cole",
+        "Springsted Martha",
+        "Pisati Tejaswini",
+        "Dauffenbach Jason"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-21T10:31:58"
+  "last_updated": "2026-07-21T10:33:59"
 }
