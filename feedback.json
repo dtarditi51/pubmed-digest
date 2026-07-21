@@ -447,7 +447,29 @@
         "González Marisol"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42477500",
+      "title": "Multi-task deep learning model for predicting EGFR mutation status in NSCLC.",
+      "reason": "",
+      "timestamp": "2026-07-21T10:31:03",
+      "journal": "NPJ digital medicine",
+      "year": "2026",
+      "abstract": "Multi-task DL for predicting EGFR mutation status Epidermal growth factor receptor (EGFR) mutation status is a critical biomarker in the management of non-small cell lung cancer (NSCLC), playing an essential role in selecting patients for EGFR-targeted treatment. With advancements in deep learning (DL), there is a growing interest in developing non-invasive methods for predicting EGFR mutation status. In this study, we present a multi-task deep learning (MTDL) model that utilizes CT images to predict EGFR mutation status (ChiCTR2400083082 in the WHO International Clinical Trials Registry). Our MTDL model achieved promising performance in accurately predicting EGFR mutation status. Additionally, the MTDL score was significantly associated with survival in patients receiving EGFR-targeted treatment, as well as relevant gene expression patterns and tumor microenvironment. These findings suggest that our method has the potential to serve as an accurate and non-invasive biomarker for predicting EGFR mutation status, thereby facilitating personalized treatment decisions for NSCLC patients.",
+      "authors": [
+        "Song Qilong",
+        "Li Xiaohu",
+        "Song Biao",
+        "Ye Wei",
+        "Zhang Tingting",
+        "Hu Xiankuo",
+        "Cao Chi",
+        "Li Ao",
+        "Min Xuhong",
+        "Yu Yongqiang"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-17T14:20:36"
+  "last_updated": "2026-07-21T10:31:03"
 }
