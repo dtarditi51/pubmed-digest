@@ -546,7 +546,35 @@
         "Dauffenbach Jason"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42475429",
+      "title": "Multimodel Interpretable Machine Learning for Osteoporosis Prediction in Diabetes Using a Large Critical Care Electronic Health Record Database.",
+      "reason": "",
+      "timestamp": "2026-07-21T10:34:37",
+      "journal": "Journal of visualized experiments : JoVE",
+      "year": "2026",
+      "abstract": "Diabetes mellitus is associated with increased skeletal fragility and elevated fracture risk; however, early identification of osteoporosis (OP) in diabetic populations remains challenging. This study aimed to develop and compare multiple machine-learning (ML) models for predicting OP among patients with diabetes, while evaluating their clinical utility and enhancing model transparency using SHapley Additive exPlanations (SHAP). Using routinely collected demographic and laboratory data from the MIMIC-IV database, multiple ML algorithms, including tree ensembles, gradient boosting, and linear baselines, were trained and validated. Model performance was comprehensively evaluated using discrimination metrics, including the area under the receiver operating characteristic curve (AUC) and precision-recall analysis, as well as probability calibration curves and decision curve analysis (DCA) to assess net clinical benefit. The best-performing model was further interpreted using SHAP to quantify and visualize feature contributions at both global and individual levels. Among all evaluated models, ensemble tree-based methods showed improved performance. The ExtraTrees classifier achieved the highest validation performance (AUC = 0.862; average precision = 0.866). Furthermore, the selected model exhibited excellent probability calibration (Brier score = 0.154) and demonstrated substantial net clinical benefit across a wide range of risk thresholds in the DCA. SHAP analysis identified gender and age as the most influential predictors, followed by routine hematologic and metabolic laboratory indicators. Local explanations provided clinically interpretable insights into individual predictions. An interpretable ensemble tree-based model effectively predicts OP risk in patients with diabetes using routinely available clinical variables. The integration of SHAP improves clinical transparency, and strong calibration coupled with positive net clinical benefit supports its potential implementation as a reliable decision-support tool for early OP risk stratification in diabetic populations.",
+      "authors": [
+        "Cheng Dongdong",
+        "Zhang Wei",
+        "Chen Jingyu",
+        "Zhu Xinhui"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Osteoporosis",
+        "Machine Learning",
+        "Electronic Health Records",
+        "Predictive Learning Models",
+        "Databases, Factual",
+        "Diabetes Complications",
+        "Female",
+        "Diabetes Mellitus",
+        "Prediction Algorithms",
+        "Boosting Machine Learning Algorithms"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T10:33:59"
+  "last_updated": "2026-07-21T10:34:37"
 }
