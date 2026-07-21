@@ -492,7 +492,45 @@
         "Chang Steven D"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42473428",
+      "title": "Cardiac Rehabilitation for Cardiovascular Risk Modification in Patients With Rheumatoid Arthritis and Hypertension: A Randomized Controlled Trial.",
+      "reason": "",
+      "timestamp": "2026-07-21T10:31:58",
+      "journal": "International journal of rheumatic diseases",
+      "year": "2026",
+      "abstract": "OBJECTIVE: Patients with rheumatoid arthritis (RA) have an increased risk of cardiovascular disease, particularly when hypertension coexists. However, evidence regarding the role of cardiac rehabilitation (CR) in this high-risk population remains limited. In this randomized controlled trial, the effects of a structured CR program on estimated cardiovascular risk, ambulatory blood pressure, and cardiorespiratory fitness were evaluated in patients with RA and hypertension. METHODS: In this single-center randomized controlled trial, 50 patients with RA and hypertension were randomly assigned (1:1) to a 6-week supervised CR program or usual care. The intervention included supervised aerobic, resistance, and flexibility training together with weekly educational sessions. Outcomes were assessed at baseline and at 6, 12, and 24 weeks by blinded evaluators. The primary outcome was estimated 10-year cardiovascular risk assessed using the Framingham Risk Score (FRS), with QRISK RESULTS: Linear mixed-effects modeling demonstrated a significant group × time interaction for FRS (p < 0.001). At Week 24, the between-group difference in FRS was -5.02 points (95% CI -8.60 to -1.44; p = 0.007). QRISK CONCLUSION: In selected patients with clinically stable rheumatoid arthritis and coexisting hypertension who were receiving stable pharmacologic therapy and were able to participate in supervised exercise, a structured cardiac rehabilitation program was associated with improvements in estimated cardiovascular risk profiles, ambulatory systolic blood pressure, and cardiorespiratory fitness without worsening disease activity. These findings support further evaluation of cardiac rehabilitation as an adjunctive strategy for cardiovascular risk management in a selected cardiometabolically high-risk rheumatoid arthritis population with hypertension. TRIAL REGISTRATION: The trial was registered at ClinicalTrials.gov Identifier: NCT06295848.",
+      "authors": [
+        "Kutluca Abdurrahman",
+        "Sütbeyaz Serap Tomruk",
+        "Çalış Havva Talay",
+        "Demirelli Selami",
+        "Çitil Emrah"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Arthritis, Rheumatoid",
+        "Hypertension",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "Treatment Outcome",
+        "Cardiac Rehabilitation",
+        "Time Factors",
+        "Cardiorespiratory Fitness",
+        "Blood Pressure",
+        "Risk Reduction Behavior",
+        "Aged",
+        "Heart Disease Risk Factors",
+        "Patient Education as Topic",
+        "Risk Assessment",
+        "Cardiovascular Diseases",
+        "Exercise Therapy",
+        "Blood Pressure Monitoring, Ambulatory",
+        "Risk Factors"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T10:31:24"
+  "last_updated": "2026-07-21T10:31:58"
 }
