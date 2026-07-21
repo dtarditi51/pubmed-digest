@@ -595,7 +595,49 @@
         "Angiotensin-Converting Enzyme Inhibitors",
         "Angiotensin Receptor Antagonists"
       ]
+    },
+    {
+      "pmid": "42476555",
+      "title": "Blood pressure polygenic score, cardiorespiratory fitness and odds of dementia: the HUNT Study.",
+      "reason": "",
+      "timestamp": "2026-07-21T10:36:55",
+      "journal": "Age and ageing",
+      "year": "2026",
+      "abstract": "High blood pressure (BP) is linked to an increased dementia risk. The role of sex and the impact of cardiorespiratory fitness (CRF) on the potential association between genetic predisposition to high blood pressure and dementia are less understood. Our aim was to investigate if there is an association between genetic predisposition to high systolic blood pressure (SBP) and occurrence of dementia in males and females and whether CRF modifies this association. This prospective cohort study utilised data from the population-based Trøndelag Health Study in Norway. We included 9145 participants ≥70 years in the HUNT4 70+ sub-study. The sex-specific association between the BP polygenic score (PGS) and dementia was estimated by logistic regression. Analyses were stratified by CRF to investigate potential effect modification by CRF. Among 5011 females (mean age 78.5 years) and 4134 males (mean age 77.4 years), 812 (16.2%) and 570 (13.8%) dementia cases were identified, respectively. Females in the highest fifth of the PGS had an increased odds of dementia [odds ratio (OR) = 1.45; 95% confidence interval (CI) 1.10 to 1.90]. This was not observed in males (OR = 1.03; 95% CI 0.77 to 1.37). The association was somewhat stronger in females with low fitness (OR = 1.53; 95% CI 1.08 to 2.17) than in females with high fitness (OR = 1.12; 95% CI 0.78 to 1.63). Genetic predisposition to high SBP was associated with higher odds of dementia in females, particularly if they had low CRF. Future studies should further examine sex-specific effects of genetic and modifiable factors on dementia risk.",
+      "authors": [
+        "Lerfald Maren",
+        "Øvretveit Karsten",
+        "Nilsen Tom Ivar Lund",
+        "Eldholm Rannveig Sakshaug",
+        "Grøtting Nora",
+        "Wolford Brooke N",
+        "Selbaek Geir",
+        "Ernstsen Linda"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Cardiorespiratory Fitness",
+        "Female",
+        "Norway",
+        "Dementia",
+        "Genetic Risk Score",
+        "Male",
+        "Genetic Predisposition to Disease",
+        "Blood Pressure",
+        "Prospective Studies",
+        "Risk Factors",
+        "Sex Factors",
+        "Phenotype",
+        "Aged",
+        "Hypertension",
+        "Odds Ratio",
+        "Multifactorial Inheritance",
+        "Aged, 80 and over",
+        "Logistic Models",
+        "Age Factors",
+        "Risk Assessment"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T10:36:36"
+  "last_updated": "2026-07-21T10:36:55"
 }
