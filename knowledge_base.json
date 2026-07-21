@@ -877,6 +877,24 @@
       "saved_date": "2026-07-21",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42475062",
+      "title": "Implications of the 2026 Dyslipidemia Guideline for Primary Prevention Statin Therapy.",
+      "abstract": "IMPORTANCE: The 2026 American Heart Association/American College of Cardiology/multisociety guideline on the management of dyslipidemia issued new recommendations on estimating atherosclerotic cardiovascular disease (ASCVD) risk and on populations eligible for statins for primary prevention. OBJECTIVE: To assess the population health impact of the 2026 guideline on primary prevention statin therapy. DESIGN, SETTING, AND PARTICIPANTS: Nationally representative, cross-sectional sample of nonpregnant adults aged 30 to 79 years without known ASCVD, who participated in the National Health and Nutrition Examination Survey from 2017 to 2023. Data were analyzed from March to May 2026. MAIN OUTCOMES AND MEASURES: Changes in eligibility for primary prevention statin therapy, comparing the 2026 and 2018 lipid guidelines. RESULTS: The weighted sample included 4366 NHANES participants representative of 154.5 million US adults (weighted mean age, 51 years; 52.0% female). Of these, 5.5% (95% CI, 4.7%-6.6%) had untreated low-density lipoprotein cholesterol below 70 mg/dL, 17.8% (95% CI, 16.3%-19.5%) reported currently taking statins, and 8.6% (95% CI, 7.6%-9.8%) met criteria for statin eligibility independent of ASCVD risk estimation based on a low-density lipoprotein cholesterol of 190 mg/dL or greater, diabetes, or chronic kidney disease. The remaining 68.0% of patients (95% CI, 65.9%-70.0%) met guideline criteria for using ASCVD risk estimation to guide statin decisions. In total, an estimated 87.5 million (56.6% [95% CI, 54.2%-58.9%]) nonpregnant US adults aged 30 to 79 years were statin eligible based on the 2026 guideline, including 21.5 million (13.9% [95% CI, 12.5%-15.5%]) who were newly statin eligible. More than 93% of adults aged 70 to 79 years and 85% of adults aged 60 to 69 years are eligible for primary prevention statin therapy compared with 11% of adults aged 30 to 39 years. Newly statin-eligible populations were largely younger and lower risk than populations previously recommended statin therapy (mean estimated 10-year ASCVD risk, 3.1% [95% CI, 2.7%-3.5%] for newly statin-eligible individuals vs 6.1% [95% CI, 5.8%-6.4%] for individuals previously eligible for statin therapy). CONCLUSIONS AND RELEVANCE: The 2026 dyslipidemia guideline substantially expands the US population recommended for primary prevention statin therapy, predominantly in lower-risk individuals.",
+      "authors": [
+        "Anderson Timothy S",
+        "Wilson Linnea M",
+        "Sussman Jeremy B"
+      ],
+      "mesh_terms": [],
+      "journal": "JAMA",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42475062/",
+      "saved_date": "2026-07-21",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-21"
