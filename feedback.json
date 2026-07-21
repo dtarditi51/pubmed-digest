@@ -574,7 +574,28 @@
         "Prediction Algorithms",
         "Boosting Machine Learning Algorithms"
       ]
+    },
+    {
+      "pmid": "42475150",
+      "title": "Heart Failure With Reduced Ejection Fraction Update: A Review Of Clinical Trials and New Therapeutic Considerations.",
+      "reason": "",
+      "timestamp": "2026-07-21T10:35:52",
+      "journal": "South Dakota medicine : the journal of the South Dakota State Medical Association",
+      "year": "2025",
+      "abstract": "Heart failure with reduced ejection fraction (HFrEF) is a prevalent and complex condition characterized by the heart's inability to pump sufficient blood, leading to significant morbidity and mortality. It is primarily caused by ischemic heart disease, hypertension, and dilated cardiomyopathy. The pathophysiology of HFrEF involves myocardial remodeling, neurohormonal activation, and resultant systolic dysfunction, contributing to symptoms like dyspnea and fatigue. Comorbidities such as diabetes, obesity, and chronic kidney disease exacerbate its progression. Diagnosis relies on clinical symptoms, biomarkers, and imaging, including echocardiography and chest radiography. Key therapies for HFrEF include Renin-Angiotensin-Aldosterone System (RAAS) inhibitors [Angiotensin-converting enzyme (ACE) inhibitors, Angiotensin II Receptor Blockers (ARBs), Angiotensin receptor-neprilysin inhibitor (ARNIs)], beta-blockers, and mineralocorticoid receptor antagonists, which improve survival and reduce hospitalizations. The use of sodium-glucose cotransporter-2 (SGLT2) inhibitors and intravenous iron therapy has also become integral to treatment, showing benefits in reducing mortality and improving symptoms. Device therapies, such as implantable cardioverter-defibrillators (ICDs), cardiac resynchronization therapy (CRT), and left ventricular assist devices (LVADs), are critical for advanced cases. Despite therapeutic advancements, challenges remain in optimal dosing, patient adherence, and the integration of newer therapies. Ongoing trials, including those investigating the AccuCinch Ventricular Restoration System and novel antibodies, promise to expand treatment options. Ultimately, a multidisciplinary approach, personalized care, and continuous research are essential to improving outcomes in HFrEF, a condition that remains a major global health burden.",
+      "authors": [
+        "Wasef Natale",
+        "Stys Adam"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Heart Failure",
+        "Stroke Volume",
+        "Clinical Trials as Topic",
+        "Angiotensin-Converting Enzyme Inhibitors",
+        "Angiotensin Receptor Antagonists"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T10:34:37"
+  "last_updated": "2026-07-21T10:35:52"
 }
