@@ -850,6 +850,33 @@
       "saved_date": "2026-07-21",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42477462",
+      "title": "A knowledge-enhanced domain-aware large language model agent for atrial fibrillation management.",
+      "abstract": "Large language models (LLMs) show considerable potential for atrial fibrillation (AF) management, yet current clinical applications frequently remain suboptimal due to accuracy limitations. To address these limitations, this study developed PULSE (Potentiated User-friendly LLM-driven Search Engine), a novel knowledge-enhanced, domain-aware LLM agent specifically designed to improve AF patient self-management across the entire care continuum. The proposed framework integrates multimodal inputs, meticulously curated clinical knowledge bases, optimized prompt engineering, and retrieval-augmented generation within an agent-based architecture. Performance was rigorously evaluated against four leading base LLMs using response quality (clinical accuracy, content integrity, practical utility, and patient safety) and readability (clarity, conciseness, and empathy). Comprehensive clinical validation was subsequently conducted through blinded expert assessment of 75 real-world AF-related patient queries. The results demonstrated that PULSE improved clinical accuracy, content integrity, utility, and safety (P < 0.05) across all tested models. Furthermore, it substantially enhanced empathy and clarity while maintaining comparable conciseness. Overall, PULSE improves both the factual accuracy and readability of patient-facing medical outputs, highlighting the immense clinical potential of agent-driven LLM systems to advance chronic disease self-management and improve long-term patient outcomes.",
+      "authors": [
+        "Wang Yijun",
+        "Peng Chen",
+        "Hu Ruijie",
+        "Huang Liying",
+        "Liu Hengyang",
+        "Yao Zhuoya",
+        "Ruan Huaiyu",
+        "Leng Junjie",
+        "Zhou Bowen",
+        "Duan Shoupeng",
+        "Tan Wuping",
+        "Wang Jun"
+      ],
+      "mesh_terms": [],
+      "journal": "NPJ digital medicine",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42477462/",
+      "saved_date": "2026-07-21",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-21"
