@@ -811,7 +811,46 @@
       "saved_date": "2026-07-19",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42476485",
+      "title": "Coronary CT angiography for risk stratification among young adults: Prevalence of atherosclerosis and long-term outcomes.",
+      "abstract": "AIMS: The prevalence and long-term prognostic significance of coronary atherosclerosis detected by coronary computed tomography angiography (CCTA) in young adults remain insufficiently defined. We aimed to evaluate the prevalence of coronary atherosclerosis and its association with long-term cardiovascular outcomes among young adults undergoing clinically indicated CCTA. METHODS AND RESULTS: We performed a retrospective cohort study of consecutive patients undergoing CCTA at two academic centres between 2006 and 2021. Patients with prior coronary artery disease, end-stage renal disease, or malignancy were excluded. Young adults were defined as men ≤50 years and women ≤60 years. Coronary artery disease (CAD) was classified as no CAD, non-obstructive plaque (1-49% stenosis), or obstructive CAD (≥50% stenosis). The primary outcome was a composite of cardiovascular death, non-fatal myocardial infarction, or ischaemic stroke. Associations between CAD severity and outcomes were assessed using cause-specific proportional hazards models with multivariable adjustment. Among 10,247 young adults (median age 47 years; 56% women), 29.0% had non-obstructive plaque and 8.7% had obstructive CAD. Over a median follow-up of 6.7 years (interquartile range 4.2-10.4), the risk of the primary outcome increased stepwise with increasing CAD severity. Compared with no CAD, obstructive CAD was associated with a more than two-fold higher risk of events [adjusted hazard ratio (HR) 2.6, 95% confidence interval (CI) 1.9-3.6], while non-obstructive CAD was associated with a modest, non-significant increase in risk (adjHR 1.2, 95% CI 0.9-1.7). Among patients with non-obstructive CAD, event rates increased with greater plaque extent. CONCLUSION: In routine clinical practice, approximately 40% of young adults undergoing CCTA demonstrate coronary atherosclerosis, which is independently associated with adverse long-term cardiovascular outcomes. These findings support the role of CCTA in early risk stratification and targeted preventive strategies among younger individuals.",
+      "authors": [
+        "Shiyovich Arthur",
+        "Huck Daniel M",
+        "Cardoso Rhanderson",
+        "Berman Adam N",
+        "Besser Stephanie A",
+        "Biery David W",
+        "Singh Avinainder",
+        "Petranovic Milena",
+        "Weber Brittany N",
+        "Hainer Jon",
+        "Blair Camila V",
+        "Trinquart Ludovic",
+        "Meyersohn Nandini",
+        "Baliyan Vinit",
+        "McCarthy Cian P",
+        "Lu Michael T",
+        "Leandro Slipczuk",
+        "Nasir Khurram",
+        "Steigner Michael",
+        "Aghayev Ayaz",
+        "Hedgire Sandeep",
+        "Di Carli Marcelo",
+        "Ghoshhajra Brian",
+        "Blankstein Ron"
+      ],
+      "mesh_terms": [],
+      "journal": "Progress in cardiovascular diseases",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42476485/",
+      "saved_date": "2026-07-21",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-07-19"
+  "last_updated": "2026-07-21"
 }
