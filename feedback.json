@@ -845,7 +845,38 @@
         "Adult",
         "Surveys and Questionnaires"
       ]
+    },
+    {
+      "pmid": "42530895",
+      "title": "A novel nutritional index for hypertension risk and prediction: Cross-sectional, prospective, and trajectory evidence from the English Longitudinal Study of Ageing.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:31:58",
+      "journal": "The Journal of international medical research",
+      "year": "2026",
+      "abstract": "ObjectiveHypertension is a common and modifiable cardiovascular risk factor. The triglyceride-total cholesterol-body weight index is a novel metabolic indicator derived from routine clinical measurements, but its association with hypertension remains unclear.MethodsThis longitudinal cohort study used data from 5,731 middle-aged and older adults from the English Longitudinal Study of Ageing, with cross-sectional, prospective, and trajectory analyses. Hypertension was defined as a mean systolic blood pressure ≥140 mmHg, a mean diastolic blood pressure ≥90 mmHg, antihypertensive medication use, or self-reported physician-diagnosed hypertension. For the prospective analysis, participants without hypertension at baseline were followed for a median of 12 years. For the trajectory analysis, repeated triglyceride-total cholesterol-body weight index measurements from previous waves were used to identify long-term triglyceride-total cholesterol-body weight index patterns and assess their associations with hypertension risk. Subgroup analyses and propensity score matching were performed to assess the robustness of the findings.ResultsIn the cross-sectional analyses, each one-unit increase in log-transformed triglyceride-total cholesterol-body weight index was associated with 43% higher odds of hypertension (adjusted odds ratio = 1.43, 95% confidence interval: 1.31-1.55). In the prospective analyses, baseline triglyceride-total cholesterol-body weight index predicted incident hypertension (adjusted hazard ratio = 1.16, 95% confidence interval: 1.05-1.28). Trajectory analyses identified low, moderate, and high triglyceride-total cholesterol-body weight index patterns, showing a graded increase in hypertension risk. Compared with the low-trajectory group, the high-triglyceride-total cholesterol-body weight index group had 69% higher odds of hypertension (adjusted odds ratio = 1.69, 95% confidence interval: 1.37-2.09, p < 0.001).ConclusionTriglyceride-total cholesterol-body weight index was independently and positively associated with the risk of hypertension and may provide a simple measure of metabolic burden relevant to early risk stratification.",
+      "authors": [
+        "Luo Fulong",
+        "Cao Yue"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Hypertension",
+        "Cross-Sectional Studies",
+        "Female",
+        "Male",
+        "Longitudinal Studies",
+        "Prospective Studies",
+        "Aged",
+        "Middle Aged",
+        "Cholesterol",
+        "Aging",
+        "Triglycerides",
+        "Blood Pressure",
+        "Risk Factors",
+        "Body Mass Index",
+        "England"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:31:16"
+  "last_updated": "2026-07-31T11:31:58"
 }
