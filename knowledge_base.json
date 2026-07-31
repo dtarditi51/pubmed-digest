@@ -912,6 +912,29 @@
       "saved_date": "2026-07-31",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42530821",
+      "title": "Benchmarking 54 large language model configurations for CAD-RADS scoring: open-weight models approach human-level agreement.",
+      "abstract": "The Coronary Artery Disease Reporting and Data System (CAD-RADS) standardizes coronary CT angiography (CCTA) reporting, but not all reports contain CAD-RADS classifications. We benchmarked 54 large language model (LLM) configurations across 50 distinct models, including recent proprietary and open-weight reasoning models, for zero-shot CAD-RADS classification. We retrospectively analyzed 500 anonymized CCTA reports from four hospitals across three U.S. regions. Expert cardiovascular radiologists provided the reference standard (human inter-rater [Formula: see text]). Fifty-four model configurations (50 distinct LLMs; four configurable models tested in both thinking and non-thinking modes) spanning Llama 2 7B through recent thinking models (DeepCogito v2, Gemini 3 Pro) processed reports using identical zero-shot prompts. Performance was measured with unweighted Cohen's κ. Two LLMs met both pre-specified non-inferiority criteria ([Formula: see text] margin and entire 95% CI within the human inter-rater agreement band, [Formula: see text]-0.956): Claude 4.6 Opus ([Formula: see text], 95% CI 0.817-0.889) and the open-weight Gemma 4 31B ([Formula: see text], 95% CI 0.810-0.882), which ranked second overall. Both met the criteria at the pre-specified [Formula: see text] margin; at [Formula: see text] no model qualified. On the reports originally dictated without a CAD-RADS statement (n=343), the top models reached [Formula: see text]. Performance declined with longer thinking chains (proxy for case complexity), but thinking-mode outperformed non-thinking mode on matched difficult reports. Gemma 4 31B remained non-inferior at 3-bit quantization and fits on a 24 GB consumer GPU. Current LLMs extract the CAD-RADS stenosis severity category from unstructured CCTA reports with agreement approaching the human inter-rater band, without task-specific training. Our data shows the remarkable rise of open models. A 31B open-weight model matched top proprietary systems and runs on consumer GPUs, enabling privacy-preserving local deployment for clinical data mining.",
+      "authors": [
+        "Sandfort Veit",
+        "Vigneault Davis M",
+        "Willemink Martin J",
+        "Wu Jie",
+        "Hallett Richard L",
+        "Nieman Koen",
+        "Fleischmann Dominik",
+        "Mastrodicasa Domenico"
+      ],
+      "mesh_terms": [],
+      "journal": "The international journal of cardiovascular imaging",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42530821/",
+      "saved_date": "2026-07-31",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-07-31"
