@@ -876,7 +876,42 @@
         "Body Mass Index",
         "England"
       ]
+    },
+    {
+      "pmid": "42530267",
+      "title": "The Ferroptosis-Related Mechanisms of Pentoxifylline in Atrial Fibrillation Treatment.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:32:24",
+      "journal": "Frontiers in bioscience (Landmark edition)",
+      "year": "2026",
+      "abstract": "BACKGROUND: Ferroptosis has been increasingly implicated in the pathophysiology of atrial fibrillation (AF). Pentoxifylline (PTX), a methylxanthine derivative, has shown potential therapeutic benefits in cardiovascular diseases; however, its unique role in ferroptosis-associated AF remains unclear. This study aimed to elucidate the molecular mechanisms through which PTX may exert therapeutic effects on ferroptosis-related AF, using a multifaceted approach integrating network pharmacology, bioinformatics, and experimental validation. METHODS: Two transcriptomic datasets, GSE41177 and GSE79768, were retrieved from the Gene Expression Omnibus (GEO) to identify differentially expressed genes (DEGs) in AF. Ferroptosis-related genes (FRGs) were collected from the FerrDb database. PTX-associated targets were predicted using Super-PRED and SwissTargetPrediction. Overlapping DEGs and predicted PTX targets were intersected with FRGs to identify potential pharmacological targets. Candidate genes were further refined through protein-protein interaction (PPI) network construction and five topological algorithms (Degree, Maximum Neighborhood Component [MNC], Maximal Clique Centrality [MCC], Edge Percolated Component [EPC], and Closeness). Genes exhibiting consistent expression patterns in both GEO datasets were defined as key genes. Diagnostic value was assessed using receiver operating characteristic (ROC) curves. The immune infiltration landscape and correlations with key genes were analyzed via the CIBERSORT algorithm and Spearman correlation. Molecular docking was performed, and PyMOL was used to assess binding affinities between PTX and key gene-encoded proteins. In addition, regulatory networks involving non-coding RNAs and key genes were predicted. Single-cell RNA sequencing (scRNA-seq) was applied to determine cell-type-specific gene expression. Finally, the therapeutic effects of PTX and the underlying ferroptosis-related molecular pathways were evaluated both in an acetylcholine (ACh)-CaCl RESULTS: From a total of 10,511 DEGs and 315 predicted PTX targets, 87 overlapping pharmacological targets were identified. Thirteen of these overlapped with known FRGs. Among them,  CONCLUSIONS: This study identifies PIK3CA and TLR4 as pivotal genes in the ferroptosis-associated molecular network of AF and as potential therapeutic targets of PTX. These findings support the potential of PTX to mitigate AF by regulating ferroptosis through these targets, providing a preclinical mechanistic basis for the potential value of PTX in AF management.",
+      "authors": [
+        "Zhou Jia-Bin",
+        "Zhang Zhen-Ye",
+        "Zhou Feng",
+        "Wei Tian-Peng",
+        "Zhao Ning",
+        "Shao Zhen-Hao",
+        "Liu Huan-Huan",
+        "Liu Ying",
+        "Shen Jun-Xian",
+        "Wu Dan",
+        "Yan Yi-Qing",
+        "Wang Wen-Rui",
+        "Qian Ling-Ling",
+        "Wang Ru-Xing"
+      ],
+      "mesh_terms": [
+        "Pentoxifylline",
+        "Ferroptosis",
+        "Atrial Fibrillation",
+        "Humans",
+        "Animals",
+        "Protein Interaction Maps",
+        "Gene Expression Profiling",
+        "Molecular Docking Simulation"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:31:58"
+  "last_updated": "2026-07-31T11:32:24"
 }
