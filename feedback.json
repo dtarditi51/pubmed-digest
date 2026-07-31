@@ -705,7 +705,43 @@
         "Quality Improvement",
         "Critical Illness"
       ]
+    },
+    {
+      "pmid": "42529977",
+      "title": "Development and Internal Validation of the Soluble ST2, Age, and Estimated Glomerular Filtration Rate-Heart Failure Score for Predicting 30-Day Major Adverse Cardiovascular Events After Heart Failure Hospitalization in a Two-Center Vietnamese Cohort: Prospective Cohort Study.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:30:00",
+      "journal": "JMIR cardio",
+      "year": "2026",
+      "abstract": "BACKGROUND: Patients hospitalized for heart failure (HF) face a high-risk early postdischarge period. OBJECTIVE: We aimed to develop and internally validate the soluble ST2, age, and estimated glomerular filtration rate-heart failure (SAGE-HF) score, a simplified risk model incorporating soluble suppression of tumorigenicity 2 (sST2), age, and renal function, for predicting 30-day postdischarge major adverse cardiovascular events (MACE). METHODS: This two-center prospective cohort study included 218 patients hospitalized with acute decompensated heart failure (ADHF) and/or heart failure with reduced ejection fraction (HFrEF) and 59 non-HF controls in Vietnam (July 2025-January 2026). Serum sST2 concentrations were measured at admission using enzyme-linked immunosorbent assay and compared between the ADHF/HFrEF cohort and controls, with adjustment for clinical covariates. Among the ADHF/HFrEF cohort, the primary endpoint was 30-day MACE, defined as a composite of all-cause death or HF rehospitalization. Candidate predictors were considered based on clinical relevance, biological plausibility, and exploratory univariable associations, and prespecified parsimonious logistic regression models were evaluated using discrimination (area under the receiver operating characteristic curve [AUC]), calibration, Brier score, and Akaike information criterion. Internal validation was performed using 1000 bootstrap resamples, and model robustness was assessed using Firth penalized logistic regression. The SAGE-HF score was derived from the final model. All data were analyzed using the R environment (version 4.5.5; R Foundation for Statistical Computing). RESULTS: Among 277 participants, sST2 concentrations were significantly higher in patients with HF than in non-HF controls after adjustment. Among 218 patients, 47 (21.6%) experienced 30-day MACE. In multivariable analysis, age (odds ratio [OR] 1.04 per year, 95% CI 1.01-1.07; P=.02), sST2 (OR 1.06 per ng/mL, 95% CI 1.01-1.11; P=.01), and estimated glomerular filtration rate (OR 0.98 per unit, 95% CI 0.97-1.00; P=.02) were independently associated with MACE. The final model demonstrated acceptable discrimination (AUC 0.741, 95% CI 0.664-0.819) and good calibration, with stable performance after bootstrap validation (corrected AUC 0.725). Firth analysis yielded consistent results. The SAGE-HF score showed progressive risk stratification, with predicted 30-day MACE ranging from 7.0% to 60.1% and maintained acceptable discrimination and calibration. CONCLUSIONS: The SAGE-HF score, incorporating age, sST2, and estimated glomerular filtration rate, demonstrated acceptable performance for predicting 30-day MACE after HF hospitalization and may support early risk stratification, pending external validation.",
+      "authors": [
+        "Tran An Viet",
+        "La Nguyen Khoi Quoc",
+        "Phan Van Anh Thi",
+        "Nguyen Bao The",
+        "Nguyen Hoa Thai",
+        "Thai Nhung Hong Thi",
+        "Pham Tho Anh Kieu"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Heart Failure",
+        "Female",
+        "Male",
+        "Interleukin-1 Receptor-Like 1 Protein",
+        "Vietnam",
+        "Prospective Studies",
+        "Glomerular Filtration Rate",
+        "Aged",
+        "Hospitalization",
+        "Risk Assessment",
+        "Biomarkers",
+        "Age Factors",
+        "Middle Aged",
+        "Prognosis",
+        "Risk Factors"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:28:04"
+  "last_updated": "2026-07-31T11:30:00"
 }
