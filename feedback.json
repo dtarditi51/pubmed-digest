@@ -911,7 +911,33 @@
         "Gene Expression Profiling",
         "Molecular Docking Simulation"
       ]
+    },
+    {
+      "pmid": "42528423",
+      "title": "How to Safely Anticoagulate Patients With Renal Impairment.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:33:06",
+      "journal": "British journal of hospital medicine (London, England : 2005)",
+      "year": "2026",
+      "abstract": "Chronic kidney disease (CKD), a highly prevalent condition worldwide, is associated with increased thrombotic and bleeding risks. Thrombotic risks include heightened cardiovascular risk and that of venous thromboembolism, driven by endothelial dysfunction, and inflammation. Conversely, platelet dysfunction and vascular abnormalities elevate the bleeding risk. This complex interplay of bleeding and thrombosis highlights the challenges faced in anticoagulant prescribing in CKD. Although warfarin and low-molecular-weight heparin are currently recommended in the guidelines, direct oral anticoagulants (DOACs) may offer a favourable profile in mild-to-moderate CKD based on the decreased incidence of thrombotic events and lower bleeding risk reported in studies. There remains a paucity of studies on DOAC use in severe CKD and end-stage renal disease (ESRD). In this article we discuss different options of anticoagulant use in the setting of CKD for venous thromboembolism (VTE) treatment and prophylaxis in atrial fibrillation (AF), highlighting the need for further clinical trials in this patient population.",
+      "authors": [
+        "Aziz Nadir",
+        "Haysom Robyn",
+        "Thachil Jecko",
+        "Swan Dawn"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Anticoagulants",
+        "Venous Thromboembolism",
+        "Hemorrhage",
+        "Renal Insufficiency, Chronic",
+        "Atrial Fibrillation",
+        "Warfarin",
+        "Kidney Failure, Chronic",
+        "Heparin, Low-Molecular-Weight"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:32:24"
+  "last_updated": "2026-07-31T11:33:06"
 }
