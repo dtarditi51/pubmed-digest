@@ -741,7 +741,37 @@
         "Prognosis",
         "Risk Factors"
       ]
+    },
+    {
+      "pmid": "42530632",
+      "title": "Association between kidney stones and major adverse cardiovascular events: a population-based analysis.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:30:31",
+      "journal": "Urolithiasis",
+      "year": "2026",
+      "abstract": "Kidney stones are an increasingly common condition, and evidence suggests a link between stone formation and cardiovascular risk. This study aimed to investigate the association between kidney stones and major adverse cardiovascular events (MACE), including acute myocardial infarction (AMI), heart failure (HF), and stroke. This multicenter retrospective study included 6,660 patients with newly diagnosed stone disease from 2013 to 2017 (KS group) and 19,980 patients without stone disease (NKS group) in the same period. The history of kidney stones was found to be significantly associated with the risk of a major adverse cardiovascular event (aORs: 1.20, 95% CIs: 1.07-1.36, p = 0.003). On multivariable Cox regression analysis, the kidney stone formers had an increased relative risk in stroke (aHRs: 1.21, 95%CIs: 1.02-1.42, p = 0.03) and AMI (aHRs: 1.57, 95%CIs: 1.28-1.92, p < 0.001), but not HF (aHRs: 1.11, 95%CIs: 0.92-1.34, p = 0.3). In contrast, in the female subgroup, kidney stones were associated with an increased risk of HF (aHRs: 1.46, 95% CIs: 1.10-1.93, p = 0.009). The kidney stone formers had an increased risk in stroke and acute myocardial infarction, while only female patients with kidney stones had an increased risk of heart failure.",
+      "authors": [
+        "Smelser Ashton",
+        "Liu Kang",
+        "Leung Steven Chi-Ho",
+        "Ng Chi-Fai"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Kidney Calculi",
+        "Female",
+        "Retrospective Studies",
+        "Myocardial Infarction",
+        "Heart Failure",
+        "Stroke",
+        "Male",
+        "Aged",
+        "Middle Aged",
+        "Risk Factors",
+        "Cardiovascular Diseases",
+        "Sex Factors"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:30:00"
+  "last_updated": "2026-07-31T11:30:31"
 }
