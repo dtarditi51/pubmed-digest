@@ -806,7 +806,46 @@
         "Child, Preschool",
         "Infant"
       ]
+    },
+    {
+      "pmid": "42531344",
+      "title": "Predicting medication non-adherence using machine learning: Incorporating Complementary and Alternative Medicine (CAM) beliefs in Malaysian chronic disease patients.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:31:16",
+      "journal": "PloS one",
+      "year": "2026",
+      "abstract": "Medication non-adherence among chronic disease patients remains a major contributor to poor health outcomes and medication wastage, particularly in multi-ethnic populations such as Malaysia where cultural and religious beliefs strongly influence health behaviours. This study aimed to develop and evaluate machine learning models that integrate demographic, clinical, and complementary and alternative medicine (CAM) belief factors to predict medication non-adherence among patients with type 2 diabetes mellitus, hypertension, and dyslipidaemia. A cross-sectional survey was conducted using a structured questionnaire comprising demographic and clinical data, history of CAM use, the 17-item Complementary and Alternative Medicine Beliefs Inventory (CAMBI), and the Malaysian Medication Adherence Scale (MALMAS). Twelve conventional machine learning algorithms and three stacked ensemble models were utilised using both balanced and unbalanced datasets with all variables as well as feature-selected variables. The best-performing model was a stacked ensemble using logistic regression-selected variables with the unbalanced dataset, achieving the highest AUC of 0.816. Feature selection identified significant variables including CAM beliefs (natural and holistic), race, number of daily doses, number of medications prescribed, religion, educational level, treatment duration, and hypertension status which were later interpreted using SHapley Additive exPlanations (SHAP) analysis. Model performance was further evaluated using the Youden Index and Decision Curve Analysis (DCA) to stratify patients into lower- and higher-risk groups, with a suitable cutoff identified at 0.4. These findings show that incorporating cultural and belief-related factors into machine learning models provides a novel, population-specific approach to predict better non-adherence and guide targeted interventions to reduce medication wastage in chronic disease management.",
+      "authors": [
+        "Aziz Firdaus",
+        "Malek Sorayya",
+        "Firdhaus Arham Ahmad",
+        "Yaacob Mashitoh",
+        "Amir Rudin Putri Nur Fatin",
+        "Chuah Paik Ling",
+        "Mhd Ali Adliah"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Complementary Therapies",
+        "Malaysia",
+        "Female",
+        "Machine Learning",
+        "Male",
+        "Middle Aged",
+        "Chronic Disease",
+        "Cross-Sectional Studies",
+        "Predictive Learning Models",
+        "Medication Adherence",
+        "Diabetes Mellitus, Type 2",
+        "Hypertension",
+        "Aged",
+        "Classification Algorithms",
+        "Prediction Algorithms",
+        "Dyslipidemias",
+        "Adult",
+        "Surveys and Questionnaires"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:30:51"
+  "last_updated": "2026-07-31T11:31:16"
 }
