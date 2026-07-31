@@ -637,7 +637,24 @@
         "Age Factors",
         "Risk Assessment"
       ]
+    },
+    {
+      "pmid": "42529825",
+      "title": "Long-term Cardiovascular Outcomes in US Medicare Beneficiaries After COVID-19 Hospitalization During the Omicron Era.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:27:30",
+      "journal": "Circulation. Population health and outcomes",
+      "year": "2026",
+      "abstract": "BACKGROUND: COVID-19 hospitalization in the pre-Omicron era was associated with an increased risk of major adverse cardiovascular events, but data from the Omicron era are sparse. We examined the risk of death and major adverse cardiovascular events among older adults hospitalized with COVID-19 during the Omicron era compared with the pre-Omicron era and a historical influenza cohort. METHODS: Retrospective cohort study of Medicare beneficiaries aged ≥65 years hospitalized for COVID-19 in the Omicron era (November 2021-September2022), COVID-19 in the pre-Omicron era (March 2020-November 2021), and influenza (October 2017-September 2018). The primary outcome was a composite of all-cause death and hospitalization for myocardial infarction, ischemic stroke, transient ischemic attack, pulmonary embolism, deep vein thrombosis, heart failure, and cardiac arrest within 1 year of the index admission. We standardized the cohorts using inverse probability weighting. RESULTS: We included 1 184 182 patients (mean age 79 years; 51% women):361 382 in the Omicron cohort, 731 455 in the pre-Omicron cohort, and 91 345 in the influenza cohort. The risk of the primary outcome in the Omicron cohort was lower than in the pre-Omicron cohort (48.8% versus 49.3%; standardized risk difference, -0.6% [95% CI, -0.8% to -0.3%]) but higher than in the influenza cohort (48.8% versus 33.4%; risk difference, 15.4% [15.1%-15.6%]). Compared with the pre-Omicron cohort, the Omicron cohort had a significantly lower risk of death (34.2% versus 39.7%; risk difference, -5.5% [-5.7% to -5.3%]) but a higher risk of myocardial infarction, stroke or transient ischemic attack, pulmonary embolism, deep vein thrombosis, and heart failure. CONCLUSIONS: Among older adults hospitalized with COVID-19, the risk of death within 1 year was lower, and the risk of major adverse cardiovascular event was higher in the Omicron era than the pre-Omicron era; however, the risk of either outcome was higher than after influenza hospitalization. These findings underscore the need for effective cardiovascular prevention strategies after a COVID-19 hospitalization.",
+      "authors": [
+        "Decker Sérgio R R",
+        "Song Yang",
+        "Dahabreh Issa J",
+        "Yeh Robert W",
+        "Kazi Dhruv S"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-07-21T10:36:55"
+  "last_updated": "2026-07-31T11:27:30"
 }
