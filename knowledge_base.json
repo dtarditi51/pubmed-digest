@@ -895,7 +895,24 @@
       "saved_date": "2026-07-21",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42529777",
+      "title": "Artificial intelligence and the evolution of the electrocardiogram: from cardiovascular diagnostic tool to digital biomarker.",
+      "abstract": "The electrocardiogram (ECG) is a cornerstone of cardiovascular care. Traditionally, it has relied on expert visual interpretation and rule-based systems to define the presence of disease. However, the integration of artificial intelligence (AI) has transformed the ECG into a high-dimensional biomarker capable of detecting signatures of both overt and subclinical disease. This review explores the historical progress of the technology from its inception to its diverse range of AI applications in the clinic and in research. We examine fundamental methodological advancements, including a range of deep learning methods, and the use of ECG images and wearable and portable devices for scaling these innovations globally. We also provide the full spectrum of AI-enabled care via applications for electrocardiograms, including (i) assistance to clinicians to perform interpretation of ECGs, (ii) augmenting their ability to detect latent signatures of disease from ECG, and (iii) prognostic and predictive applications of AI-ECG in cardiovascular care. Finally, we address critical challenges regarding model transparency, phenotypic selectivity, and the gap in the development of AI-ECG applications and their actual implementation. To realize the full potential of AI for ECGs, the field needs to evolve from singular AI-ECG tools evaluated in retrospective studies toward robust foundation models with broader multimodal integration and evaluation in rigorously performed randomized clinical trials. By unlocking latent physiological data, AI-ECG serves as a scalable engine for cardiovascular precision care.",
+      "authors": [
+        "Choi Ryan B",
+        "Khera Rohan"
+      ],
+      "mesh_terms": [],
+      "journal": "European heart journal. Digital health",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42529777/",
+      "saved_date": "2026-07-31",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-07-21"
+  "last_updated": "2026-07-31"
 }
