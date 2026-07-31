@@ -771,7 +771,42 @@
         "Cardiovascular Diseases",
         "Sex Factors"
       ]
+    },
+    {
+      "pmid": "42521226",
+      "title": "Early-life high-dose omega-3 polyunsaturated fatty acid supplementation reduces risk of childhood asthma/wheezing: A meta-analysis of randomized controlled trials.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:30:51",
+      "journal": "Asia Pacific journal of clinical nutrition",
+      "year": "2026",
+      "abstract": "BACKGROUND AND OBJECTIVES: Asthma, a chronic inflammatory airway disease characterized by wheezing, imposes a substantial global health burden on children. Given the potential of early-life omega-3 polyunsaturated fatty acid (omega-3 PUFA) supplementation as an anti-inflammatory intervention to prevent childhood asthma and wheezing, this meta-analysis aims to clarify its efficacy and investigate dose-dependency. METHODS AND STUDY DESIGN: This systematic review and meta-analysis was conducted according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. Three reviewers independently evaluated the studies, extracted data, and assessed bias using the Jadad scale. The outcomes included the risk of asthma/wheezing: pooled odds ratios (ORs) were calculated using fixed-effects models, along with sensitivity/subgroup analyses and dose-response meta-regression. RESULTS: Twelve randomized controlled trials (RCTs) involving 4,156 participants showed no overall association between omega-3 PUFA and a reduced risk of asthma/wheezing (odds ratio [OR]: 1.00; 95% confidence interval [CI]: 0.84-1.18). However, high-dose supplementation (≥1,200 mg/day) significantly decreased the risk (OR: 0.66; 95% CI: 0.46-0.94). Similarly, high-dose eicosapentaenoic acid (EPA≥1,000 mg/day) also significantly reduced the risk (OR: 0.67; 95% CI: 0.46-0.97). Dose-response analysis confirmed a linear relationship (p=0.002), indicating a 26.6% reduction in risk for every 1,000 mg/day increase in dose (OR: 0.734; 95% CI: 0.602-0.896). Subgroup analyses revealed no heterogeneity with respect to study location, allergy risk, or follow-up duration. CONCLUSIONS: Early-life omega-3 PUFA supplementation reduces childhood asthma/wheezing risk in a dose-dependent manner. High-dose regimens, particularly those involving EPA, provide substantial protection, suggesting a potential clinical strategy for prevention, although further validation is required.",
+      "authors": [
+        "Cai Sisi",
+        "Ji Xinyue",
+        "He Yang",
+        "Zhou Ying",
+        "Ge Sangwangjiu",
+        "Gu Mengting",
+        "Shang Yujia",
+        "Wang Shihan",
+        "Yu Danyue",
+        "Ren Simeng",
+        "Zhou Dezheng",
+        "Zhang Xiaohong"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Asthma",
+        "Fatty Acids, Omega-3",
+        "Dietary Supplements",
+        "Randomized Controlled Trials as Topic",
+        "Respiratory Sounds",
+        "Child",
+        "Dose-Response Relationship, Drug",
+        "Child, Preschool",
+        "Infant"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:30:31"
+  "last_updated": "2026-07-31T11:30:51"
 }
