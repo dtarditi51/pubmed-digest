@@ -654,7 +654,58 @@
         "Kazi Dhruv S"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42532566",
+      "title": "The DECIDE-T protocol: adoption and enhancement of a care pathway for children with medical complexity - an implementation evaluation project for paediatric tracheostomy.",
+      "reason": "",
+      "timestamp": "2026-07-31T11:28:04",
+      "journal": "BMJ open",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Medical advancements have led to increased survival for critically ill children, many of whom require tracheostomy. Standardised protocols in paediatric tracheostomy have been associated with reduced hospital length of stay, lower readmission rates and reduced acute healthcare costs, without compromising safety. DECIDE-T (Digital hEalth pathway for ChIldren with meDical complExity requiring Tracheostomy) is a novel initiative that moves beyond single-site quality-improvement efforts to deliver a provincially coordinated, multicentre digital care pathway integrated into the electronic health record system. The initiative spans the full care continuum-from decision-making and acute care to home transition and decannulation-with the goal of improving clinical outcomes, efficiency and caregiver experience. METHODS AND ANALYSIS: DECIDE-T is a multicentre single-arm pre-post implementation study that applies multiple theory-based frameworks for implementation and evaluation. It incorporates both quantitative and qualitative research methods to assess the implementation and impact of the intervention. Guided by the Quality Implementation Framework and the Interactive Systems Framework, the study includes four phases: (1) Site assessments to identify implementation barriers and facilitators using the Consolidated Framework for Implementation Research (CFIR); (2) Developing a comprehensive plan and implementation strategies using the CFIR-Expert Recommendations for Implementing Change Matching Tool; (3) Pathway roll-out and evaluation of clinical, process and economic outcomes guided by the RE-AIM framework (reach, effectiveness, adoption, implementation and maintenance); and (4) Dissemination of lessons learnt from the implementation experience. Data collection will involve surveys, interviews, focus groups, care pathway audits, patients' clinical and administrative data, analysed using thematic content analysis and interrupted time series analysis. The economic evaluation will be conducted from the perspective of the public healthcare system through a net-monetary benefit analysis. ETHICS AND DISSEMINATION: The study was reviewed and approved by the University of Alberta Health Research Ethics Board. The results will be disseminated to DECIDE-T care pathway end users, partners and collaborators. Dissemination will occur through public engagement forums, webinars, peer-reviewed publications and presentations at national and international scientific conferences. TRIAL REGISTRATION NUMBER: NCT06375369.",
+      "authors": [
+        "Ofosu Daniel",
+        "Qureshi Nadia",
+        "Kammerer Elise",
+        "Lecona Larissa",
+        "Thomson-Kai Pam",
+        "Nitschke Stephanie",
+        "Gibson Kristen",
+        "Schellenberg Cathy",
+        "Wilkes Stephanie",
+        "Duke Daniel",
+        "Schaab Kayla",
+        "Davis Juanita",
+        "Bonn Nicole",
+        "Mahon Katie",
+        "Deus Amber",
+        "Doran Tanya",
+        "Wiens Sharon",
+        "Platt Jody M",
+        "Garros Daniel",
+        "Jamal Shelina M",
+        "Majaesic Carina",
+        "Soril Lesley",
+        "Kam Karen",
+        "Walton Jennifer",
+        "Round Jeff",
+        "Zimmermann Gabrielle L",
+        "Mack Cheryl",
+        "Stickland Michael K",
+        "van Manen Michael",
+        "Castro Codesal Maria Luisa"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Tracheostomy",
+        "Child",
+        "Critical Pathways",
+        "Electronic Health Records",
+        "Digital Health",
+        "Quality Improvement",
+        "Critical Illness"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:27:30"
+  "last_updated": "2026-07-31T11:28:04"
 }
