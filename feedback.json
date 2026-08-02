@@ -1104,7 +1104,30 @@
         "Rosal Milagros C"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42541600",
+      "title": "Telemedicine in pediatrics: a critical narrative review of innovations, limitations, and future priorities.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:10:23",
+      "journal": "European journal of pediatrics",
+      "year": "2026",
+      "abstract": "UNLABELLED: This narrative review synthesizes recent technological and organizational developments in pediatric telemedicine, maps their principal clinical applications, and critically discusses implementation, safety, equity, and future priorities. This narrative review used a transparent, non-systematic literature-search approach in PubMed/MEDLINE, Scopus, and Google Scholar, considering publications available through April 2026. Searches were intended to identify and contextualize relevant literature across pediatric settings rather than to provide an exhaustive, reproducible systematic evidence synthesis. No formal risk-of-bias assessment, meta-analysis, or certainty-of-evidence grading was undertaken; therefore, findings are interpreted cautiously and according to the maturity and consistency of the available evidence. Evidence suggests that telemedicine can support follow-up, access to specialist care, and family engagement in several pediatric chronic-care pathways, particularly diabetes and asthma. However, the evidence base is heterogeneous across specialties, frequently relies on observational or implementation studies, and is less mature for acute assessment, neonatal and rehabilitation uses, wearables, and AI-enabled tools. CONCLUSION: Telemedicine should be considered a complementary component of pediatric healthcare rather than a replacement for in-person assessment. Hybrid models may support accessibility, continuity, and sustainability when embedded in structured, patient-centered, equitable, and clinically appropriate pathways. WHAT IS KNOWN: • Telemedicine expanded rapidly in pediatrics during the COVID-19 pandemic and is now used across many specialties. • It can improve access, continuity of care, remote monitoring, and family engagement, especially in chronic and complex conditions. WHAT IS NEW: • This review summarizes recent technological and organizational innovations, including wearables, mHealth, EHR integration, AI, and hybrid care models. • It highlights current limits and future requirements for safe, equitable, and sustainable integration into routine pediatric care.",
+      "authors": [
+        "Zuccotti Gianvincenzo",
+        "Scavone Ilaria Anna Maria",
+        "Cordaro Erika",
+        "Rossi Virginia",
+        "Calcaterra Valeria"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Telemedicine",
+        "Pediatrics",
+        "Child",
+        "Digital Health"
+      ]
     }
   ],
-  "last_updated": "2026-08-02T15:10:12"
+  "last_updated": "2026-08-02T15:10:23"
 }
