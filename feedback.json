@@ -1045,7 +1045,32 @@
         "Glomerular Filtration Rate",
         "Adult"
       ]
+    },
+    {
+      "pmid": "42538853",
+      "title": "The Impact of Citicoline/Phosphatidylserine Supplementation on Cognitive Performance and Executive Functions in Mental Disorders: A Systematic Review of Controlled Trials.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:07:39",
+      "journal": "Human psychopharmacology",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Citicoline and phosphatidylserine (PS) have been proposed as potential neuroprotective and cognitive-enhancing agents; however, evidence of their therapeutic impact across populations with mental disorders remains limited. This systematic review aimed to evaluate the effects of citicoline and PS, administered as monotherapy or adjunctive treatment, on cognitive performance in children, adolescents, and adults with mental disorders. METHODS: A systematic review of 11 included studies was conducted following PRISMA guidelines. Databases searched were PubMed/MEDLINE, Scopus, Web of Science, and Cochrane CENTRAL through October 2025. Ten studies were randomized controlled trials (RCTs), and one was a non-randomized controlled trial (non-RCT). Methodological quality and risk of bias were evaluated using the RoB 2 and ROBINS-I tools. RESULTS: Five studies focused on children with ADHD, and the remaining studies included adults with mood disorders, alcohol and substance use disorders, and schizophrenia. Regarding ADHD, PS-containing supplementation produced significant improvements in attention and impulsivity in three studies, whereas two studies found no significant differences. A single study in schizophrenia reported significant improvements in verbal free recall but no global cognitive gains. Results for alcohol and substance use disorders, as well as mood disorders were mixed. Two studies revealed selective benefits in cognitive performance, while the others showed none. Overall, findings were heterogeneous and inconsistent across diagnostic groups. CONCLUSION: Given methodological limitations and high risk of bias, current evidence does not support citicoline or PS-containing compounds as effective cognitive enhancers in mental disorders. Consequently, these agents should be positioned as adjunctive or investigational rather than as evidence-based treatments.",
+      "authors": [
+        "Kucuksahin Nazan Gundogan",
+        "Kaya Tugce Turan",
+        "Halac Eren",
+        "Sut Ekin",
+        "Ciray Remzi Ogulcan"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Cytidine Diphosphate Choline",
+        "Phosphatidylserines",
+        "Mental Disorders",
+        "Executive Function",
+        "Cognitive Enhancement",
+        "Cognition"
+      ]
     }
   ],
-  "last_updated": "2026-08-02T15:07:14"
+  "last_updated": "2026-08-02T15:07:39"
 }
