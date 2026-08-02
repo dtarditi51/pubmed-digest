@@ -937,7 +937,42 @@
         "Kidney Failure, Chronic",
         "Heparin, Low-Molecular-Weight"
       ]
+    },
+    {
+      "pmid": "42540886",
+      "title": "Cross-Country Comparison of Medication Adherence After Stroke Using Standardised Methods: A Pilot Distributed Network Analysis for INSPIRE-STROKE.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:06:51",
+      "journal": "International journal of population data science",
+      "year": "2026",
+      "abstract": "BACKGROUND: Post-stroke medication adherence can be assessed using dispensing data; however, variations in methods hinder reliable comparisons across regions. We developed and implemented standardised methods to compare post-stroke medication adherence between countries. METHODS: Australia and Canada, with population-based data and universal healthcare systems, were selected for this INSPIRE-STROKE proof-of-concept distributed network analysis (www.inspire-stroke.bigdatacvd.com). Metadata were shared to harmonise data variables and structure. Patients admitted with incident ischaemic stroke and atrial fibrillation (Victoria, Australia [July 2014-June 2017]; Ontario, Canada; [July 2014-March 2022]), aged 66-105 years, who survived ≥90 days post-discharge were included. The proportion of days covered (PDC) of direct oral anticoagulants (DOACs) was measured from initiation to 1-year post-discharge. Adherence was measured in 8 simulations, using standardised code, to adjust for different PDC measurement parameters from the TEN-SPIDERS framework (www.tenspiders.adherencelab.com). Aggregated outputs were compared between countries. RESULTS: Among 2471 Australians (50% female; 36% aged 85+ years) and 16622 Canadians (51% female; 34% aged 85+ years), 50% and 65% initiated a DOAC within 90 days post-stroke, respectively. Among initiators, median 1-year DOAC PDC was 86.8% (interquartile range [IQR]: 75.9%-92.6%) in Australia vs 96.2% (IQR: 89.6%-98.6%) in Canada. Adjustment for pre-supply, early refills, and switching increased median PDC by +10.3% in Australia and +3.5% in Canada. Further adjustment for in-hospital stays had negligible impacts on PDC in both countries. CONCLUSIONS: Standardised methods were successfully implemented to facilitate cross-country comparisons of post-stroke medication adherence. Use of standardised methods in other countries will enable reliable global surveillance of post-stroke medication adherence.",
+      "authors": [
+        "L Dalli Lachlan",
+        "F Kilkenny Monique",
+        "Chu Anna",
+        "Ilomaki Jenni",
+        "A Jackevicius Cynthia",
+        "K Kapral Moira",
+        "V Vyas Manav",
+        "T Olaiya Muideen",
+        "A Cadilhac Dominique",
+        "C Livori Adam"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Stroke",
+        "Female",
+        "Australia",
+        "Aged",
+        "Pilot Projects",
+        "Aged, 80 and over",
+        "Canada",
+        "Male",
+        "Anticoagulants",
+        "Drug Monitoring",
+        "Atrial Fibrillation"
+      ]
     }
   ],
-  "last_updated": "2026-07-31T11:33:06"
+  "last_updated": "2026-08-02T15:06:51"
 }
