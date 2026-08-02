@@ -1004,7 +1004,48 @@
         "Young Adult",
         "Pregnancy Outcome"
       ]
+    },
+    {
+      "pmid": "42538753",
+      "title": "Ability of the DHAM Score to Predict 5-Year All-Cause Mortality in Patients With Diabetes and Comorbid Hypertension: Validation and Risk Stratification in Two Prospective Cohorts.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:07:14",
+      "journal": "Journal of diabetes research",
+      "year": "2026",
+      "abstract": "OBJECTIVE: Individuals with both diabetes and hypertension face a heightened risk of all-cause death. We aimed to validate the DHAM score's performance in predicting 5-year overall mortality in two prospective cohorts. METHODS: The internal validation cohort comprised 3291 patients with diabetes and hypertension drawn from the 1999-2014 cycles of the National Health and Nutrition Examination Survey database. The external validation cohort comprised 2478 patients from the 2008-2015 China Kailuan cohort. The DHAM score was constructed from eight predictors (age, sex, education, marriage, smoking, cardiovascular disease, serum albumin, and urea nitrogen). Renal dysfunction was determined by an estimated glomerular filtration rate < 60 mL/min/1.73 m RESULTS: The C-index was 0.758 (95% CI: 0.743-0.833) in the NHANES database and 0.741 (95% CI: 0.731-0.790) in the Kailuan cohort. A DHAM score > 148 independently predicted 5-year all-cause death in NHANES (adjusted-HR 10.03, 95% CI: 3.37-18.83, p < 0.001); after recalibration, a score > 152 independently predicted mortality in Kailuan (adjusted-HR 9.24, 95% CI: 4.71-16.84, p < 0.001). The patients were further stratified by DHAM score and renal function into three risk groups. Intermediate- and high-risk categories showed higher 5-year all-cause death rates than low-risk categories across both cohorts (log-rank p < 0.001). CONCLUSION: The DHAM score had a robust prognostic value for 5-year all-cause death among individuals with both diabetes and hypertension. Higher DHAM score combined with renal dysfunction could identify patients at highest risk of all-cause death. TRIAL REGISTRATION: Chinese Registry of Clinical Trials: ChiCTR2000029767.",
+      "authors": [
+        "Liu Yilu",
+        "Zhu Yingxuan",
+        "Yuan Jiansong",
+        "Liu Lili",
+        "Zhang Dingyue",
+        "Zhang Rui",
+        "You Shijie",
+        "Han Yingdong",
+        "You Hongzhao",
+        "Wu Shouling",
+        "Yang Weixian"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Hypertension",
+        "Middle Aged",
+        "Male",
+        "Prospective Studies",
+        "Diabetes Mellitus",
+        "Risk Assessment",
+        "China",
+        "Aged",
+        "Comorbidity",
+        "Risk Factors",
+        "Cause of Death",
+        "Nutrition Surveys",
+        "Prognosis",
+        "Glomerular Filtration Rate",
+        "Adult"
+      ]
     }
   ],
-  "last_updated": "2026-08-02T15:07:00"
+  "last_updated": "2026-08-02T15:07:14"
 }
