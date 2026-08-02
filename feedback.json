@@ -972,7 +972,39 @@
         "Drug Monitoring",
         "Atrial Fibrillation"
       ]
+    },
+    {
+      "pmid": "42539450",
+      "title": "Endometrial thickness is not a risk factor for hypertensive disorders of pregnancy after IVF treatment in women with male-factor infertility.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:07:00",
+      "journal": "Frontiers in endocrinology",
+      "year": "2026",
+      "abstract": "BACKGROUND: The relationship between endometrial thickness and adverse pregnancy outcomes has garnered significant attention from researchers. The aim of this study was to investigates whether endometrial thickness (EMT) is a risk factor for hypertensive disorders of pregnancy (HDP) in women undergoing  METHODS: This single center retrospective cohort study included 2,536 women aged 20-40 years with male-factor infertility who underwent their first frozen-thawed embryo transfer (FET) and had a singleton live birth. Endometrial thickness was measured via transvaginal ultrasound on the day of embryo transfer, and patients were divided into three groups: ≤8 mm, 8-14 mm, and ≥14 mm. The primary outcome was the incidence of HDP. RESULTS: The overall HDP rate was 3.67%, with no significant difference across EMT groups: 3.97% in the ≤ 8 mm group, 3.74% in the 8-14 mm group, and 3.03% in the ≥ 14 mm group (p=0.760). Older maternal age and higher BMI were significant risk factors for HDP [maternal age (OR 1.10, 95% CI 1.05-1.16, p=0.000) and BMI ≥ 24.0 Kg/m² (OR 2.40, 95% CI 1.10-5.25, p=0.028)], while EMT was not associated with HDP risk. CONCLUSION: Endometrial thickness was not a significant risk factor for HDP in women with male-factor infertility undergoing their first FET.",
+      "authors": [
+        "Chen Ningning",
+        "Guo Xiaopei",
+        "Zhao Junjie",
+        "Shi Wei",
+        "Luo Xiaohua"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Fertilization in Vitro",
+        "Pregnancy",
+        "Adult",
+        "Risk Factors",
+        "Endometrium",
+        "Retrospective Studies",
+        "Hypertension, Pregnancy-Induced",
+        "Male",
+        "Infertility, Male",
+        "Embryo Transfer",
+        "Young Adult",
+        "Pregnancy Outcome"
+      ]
     }
   ],
-  "last_updated": "2026-08-02T15:06:51"
+  "last_updated": "2026-08-02T15:07:00"
 }
