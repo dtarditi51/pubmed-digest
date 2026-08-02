@@ -1083,7 +1083,28 @@
         "Kattner Aila Akosua"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42539511",
+      "title": "Bridging evidence and practice: multi-method evaluation of implementation fidelity of a multilevel hypertension intervention in a federally qualified health center.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:10:12",
+      "journal": "Frontiers in health services",
+      "year": "2026",
+      "abstract": "BACKGROUND: Multilevel interventions targeting patients, providers, and health systems improve hypertension outcomes, but little is known about how well they are implemented in resource-limited settings. This study evaluated the implementation fidelity of ALTA, a multilevel approach for hypertension management, supported by practice facilitation, across six primary care practices in a Federally Qualified Health Center (FQHC). METHODS: ALTA included five components delivered by FQHC staff. At the practice level, staff: (1)  RESULTS: From 2022-2024, 124 staff across 6 FQHC sites implemented ALTA. Implementation adherence varied across sites. The identify component ranged from 49.0% to 57.9% across sites, while the refer component showed greater variability, ranging from 50.0% to 84.4%. Enrollment into health coaching also varied substantially, ranging from 20.8% to 88.5% across sites. The centralized nurse-led team delivered coaching to 91.4% of enrolled patients, completed all documentation, and conducted monitoring for 94.5%. Median implementation dose (patient exposure) was six coaching visits over 5.5 months, and 2.1 BP readings per week. Implementation quality was high, with comprehensive documentation of coaching visits. Six fidelity-consistent adaptations were made to improve feasibility, including simplifying the adherence screener and adding asynchronous training. Interviews ( CONCLUSIONS: Implementation fidelity varied across the ALTA components and participating sites, with the greatest variability observed in delivery of the site-level components of identify and refer. Centralized components delivered by the nurse-led team (coach, document, monitor) were delivered consistently with high fidelity. Contextual factors like staffing and patient engagement shaped implementation success. CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov, NCT03713515.",
+      "authors": [
+        "Schoenthaler Antoinette",
+        "De La Calle Franzenith",
+        "D'aguilar Nordine",
+        "De Leon Elaine",
+        "Nay Jacalyn",
+        "Collela Doreen",
+        "Dapkins Isaac",
+        "Mandal Soumik",
+        "Rosal Milagros C"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-02T15:07:52"
+  "last_updated": "2026-08-02T15:10:12"
 }
