@@ -935,7 +935,25 @@
       "saved_date": "2026-07-31",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42542457",
+      "title": "Is MASLD an independent risk factor for micro- and macrovascular complications of diabetes? A critical reappraisal and future directions.",
+      "abstract": "Recent awareness that metabolic dysfunction-associated steatotic liver disease (MASLD) is a common liver condition in individuals with type 2 diabetes and carries a significant risk of cirrhosis and extrahepatic disease has called for an examination of its relationship with diabetes-related complications. MASLD, especially at-risk steatohepatitis (metabolic dysfunction-associated steatohepatitis [MASH]) with significant fibrosis ≥F2, shares many metabolic abnormalities with type 2 diabetes, including insulin resistance, gluco- and lipotoxicity, chronic subclinical inflammation and mitochondrial impairment. In addition, many cross-sectional and longitudinal observational studies suggest an association between MASLD and micro- and macrovascular complications of type 1 and type 2 diabetes. However, a causal pathogenic relationship has been difficult to confirm given the overlap of cardiometabolic risk factors (CMRFs) in MASLD and type 2 diabetes. Complicating matters further, most of the available evidence has significant limitations. These include shortcomings in participant selection, heterogeneity in study design, use of diagnostic tools with low sensitivity for liver disease and diabetes-related complications, inadequate control for alcohol consumption or CMRFs, and lack of repeat measurements during longitudinal studies. Nevertheless, current evidence suggests that MASLD is a 'risk enhancer' for both micro- and macrovascular disease in diabetes, rather than an independent risk factor. Here, we review the underlying mechanistic pathways and clinical evidence that appear to link both conditions and identify knowledge gaps in need of future research. Until more robust evidence emerges, we hope that a greater awareness about the link between MASLD and diabetes-related micro- and macrovascular complications will prompt clinicians to educate their patients and peers on the potentially heightened health risks of MASLD and encourage clinicians to take a more proactive approach to risk stratification and intervention.",
+      "authors": [
+        "Kahl Sabine",
+        "Caussy Cyrielle",
+        "Cusi Kenneth"
+      ],
+      "mesh_terms": [],
+      "journal": "Diabetologia",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42542457/",
+      "saved_date": "2026-08-02",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-08-02"
 }
