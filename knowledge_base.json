@@ -953,6 +953,32 @@
       "saved_date": "2026-08-02",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42538672",
+      "title": "Artificial Intelligence in Renal Transplantation: Current Innovations and Future Horizons.",
+      "abstract": "OBJECTIVES: This study critically examined the evolving role of artificial intelligence (AI ) in kidney transplantation, aiming to bridge the gap between theoretical promise and clinical implementation. The study evaluated AI -driven innovations across the transplant continuum, from pretransplant matching to posttransplant care, while identifying key barriers, including training gaps, ethical considerations, and system integration challenges. The objective was to propose actionable strategies to optimize the effect of AI on graft survival, equity in organ access, and long -term patient outcomes. MATERIALS AND METHODS: We conducted a systematic review of AI integration in kidney transplant using PubMed, Web of Science, Cochrane, and Google Scholar databases up to December 2024. Search terms included \"artificial intelligence\" and \"renal transplantation.\" We used a 2 -phase screening process for relevance filtering and QUADAS -2 critical appraisal. We categorized AI algorithms by architecture and clinical application, with quantitative synthesis of performance metrics and qualitative analysis of implementation barriers, ethics, and stakeholder acceptance. RESULTS: AI in kidney transplant required general, not deep, technical expertise from health care professionals. Semi -supervised learning offered a promising, scalable approach by reducing data labeling by 40% with maintained accuracy. AI algorithms were shown to improve donor -recipient matching, reduce rejection, and enhance postoperative care. Deep learning models showed strong performance in predicting graft survival (concordance index 0.65-0.72 ) and delayed graft function (receiver operating characteristic area under the curve of 0.82 ). Furthermore, AI -powered digital pathology reduced organ discard rate by 37 % through better tissue analysis. CONCLUSIONS: AI represents a transformative opportunity to personalize kidney transplantation and improve patient outcomes, functioning best as an augmentative tool rather than replacement for clinical expertise. A 3 -tiered integration model is proposed: cultivating general AI familiarity, understanding kidney transplant -specific capabilities, and providing practical training in AI tools. Continued research remains essential to address limitations and ensure safe, ethical, and effective clinical integration.",
+      "authors": [
+        "Okhovvat Morteza",
+        "Amirkhanlou Saeid",
+        "Simforoosh Naser",
+        "Poor-Reza Gholi Fatemeh"
+      ],
+      "mesh_terms": [
+        "Kidney Transplantation",
+        "Humans",
+        "Artificial Intelligence",
+        "Graft Survival",
+        "Treatment Outcome",
+        "Diffusion of Innovation"
+      ],
+      "journal": "Experimental and clinical transplantation : official journal of the Middle East Society for Organ Transplantation",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42538672/",
+      "saved_date": "2026-08-02",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-02"
