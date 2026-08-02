@@ -1070,7 +1070,20 @@
         "Cognitive Enhancement",
         "Cognition"
       ]
+    },
+    {
+      "pmid": "42542110",
+      "title": "More than just numbers: the expanding burden of non-communicable diseases.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:07:52",
+      "journal": "Biomedical journal",
+      "year": "2026",
+      "abstract": "Non-communicable diseases (NCDs) account for a major share of global mortality and disability, while their development and outcomes reflect interactions among behavioral, metabolic, socioeconomic, environmental, infectious, and non-modifiable factors. This issue of the Biomedical Journal highlights the breadth of contemporary research across NCD epidemiology, mechanisms, diagnosis, prevention, and treatment. A study from northern Peninsular Malaysia examines age- and sex-specific patterns in the burden of cardiovascular disease, respiratory disease, and diabetes, while a review considers the complex association between diabetes, vascular complications, and dementia. Further reviews address strategies to improve glioblastoma vaccines through enhanced antigen presentation and combination immunotherapy, as well as ultrasound-guided interventions for adhesive capsulitis, including stage-specific and structure-oriented approaches to pain relief and functional recovery. The original articles explore a single-dose, non-waiting neoadjuvant immunotherapy strategy for resectable hepatocellular carcinoma; emerging evidence on problematic ChatGPT use; genomic surveillance following an outbreak of carbapenem-resistant Serratia marcescens; the stage-specific role of miR-7974 in colorectal cancer; and the potential diagnostic relevance of DEC-1 in ischemic stroke. Other contributions investigate extracorporeal shockwave therapy as a means of reducing inflammation in experimental psoriasis and Fu's subcutaneous needling as a potential modulator of mitochondrial quality control and inflammatory signaling in a rat model of sciatica. A correspondence exchange on molecular diagnostic platforms for primary mitochondrial diseases discusses the validation, sensitivity, terminology, clinical practicality, and particular advantages of long-read nanopore sequencing.",
+      "authors": [
+        "Kattner Aila Akosua"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-02T15:07:39"
+  "last_updated": "2026-08-02T15:07:52"
 }
