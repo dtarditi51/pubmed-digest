@@ -1127,7 +1127,33 @@
         "Child",
         "Digital Health"
       ]
+    },
+    {
+      "pmid": "42541747",
+      "title": "Comparing the Effectiveness of Different Types of Orthoses in Preventing Diabetic Foot Ulcer Recurrence: A Systematic Review of Randomized Clinical Trials.",
+      "reason": "",
+      "timestamp": "2026-08-02T15:10:44",
+      "journal": "Journal of foot and ankle research",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Therapeutic orthoses, such as medical shoes and custom insoles, are used to prevent diabetic foot ulcer (DFU) recurrence. This systematic review with narrative synthesis aimed to evaluate the effectiveness of orthoses in preventing DFU recurrence compared to standard care. METHODS: We followed PRISMA guidelines for a systematic review. Searches were conducted in PubMed, Cochrane, and Web of Science. RCTs on orthoses for preventing DFU recurrence were included. Risk of bias was assessed using Cochrane tools. Due to heterogeneity, narrative synthesis was used. RESULTS: An initial search of 4166 articles identified ten randomized controlled trials (RCTs) that met the inclusion criteria and were included in this review, focusing on patients living with diabetes at risk of DFU recurrence compared to usual care. Narrative synthesis of the 10 RCTs, involving 1686 participants, showed that custom orthoses reduced recurrence in several studies (e.g., Bus 2013 reported 9.9% recurrence vs. 25% in controls), though the evidence was heterogeneous due to variability in orthosis types and follow-up periods. CONCLUSION: Orthoses can prevent diabetic foot ulcer recurrence, and we recommend their use where feasible. Further research is needed to optimize their clinical application.",
+      "authors": [
+        "Amini Behnam",
+        "Salehi-Pourmehr Hanieh",
+        "Ghaffarzadehrad Sevil"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Diabetic Foot",
+        "Randomized Controlled Trials as Topic",
+        "Foot Orthoses",
+        "Recurrence",
+        "Secondary Prevention",
+        "Female",
+        "Treatment Outcome",
+        "Male",
+        "Middle Aged"
+      ]
     }
   ],
-  "last_updated": "2026-08-02T15:10:23"
+  "last_updated": "2026-08-02T15:10:44"
 }
