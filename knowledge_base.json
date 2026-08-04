@@ -1083,6 +1083,32 @@
       "saved_date": "2026-08-04",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42547683",
+      "title": "Sleep loss as a cardiometabolic risk factor: a narrative review of clinical and public health implications.",
+      "abstract": "PURPOSE: To synthesize current evidence on how sleep deprivation, impaired sleep architecture, and circadian misalignment affect cardiovascular and metabolic regulation across autonomic, hormonal, inflammatory, and behavioral pathways, and to highlight remaining research gaps in cardiometabolic sleep medicine. METHODS: A structured literature search was conducted using PubMed, Scopus, and Google Scholar to identify peer‑reviewed primary and review articles published within the past decade, using chronobiological and cardiometabolic search terms. Reference lists of retrieved articles were screened to identify additional relevant studies. RESULTS: Experimental and epidemiologic data consistently link short or disturbed sleep with increased incidence of hypertension, coronary artery disease, stroke, obesity, type 2 diabetes, and metabolic syndrome. Sleep loss activates the sympathetic nervous system and elevates cortisol, while suppressing growth hormone, thereby promoting vasoconstriction, endothelial dysfunction, and cardiac remodeling. Parallel disruption of leptin, ghrelin, and endocannabinoid signaling increases hunger, caloric intake, and preference for energy‑dense foods, driving weight gain, visceral adiposity, and insulin resistance. Circadian misalignment from shift work and social jet lag further amplifies inflammatory signaling and metabolic risk across the lifespan. Limited interventional data suggest that sleep extension can improve appetite regulation, blood pressure, and some glycemic indices, but mechanistic and long‑term outcomes remain underexplored. CONCLUSION: Sleep deprivation and circadian disruption mediate cardiometabolic disease through converging neuroendocrine, autonomic, inflammatory, and behavioral pathways. Future research should employ longitudinal designs and integrated multi- \"omics\" approaches combined with sleep phenotyping to clarify causal mechanisms and identify novel biomarkers and therapeutic targets in clinical sleep medicine.",
+      "authors": [
+        "Ghanem Firas K",
+        "Attarian Hrayr",
+        "Al-Khalil Zeina",
+        "Kabrita Colette S"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Sleep Deprivation",
+        "Cardiometabolic Risk Factors",
+        "Public Health",
+        "Metabolic Syndrome",
+        "Cardiovascular Diseases"
+      ],
+      "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42547683/",
+      "saved_date": "2026-08-04",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-04"
