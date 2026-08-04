@@ -979,7 +979,31 @@
       "saved_date": "2026-08-02",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42547140",
+      "title": "Artificial intelligence in nursing informatics: A systematic review of care planning, workflow optimization, and health outcomes.",
+      "abstract": "Artificial intelligence (AI) has emerged as a transformative technology in nursing informatics. Despite rapid developments, evidence on AI's holistic integration into nursing practice remains fragmented. This review aimed to evaluate the effectiveness of integrating AI into nursing informatics for enhanced care planning, workflow optimization, and health outcome analysis. A systematic review was conducted using PubMed, CINAHL, Scopus, Web of Science, and IEEE Xplore databases. Search terms included \"artificial intelligence,\" \"nursing informatics,\" \"care plan enhancement,\" \"workflow optimization,\" and \"health outcome analysis.\" Studies published between January 2019 and December 2025 in English were included. Thirteen studies met eligibility criteria. Data were extracted using a standardized form and analyzed thematically. The results of this review revealed that AI-driven models improved diagnostic accuracy by 30% and personalized treatment plans by up to 70%. Workflow efficiency improved, with reductions of 50% in data processing time and 40% in scheduling efficiency. AI-enabled monitoring reduced hospital readmission rates by 15% and improved adherence to sepsis treatment protocols. Psychiatric nursing interventions demonstrated a 30% reduction in depressive symptoms and 40% improvement in treatment adherence. However, challenges included concerns about data privacy, algorithmic bias, and the need for adequate training. In conclusion, AI holds significant promise for advancing nursing informatics. To ensure ethical and effective integration, robust data security, bias mitigation, and tailored professional training are essential.",
+      "authors": [
+        "Abujebbeh Raid",
+        "Alnaeem Mohammad M"
+      ],
+      "mesh_terms": [
+        "Artificial Intelligence",
+        "Nursing Informatics",
+        "Humans",
+        "Workflow",
+        "Patient Care Planning",
+        "Outcome Assessment, Health Care"
+      ],
+      "journal": "Applied nursing research : ANR",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42547140/",
+      "saved_date": "2026-08-04",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-08-02"
+  "last_updated": "2026-08-04"
 }
