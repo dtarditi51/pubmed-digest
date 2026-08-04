@@ -1024,6 +1024,40 @@
       "saved_date": "2026-08-04",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42547104",
+      "title": "Dietary intakes of anthocyanins and cardiometabolic health: a systematic review and meta-analysis of randomized trials and prospective cohort studies in healthy participants.",
+      "abstract": "BACKGROUND: Meta-analyses support anthocyanins' cardiometabolic benefits in heterogeneous populations (including diseased), but efficacy in healthy participants remains unknown. OBJECTIVES: Across prospective cohorts, and randomized controlled trials (RCTs; ≥50 mg/d anthocyanins), we assessed impacts on surrogate cardiometabolic biomarkers and clinical endpoints. METHODS: Database searches (PubMed, Cochrane Central, Commonwealth Agricultural Bureau, and Web of Science) identified publications (1946-September 2024) that reported anthocyanin intake (or data, from which anthocyanin intake could be calculated), and cardiovascular disease (CVD) risk or cardiometabolic biomarkers. Random-effects meta-analysis and the Grades of Recommendation, Assessment, Development, and Evaluation (GRADE) assessment followed. RESULTS: Across 18 cohorts in 27 publications, highest compared with lowest habitual anthocyanin intake showed a risk reduction of 26% CVD incidence (4 studies), 18% myocardial infarction (MI, 5 studies), 11% type 2 diabetes mellitus (T2DM, 8 studies), 9% CVD mortality (10 studies), and 8% hypertension risk (6 studies). GRADE identified moderate evidence for CVD/MI. Stroke risk was unaffected. Across 65 RCTs, chronic anthocyanins (≥1 d) improved flow-mediated dilation (FMD) (net change: 1.41%; 95% confidence interval: 0.90%, 1.91%), acute anthocyanins (≤1 d) improved FMD (1.50%; 1.16%, 1.84%), and insulin concentrations (-2.24 pmol/L; -4.22, -0.27). GRADE identified strong evidence for acute FMD and moderate for chronic FMD. Lipids, blood pressure, glucose, and homeostatic model assessment for insulin resistance were unaffected. In the subanalysis, by anthocyanin type, cyanidin improved chronic FMD (1.62%; 1.21%, 2.04%), whereas delphinidin improved acute FMD (1.69%; 1.20%, 2.18%), chronic FMD (1.59%; 1.21%, 2.04%), chronic pulse wave velocity (-0.33; -0.62, -0.05), insulin (-2.32 pmol/L; -4.39, -0.26), and triglycerides (-0.10 mmol/L; -0.17, -0.03). CONCLUSIONS: Higher anthocyanin intake lowers CVD, MI, hypertension, and T2DM risk in cohorts, whereas RCTs show that dietarily achievable anthocyanin intakes (as low as 50 mg/d) improve atherosclerosis and metabolic syndrome biomarkers in healthy participants. These findings provide comprehensive unifying evidence that supports the inclusion of anthocyanins within evidence-based nutrition guidelines for CVD prevention. This review was registered at PROSPERO database as CRD420251015416.",
+      "authors": [
+        "Avendano Esther E",
+        "Ellingson Hannah",
+        "Digga Elise",
+        "Velasco Nieves Andrea M",
+        "Chen Linfei",
+        "Wu Mengling",
+        "Setty Sowmyashree H",
+        "Morley Samantha",
+        "Curtis Peter",
+        "Nirmala Nanguneri",
+        "Cassidy Aedín"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Anthocyanins",
+        "Randomized Controlled Trials as Topic",
+        "Cardiovascular Diseases",
+        "Diet",
+        "Prospective Studies",
+        "Biomarkers"
+      ],
+      "journal": "The American journal of clinical nutrition",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42547104/",
+      "saved_date": "2026-08-04",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-04"
