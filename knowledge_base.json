@@ -1003,6 +1003,27 @@
       "saved_date": "2026-08-04",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42547034",
+      "title": "Systematic review and meta-analysis of the readability of large language models for patient education on ophthalmological conditions.",
+      "abstract": "OBJECTIVE: Ophthalmological patient education materials (PEMs) are written at a reading level of grades 10.4-12.6, higher than the recommended 8th-grade level. This study quantitatively assesses the readability of large language model (LLM)-generated chatbot responses to patient queries, de novo PEM creation, and simplification of existing PEMs. METHODS: This systematic review and meta-analysis article was registered in PROSPERO (CRD420251123401). We searched Ovid MEDLINE, Embase, CINAHL, Web of Science, and Scopus (August 11, 2025). The primary outcome was readability, measured by the Flesch-Kincaid Grade Level (FKGL). Random-effects meta-analysis compared ChatGPT-generated PEM readability with existing control PEMs (i.e., clinician- or organization-authored websites, brochures, and clinical guidelines). A binomial test evaluated the proportion of studies achieving an 8th-grade reading level. Joanna Briggs Institute and Grading of Recommendations Assessment, Development, and Evaluation tools assessed risk of bias and quality. RESULTS: Of 1660 studies screened, 57 were included, with 11 contributing to the meta-analysis. Pooled FKGL scores were 9.82 (95% CI: 7.93-11.70) for ChatGPT PEMs and 9.54 (95% CI: 8.68-10.40) for control PEMs. There was no significant difference in FKGL readability between ChatGPT and control PEMs (mean difference = 0.21; 95% CI: -1.52 to 1.94; p = 0.81; I CONCLUSIONS: In the context of high heterogeneity and low certainty, it appears that LLMs do not produce ophthalmology PEMs that are more readable than existing materials.",
+      "authors": [
+        "Sachdeva Kyran",
+        "Chaudry Emaan",
+        "Butt Fahad R",
+        "Wright George",
+        "Dhawan Alaina",
+        "Bhatti Adil"
+      ],
+      "mesh_terms": [],
+      "journal": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42547034/",
+      "saved_date": "2026-08-04",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-04"
