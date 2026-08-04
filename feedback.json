@@ -1284,7 +1284,40 @@
         "Cytochrome P-450 CYP2C19",
         "Aged"
       ]
+    },
+    {
+      "pmid": "42544905",
+      "title": "Effects of vitamin D supplementation on insulin resistance and lipid metabolic profiles in women with gestational diabetes mellitus: A randomized controlled trial.",
+      "reason": "",
+      "timestamp": "2026-08-04T11:00:15",
+      "journal": "African journal of reproductive health",
+      "year": "2026",
+      "abstract": "Gestational diabetes mellitus (GDM) commonly presents as insulin resistance and altered lipid metabolism, with evidence linking vitamin D deficiency to its pathogenesis. In this randomized, double-blind, placebo-controlled trial, 120 pregnant women diagnosed with GDM were assigned to receive either vitamin D3 supplements (2000 IU/day) or a placebo for 3 months. Serum vitamin D status, glycemic control parameters, and lipid profiles were evaluated pre- and post-intervention, adjusting for dietary and exercise confounders. After the 3-month intervention, serum 25-hydroxyvitamin D levels in the vitamin D group were significantly higher than those in the placebo group. Vitamin D supplementation effectively reduced fasting plasma glucose, fasting insulin, and HOMA-IR scores. Simultaneously, it significantly decreased triglycerides and LDL-C levels while increasing HDL-C. Total cholesterol levels showed no statistically significant difference between the two groups. Supplementation with 2000 IU vitamin D per day for 3 months yields significant improvements in glucose homeostasis and lipid metabolism in the GDM population. Vitamin D holds promise as an effective auxiliary treatment to enhance maternal metabolic health. Le diabète gestationnel (DG) se manifeste fréquemment par une résistance à l’insuline et des anomalies du métabolisme lipidique, avec des données suggérant un lien entre la carence en vitamine D et sa physiopathologie. Dans cet essai randomisé, en double aveugle et contrôlé par placebo, 120 femmes enceintes diagnostiquées avec un diabète gestationnel ont été réparties pour recevoir soit une supplémentation en vitamine D3 (2000 UI/jour), soit un placebo pendant 3 mois. Le statut en vitamine D sérique, les paramètres de contrôle glycémique et les profils lipidiques ont été évalués avant et après l’intervention, en ajustant les facteurs de confusion liés à l’alimentation et à l’activité physique. Après 3 mois d’intervention, les concentrations sériques de 25-hydroxyvitamine D dans le groupe vitamine D étaient significativement plus élevées que dans le groupe placebo. La supplémentation en vitamine D a permis de réduire efficacement la glycémie à jeun, l’insuline à jeun et les scores HOMA-IR. Elle a également diminué significativement les triglycérides et le LDL-C, tout en augmentant le HDL-C. Aucun changement statistiquement significatif n’a été observé pour le cholestérol total entre les deux groupes. Une supplémentation de 2000 UI/jour de vitamine D pendant 3 mois améliore significativement l’homéostasie du glucose et le métabolisme lipidique chez les patientes atteintes de diabète gestationnel. La vitamine D constitue un traitement adjuvant prometteur pour améliorer la santé métabolique maternelle.",
+      "authors": [
+        "Duan Yunhui",
+        "Zhang Shixuan",
+        "Ma Xiaojun",
+        "Li Li",
+        "Jia Kai"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Diabetes, Gestational",
+        "Pregnancy",
+        "Insulin Resistance",
+        "Dietary Supplements",
+        "Vitamin D",
+        "Adult",
+        "Blood Glucose",
+        "Double-Blind Method",
+        "Vitamin D Deficiency",
+        "Lipids",
+        "Lipid Metabolism",
+        "Vitamins",
+        "Insulin"
+      ]
     }
   ],
-  "last_updated": "2026-08-04T10:56:32"
+  "last_updated": "2026-08-04T11:00:15"
 }
