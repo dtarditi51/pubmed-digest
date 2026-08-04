@@ -1058,6 +1058,31 @@
       "saved_date": "2026-08-04",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42547415",
+      "title": "Real-time clinical decision support system for early identification of infection and sepsis in the intensive care unit: a retrospective development and prospective deployment study.",
+      "abstract": "BACKGROUND: Sepsis and infection are distinct yet overlapping conditions in the intensive care unit (ICU), posing diagnostic and management challenges due to non-specific clinical features and delayed microbiological confirmation. This study aimed to develop and evaluate a real-time dual-model clinical decision support system for early identification of infection and sepsis based on the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) framework. METHODS: We conducted a retrospective model development and prospective non-interventional deployment study of adult ICU admissions between 2018 and 2020 at a tertiary-care medical centre. Infection was defined by positive microbiological culture results while sepsis was defined according to Sepsis-3 criteria. Two machine learning models were developed using structured clinical features from an 8-hour feature window to predict infection and sepsis. The framework included an 8-hour lead time and a 1-hour prediction window. Class imbalance was addressed using propensity score matching and Borderline Synthetic Minority Oversampling Technique. External validation was performed using the Medical Information Mart for Intensive Care IV database. Real-time deployment analyses evaluated ICU risk surveillance and cluster-based stratification using combined sepsis and infection probabilities. RESULTS: The dual-model system demonstrated consistent discrimination across internal, reduced-feature and external validation cohorts, with area under the receiver operating characteristic curves ranging from 0.75 to 0.85. Both models prioritised high sensitivity and negative predictive value to minimise missed cases. During real-time ICU implementation, the decision support dashboard provided interpretable risk estimates at the bedside. Exploratory pre-post comparisons showed numerically lower point estimates across most clinical and resource-utilisation outcomes, without adjustment for confounding factors. Cluster-based analysis further identified a high-risk subgroup with greater healthcare resource utilisation. CONCLUSION: This real-time clinical decision support system enables early identification of infection and sepsis, supports timely clinical decision-making and may inform antibiotic and resource use in the ICU.",
+      "authors": [
+        "Sun Fang-Ju",
+        "Liu Yen-Yu",
+        "Kuo Li-Kuo",
+        "Hu Ting-Yu",
+        "Cheng Kuang-Hua",
+        "Chen Hung-Ting",
+        "Chang Po-Jen",
+        "Wu Min-Ching",
+        "Yeh Hung-I",
+        "Wu Kun-Pin"
+      ],
+      "mesh_terms": [],
+      "journal": "BMJ quality & safety",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42547415/",
+      "saved_date": "2026-08-04",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-04"
