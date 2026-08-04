@@ -1353,7 +1353,37 @@
         "Cohort Studies",
         "Cystatin C"
       ]
+    },
+    {
+      "pmid": "42545941",
+      "title": "Regional Cardiac Remodeling Signatures Across Atria and Ventricles Revealed by Vein of Marshall and Anterior Interventricular Vein Sampling.",
+      "reason": "",
+      "timestamp": "2026-08-04T11:01:02",
+      "journal": "Journal of visualized experiments : JoVE",
+      "year": "2026",
+      "abstract": "The incidence rate of atrial fibrillation is increasing year by year, which is characterized by time progression, but its mechanism is unknown. Vein of Marshall (VOM), also known as the left atrial oblique vein, plays a crucial role in collecting venous return from atrial tissue. VOM originates from the posterior wall of the left atrium and is closely related to structures such as the left atrial appendage and pulmonary vein. VOM plays an important role in the occurrence and maintenance of atrial fibrillation, but there have been no other reports on its role in atrial fibrillation-related diseases. In this research, the authors innovatively used over-the-wire (OTW) balloons to collect blood samples from the VOM patients before atrial fibrillation ablation surgery for biochemical analysis. This study measured a recognized biomarker associated with the onset of atrial fibrillation: atrial natriuretic peptide (ANP), a biomarker of atrial stretching and structural remodeling, a biologically active natriuretic peptide that plays an important role in atrial fibrillation. Compared with samples from the anterior interventricular vein (AIV) and coronary sinus (CS), ANP concentration was significantly upregulated in VOM blood, indicating that VOM blood better captures atrial-specific biochemical signals. This research found that VOM blood provides a good representation of the microenvironment associated with atrial fibrillation, providing scientific evidence for the search for biomarkers and therapeutic targets for the future.",
+      "authors": [
+        "Ma Jingqing",
+        "Yuan Jiali",
+        "Zhao Yan",
+        "Liu Xiangdong",
+        "Yang Yuli",
+        "Fei Yudong",
+        "Han Yaqin",
+        "Li Yigang",
+        "Wang Yihui",
+        "Wang Qunshan"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Heart Atria",
+        "Atrial Natriuretic Factor",
+        "Atrial Fibrillation",
+        "Heart Ventricles",
+        "Coronary Vessels",
+        "Ventricular Remodeling"
+      ]
     }
   ],
-  "last_updated": "2026-08-04T11:00:29"
+  "last_updated": "2026-08-04T11:01:02"
 }
