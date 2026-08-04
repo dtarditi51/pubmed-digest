@@ -1203,7 +1203,31 @@
         "Treatment Outcome",
         "Ventricular Dysfunction, Left"
       ]
+    },
+    {
+      "pmid": "42546916",
+      "title": "Interhospital Variation in 180-Day Infections and Associated Medicare Spending after Cardiac Surgery.",
+      "reason": "",
+      "timestamp": "2026-08-04T10:55:08",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "year": "2026",
+      "abstract": "OBJECTIVE: (s): Informed by longitudinal epidemiological evidence regarding postoperative infection rates, this study associated hospital infection rates with 180-day Medicare spending. METHODS: This study analyzed 100% Medicare claims for beneficiaries undergoing cardiac surgery between January 2018 and June 2023. Hospitals were categorized into terciles of 180-day postoperative inpatient infection rates (i.e., urinary tract infection, pneumonia, sepsis, Clostridioides difficile colitis, diverticulitis, cholecystitis, bloodstream infection, cellulitis, sternal wound infection, endocarditis). Adjusted infection counts were estimated using Poisson regression accounting for patient and procedural characteristics, hospital volume, follow-up time, and clustering within hospitals. The primary outcome was hospital 180-day inflation-adjusted (2023 USD) Medicare spending. Secondary outcomes included mortality, readmission, stroke, and respiratory failure. RESULTS: Among 239,039 procedures at 1,007 hospitals, the mean (SD) age was 74.2 (5.3) years; 29.0% were female, 87.1% White, and 3.9% African American. Infections occurred in 20.8% of procedures. The adjusted infection rate was 24.7 per 100 patient-months (95%CI, 23.8-25.6), varying across hospital terciles: low 18.6 (95%CI, 17.0-19.0), middle 24.1 (95%CI, 22.4-25.4), and high 40.8 (95%CI, 38.2-44.5) per 100 patient-months (P<.0001). Procedures at high versus low infection-rate hospitals were associated with greater mean spending (+$15,757, 95% CI: $15,169 - $16,345). Infection rates explained 23.6% of variation in spending. If middle- and high-tercile hospitals achieved infection rates similar to those observed in the lowest tercile, benchmarking projections estimated approximately 2,603 fewer infections and $441M in potentially avoidable annual Medicare payments. CONCLUSIONS: Hospital infection rates are strongly associated with higher Medicare spending and worse outcomes. Reducing infections may offer opportunities to improve outcomes and reduce healthcare spending.",
+      "authors": [
+        "Hider Ahmad",
+        "Nasser Reem",
+        "Chang Chiang-Hua",
+        "Zhou Shiwei",
+        "Braun Thomas M",
+        "Hawkins Robert B",
+        "Barnes Geoffrey D",
+        "Thompson Michael P",
+        "Guetterman Timothy C",
+        "Funk Russell J",
+        "Pagani Francis D",
+        "Likosky Donald S"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-04T10:54:58"
+  "last_updated": "2026-08-04T10:55:08"
 }
