@@ -1153,7 +1153,21 @@
         "Male",
         "Middle Aged"
       ]
+    },
+    {
+      "pmid": "42547590",
+      "title": "Artificial intelligence in breast cancer imaging: a systematic review of diagnostic performance, predictive modeling, and clinical translation.",
+      "reason": "",
+      "timestamp": "2026-08-04T10:49:56",
+      "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+      "year": "2026",
+      "abstract": "Artificial intelligence (AI) has rapidly advanced in breast cancer imaging, demonstrating high diagnostic and predictive performance across imaging modalities. However, the clinical reliability and translational readiness of these models remain uncertain due to methodological variability and limited external validation. The objective of this study is to systematically evaluate the diagnostic performance, predictive capabilities, and clinical readiness of AI-based models in breast cancer imaging, with emphasis on methodological quality, validation strategies, and translational applicability. A systematic review was conducted in accordance with PRISMA guidelines. PubMed, Scopus, and Web of Science were searched for studies published between January 2015 and March 2026. Original studies applying AI techniques to mammography, MRI, ultrasound, and digital breast tomosynthesis, reporting quantitative performance metrics, were included. Methodological quality was assessed using the QUADAS-2 tool. Due to substantial heterogeneity in imaging modalities, model architectures, dataset composition, and outcome reporting, a qualitative synthesis was performed. Sixty-two studies were included. Across lesion detection and benign-versus-malignant classification tasks, deep learning models achieved AUCs of 0.80-0.95 across mammography, MRI, and ultrasound, whereas MRI-based treatment-response prediction models achieved AUCs up to 0.97. However, fewer than 25% of studies performed external validation, and approximately 85% relied on retrospective, single-center datasets. Internally validated models consistently reported higher performance, indicating systematic performance inflation of approximately 5-15%. Moderate to high risk of bias was observed, particularly in patient selection and applicability domains. AI models in breast cancer imaging show strong technical performance but limited clinical reliability. Addressing validation gaps, methodological heterogeneity, and lack of prospective evidence is essential for clinical translation.",
+      "authors": [
+        "Gumma Lohitha",
+        "Gumma Bhargavi"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-02T15:10:44"
+  "last_updated": "2026-08-04T10:49:56"
 }
