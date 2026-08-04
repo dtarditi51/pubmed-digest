@@ -1227,7 +1227,32 @@
         "Likosky Donald S"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42546235",
+      "title": "Hospice Acquisitions By Certain Firms And Corporations Were Associated With Reductions In Care Intensity, 2010-21.",
+      "reason": "",
+      "timestamp": "2026-08-04T10:56:08",
+      "journal": "Health affairs (Project Hope)",
+      "year": "2026",
+      "abstract": "The rapid growth of private equity (PE) and publicly traded corporation (PTC) ownership in hospice has raised concerns that investor-driven profit incentives may undermine care quality. Evidence on how these acquisitions affect care delivery remains limited. We linked a national PE and PTC acquisition database to Medicare claims for a beneficiary sample for the period 2010-21 and used a difference-in-differences event study to compare acquired versus nonacquired for-profit hospices on process-based quality measures and Medicare reimbursement. After PE acquisition, registered nurse, social worker, and home hospice aide minutes per thirty days declined 5.14 percent, 12.32 percent, and 6.62 percent, respectively; after PTC acquisition, registered nurse and home hospice aide minutes per thirty days declined 4.63 percent and 9.09 percent. Declines in visit minutes also were observed in the last seven days of life. Reductions in visit minutes were driven by four large acquirers. These findings highlight the need for increased transparency and oversight policies, as well as payment reforms that align reimbursement with care intensity and quality.",
+      "authors": [
+        "Wen Jiebing",
+        "Soltoff Alexander",
+        "Unruh Mark A",
+        "Stevenson David G",
+        "Braun Robert Tyler"
+      ],
+      "mesh_terms": [
+        "United States",
+        "Medicare",
+        "Humans",
+        "Ownership",
+        "Hospices",
+        "Quality of Health Care",
+        "Hospice Care"
+      ]
     }
   ],
-  "last_updated": "2026-08-04T10:55:08"
+  "last_updated": "2026-08-04T10:56:08"
 }
