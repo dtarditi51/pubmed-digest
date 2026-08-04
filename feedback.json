@@ -1317,7 +1317,43 @@
         "Vitamins",
         "Insulin"
       ]
+    },
+    {
+      "pmid": "42546133",
+      "title": "Inter-ankle systolic blood pressure difference is associated with microalbuminuria in non-diabetic hypertension patients: A cross-sectional study from two cohorts.",
+      "reason": "",
+      "timestamp": "2026-08-04T11:00:29",
+      "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+      "year": "2026",
+      "abstract": "This cross-sectional study aimed to analyze whether inter-ankle systolic blood pressure difference (sIAND) was associated with different stages of hypertensive renal damage. 1,658 and 831 nondiabetic hypertensive patients were included from two cohorts. The hypertensive renal damage was reflected by urinary albumin-to-creatinine ratio (UACR), Cystatin C, and estimated glomerular filtration rate. Logistic regression results showed that sIAND was only associated with subclinical hypertensive renal damage reflected by microalbuminuria (UACR > 30 mg/g) independently. Receiver operating characteristic curves indicated sIAND can identify microalbuminuria more effectively. sIAND can aid in identifying microalbuminuria to provide useful clues for risk stratification and clinical management.",
+      "authors": [
+        "Shi Yuanyuan",
+        "Gao Pengjie",
+        "Lin Xingyue",
+        "Zhang Molei",
+        "Wang Danni",
+        "Kamili Kamila",
+        "Li Xiyang",
+        "Xu Suining",
+        "Tian Gang"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Albuminuria",
+        "Cross-Sectional Studies",
+        "Female",
+        "Male",
+        "Hypertension",
+        "Middle Aged",
+        "Blood Pressure",
+        "Aged",
+        "Glomerular Filtration Rate",
+        "Blood Pressure Determination",
+        "Ankle",
+        "Cohort Studies",
+        "Cystatin C"
+      ]
     }
   ],
-  "last_updated": "2026-08-04T11:00:15"
+  "last_updated": "2026-08-04T11:00:29"
 }
