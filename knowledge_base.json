@@ -1109,6 +1109,41 @@
       "saved_date": "2026-08-04",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42547512",
+      "title": "A foundation model for sleep-based risk stratification and clinical outcomes.",
+      "abstract": "Clinical sleep studies capture multiple physiologic signals, yet interpretation is often reduced to single summary measures of limited prognostic value, such as the apnea-hypopnea index. We present a foundation model that learns rich representations of sleep physiology from more than 10,000 clinical sleep recordings linked to electronic medical records. Here we show that sleep physiology contains latent risk structure invisible to conventional metrics, identifying five patient risk groups with markedly different trajectories for mortality, cardiovascular, and neurological disease. The highest-risk group shows more than double the mortality risk of the lowest, whereas apnea-hypopnea index severity categories show limited predictive value. The framework generalizes to the independent Sleep Heart Health Study, distinguishing high- and low-risk patients despite lower-resolution data. We demonstrate that foundation models recover clinically meaningful risk information embedded in routine sleep recordings that conventional metrics systematically miss, providing a scalable path to precision sleep medicine.",
+      "authors": [
+        "Bilal Erhan",
+        "Araujo Matheus Lima Diniz",
+        "Beck Kristen L",
+        "Heinzinger Catherine M",
+        "Ghosn Samer",
+        "Saab Carl Y",
+        "Foldvary-Schaefer Nancy",
+        "Rogers Jeffrey L",
+        "Mehra Reena"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Sleep",
+        "Risk Assessment",
+        "Cardiovascular Diseases",
+        "Polysomnography",
+        "Sleep Apnea Syndromes",
+        "Electronic Health Records",
+        "Nervous System Diseases",
+        "Female",
+        "Male"
+      ],
+      "journal": "Nature communications",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42547512/",
+      "saved_date": "2026-08-04",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-04"
