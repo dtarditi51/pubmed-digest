@@ -1167,7 +1167,43 @@
         "Gumma Bhargavi"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42545864",
+      "title": "Is Insulin Pump Therapy More Effective Than Multiple Daily Insulin Injections in Preventing Subclinical Cardiac Dysfunction in Children With Type 1 Diabetes Mellitus? A Myocardial Strain Study by Three-Dimensional Speckle-Tracking Echocardiography.",
+      "reason": "",
+      "timestamp": "2026-08-04T10:54:58",
+      "journal": "Echocardiography (Mount Kisco, N.Y.)",
+      "year": "2026",
+      "abstract": "AIM: Subclinical myocardial dysfunction may occur early in children and adolescents with type 1 diabetes mellitus (T1DM), despite preserved conventional cardiac function. However, the effect of insulin delivery modality on myocardial mechanics remains unclear. This study aimed to compare conventional echocardiographic and three-dimensional speckle-tracking echocardiographic (3D-STE) findings between pediatric patients receiving insulin pump therapy (IPT) and those receiving multiple daily insulin injections therapy (MDIIT). MATERIAL AND METHODS: In this cross-sectional study, 56 children and adolescents with T1DM receiving either IPT (n = 27) or MDIIT (n = 29) were enrolled. All participants underwent conventional echocardiography, tissue-Doppler imaging, three-dimensional echocardiography, and 3D-STE. Global and regional strain parameters derived from 3D-STE were analyzed and compared between treatment groups. RESULTS: The two groups were comparable with respect to age, sex, anthropometric characteristics, and glycated hemoglobin levels (all p > 0.05). Diabetes duration and treatment duration were significantly longer in the MDIIT group (p = 0.022 and p < 0.001, respectively). No significant differences were observed in left ventricular ejection fraction, indexed ventricular volumes, or global strain parameters (longitudinal, circumferential, and radial strain) (all p > 0.05). Several regional strain parameters differed between groups, with more favorable anteroseptal circumferential and radial strain values observed in patients receiving IPT (all p < 0.05). The E'/A' ratio was higher in the IPT group (p = 0.021). CONCLUSION: Children and adolescents with T1DM receiving IPT and MDIIT demonstrated comparable conventional echocardiographic and global 3D-STE findings. However, differences in several regional strain indices suggest the presence of subtle myocardial abnormalities in patients receiving MDIIT despite preserved global ventricular function. Further prospective studies are warranted to clarify the clinical significance of these findings.",
+      "authors": [
+        "Eroğlu Ayşe Güler",
+        "Özgür Berfin Altaş",
+        "Şentürk Nida Gülderen Kalay",
+        "Karakaş Ali",
+        "Çelik Samed Cihad",
+        "Kara Büşra",
+        "Turan Hande",
+        "Bayramoğlu Elvan",
+        "Evliyaoğlu Olcay"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Diabetes Mellitus, Type 1",
+        "Female",
+        "Echocardiography, Three-Dimensional",
+        "Male",
+        "Insulin Infusion Systems",
+        "Child",
+        "Adolescent",
+        "Cross-Sectional Studies",
+        "Insulin",
+        "Hypoglycemic Agents",
+        "Global Longitudinal Strain",
+        "Treatment Outcome",
+        "Ventricular Dysfunction, Left"
+      ]
     }
   ],
-  "last_updated": "2026-08-04T10:49:56"
+  "last_updated": "2026-08-04T10:54:58"
 }
