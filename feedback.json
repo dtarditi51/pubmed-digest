@@ -1252,7 +1252,39 @@
         "Quality of Health Care",
         "Hospice Care"
       ]
+    },
+    {
+      "pmid": "42545959",
+      "title": "Pharmacogenomic landscape in Thailand: Array-based profiling and EMR-linked medication exposure.",
+      "reason": "",
+      "timestamp": "2026-08-04T10:56:32",
+      "journal": "PloS one",
+      "year": "2026",
+      "abstract": "Pharmacogenomic (PGx) data in Thailand remain limited, and genetics-only surveys rarely quantify \"realized actionability\"-the overlap between actionable PGx phenotypes and real-world medication exposure. We profiled 4,662 Thai adults using SNP-array data and a pre-specified PGx panel (11 genes; 26 markers) with a hybrid required/optional calling policy for diplotype/phenotype assignment. CPIC level A/B gene-drug relationships were linked to hospital electronic medical record (EMR) prescription/dispensation data to quantify drug-specific realized actionability. Overall callability across gene-results was 98.62%, exceeding 99% for most genes and lower for CYP2C19 (95.99%) and NUDT15 (90.28%). Across nine phenotype-coded genes, 95.99% carried ≥1 CPIC-actionable result (median 2; IQR 2-3). Actionable prevalence among callable individuals was highest for CYP3A5 (58.54%) and CYP2C19 (56.67%), followed by ABCG2 (45.10%) and UGT1A1 (27.37%). EMR linkage identified 1,529 (32.58%) participants exposed to ≥1 study medication; omeprazole (n = 658) and statins were most common (atorvastatin n = 606; simvastatin n = 603). Among users, actionable phenotypes were frequent for CYP2C19-omeprazole (55.02%) and SLCO1B1-statins (21.95-23.05%). In conclusion, an Asian-optimized SNP array supports scalable PGx phenotyping in Thai adults. EMR linkage quantifies realized actionability and highlights high-yield targets (CYP2C19-proton pump inhibitors; SLCO1B1-statins) for pre-emptive implementation.",
+      "authors": [
+        "Pasookhush Phongthana",
+        "Suta Sophida",
+        "Pumeiam Sureeporn",
+        "Mongkolsucharitkul Pichanun",
+        "Pinsawas Bonggochpass",
+        "Ophakas Suphawan",
+        "Mayurasakorn Korapat"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Thailand",
+        "Female",
+        "Polymorphism, Single Nucleotide",
+        "Adult",
+        "Pharmacogenetics",
+        "Male",
+        "Electronic Health Records",
+        "Middle Aged",
+        "Phenotype",
+        "Cytochrome P-450 CYP2C19",
+        "Aged"
+      ]
     }
   ],
-  "last_updated": "2026-08-04T10:56:08"
+  "last_updated": "2026-08-04T10:56:32"
 }
