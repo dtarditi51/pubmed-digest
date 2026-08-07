@@ -1412,7 +1412,40 @@
         "Colorectal Neoplasms",
         "Aged"
       ]
+    },
+    {
+      "pmid": "42562562",
+      "title": "Family-based interventions for optimal lipid outcomes in adults: A cluster randomized controlled trial in India.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:45:07",
+      "journal": "Journal of clinical lipidology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Dyslipidemia substantially increases the risk of cardiovascular disease (CVD), particularly among those with a strong family history. OBJECTIVE: To evaluate the longitudinal impact of the PROgramme of Lifestyle Intervention in Families for Cardiovascular risk reduction (PROLIFIC) on lipid profile parameters over a 2-year period. METHODS: We conducted an open-label, cluster-randomized trial (NCT02771873) using families as the unit of allocation. Families were randomized 1:1 by computer-generated numbers to intervention or enhanced usual care. The intervention, delivered by nonphysician health workers, included annual cardiovascular risk assessments, dietary counseling to lower carbohydrate and saturated fat intake while increasing fiber intake, and promotion of physical activity. Fasting lipid profiles (total cholesterol, low-density lipoprotein cholesterol [LDL-C], high-density lipoprotein cholesterol [HDL-C], and triglycerides) were measured at baseline, 12, and 24 months. Changes in lipid levels were analyzed between groups with generalized estimating equations, accounting for family clustering. RESULTS: The study included 1671 participants (1111 women; mean age 40.8 years) from 750 families (368 in the intervention and 382 in the usual care group), with a 3% dropout over 2 years. At 24 months, the intervention group had significantly better lipid profiles than usual care. Mean differences were -24.23 mg/dL (95% CI -28.25 to -20.22, P < 0.001) for total cholesterol, -14.41 mg/dL (95% CI -18.36 to -10.45, P < 0.001) for LDL-C, +7.04 mg/dL (95% CI 5.76-8.31, P < 0.001) for HDL-C, and -9.04 mg/dL (95% CI -15.5 to -2.56, P = 0.006) for triglycerides. CONCLUSION: A family-centered strategy combining lifestyle counseling, dietary changes, and healthcare support can significantly improve lipid profiles in high-risk individuals. Scaled to the population level, such interventions could lower dyslipidemia rates and help prevent CVD in low- and middle-income countries.",
+      "authors": [
+        "Jeemon Panniyammakal",
+        "Kripa Selvarajan Valsa Shiby",
+        "Soman Sonu",
+        "Lekha Thoniparambil Ravindranathanpillai",
+        "Ismail Sunaib",
+        "Ganapathi Sanjay",
+        "Harikrishnan Sivadasanpillai"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Adult",
+        "Male",
+        "India",
+        "Lipids",
+        "Middle Aged",
+        "Cardiovascular Diseases",
+        "Dyslipidemias",
+        "Family",
+        "Cluster Analysis",
+        "Life Style",
+        "Treatment Outcome"
+      ]
     }
   ],
-  "last_updated": "2026-08-07T10:44:45"
+  "last_updated": "2026-08-07T10:45:07"
 }
