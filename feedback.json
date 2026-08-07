@@ -1383,7 +1383,36 @@
         "Coronary Vessels",
         "Ventricular Remodeling"
       ]
+    },
+    {
+      "pmid": "42559642",
+      "title": "Impact of an Artificial Intelligence-Based Computer Aided Detection System (CADe) on Colonoscopies Performed in Hawai'i.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:44:45",
+      "journal": "Hawai'i journal of health & social welfare",
+      "year": "2026",
+      "abstract": "The demand for colonoscopies has increased over the last few years due to an aging population combined with a post COVID-19 backlog as well as an ongoing rise in younger patients with colorectal cancer (CRC). Quality indicators ensure that high quality colonoscopies are being performed by endoscopists, thus decreasing the risk of post-colonoscopy CRC arising from lesions missed on the index exam. One common outcome measure is known as the adenoma detection rate (ADR), which is the likelihood that an endoscopist will detect a pre-cancerous polyp during colonoscopy. The Artificial Intelligence (AI) program known as computer-aided detection system (CADe) was designed to improve the ADR of endoscopists by helping them identify colon polyps. Previous studies have evaluated the clinical outcomes of CADe but none were conducted in Hawai'i. This study was designed to determine the impact of GI Genius (Medtronic), the first CADe introduced in Hawai'i. Data was collected on aggregate ADR for both male and female patients before and after implementation of GI Genius in several ambulatory surgery centers in Hawai'i and then a cost-estimate analysis was performed. The GI Genius software program resulted in a statistically significant increase in ADR for both male and female patients. Furthermore, the addition of this program was found to be cost-effective when compared with standard colonoscopy alone due to an anticipated decrease in CRC related health care costs. CADe is a promising new tool for endoscopists, but further studies are needed to determine the long-term benefits on CRC incidence and mortality.",
+      "authors": [
+        "Jain Ankur",
+        "Jain Aadi",
+        "Jain Diya",
+        "Jain Shilpa",
+        "Pagano Ian"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Hawaii",
+        "Colonoscopy",
+        "Female",
+        "Male",
+        "Artificial Intelligence",
+        "Middle Aged",
+        "Diagnosis, Computer-Assisted",
+        "Adenoma",
+        "Colorectal Neoplasms",
+        "Aged"
+      ]
     }
   ],
-  "last_updated": "2026-08-04T11:01:02"
+  "last_updated": "2026-08-07T10:44:45"
 }
