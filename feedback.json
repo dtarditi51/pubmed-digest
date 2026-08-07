@@ -1638,7 +1638,26 @@
         "Dietary Fats",
         "Dietary Carbohydrates"
       ]
+    },
+    {
+      "pmid": "42558689",
+      "title": "Ultra-early in-cath lab evolocumab achieves rapid lipid target attainment and lipid quality improvement in acute coronary syndrome: a real-world propensity score-matched study.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:48:03",
+      "journal": "Frontiers in cardiovascular medicine",
+      "year": "2026",
+      "abstract": "BACKGROUND: Current guidelines mandate stringent low-density lipoprotein cholesterol (LDL-C) control for patients with acute coronary syndrome (ACS). However, real-world evidence regarding the ultra-early, in-cath lab initiation of PCSK9 inhibitors and their impact on lipid quality-specifically the clearance of highly atherogenic small dense LDL (sdLDL)-remains scarce. This study aimed to evaluate the short-term efficacy and safety of this ultra-early evolocumab intervention strategy. METHODS: This real-world, prospective observational cohort study categorized ACS patients into three treatment groups: statin monotherapy, statin plus ezetimibe, and statin plus evolocumab. Evolocumab was administered ultra-early in the catheterization laboratory immediately after angiographic confirmation. A rigorous propensity score matching (PSM) was conducted to balance baseline characteristics. Primary endpoints included the 4-week LDL-C target achievement rate (<1.4 mmol/L and ≥50% reduction). Secondary endpoints focused on sdLDL clearance and safety outcomes. RESULTS: From an initial screening pool of 665 patients, a rigorous PSM established a final core analysis cohort of 382 matched patients (127 in the statin monotherapy group, 127 in the ezetimibe group, and 128 in the evolocumab group). At 4 weeks, the evolocumab group demonstrated a substantially higher dual LDL-C target attainment rate compared to the ezetimibe group (66.4% vs. 33.1%, Statin + Evolocumab vs. Statin + Ezetimibe;  CONCLUSIONS: The ultra-early, in-cath lab initiation of evolocumab in ACS patients drives rapid, large-scale LDL-C target attainment and demonstrates an absolute advantage in the marked reduction of highly atherogenic sdLDL particles. This deep reversal of the lipid burden provides robust real-world evidence supporting the forward-shifting of intensive lipid-lowering interventions in the acute phase of ACS. TRIAL REGISTRATION: Chinese Clinical Trial Registry, ChiCTR2600118799.",
+      "authors": [
+        "Jiang Yufeng",
+        "Lin Jie",
+        "Ma Mingyu",
+        "Jiang Mei",
+        "Wang Hairong",
+        "Xu Jiahong",
+        "Yu Pujiao"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-07T10:47:51"
+  "last_updated": "2026-08-07T10:48:03"
 }
