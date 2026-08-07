@@ -1657,7 +1657,37 @@
         "Yu Pujiao"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42561144",
+      "title": "Prevalence of disease in 549 older cats undergoing health screening at two United Kingdom-based veterinary clinics.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:48:43",
+      "journal": "Journal of veterinary internal medicine",
+      "year": "2026",
+      "abstract": "BACKGROUND: Risk of some diseases of cats increases with age, including chronic kidney disease (CKD) and hyperthyroidism, but clinical signs can be dismissed by caregivers as age-related changes. HYPOTHESIS/OBJECTIVES: Quantify the prevalence of disease and other major clinical findings in older cats. ANIMALS: Data from cats (≥8 years old) that underwent routine health screening at 2 United Kingdom (UK)-based primary care veterinary clinics over a 52-month period (October 2, 2018 to February 14, 2023) were analyzed. METHODS: At screening visits, history, physical examination, and blood tests for plasma biochemistry with or without plasma total thyroxine concentration were performed. When possible, systolic blood pressure measurement (97.1% of cases; Doppler method) and urinalysis (41.3% of cases; 98.2% by cystocentesis; and bacterial culture if indicated based on sediment examination) were performed. RESULTS: A total of 549 cats were screened with a median age of 13.5 (IQR: 11.3-15.8) years old. Diagnoses of hyperthyroidism, azotemic CKD, and hypertension were made in 89/464 (19.2%; 95% CI, 15.9%-23.0%), 62/542 (11.4%; 95% CI, 9.0%-14.4%), and 37/524 (7.1%; 95% CI, 5.2%-9.6%) of cats, respectively. Severe dental disease was present in 32/522 (6.1%; 95% CI, 4.4%-8.5%) and bacteriuria was identified in 22/227 (9.7%; 95% CI, 6.5%-14.2%) of urine samples. Other diagnoses included suspected neoplasia (8 cats), diabetes mellitus (8 cats), and suspected primary gastrointestinal disease (4 cats). CONCLUSIONS AND CLINICAL IMPORTANCE: Routine medical health screening in older cats is useful in detecting diseases, many of which would benefit from prompt veterinary intervention. These results can assist veterinarians in explaining the value of health screening to cat caregivers.",
+      "authors": [
+        "Bestwick Jason P",
+        "Elliott Jonathan",
+        "Orriss Isabel R",
+        "Lötter Nicola",
+        "Geddes Rebecca F"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Cats",
+        "Cat Diseases",
+        "United Kingdom",
+        "Female",
+        "Prevalence",
+        "Hyperthyroidism",
+        "Male",
+        "Renal Insufficiency, Chronic",
+        "Hypertension",
+        "Mass Screening",
+        "Aging"
+      ]
     }
   ],
-  "last_updated": "2026-08-07T10:48:03"
+  "last_updated": "2026-08-07T10:48:43"
 }
