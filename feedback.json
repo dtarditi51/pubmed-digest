@@ -1479,7 +1479,34 @@
         "Observer Variation",
         "Acute Disease"
       ]
+    },
+    {
+      "pmid": "42558056",
+      "title": "Linking the TVT Registry to Medicare Advantage and Fee-for-Service Claims: Feasibility, Accuracy, and Implications for Real-World Surveillance Infrastructure.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:46:12",
+      "journal": "Circulation. Cardiovascular interventions",
+      "year": "2026",
+      "abstract": "BACKGROUND: Fee-for-service (FFS) Medicare linkage to clinical registries has been used to assess medical device performance, quality improvement, and postmarket surveillance, but have excluded Medicare Advantage (MA). We assessed the accuracy and implications of linking registry data to combined Medicare FFS and MA claims. METHODS: Patients ≥65 years old in the Society of Thoracic Surgeons/American College of Cardiology Transcatheter Valve Therapy Registry undergoing transcatheter aortic valve replacement (TAVR) or mitral transcatheter edge-to-edge repair, were linked using indirect identifiers to MA and FFS claims from January 1, 2016 to December 31, 2021. Primary outcomes were the linkage rate and representativeness of the linked cohort, assessed by comparing patient characteristics and unadjusted 1-year all-cause mortality between linked and unlinked Transcatheter Valve Therapy records before and after the addition of MA data. RESULTS: Among 364 573 eligible Transcatheter Valve Therapy TAVR procedures, 206 116 (57%) were linked to FFS claims and 111 662 (31%) to MA encounter data, for a combined linkage rate of 87%. FFS linkage rates declined steadily from 2016 to 2021. Inclusion of MA data increased the number of linked procedures by 54%, preserved linkage rates over time, and increased Hispanic (2.26-fold) and Black (1.91-fold) linkage. Characteristics of the linked TAVR cohort closely matched the full Transcatheter Valve Therapy registry population, with most absolute differences under 1%. Unadjusted 1-year TAVR mortality was 12.6% and 11.8% among FFS and MA-linked patients (difference, 0.8% [95% CI, 0.6-1.1]). Findings were similar in the mitral transcatheter edge-to-edge repair cohort. CONCLUSIONS: Inclusion of MA claims in Medicare linkage to TAVR or mitral transcatheter edge-to-edge repair increased cohort size, enhanced subgroup representation, and maintained linkage rates despite declining FFS enrollment. These findings support incorporation of MA data into real-world surveillance, clinical evidence generation, and quality initiatives.",
+      "authors": [
+        "O'Brien Sean M",
+        "Hammill Bradley G",
+        "Bradley Marie C",
+        "Gandotra Charu",
+        "Graham David J",
+        "Kosinski Andrzej S",
+        "Lippman Steven",
+        "Manandhar Pratik",
+        "Salah Husam M",
+        "Vora Amit",
+        "Kaneko Tsuyoshi",
+        "Kumbhani Dharam J",
+        "Batchelor Wayne",
+        "Thourani Vinod H",
+        "Vemulapalli Sreekanth"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-07T10:45:55"
+  "last_updated": "2026-08-07T10:46:12"
 }
