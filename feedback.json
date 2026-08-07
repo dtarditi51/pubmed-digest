@@ -1540,7 +1540,25 @@
         "Korach Jacob"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42562846",
+      "title": "Prehospital Injury Severity Estimate (PHISE) matches in-hospital trauma scores when embedded in AI models.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:46:38",
+      "journal": "NPJ digital medicine",
+      "year": "2026",
+      "abstract": "Trauma severity scores such as the Injury Severity Score (ISS) and New Injury Severity Score (NISS) are widely used for trauma benchmarking, risk stratification and outcome prediction, but rely on diagnostic imaging unavailable in the prehospital setting. We developed and externally validated the Prehospital Injury Severity Estimate (PHISE), a simple, scene-based score designed to be applied using clinical examination and knowledge of the injury mechanism. PHISE was retrospectively derived from the National Trauma Data Bank® (NTDB®) by mapping AIS-coded injury descriptions to eight PHISE body regions and four severity levels, using Large Language Model-assisted inference to identify imaging requirements and distinguish clinically assessable injuries. In the NTDB® cohort, PHISE score demonstrated strong correlation and calibration with ISS and NISS but lower predictive performance for outcomes including in-hospital mortality and blood transfusion need. External validation used the multinational TraumaRegister DGU®, which reports real-world data of a simplified prehospital injury score compatible to PHISE. Here, PHISE underperformed ISS/NISS in predicting mortality but achieved comparable performance for transfusion prediction. When embedded into machine learning models alongside prehospitally available patient variables, the performance gap to ISS/NISS narrowed further. PHISE provides a pragmatic, imaging-independent anatomical component for earlier AI-assisted trauma stratification in prehospital emergency care.",
+      "authors": [
+        "Sigle Manuel",
+        "Goldschmied Andreas",
+        "Gawaz Meinrad",
+        "Münch Alexander",
+        "Rosenberger Peter",
+        "Wunderlich Robert"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-07T10:46:27"
+  "last_updated": "2026-08-07T10:46:38"
 }
