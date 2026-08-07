@@ -1558,7 +1558,27 @@
         "Wunderlich Robert"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42559200",
+      "title": "Adult T-cell Leukemia/Lymphoma in Japan: Real-World Treatment Patterns, Healthcare Resource Utilization, and Costs.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:47:20",
+      "journal": "Journal of health economics and outcomes research",
+      "year": "2026",
+      "abstract": "BACKGROUND: Adult T-cell leukemia/lymphoma (ATL) is a rare and aggressive type of peripheral T-cell malignancy caused by the human T-lymphotropic virus type 1 (HTLV-1). Approximately 5 to 10 million people are infected with HTLV-1 worldwide, with high prevalence in Japan. This observational study analyzed patient characteristics, treatment patterns, healthcare resource utilization (HRU), and costs of ATL in Japan. METHODS: A retrospective analysis of ATL patients from the Medical Data Vision database, Sept. 1, 2012-Aug. 31, 2022, was conducted. RESULTS: Among 1572 ATL patients, 384 received systemic therapy. The mean age at diagnosis was 66.4 years, with 63.7% being ≥65 years; 55.2% patients were females. Excluding cancer, 61% of patients had a Charlson Comorbidity Index score of 0. The most frequently observed comorbidities were congestive heart failure (15.8%), diabetes (14.8%), and peptic ulcer disease (14.6%). Among the treated patients, 37.5% received 1 line of therapy, 26% received 2 lines of therapy, and 36.5% received ≥3 lines. Mogamulizumab was most frequently utilized (60.4%), as monotherapy or in combination regimens. The most common combination regimen in all lines of therapy were cyclophosphamide, doxorubicin, vincristine, and prednisone (CHOP), utilized in 46.6% of patients. Additionally, use of combinations such as VCAP-AMP-VECP, which include vincristine, cyclophosphamide, doxorubicin, and prednisone; adriamycin, manimustine, and prednisone; and vindesine, etoposide, carboplatin, and prednisone, was observed in 33.3% of patients. Initial treatment was discontinued in 74.7% patients; only 3.4% received stem cell transplants. Most (96%) patients were hospitalized, 29.7% had emergency room visits, and 79.4% averaged 1.8 outpatient visits monthly. The mean all-cause healthcare cost per patient per month was $29 538 (¥4 647 300), mainly due to outpatient visits and hospitalizations. CONCLUSION: Although real-world studies based on MDV database have certain limitations, the findings of this study provide deeper understanding of the real-world patient characteristics, treatment patterns, HRU, and costs of ATL patients in Japan. The results indicate that patients often encounter high treatment costs and frequent hospitalizations, demonstrating the necessity for advanced regimens and highlighting the unmet need for more effective therapies in ATL patients that may reduce HRU and economic burden in this patient population.",
+      "authors": [
+        "Dharmani Charles",
+        "Islam Zahid",
+        "Qu Pingping",
+        "Jiang Zoe",
+        "Wang Jingjian",
+        "Li Li",
+        "Tao Yijing",
+        "Song Lin"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-07T10:46:38"
+  "last_updated": "2026-08-07T10:47:20"
 }
