@@ -1578,7 +1578,67 @@
         "Song Lin"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42562560",
+      "title": "Meta-analysis of lipid- and starch-based dietary interventions to reduce enteric methane emissions, fecal organic matter, and fecal and urinary nitrogen excretion in dairy cows.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:47:51",
+      "journal": "Journal of dairy science",
+      "year": "2026",
+      "abstract": "Dietary supplementation of dairy cow diets with lipid or starch is a known strategy to mitigate enteric methane (CH",
+      "authors": [
+        "Akinropo Tobi",
+        "Benaouda Mohammed",
+        "Dijkstra Jan",
+        "Bannink André",
+        "Arndt Claudia",
+        "Bayat Ali R",
+        "Crompton Les A",
+        "Hellwing Anne L F",
+        "Hristov Alexander N",
+        "Huhtanen Pekka",
+        "Jonker Arjan",
+        "Kebreab Ermias",
+        "de Klein Cecile",
+        "Kreuzer Michael",
+        "Kuhla Björn",
+        "Lanigan Gary",
+        "Lund Peter",
+        "McClelland Shelby C",
+        "McGee Mark",
+        "Moate Peter J",
+        "Muñoz Camila",
+        "Oh Joon",
+        "Peiren Nico",
+        "Ramin Mohammad",
+        "Reynolds Christopher K",
+        "Schwarm Angela",
+        "van Gastelen Sanne",
+        "van Lingen Henk",
+        "Weisbjerg Martin R",
+        "Yáñez-Ruiz David R",
+        "Yu Zhongtang",
+        "Sauvant Daniel",
+        "Blondiaux Paul",
+        "Martin Cécile",
+        "Eugène Maguy"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Methane",
+        "Cattle",
+        "Feces",
+        "Starch",
+        "Nitrogen",
+        "Female",
+        "Animal Feed",
+        "Diet",
+        "Dietary Supplements",
+        "Dietary Fats",
+        "Dietary Carbohydrates"
+      ]
     }
   ],
-  "last_updated": "2026-08-07T10:47:37"
+  "last_updated": "2026-08-07T10:47:51"
 }
