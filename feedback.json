@@ -1445,7 +1445,41 @@
         "Life Style",
         "Treatment Outcome"
       ]
+    },
+    {
+      "pmid": "42562580",
+      "title": "Risk-of-bias assessment in prognostic cohort studies: a methodological comparison study of structured appraisal tools in acute pulmonary embolism research.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:45:55",
+      "journal": "BMJ open",
+      "year": "2026",
+      "abstract": "OBJECTIVES: To compare the reliability of four commonly used structured tools for risk-of-bias assessment in prognostic cohort studies and evaluate their agreement with expert appraisal. DESIGN: Methodological comparison study. SETTING: Secondary analysis of published prognostic cohort studies in patients with acute pulmonary embolism from a previously conducted systematic review. PARTICIPANTS: Sixty-three cohort studies assessing the prognostic role of echocardiography in patients with acute pulmonary embolism. PRIMARY AND SECONDARY OUTCOME MEASURES: Four independent reviewers assessed study quality/risk of bias using the Newcastle-Ottawa Scale (NOS), Risk Of Bias in Non-Randomised Studies of Interventions (ROBINS-I), Quality In Prognostic Studies (QUIPS) and Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2). Concomitantly and independently, expert reviewers' implicit global judgements were used as an external comparator. Inter-rater reliability, agreement with expert appraisal, internal consistency and floor/ceiling effects were assessed. RESULTS: Inter-rater agreement was fair for NOS (Gwet's agreement coefficient 1, 0.25, 95% CI 0.15 to 0.34), ROBINS-I (0.38, 95% CI 0.28 to 0.47) and QUADAS-2 (0.35, 95% CI 0.27 to 0.43) and almost perfect for QUIPS (0.85, 95% CI 0.73 to 0.93). Agreement with expert appraisal was limited for all tools except ROBINS-I, which showed fair concordance. QUIPS frequently classified studies as low risk of bias, suggesting potential overestimation of study quality. Internal consistency was generally low across tools, while ceiling effects were observed for NOS and QUIPS. ROBINS-I showed the most balanced distribution of ratings. CONCLUSIONS: Structured tools for risk-of-bias assessment in prognostic cohort studies have variable reliability and limited agreement with expert appraisal. ROBINS-I showed the strongest concordance with expert judgement, whereas QUIPS may provide optimistic ratings. These findings support further refinement and standardisation of risk-of-bias assessment methods for observational prognostic research.",
+      "authors": [
+        "Cimini Ludovica Anna",
+        "Klok Frederikus A",
+        "Carrier Marc",
+        "de Wit Kerstin",
+        "Woller Scott C",
+        "Rigutini Andrea Galeazzo",
+        "Odabashian Roupen",
+        "Talerico Rosa",
+        "Ranalli Maria Giovanna",
+        "Becattini Cecilia"
+      ],
+      "mesh_terms": [
+        "Pulmonary Embolism",
+        "Humans",
+        "Prognosis",
+        "Reproducibility of Results",
+        "Cohort Studies",
+        "Risk Assessment",
+        "Echocardiography",
+        "Research Design",
+        "Bias",
+        "Observer Variation",
+        "Acute Disease"
+      ]
     }
   ],
-  "last_updated": "2026-08-07T10:45:07"
+  "last_updated": "2026-08-07T10:45:55"
 }
