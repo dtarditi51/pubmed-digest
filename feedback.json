@@ -1506,7 +1506,41 @@
         "Vemulapalli Sreekanth"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42561468",
+      "title": "Oral anticoagulants reduce venous thromboembolism rates in patients on 1st-line treatment for ovarian Cancer- A quality improvement project.",
+      "reason": "",
+      "timestamp": "2026-08-07T10:46:27",
+      "journal": "Gynecologic oncology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Metastatic cancer patients receiving systemic chemotherapy face increased risks for venous thromboembolism (VTE). Benefit has been shown for prophylactic anticoagulants in risk-stratified populations. Ovarian cancer (OC) is commonly advanced at diagnosis and treated with chemotherapy. Despite high VTE rates among OC patients, predictors of risk in this population are not well studied, and information on the benefit of oral anticoagulants is lacking. OBJECTIVE: A quality improvement (QI) intervention to improve appropriate anticoagulation in risk-selected OC patients receiving first-line chemotherapy was implemented, prospectively assessing VTE risk reduction. METHODS: Patients receiving first-line chemotherapy for OC at Sheba Medical Center 2020-2025 were included. A QI program (launched 07/2023) included staff education, EMR-incorporated Khorana scoring, integrated apixaban prescriptions and targeted chemo-suite questionnaires. Data was extracted from the EMR using MDClone® software with Natural Language Processing to identify VTE events in imaging reports. Descriptive statistics were used to compare patients treated before and after program implementation. Predictors of VTE were evaluated with logistic regression. RESULTS: Patient characteristics were comparable before and after program implementation. VTE rates were high at 16.9% before, and 12.5% following roll-out. No increase in bleeding events or blood products consumption was appreciated. Program implementation was found to be a significant protective factor on multivariable analysis, adjusting for other risk factors (aOR = 0.39 (0.17-0.81), p = 0.015). CONCLUSION: The implementation of an oral anticoagulation QI program successfully decreased VTE events during first-line chemotherapy for OC with no appreciable increase in risk. Future work will focus on improved risk stratification and selection for thromboprophylaxis.",
+      "authors": [
+        "Helpman Limor",
+        "Josephy Dana",
+        "Toderis Liat",
+        "Tkach Victoria",
+        "Rotem Noa",
+        "Shai Daniel",
+        "Bar-Adon Sonya",
+        "Heger Hadas",
+        "Kadan Yfat",
+        "Blecher Ana",
+        "Rosenblatt Orgad",
+        "Yagel Itai",
+        "Mor-Hadar Danielle",
+        "Levanon Keren",
+        "Shapira-Frommer Ronnie",
+        "Saad Akram",
+        "Bauer Smadar",
+        "Apter Sara",
+        "Davidson Tima",
+        "Lubetsky Aaron",
+        "Reychav Iris",
+        "Korach Jacob"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-07T10:46:12"
+  "last_updated": "2026-08-07T10:46:27"
 }
