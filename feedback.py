@@ -19,8 +19,8 @@ Usage:
   python3 feedback.py --report                   # summary + most common reasons
   python3 feedback.py --list                     # every rejection, newest first
 
-Any change is synced to the cloud repo and pushed, so the next scheduled digest
-learns from it. Pass --no-push to keep a change local.
+Any change is committed and pushed, so the next scheduled digest learns from it.
+Pass --no-push to keep a change local.
 """
 
 import json
@@ -42,16 +42,10 @@ KB_FILE       = BASE_DIR / "knowledge_base.json"
 GRAPH_FILE    = BASE_DIR / "knowledge_graph.json"
 ENV_FILE      = BASE_DIR / ".env.local"
 
-# The repo GitHub Actions runs the digest from. Feedback has to land here to
-# affect tomorrow's pull. With iCloud "Desktop & Documents" sync on, ~/Desktop is
-# backed by iCloud Drive and the plain path can go stale — check both.
-CLOUD_REPO_CANDIDATES = [
-    Path.home() / "Desktop" / "pubmed-digest-cloud",
-    Path.home() / "Library" / "Mobile Documents" / "com~apple~CloudDocs"
-                / "Desktop" / "pubmed-digest-cloud",
-]
-CLOUD_REPO = next((p for p in CLOUD_REPO_CANDIDATES if (p / ".git").exists()),
-                  CLOUD_REPO_CANDIDATES[0])
+# This working copy is a clone of the repo GitHub Actions runs the digest from,
+# so learned state is committed in place — feedback lands where tomorrow's pull
+# will see it. (It used to be copied into a separate ~/Desktop/pubmed-digest-cloud
+# clone; that clone is gone and the indirection with it.)
 SYNC_FILES  = ["feedback.json", "knowledge_base.json", "knowledge_graph.json"]
 
 STOPWORDS = {
@@ -232,42 +226,38 @@ def fetch_article(pmid: str) -> dict:
 # ── Cloud sync ─────────────────────────────────────────────────────────────────
 def sync_cloud(message: str) -> bool:
     """
-    Copy the learned state into the cloud repo, commit, push. Best-effort: a
-    failure here never loses the local feedback, it just means tomorrow's
-    scheduled digest hasn't seen it yet.
+    Commit the learned state and push it. Best-effort: a failure here never
+    loses the local feedback, it just means tomorrow's scheduled digest hasn't
+    seen it yet.
     """
-    if os.environ.get("CI") or BASE_DIR == CLOUD_REPO:
-        return False                      # already running inside the repo
-    if not (CLOUD_REPO / ".git").exists():
-        print(f"  ⚠️   Cloud repo not found at {CLOUD_REPO} — feedback saved locally only.")
-        return False
-
-    copied = []
-    for name in SYNC_FILES:
-        src = BASE_DIR / name
-        if src.exists():
-            (CLOUD_REPO / name).write_text(src.read_text(), encoding="utf-8")
-            copied.append(name)
-    if not copied:
+    if os.environ.get("CI"):
+        return False                      # the workflow commits its own changes
+    if not (BASE_DIR / ".git").exists():
+        print(f"  ⚠️   {BASE_DIR} is not a git repo — feedback saved locally only.")
         return False
 
     def git(*a):
-        return subprocess.run(["git", "-C", str(CLOUD_REPO), *a],
+        return subprocess.run(["git", "-C", str(BASE_DIR), *a],
                               capture_output=True, text=True)
 
-    git("add", *copied)
-    if not git("diff", "--cached", "--quiet").returncode:
+    tracked = [n for n in SYNC_FILES if (BASE_DIR / n).exists()]
+    if not tracked:
+        return False
+    if not git("diff", "--quiet", "HEAD", "--", *tracked).returncode:
         return False                      # nothing actually changed
-    if git("commit", "-m", message).returncode:
-        print("  ⚠️   Cloud commit failed — feedback saved locally only.")
+
+    # Commit by pathspec so unrelated staged work can't ride along on a
+    # "feedback:" commit — this is the user's working repo, not a bare mirror.
+    if git("commit", "-m", message, "--", *tracked).returncode:
+        print("  ⚠️   Commit failed — feedback saved locally only.")
         return False
     push = git("push")
     if push.returncode:
-        print(f"  ⚠️   Cloud push failed ({push.stderr.strip().splitlines()[-1:]!r:.80}) "
-              f"— committed locally in {CLOUD_REPO}, push it when you can.")
+        print(f"  ⚠️   Push failed ({push.stderr.strip().splitlines()[-1:]!r:.80}) "
+              f"— committed locally, push it when you can.")
         return False
 
-    print(f"  ☁️   Synced to {CLOUD_REPO.name} — tomorrow's digest will use it.")
+    print("  ☁️   Pushed — tomorrow's digest will use it.")
     return True
 
 
