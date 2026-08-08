@@ -845,7 +845,7 @@ async function doSave() {
     btn.disabled = false;
     setTimeout(() => document.getElementById('bar').classList.remove('on'), 4000);
   } catch (err) {
-    status.textContent = '❌ Save server not running. Start it: python3 ~/Desktop/PubMedAgent/server.py';
+    status.textContent = '❌ Save server not running. Start it: python3 ~/dev/PubMedAgent/server.py';
     btn.textContent = 'Save to Knowledge Base';
     btn.disabled = false;
   }
