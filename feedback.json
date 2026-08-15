@@ -1709,7 +1709,26 @@
         "Schäfers Hans-Joachim"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42596918",
+      "title": "A qualitative study exploring postpartum patients' experiences with remote blood pressure monitoring.",
+      "reason": "",
+      "timestamp": "2026-08-15T12:30:32",
+      "journal": "Pregnancy (Hoboken, N.J.)",
+      "year": "2026",
+      "abstract": "BACKGROUND: Hypertensive disorders of pregnancy (HDP) are a leading and often preventable cause of maternal morbidity and mortality. Numerous postpartum remote monitoring programs now exist with varying patient interfaces, functionalities, and levels of nursing/provider support. There remains a paucity of data on the patient experience, particularly regarding their interaction with the technology and program-specific components. OBJECTIVES: We sought to understand patient experiences following their participation in our 6-week Home Observation of Postpartum Elevated Blood Pressure (HOPE-BP) monitoring program. HOPE-BP is a provider-supported, nurse-driven program custom-built within our hospital's electronic health record (EHR) system, Epic's MyChart Care Companion. Through collaboration with clinical quality experts and information technology staff, we designed a patient-facing experience that includes twice daily blood pressure tasks, immediate patient feedback on blood pressure values, and a symptom tracker. STUDY DESIGN: We conducted semi-structured interviews with 21 participants who had graduated from the HOPE-BP program. Interviews were conducted from November 2023 to April 2024 and were recorded and professionally transcribed. The interviews were analyzed and reviewed by two members of the study team. The team developed codes and categories from the data to describe patient experience throughout the duration of the program. RESULTS: Based on the patient interviews, a total of 37 codes were created and organized into the following nine categories: Communication with the team, suggestions for improvement, education, impressions, hospital readmission, interdisciplinary awareness, negative outcomes, positive outcomes, and process of taking blood pressure. Each of these highlighted the patient experience throughout their participation in the 6-week HOPE-BP program. Benefits of the program included increased health awareness and autonomy, fewer clinic visits, and decreased anxiety. The major challenge mentioned by all participants was the difficulty of meeting the program requirement of strict morning and afternoon blood pressure recordings. CONCLUSIONS: This qualitative study captured patients' perspectives with a custom-designed postpartum remote blood pressure program with the patient-facing component of the EHR. Their insight provides valuable information for future program improvements and expansion, and may help to inform other providers who plan to design and implement similar remote monitoring programs at their institutions.",
+      "authors": [
+        "Thatipelli Sameepya",
+        "Pestka Deborah L",
+        "Honeyfield Kate",
+        "Hansen Sydney",
+        "Rizvi Rubina",
+        "Melton Genevieve B",
+        "Sabol Bethany A"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-15T12:30:13"
+  "last_updated": "2026-08-15T12:30:32"
 }
