@@ -1212,7 +1212,35 @@
       "saved_date": "2026-08-04",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42597477",
+      "title": "Machine learning and deep learning for diagnosis of Polyendocrine Metabolic Ovarian Syndrome: systematic review and meta-analysis.",
+      "abstract": "BACKGROUND: Polyendocrine Metabolic Ovarian Syndrome (PMOS) is a prevalent endocrine disorder with a challenging, heterogeneous diagnosis. Machine learning (ML) and deep learning (DL) models show promise for automated diagnosis, but a quantitative synthesis of their accuracy is lacking. OBJECTIVE: To evaluate the diagnostic accuracy of ML/DL models for PMOS and identify factors influencing performance. METHODS: We searched MEDLINE, Web of Science, Embase, and Cochrane Library from inception to January 26, 2026. Studies developing or validating ML/DL models for PMOS diagnosis were included. Risk of bias was assessed using QUADAS-2. A random-effects model with the Hartung-Knapp-Sidik-Jonkman method was used to pool estimates. Hierarchical summary receiver operating characteristic curves were constructed. Heterogeneity was quantified ( RESULTS: Fifty-six studies (60 datasets) were included. Pooled sensitivity was 0.92 (95% CI: 0.89-0.94;  CONCLUSION: ML/DL models, particularly those using ultrasound imaging, demonstrate promising but conditional diagnostic accuracy for PMOS. However, poor reporting of diagnostic criteria, lack of external validation, and substantial heterogeneity limit current evidence. Future research must prioritize rigorous validation and adherence to reporting standards. While not yet ready for independent clinical use, these models hold promise as assistive tools to standardize ovarian assessment. SYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/PROSPERO/view/CRD420251137107, identifier CRD420251137107.",
+      "authors": [
+        "Fan Huaying",
+        "Chen Sifan",
+        "Cai Feiyan",
+        "Tang Chenjian",
+        "Chen Xiaohua",
+        "Chen Jiao",
+        "Wu Ping"
+      ],
+      "mesh_terms": [
+        "Female",
+        "Deep Learning",
+        "Humans",
+        "Machine Learning",
+        "Ovarian Diseases"
+      ],
+      "journal": "Frontiers in endocrinology",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42597477/",
+      "saved_date": "2026-08-15",
+      "notes": "",
+      "tags": []
     }
   ],
-  "last_updated": "2026-08-04"
+  "last_updated": "2026-08-15"
 }
