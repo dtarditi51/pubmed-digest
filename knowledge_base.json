@@ -1261,6 +1261,23 @@
       "saved_date": "2026-08-15",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42600933",
+      "title": "The Association Between Reversion of Prediabetes to Normoglycemia and Incident Cardiovascular Disease and Mortality: A Systematic Review and Meta-Analysis.",
+      "abstract": "BACKGROUND: Prediabetes affects approximately 470 million adults worldwide and is an established risk factor for cardiovascular disease. Whether reversion from prediabetes to normoglycemia reduces cardiovascular risk remains uncertain. We conducted a systematic review and meta-analysis to quantify this association with major cardiovascular events, cardiovascular mortality, and all-cause mortality. METHODS: We searched PubMed, Embase, CENTRAL, Web of Science, and Scopus through February 2026 for cohort studies and post-hoc analyses of randomized trials comparing cardiovascular outcomes in adults who reverted from prediabetes to normoglycemia versus persistent prediabetes. Hazard ratios were pooled using a DerSimonian-Laird random-effects model, with Hartung-Knapp-Sidik-Jonkman (HKSJ) sensitivity analysis. Heterogeneity was assessed using I RESULTS: Seven studies (71,143 participants; follow-up 2-30 years) were included. Reversion to normoglycemia was associated with significantly lower composite cardiovascular events (HR 0.72, 95% CI 0.57-0.90; P = 0.004; I CONCLUSION: Reversion from prediabetes to normoglycemia is associated with significant reductions in cardiovascular events and cardiovascular mortality, supporting early identification and management of prediabetes as a cardiovascular prevention strategy. The observational nature of the evidence and wide prediction interval warrant cautious interpretation.",
+      "authors": [
+        "Eisa Naseem",
+        "Barood Omar"
+      ],
+      "mesh_terms": [],
+      "journal": "Canadian journal of diabetes",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42600933/",
+      "saved_date": "2026-08-15",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-15"
