@@ -1782,7 +1782,34 @@
         "Araiza-Garaygordobil Diego"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42597217",
+      "title": "Triglyceride-glucose index and short-term mortality of adult patients with sepsis: a meta-analysis.",
+      "reason": "",
+      "timestamp": "2026-08-15T12:31:35",
+      "journal": "Frontiers in endocrinology",
+      "year": "2026",
+      "abstract": "BACKGROUND: The triglyceride-glucose (TyG) index, a surrogate marker of insulin resistance, has been associated with outcomes in sepsis, but existing evidence is inconsistent. This meta-analysis aimed to evaluate the association between a high TyG index and short-term mortality in adult patients with sepsis. METHODS: A systematic search of PubMed, Embase, Web of Science, Wanfang, and CNKI was conducted to identify observational studies reporting the association between TyG index and short-term mortality (in-hospital or ≤30-day) in adult sepsis patients. Effect estimates were pooled using a random-effects model accounting for the influence of heterogeneity. RESULTS: Eight retrospective cohort studies involving 14,772 patients were included. Overall, a higher TyG index was associated with increased short-term mortality (odds ratio [OR] 1.72, 95% confidence intervals 1.44-2.04; I² = 53%). Subgroup analyses showed consistent associations across mean age, proportion of men, and diabetic status (non-diabetic vs. mixed populations:  CONCLUSIONS: A higher TyG index is associated with an increased risk of short-term mortality in adult patients with sepsis, supporting its potential role as a simple prognostic marker in clinical practice. SYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/prospero/, identifier CRD420261389660.",
+      "authors": [
+        "Wang Weijie",
+        "Zheng Wei",
+        "Cai Yuanyuan",
+        "Shen Fenfen"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Sepsis",
+        "Triglycerides",
+        "Blood Glucose",
+        "Adult",
+        "Prognosis",
+        "Biomarkers",
+        "Hospital Mortality",
+        "Male",
+        "Retrospective Studies"
+      ]
     }
   ],
-  "last_updated": "2026-08-15T12:31:11"
+  "last_updated": "2026-08-15T12:31:35"
 }
