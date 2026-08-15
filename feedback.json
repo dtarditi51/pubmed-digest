@@ -1843,7 +1843,41 @@
         "Independent Living",
         "Middle Aged"
       ]
+    },
+    {
+      "pmid": "42601168",
+      "title": "Electrical cardioversion for atrial fibrillation: nationwide trends in Denmark, 2010-2022.",
+      "reason": "",
+      "timestamp": "2026-08-15T12:32:07",
+      "journal": "Open heart",
+      "year": "2026",
+      "abstract": "BACKGROUND: Electrical cardioversion (ECV) is widely used for restoring sinus rhythm in atrial fibrillation (AF). However, population-level trends in use of ECV in individuals with AF remain poorly characterised. AIM: We examined nationwide temporal trends in ECV utilisation between 2010 and 2022 in Denmark. METHODS: We conducted a registry-based cohort study using Danish nationwide health data. Two cohorts were defined: (1) individuals with prevalent or newly diagnosed AF were used to quantify annual ECV volume. (2) Individuals with newly diagnosed AF were used to calculate unadjusted and age-adjusted and sex-adjusted ECV rates per 1000 person-years during the first year after diagnosis. RESULTS: The total number of ECVs per year increased almost fourfold between 2010 and 2022 (from 2204 to 8300). The 1-year age-adjusted and sex-adjusted rate of ECVs decreased from 449.5 per 1000 person-years in 2010 to 316.6 per 1000 person-years in 2021. Rates increased among individuals aged ≥75 years but declined among younger patients. When restricted to the first ECV procedure, analyses showed a twofold increase in first-time ECVs. CONCLUSIONS: The increasing volume of ECVs reflects growing demand for rhythm control, while declining rates may suggest more targeted use of ECV. The findings highlight the need for resource planning and monitoring of procedural burden to support guideline implementation and equitable rhythm control delivery.",
+      "authors": [
+        "Frost Lars",
+        "Frederiksen Tanja Charlotte",
+        "Johnsen Søren Paaske",
+        "Benjamin Emelia J",
+        "Pedersen Ole Dyg",
+        "Trinquart Ludovic",
+        "Vinter Nicklas"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Atrial Fibrillation",
+        "Denmark",
+        "Electric Countershock",
+        "Female",
+        "Registries",
+        "Male",
+        "Aged",
+        "Middle Aged",
+        "Time Factors",
+        "Aged, 80 and over",
+        "Prevalence",
+        "Treatment Outcome",
+        "Adult"
+      ]
     }
   ],
-  "last_updated": "2026-08-15T12:31:47"
+  "last_updated": "2026-08-15T12:32:07"
 }
