@@ -1687,7 +1687,29 @@
         "Mass Screening",
         "Aging"
       ]
+    },
+    {
+      "pmid": "42598488",
+      "title": "The aortic window: a temporal framework for acute type A aortic dissection.",
+      "reason": "",
+      "timestamp": "2026-08-15T12:30:13",
+      "journal": "Annals of cardiothoracic surgery",
+      "year": "2026",
+      "abstract": "BACKGROUND: Acute type A aortic dissection (ATAAD) is a surgical emergency with time-dependent mortality. Surgical outcomes in high-volume centers are excellent, yet population-level outcomes remain catastrophic. This gap reflects a systems failure in recognition, diagnosis, and coordination rather than surgical inadequacy, and no formal time-based pathway currently governs care from emergency presentation to surgery. METHODS: Current epidemiology, international guidelines, registry evidence, and national audit data were synthesized, together with the structure of established time-critical pathways in ST-elevation myocardial infarction, stroke, major trauma, and sepsis, and multidisciplinary and patient-and-public input, to derive a temporal framework for ATAAD. The framework is advanced as a hypothesis for formal international consensus validation rather than an empirically validated standard. RESULTS: The proposed framework, the aortic window, is a phased pathway from emergency-department (ED) arrival to first surgical incision, structured as RACE (four acute phases: REACH, ALERT, CONVEY, ESCALATE) and RESTORE (recovery and lifelong surveillance), and operationalized through a named activation protocol. ED-to-incision time is the principal whole-system endpoint, chosen because it captures pre-diagnosis delay that diagnosis-anchored metrics exclude. Process and outcome measures are defined at case level with scheduled network review, aligned to established national audit registries. Implementation is staged and incorporates an education and run-in period before performance assessment. CONCLUSIONS: The aortic window reframes ATAAD as a system-level, time-critical emergency amenable to the organizational solutions that improved outcomes in other time-dependent conditions. The proposed targets require prospective evaluation but provide a structured, measurable basis for coordinated pathway improvement.",
+      "authors": [
+        "Holia Farhin",
+        "Oo Aung Ye",
+        "Bicknell Colin D",
+        "Athanasiou Thanos",
+        "Fowler Catherine",
+        "Nienaber Christoph A",
+        "Cooper Graham",
+        "Göncz Eva",
+        "Elefteriades John A",
+        "Schäfers Hans-Joachim"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-07T10:48:43"
+  "last_updated": "2026-08-15T12:30:13"
 }
