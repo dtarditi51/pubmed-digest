@@ -1809,7 +1809,41 @@
         "Male",
         "Retrospective Studies"
       ]
+    },
+    {
+      "pmid": "42597826",
+      "title": "The effect of a family-centered empowerment model with traditional Chinese medicine health education on self-management in community-dwelling older adult hypertensive patients with a chance health locus of control.",
+      "reason": "",
+      "timestamp": "2026-08-15T12:31:47",
+      "journal": "Frontiers in public health",
+      "year": "2026",
+      "abstract": "BACKGROUND: Despite much evidence showing the effectiveness of structured self-management education for patients with hypertension (HTN), poor blood pressure control remains a challenge among chance health locus of control (CHLC) older adults with HTN. OBJECTIVE: We explored the effect of a health education intervention based on the Family-Centered Empowerment Model (FCEM) on the self-management of opportunistic older adults with HTN in Lanzhou, China. METHODS: We conducted a 2-armed, randomized controlled trial using a multistage sampling method in China, Lanzhou, from May 2023 to January 2024. A total of 60 patients were randomly assigned to receive either community nurse-led HTN education based on the FCEM or general community HTN education. Blood pressure, Body Mass Index (BMI), and multidimensional health locus of control (MHLC) Scale Scores, and HTN self-management scores were compared at baseline and at 3 and 6 months after the intervention. RESULTS: Analyses were conducted on the 58 patients completing follow-up. In the experimental group, the systolic blood pressure (SBP) ( CONCLUSIONS: This study found that education based on the FCEM was associated with greater improvements in HTN self-management and blood pressure control compared with general health education among CHLC older adults with HTN. CLINICAL TRIAL REGISTRATION: https://www.chictr.org.cn/showproj.html?proj=194623, identifier: ChiCTR2300070940.",
+      "authors": [
+        "Li Fang",
+        "Li Mengwei",
+        "Guo Shaofan",
+        "Cao Yuzhong",
+        "Zhang Qingjin",
+        "Cheng Tengteng",
+        "Li Yingying"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Hypertension",
+        "Aged",
+        "Female",
+        "Male",
+        "Self-Management",
+        "China",
+        "Empowerment",
+        "Medicine, Chinese Traditional",
+        "Patient Education as Topic",
+        "Internal-External Control",
+        "Health Education",
+        "Independent Living",
+        "Middle Aged"
+      ]
     }
   ],
-  "last_updated": "2026-08-15T12:31:35"
+  "last_updated": "2026-08-15T12:31:47"
 }
