@@ -1240,6 +1240,27 @@
       "saved_date": "2026-08-15",
       "notes": "",
       "tags": []
+    },
+    {
+      "pmid": "42600429",
+      "title": "Artificial Intelligence in Liver Transplantation: A Systematic Review.",
+      "abstract": "INTRODUCTION: Artificial intelligence (AI) is increasingly recognized as a transformative paradigm within transplantation medicine, offering advanced computational approaches capable of integrating heterogeneous clinical, biological, imaging, and molecular datasets to improve predictive accuracy and decision-making. Liver transplantation represents a uniquely complex clinical domain characterized by high-dimensional data, nonlinear interactions among risk factors, and critical time-dependent decision processes, thereby providing an ideal context for AI-enabled analytics. METHODS: The objective of this systematic review was to critically synthesize current evidence regarding AI applications in liver transplantation, with emphasis on data modalities, algorithmic methodologies, targeted clinical outcomes, validation strategies, and reported performance metrics. A comprehensive search of MEDLINE, Scopus, and the Cochrane Library identified 1045 records following duplicate removal and automated filtering. RESULTS: After screening and eligibility assessment, 65 studies met the inclusion criteria. Laboratory data represented the most frequently utilized input (n = 35), followed by clinical (n = 28), demographic (n = 19), imaging (n = 13), and genetic or molecular data (n = 5), with several studies employing multimodal integration. Deep-learning architectures and neural network-based approaches predominated, with additional contributions from ensemble learning methods and conventional machine-learning algorithms. Across multiple clinical domains-including diagnostic classification, prognostic modeling, graft survival prediction, and treatment optimization-AI systems demonstrated high predictive performance, frequently surpassing traditional risk stratification tools such as model for end-stage liver disease and Survival Outcomes Following Liver Transplantation scores. Imaging-based models achieved particularly strong segmentation accuracy, whereas genomic and molecular approaches demonstrated excellent discriminative capability in oncologic and graft-related outcomes. CONCLUSIONS: Despite these promising findings, significant methodological limitations persist, including data heterogeneity, insufficient external validation, risk of bias, and challenges related to interpretability, fairness, and ethical deployment. Overall, AI represents a highly promising adjunct to clinical decision-making in liver transplantation; however, robust prospective validation, standardized reporting frameworks, and clinically interpretable implementations remain necessary prior to widespread adoption.",
+      "authors": [
+        "Boutos Panagiotis",
+        "Rogers James",
+        "Kouvela Efthymia",
+        "Voulgaris Grigorios",
+        "Thaker Sarang",
+        "Tsoulfas Georgios"
+      ],
+      "mesh_terms": [],
+      "journal": "The Journal of surgical research",
+      "year": "2026",
+      "doi": "",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42600429/",
+      "saved_date": "2026-08-15",
+      "notes": "",
+      "tags": []
     }
   ],
   "last_updated": "2026-08-15"
