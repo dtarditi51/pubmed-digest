@@ -1761,7 +1761,28 @@
         "Rakowski Tomasz"
       ],
       "mesh_terms": []
+    },
+    {
+      "pmid": "42597535",
+      "title": "Admission ferritin in STEMI predicts long-term major adverse cardiovascular outcomes.",
+      "reason": "",
+      "timestamp": "2026-08-15T12:31:11",
+      "journal": "European heart journal open",
+      "year": "2026",
+      "abstract": "AIMS: Inflammation is a key driver of atherosclerosis and acute coronary syndromes (ACS). Despite the prognostic relevance of inflammatory biomarkers in STEMI, the role of serum ferritin, an inflammation-sensitive marker of iron metabolism, remains unclear. The purpose of this study is to evaluate the association between elevated ferritin (≥300 ng/mL) and long-term major adverse cardiovascular events (MACE) in patients with STEMI. METHODS AND RESULTS: This is a substudy of the PHASE-MX registry, a prospective cohort of STEMI patients treated at our institution (2018-2021). Patients ≥18 years old with ferritin measurement at admission were included. The primary outcome was MACE [all-cause mortality, cardiogenic shock, recurrent myocardial infarction, and new-onset congestive heart failure (CHF)]. A total of 477 patients were included with a follow-up of 4.5 years (median of 533 days, IQR 338-1137). Median age was 59, 45.4% had hypertension, and 34.9% had diabetes. No differences in baseline characteristics were found among groups. Ferritin ≥300 ng/mL was present in 29.9% of patients and was associated with a higher risk of MACE (HR 1.43, 95% CI 1.06-1.94;  CONCLUSION: Elevated ferritin (≥300 ng/mL) is an independent predictor of long-term MACE in STEMI, supporting its potential role as a prognostic biomarker in ACS.",
+      "authors": [
+        "Brenes-Castro David Alberto",
+        "Ortega-Hernández Jorge Arturo",
+        "Latapi-Ruíz Esparza Ximena",
+        "Sierra-Lara Martínez Jorge Daniel",
+        "Briseno-De La Cruz José Luis",
+        "González-Pacheco Héctor",
+        "Gopar-Nieto Rodrigo",
+        "Arias-Mendoza Alexandra",
+        "Araiza-Garaygordobil Diego"
+      ],
+      "mesh_terms": []
     }
   ],
-  "last_updated": "2026-08-15T12:30:58"
+  "last_updated": "2026-08-15T12:31:11"
 }
